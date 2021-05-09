@@ -24,3 +24,6 @@ Symspell 알고리즘을 적용할 계획이다. https://github.com/wolfgarbe/Sy
 https://github.com/MighTguY/customized-symspell
 
 예를 들면, ‘낭아지’라는 오타 단어를 입력받으면, ‘강아지’, ‘망아지’ 등의 교정 후보가 존재할 텐데 ‘ㄱ’자판이 ‘ㅁ’자판보다 물리적 거리가 가깝기 때문에 ‘강아지’를 우선적으로 추천해 줄 것이다.
+
+
+한글 자모음 분리는 @neotune 님의 https://github.com/neotune/python-korean-handler/blob/master/korean_handler.py 을 참조하였습니다. 
