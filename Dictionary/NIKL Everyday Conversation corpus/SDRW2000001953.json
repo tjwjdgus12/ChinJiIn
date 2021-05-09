@@ -1,0 +1,3194 @@
+{
+    "id": "SDRW2000001953",
+    "metadata": {
+        "title": "국립국어원 구어 말뭉치 SDRW2000001953",
+        "creator": "국립국어원",
+        "distributor": "국립국어원",
+        "year": "2020",
+        "category": "구어 > 사적 대화 > 일상대화",
+        "annotation_level": [
+            "원시"
+        ],
+        "sampling": "본문 전체"
+    },
+    "document": [
+        {
+            "id": "SDRW2000001953.1",
+            "metadata": {
+                "title": "2인 일상 대화",
+                "author": "개인 발화자",
+                "publisher": "개인 발화 녹음",
+                "date": "20201016",
+                "topic": "스포츠/레저 > 축구, 승마, 태권도, 야구",
+                "speaker": [
+                    {
+                        "id": "SD2002422",
+                        "age": "30대",
+                        "occupation": "무직/취업준비생",
+                        "sex": "남성",
+                        "birthplace": "강원",
+                        "pricipal_residence": "강원",
+                        "current_residence": "서울",
+                        "education": "대졸"
+                    },
+                    {
+                        "id": "SD2002423",
+                        "age": "20대",
+                        "occupation": "학생",
+                        "sex": "남성",
+                        "birthplace": "전남",
+                        "pricipal_residence": "전남",
+                        "current_residence": "서울",
+                        "education": "대재"
+                    }
+                ],
+                "setting": {
+                    "relation": "기타"
+                }
+            },
+            "utterance": [
+                {
+                    "id": "SDRW2000001953.1.1.1",
+                    "form": "최근에",
+                    "original_form": "최근에",
+                    "speaker_id": "SD2002422",
+                    "start": 7.19608,
+                    "end": 8.31305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.2",
+                    "form": "손흥민이",
+                    "original_form": "손흥민이",
+                    "speaker_id": "SD2002422",
+                    "start": 8.32307,
+                    "end": 10.18205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.3",
+                    "form": "토트넘 홋스퍼에서",
+                    "original_form": "토트넘 홋스퍼에서",
+                    "speaker_id": "SD2002422",
+                    "start": 10.19203,
+                    "end": 12.47205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.4",
+                    "form": "맹활약을 하고",
+                    "original_form": "맹활약을 하고",
+                    "speaker_id": "SD2002422",
+                    "start": 12.48207,
+                    "end": 14.16008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.5",
+                    "form": "있습니다.",
+                    "original_form": "있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 14.17001,
+                    "end": 15.56302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.6",
+                    "form": "이번에 맨체스터 유나이티드와",
+                    "original_form": "이번에 맨체스터 유나이티드와",
+                    "speaker_id": "SD2002422",
+                    "start": 15.57306,
+                    "end": 18.65806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.7",
+                    "form": "시합에서",
+                    "original_form": "시합에서",
+                    "speaker_id": "SD2002422",
+                    "start": 18.66808,
+                    "end": 20.17805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.8",
+                    "form": "6대1",
+                    "original_form": "육 대 일",
+                    "speaker_id": "SD2002422",
+                    "start": 20.18805,
+                    "end": 21.68301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.9",
+                    "form": "로",
+                    "original_form": "로",
+                    "speaker_id": "SD2002422",
+                    "start": 21.69304,
+                    "end": 22.31301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.10",
+                    "form": "결과를 내",
+                    "original_form": "결과를 내",
+                    "speaker_id": "SD2002422",
+                    "start": 22.32302,
+                    "end": 23.37804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.11",
+                    "form": "내서",
+                    "original_form": "내서",
+                    "speaker_id": "SD2002422",
+                    "start": 23.38805,
+                    "end": 24.80807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.12",
+                    "form": "어~ 한국인뿐만 아니라",
+                    "original_form": "어~ 한국인뿐만 아니라",
+                    "speaker_id": "SD2002422",
+                    "start": 24.81807,
+                    "end": 26.72604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.13",
+                    "form": "토트넘 홋스퍼 팬들까지",
+                    "original_form": "토트넘 홋스퍼 팬들까지",
+                    "speaker_id": "SD2002422",
+                    "start": 26.73602,
+                    "end": 28.88502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.14",
+                    "form": "매우",
+                    "original_form": "매우",
+                    "speaker_id": "SD2002422",
+                    "start": 28.89505,
+                    "end": 29.60508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.15",
+                    "form": "기뻐하고 있는 상황입니다.",
+                    "original_form": "기뻐하고 있는 상황입니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 29.61505,
+                    "end": 32.45504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.16",
+                    "form": "저도 또한 매우",
+                    "original_form": "저도 또한 매우",
+                    "speaker_id": "SD2002422",
+                    "start": 32.46503,
+                    "end": 33.95402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.17",
+                    "form": "기쁜 상황인데",
+                    "original_form": "기쁜 상황인데",
+                    "speaker_id": "SD2002422",
+                    "start": 33.96403,
+                    "end": 35.72803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.18",
+                    "form": "저는 축구 팬이기 때문에",
+                    "original_form": "저는 축구 팬이기 때문에",
+                    "speaker_id": "SD2002422",
+                    "start": 35.73807,
+                    "end": 38.42708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.19",
+                    "form": "토트넘 홋스퍼",
+                    "original_form": "토트넘 홋스퍼",
+                    "speaker_id": "SD2002422",
+                    "start": 38.43703,
+                    "end": 39.96702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.20",
+                    "form": "뿐만 아니라",
+                    "original_form": "뿐만 아니라",
+                    "speaker_id": "SD2002422",
+                    "start": 39.97704,
+                    "end": 41.45702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.21",
+                    "form": "어~ 이피엘",
+                    "original_form": "어~ 이피엘",
+                    "speaker_id": "SD2002422",
+                    "start": 41.46701,
+                    "end": 43.08805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.22",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 43.09801,
+                    "end": 44.38604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.23",
+                    "form": "토트넘 홋스퍼",
+                    "original_form": "토트넘 홋스퍼",
+                    "speaker_id": "SD2002422",
+                    "start": 44.39605,
+                    "end": 46.21101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.24",
+                    "form": "그리고 첼시",
+                    "original_form": "그리고 첼시",
+                    "speaker_id": "SD2002422",
+                    "start": 46.22103,
+                    "end": 47.80001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.25",
+                    "form": "그리고 유럽의 모든 명문구단",
+                    "original_form": "그리고 유럽의 모든 명문구단",
+                    "speaker_id": "SD2002422",
+                    "start": 47.81004,
+                    "end": 50.25007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.26",
+                    "form": "예를 들어",
+                    "original_form": "예를 들어",
+                    "speaker_id": "SD2002422",
+                    "start": 50.26008,
+                    "end": 51.44901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.27",
+                    "form": "바르셀로나",
+                    "original_form": "바로셀로나",
+                    "speaker_id": "SD2002422",
+                    "start": 51.45902,
+                    "end": 52.96901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.28",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 52.97907,
+                    "end": 54.34505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.29",
+                    "form": "독일의",
+                    "original_form": "독일의",
+                    "speaker_id": "SD2002422",
+                    "start": 54.35501,
+                    "end": 56.77202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.30",
+                    "form": "어~ 명문 구단을",
+                    "original_form": "어~ 명문 구단을",
+                    "speaker_id": "SD2002422",
+                    "start": 56.78205,
+                    "end": 58.56206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.31",
+                    "form": "매우",
+                    "original_form": "매우",
+                    "speaker_id": "SD2002422",
+                    "start": 58.57208,
+                    "end": 58.98105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.32",
+                    "form": "좋아하고",
+                    "original_form": "좋아하고",
+                    "speaker_id": "SD2002422",
+                    "start": 58.99102,
+                    "end": 59.78706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.33",
+                    "form": "있습니다.",
+                    "original_form": "있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 59.79705,
+                    "end": 61.84002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.34",
+                    "form": "또한",
+                    "original_form": "또한",
+                    "speaker_id": "SD2002422",
+                    "start": 61.85004,
+                    "end": 63.63203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.35",
+                    "form": "손흥민",
+                    "original_form": "손흥민",
+                    "speaker_id": "SD2002422",
+                    "start": 63.64201,
+                    "end": 65.69704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.36",
+                    "form": "이 맹활약하기 이전에",
+                    "original_form": "이 맹활약하기 이전에",
+                    "speaker_id": "SD2002422",
+                    "start": 65.70703,
+                    "end": 67.66602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.37",
+                    "form": "박지성이",
+                    "original_form": "박지성이",
+                    "speaker_id": "SD2002422",
+                    "start": 67.67606,
+                    "end": 69.31603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.38",
+                    "form": "맨체스터 유나이티드에서",
+                    "original_form": "맨체스터 유나이티드에서",
+                    "speaker_id": "SD2002422",
+                    "start": 69.32601,
+                    "end": 71.62704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.39",
+                    "form": "또한 한국인으로서",
+                    "original_form": "또한 한국인으로써",
+                    "speaker_id": "SD2002422",
+                    "start": 71.63707,
+                    "end": 73.79703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.40",
+                    "form": "매우",
+                    "original_form": "매우",
+                    "speaker_id": "SD2002422",
+                    "start": 73.80703,
+                    "end": 74.63108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.41",
+                    "form": "유능하게",
+                    "original_form": "유능하게",
+                    "speaker_id": "SD2002422",
+                    "start": 74.64106,
+                    "end": 75.85603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.42",
+                    "form": "축구선수로서",
+                    "original_form": "축구선수로써",
+                    "speaker_id": "SD2002422",
+                    "start": 75.86604,
+                    "end": 77.27106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.43",
+                    "form": "플레이를",
+                    "original_form": "플레이를",
+                    "speaker_id": "SD2002422",
+                    "start": 77.28102,
+                    "end": 78.81905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.44",
+                    "form": "보여줬었습니다.",
+                    "original_form": "보여줬었습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 78.82906,
+                    "end": 80.84903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.45",
+                    "form": "그때 당시",
+                    "original_form": "그때 당시",
+                    "speaker_id": "SD2002422",
+                    "start": 80.85901,
+                    "end": 82.98906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.46",
+                    "form": "저는 축구",
+                    "original_form": "저는 축구",
+                    "speaker_id": "SD2002422",
+                    "start": 82.99902,
+                    "end": 84.69806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.47",
+                    "form": "팬이 아니었지만",
+                    "original_form": "팬이 아니었지만",
+                    "speaker_id": "SD2002422",
+                    "start": 84.70802,
+                    "end": 86.48203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.48",
+                    "form": "박지성의 활양을",
+                    "original_form": "박지성의 활양을",
+                    "speaker_id": "SD2002422",
+                    "start": 86.49206,
+                    "end": 88.08807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.49",
+                    "form": "활약을 보고 나서",
+                    "original_form": "활약을 보고 나서",
+                    "speaker_id": "SD2002422",
+                    "start": 88.09807,
+                    "end": 89.82203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.50",
+                    "form": "어~ 축구에 매우 큰",
+                    "original_form": "어~ 축구에 매우 큰",
+                    "speaker_id": "SD2002422",
+                    "start": 89.83203,
+                    "end": 91.17401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.51",
+                    "form": "관심을 가지게",
+                    "original_form": "관심을 가지게",
+                    "speaker_id": "SD2002422",
+                    "start": 91.18402,
+                    "end": 92.38408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.52",
+                    "form": "되었습니다.",
+                    "original_form": "되었습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 92.39403,
+                    "end": 93.85606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.53",
+                    "form": "그리고 저는",
+                    "original_form": "그리고 저는",
+                    "speaker_id": "SD2002422",
+                    "start": 93.86601,
+                    "end": 96.30801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.54",
+                    "form": "5년 전에",
+                    "original_form": "오 년 전에",
+                    "speaker_id": "SD2002422",
+                    "start": 96.31805,
+                    "end": 98.68304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.55",
+                    "form": "직접",
+                    "original_form": "직접",
+                    "speaker_id": "SD2002422",
+                    "start": 98.69303,
+                    "end": 100.30302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.56",
+                    "form": "영국에 가서",
+                    "original_form": "영국에 가서",
+                    "speaker_id": "SD2002422",
+                    "start": 100.31306,
+                    "end": 101.70305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.57",
+                    "form": "축구",
+                    "original_form": "축구",
+                    "speaker_id": "SD2002422",
+                    "start": 101.71304,
+                    "end": 102.52403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.58",
+                    "form": "경기를 관람했었습니다.",
+                    "original_form": "경기를 관람했었습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 102.53404,
+                    "end": 104.66508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.59",
+                    "form": "그때 큰",
+                    "original_form": "그때 큰",
+                    "speaker_id": "SD2002422",
+                    "start": 104.67502,
+                    "end": 106.28401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.60",
+                    "form": "감명을 받아서",
+                    "original_form": "감명을 받아서",
+                    "speaker_id": "SD2002422",
+                    "start": 106.29403,
+                    "end": 107.84601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.61",
+                    "form": "어~ 어떤",
+                    "original_form": "어~ 어떤",
+                    "speaker_id": "SD2002422",
+                    "start": 107.85601,
+                    "end": 109.32502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.62",
+                    "form": "굿즈라든가",
+                    "original_form": "굿즈라든가",
+                    "speaker_id": "SD2002422",
+                    "start": 109.33506,
+                    "end": 110.82505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.63",
+                    "form": "그런 축구 용품들을",
+                    "original_form": "그런 축구 용품들을",
+                    "speaker_id": "SD2002422",
+                    "start": 110.83503,
+                    "end": 113.38103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.64",
+                    "form": "구매하였었고",
+                    "original_form": "구매하였었고",
+                    "speaker_id": "SD2002422",
+                    "start": 113.39108,
+                    "end": 115.06104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.65",
+                    "form": "지금도 집에",
+                    "original_form": "지금도 집에",
+                    "speaker_id": "SD2002422",
+                    "start": 115.07107,
+                    "end": 116.58508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.66",
+                    "form": "가지고 있습니다.",
+                    "original_form": "가지고 있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 116.59501,
+                    "end": 119.00106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.67",
+                    "form": "이번에",
+                    "original_form": "이번에",
+                    "speaker_id": "SD2002422",
+                    "start": 119.01105,
+                    "end": 120.71604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.68",
+                    "form": "코로나가 아니었으면",
+                    "original_form": "코로나가 아니었으면",
+                    "speaker_id": "SD2002422",
+                    "start": 120.72602,
+                    "end": 122.20905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.69",
+                    "form": "또한",
+                    "original_form": "또한",
+                    "speaker_id": "SD2002422",
+                    "start": 122.21908,
+                    "end": 123.15907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.70",
+                    "form": "영국에 갔었을 텐데",
+                    "original_form": "영국에 갔었을 텐데",
+                    "speaker_id": "SD2002422",
+                    "start": 123.16903,
+                    "end": 125.83808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.71",
+                    "form": "가지 못해서 아쉽고요.",
+                    "original_form": "가지 못해서 아쉽구요.",
+                    "speaker_id": "SD2002422",
+                    "start": 125.84804,
+                    "end": 128.46905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.72",
+                    "form": "다시 한 번 영국에 가서",
+                    "original_form": "다시 한 번 영국에 가서",
+                    "speaker_id": "SD2002422",
+                    "start": 128.47908,
+                    "end": 131.59006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.73",
+                    "form": "한국인의",
+                    "original_form": "한국인의",
+                    "speaker_id": "SD2002422",
+                    "start": 131.60001,
+                    "end": 132.78904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.74",
+                    "form": "어~ 손흥민의",
+                    "original_form": "어~ 손흥민의",
+                    "speaker_id": "SD2002422",
+                    "start": 132.79903,
+                    "end": 134.36707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.75",
+                    "form": "플레이를 보고 싶습니다.",
+                    "original_form": "플레이를 보고 싶습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 134.37706,
+                    "end": 136.75703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.76",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 136.76701,
+                    "end": 139.62902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.77",
+                    "form": "영국에서",
+                    "original_form": "영국에서",
+                    "speaker_id": "SD2002422",
+                    "start": 139.63903,
+                    "end": 141.69905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.78",
+                    "form": "당구도",
+                    "original_form": "당구도",
+                    "speaker_id": "SD2002422",
+                    "start": 141.70901,
+                    "end": 143.55605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.79",
+                    "form": "어~ 스포츠로써",
+                    "original_form": "어~ 스포츠로써",
+                    "speaker_id": "SD2002422",
+                    "start": 143.56608,
+                    "end": 145.19304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.80",
+                    "form": "유명한데요.",
+                    "original_form": "유명한데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 145.20308,
+                    "end": 146.85308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.81",
+                    "form": "제가 아는 지인 중에",
+                    "original_form": "제가 아는 지인 중에",
+                    "speaker_id": "SD2002422",
+                    "start": 146.86308,
+                    "end": 148.92301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.82",
+                    "form": "친한 동생이",
+                    "original_form": "친한 동생이",
+                    "speaker_id": "SD2002422",
+                    "start": 148.93302,
+                    "end": 151.05308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.83",
+                    "form": "한국 국가대표로서",
+                    "original_form": "한국 국가대표로써",
+                    "speaker_id": "SD2002422",
+                    "start": 151.06301,
+                    "end": 152.66906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.84",
+                    "form": "당구 선수로",
+                    "original_form": "당구 선수로",
+                    "speaker_id": "SD2002422",
+                    "start": 152.67904,
+                    "end": 153.74001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.85",
+                    "form": "있습니다.",
+                    "original_form": "있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 153.75007,
+                    "end": 155.30905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.86",
+                    "form": "영국에서",
+                    "original_form": "영국에서",
+                    "speaker_id": "SD2002422",
+                    "start": 155.31902,
+                    "end": 157.17907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.87",
+                    "form": "국가적으로 랭킹 순위가",
+                    "original_form": "국가적으로 랭킹 순위가",
+                    "speaker_id": "SD2002422",
+                    "start": 157.18901,
+                    "end": 159.26608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.88",
+                    "form": "10위 안에 드는",
+                    "original_form": "십 위 안에 드는",
+                    "speaker_id": "SD2002422",
+                    "start": 159.27601,
+                    "end": 160.70607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.89",
+                    "form": "한국인인데요.",
+                    "original_form": "한국인인데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 160.71604,
+                    "end": 162.42505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.90",
+                    "form": "어~ 불행하지만",
+                    "original_form": "어~ 불행하지만",
+                    "speaker_id": "SD2002422",
+                    "start": 162.43507,
+                    "end": 164.60006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.91",
+                    "form": "당구가 인기 종목이 아니라서",
+                    "original_form": "당구가 인기 종목이 아니라서",
+                    "speaker_id": "SD2002422",
+                    "start": 164.61004,
+                    "end": 167.19901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.92",
+                    "form": "어~ 제",
+                    "original_form": "어~ 제",
+                    "speaker_id": "SD2002422",
+                    "start": 167.20903,
+                    "end": 168.63207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.93",
+                    "form": "아는 동생이",
+                    "original_form": "아는 동생이",
+                    "speaker_id": "SD2002422",
+                    "start": 168.64203,
+                    "end": 170.03802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.94",
+                    "form": "어~ 재정적인 지원으로",
+                    "original_form": "어~ 재정적인 지원으로",
+                    "speaker_id": "SD2002422",
+                    "start": 170.04807,
+                    "end": 172.15303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.95",
+                    "form": "많이",
+                    "original_form": "많이",
+                    "speaker_id": "SD2002422",
+                    "start": 172.16301,
+                    "end": 173.24401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.96",
+                    "form": "힘이 들어하는 것 같았습니다.",
+                    "original_form": "힘이 들어하는 것 같았습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 173.25405,
+                    "end": 176.39601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.97",
+                    "form": "당구에",
+                    "original_form": "당구에",
+                    "speaker_id": "SD2002422",
+                    "start": 176.40602,
+                    "end": 178.43607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.98",
+                    "form": "중학교 때 당구를 많이",
+                    "original_form": "중학교 때 당구를 많이",
+                    "speaker_id": "SD2002422",
+                    "start": 178.44606,
+                    "end": 180.71805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.99",
+                    "form": "어~ 빠져있었었는데",
+                    "original_form": "어~ 빠져있었었는데",
+                    "speaker_id": "SD2002422",
+                    "start": 180.72808,
+                    "end": 182.64705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.100",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 182.65705,
+                    "end": 184.74608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.101",
+                    "form": "지금은",
+                    "original_form": "지금은",
+                    "speaker_id": "SD2002422",
+                    "start": 184.75607,
+                    "end": 186.12108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.102",
+                    "form": "쓰리 쿠션",
+                    "original_form": "쓰리 쿠션",
+                    "speaker_id": "SD2002422",
+                    "start": 186.13103,
+                    "end": 187.80103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.103",
+                    "form": "네.",
+                    "original_form": "네.",
+                    "speaker_id": "SD2002422",
+                    "start": 187.81106,
+                    "end": 188.55004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.104",
+                    "form": "지금 많이 하고 있고요.",
+                    "original_form": "지금 많이 하고 있고요.",
+                    "speaker_id": "SD2002422",
+                    "start": 188.56002,
+                    "end": 190.55407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.105",
+                    "form": "음~",
+                    "original_form": "음~",
+                    "speaker_id": "SD2002422",
+                    "start": 190.56402,
+                    "end": 192.21306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.106",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 192.22304,
+                    "end": 193.03904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.107",
+                    "form": "승마도",
+                    "original_form": "승마도",
+                    "speaker_id": "SD2002422",
+                    "start": 193.04905,
+                    "end": 194.14907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.108",
+                    "form": "어~ 스포츠로써",
+                    "original_form": "어~ 스포츠로써",
+                    "speaker_id": "SD2002422",
+                    "start": 194.15904,
+                    "end": 195.57806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.109",
+                    "form": "어~ 많이 좋아하는데요.",
+                    "original_form": "어~ 많이 좋아하는데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 195.58802,
+                    "end": 198.11804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.110",
+                    "form": "얼마 전에 5월에",
+                    "original_form": "얼마 전에 오월에",
+                    "speaker_id": "SD2002422",
+                    "start": 198.12803,
+                    "end": 199.90102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.111",
+                    "form": "제주도에 가서 승마를",
+                    "original_form": "제주도에 가서 승마를",
+                    "speaker_id": "SD2002422",
+                    "start": 199.91104,
+                    "end": 201.43003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.112",
+                    "form": "직접",
+                    "original_form": "직접",
+                    "speaker_id": "SD2002422",
+                    "start": 201.44001,
+                    "end": 202.19808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.113",
+                    "form": "체험을 했었습니다.",
+                    "original_form": "체험을 했었습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 202.20807,
+                    "end": 205.12805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.114",
+                    "form": "어~ 승마도",
+                    "original_form": "어~ 승마도",
+                    "speaker_id": "SD2002422",
+                    "start": 205.13805,
+                    "end": 206.69104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.115",
+                    "form": "스포츠 중에 한",
+                    "original_form": "스포츠 중에 한",
+                    "speaker_id": "SD2002422",
+                    "start": 206.70103,
+                    "end": 208.13401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.116",
+                    "form": "어~ 한 종목인데요.",
+                    "original_form": "어~ 한 종목인데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 208.14407,
+                    "end": 210.61305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.117",
+                    "form": "승마는",
+                    "original_form": "승마는",
+                    "speaker_id": "SD2002422",
+                    "start": 210.62303,
+                    "end": 212.55305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.118",
+                    "form": "또 건강에도 좋고",
+                    "original_form": "또 건강에도 좋고",
+                    "speaker_id": "SD2002422",
+                    "start": 212.56307,
+                    "end": 214.37301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.119",
+                    "form": "또",
+                    "original_form": "또",
+                    "speaker_id": "SD2002422",
+                    "start": 214.38308,
+                    "end": 215.32404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.120",
+                    "form": "어떤 기분 전환이나",
+                    "original_form": "어떤 기분 전환이나",
+                    "speaker_id": "SD2002422",
+                    "start": 215.33407,
+                    "end": 217.16407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.121",
+                    "form": "어~ 체력단련을 하기 위해서",
+                    "original_form": "어~ 체력단련을 하기 위해서",
+                    "speaker_id": "SD2002422",
+                    "start": 217.17407,
+                    "end": 219.12805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.122",
+                    "form": "승마를 많이",
+                    "original_form": "승마를 많이",
+                    "speaker_id": "SD2002422",
+                    "start": 219.13805,
+                    "end": 220.13805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.123",
+                    "form": "배우는",
+                    "original_form": "배우는",
+                    "speaker_id": "SD2002422",
+                    "start": 220.14801,
+                    "end": 221.30808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.124",
+                    "form": "편입니다.",
+                    "original_form": "편입니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 221.31803,
+                    "end": 223.20108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.125",
+                    "form": "축구와",
+                    "original_form": "축구와",
+                    "speaker_id": "SD2002422",
+                    "start": 223.21103,
+                    "end": 225.61905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.126",
+                    "form": "당구 승마는",
+                    "original_form": "당구 승마는",
+                    "speaker_id": "SD2002422",
+                    "start": 225.62908,
+                    "end": 227.84203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.127",
+                    "form": "제 취미 중에 하나로써",
+                    "original_form": "제 취미 중에 하나로써",
+                    "speaker_id": "SD2002422",
+                    "start": 227.85203,
+                    "end": 230.07304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.128",
+                    "form": "어~ 스포츠인의 한 명으로서",
+                    "original_form": "어~ 스포츠인의 한 명으로써",
+                    "speaker_id": "SD2002422",
+                    "start": 230.08306,
+                    "end": 232.66504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.129",
+                    "form": "굉장히",
+                    "original_form": "굉장히",
+                    "speaker_id": "SD2002422",
+                    "start": 232.67501,
+                    "end": 233.84302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.130",
+                    "form": "잘",
+                    "original_form": "잘",
+                    "speaker_id": "SD2002422",
+                    "start": 233.85308,
+                    "end": 234.82505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.131",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 234.83503,
+                    "end": 235.97302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.132",
+                    "form": "배우고 있습니다.",
+                    "original_form": "배우고 있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 235.98301,
+                    "end": 238.19107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.133",
+                    "form": "조기",
+                    "original_form": "조기 (())",
+                    "speaker_id": "SD2002422",
+                    "start": 238.20102,
+                    "end": 240.19208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.134",
+                    "form": "조기",
+                    "original_form": "조기",
+                    "speaker_id": "SD2002422",
+                    "start": 240.20208,
+                    "end": 241.11503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.135",
+                    "form": "축구 클럽에",
+                    "original_form": "축구 클럽에 (())",
+                    "speaker_id": "SD2002422",
+                    "start": 241.12508,
+                    "end": 242.89205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.136",
+                    "form": "어~ 제가 지금 가입 되어 있는데",
+                    "original_form": "어~ 제가 지금 가입 되어 있는데",
+                    "speaker_id": "SD2002422",
+                    "start": 242.90206,
+                    "end": 245.92101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.137",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 245.93106,
+                    "end": 247.19603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.138",
+                    "form": "매주 토요일 날",
+                    "original_form": "매주 토요일 날",
+                    "speaker_id": "SD2002422",
+                    "start": 247.20603,
+                    "end": 248.59607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.139",
+                    "form": "새벽 여섯 시에",
+                    "original_form": "새벽 여섯 시에",
+                    "speaker_id": "SD2002422",
+                    "start": 248.60603,
+                    "end": 249.85006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.140",
+                    "form": "단체로 나가서",
+                    "original_form": "단체로 나가서",
+                    "speaker_id": "SD2002422",
+                    "start": 249.86004,
+                    "end": 251.26406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.141",
+                    "form": "어~ 축구를 하고 있습니다.",
+                    "original_form": "어~ 축구를 하고 있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 251.27405,
+                    "end": 253.68501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.142",
+                    "form": "저는",
+                    "original_form": "저는",
+                    "speaker_id": "SD2002422",
+                    "start": 253.69503,
+                    "end": 255.78404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.143",
+                    "form": "공격수이고",
+                    "original_form": "공격수이고",
+                    "speaker_id": "SD2002422",
+                    "start": 255.79407,
+                    "end": 257.40802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.144",
+                    "form": "어~ 항상",
+                    "original_form": "어~ 항상",
+                    "speaker_id": "SD2002422",
+                    "start": 257.41808,
+                    "end": 258.65401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.145",
+                    "form": "골을 넣기 위해서",
+                    "original_form": "골을 넣기 위해서",
+                    "speaker_id": "SD2002422",
+                    "start": 258.66407,
+                    "end": 260.35508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.146",
+                    "form": "열심히",
+                    "original_form": "열심히",
+                    "speaker_id": "SD2002422",
+                    "start": 260.36506,
+                    "end": 261.65303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.147",
+                    "form": "운동을 하고 있습니다.",
+                    "original_form": "운동을 하고 있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 261.66301,
+                    "end": 263.83203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.148",
+                    "form": "또 스포츠를 하는 사람으로서",
+                    "original_form": "또 스포츠를 하는 사람으로써",
+                    "speaker_id": "SD2002422",
+                    "start": 263.84201,
+                    "end": 266.95107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.149",
+                    "form": "가장 조심해야 할",
+                    "original_form": "가장 조심해야 할",
+                    "speaker_id": "SD2002422",
+                    "start": 266.96106,
+                    "end": 268.31906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.150",
+                    "form": "부분이",
+                    "original_form": "부분이",
+                    "speaker_id": "SD2002422",
+                    "start": 268.32907,
+                    "end": 269.64905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.151",
+                    "form": "부상인데요.",
+                    "original_form": "부상인데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 269.65902,
+                    "end": 271.42408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.152",
+                    "form": "허벅지나",
+                    "original_form": "허벅지나",
+                    "speaker_id": "SD2002422",
+                    "start": 271.43405,
+                    "end": 273.84401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.153",
+                    "form": "어떤",
+                    "original_form": "어떤",
+                    "speaker_id": "SD2002422",
+                    "start": 273.85404,
+                    "end": 274.95502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.154",
+                    "form": "어~ 팔",
+                    "original_form": "어~ 팔",
+                    "speaker_id": "SD2002422",
+                    "start": 274.96507,
+                    "end": 275.96405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.155",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 275.97407,
+                    "end": 276.59404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.156",
+                    "form": "가슴 같은 부분을",
+                    "original_form": "가슴 같은 부분을",
+                    "speaker_id": "SD2002422",
+                    "start": 276.60401,
+                    "end": 278.57004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.157",
+                    "form": "어~ 공으로 트래핑할 때",
+                    "original_form": "어~ 공으로 트래핑할 때",
+                    "speaker_id": "SD2002422",
+                    "start": 278.58002,
+                    "end": 280.55904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.158",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 280.56903,
+                    "end": 281.41002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.159",
+                    "form": "상대방과 또",
+                    "original_form": "상대방과 또",
+                    "speaker_id": "SD2002422",
+                    "start": 281.42008,
+                    "end": 282.57908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.160",
+                    "form": "어~ 접촉이 있을 때",
+                    "original_form": "어~ 접촉이 있을 때",
+                    "speaker_id": "SD2002422",
+                    "start": 282.58905,
+                    "end": 283.98107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.161",
+                    "form": "몸싸움",
+                    "original_form": "몸싸움",
+                    "speaker_id": "SD2002422",
+                    "start": 283.99101,
+                    "end": 284.88701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.162",
+                    "form": "시에도",
+                    "original_form": "시에도",
+                    "speaker_id": "SD2002422",
+                    "start": 284.89704,
+                    "end": 285.68802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.163",
+                    "form": "부상 위험이 있어서",
+                    "original_form": "부상 위험이 있어서",
+                    "speaker_id": "SD2002422",
+                    "start": 285.69802,
+                    "end": 287.40806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.164",
+                    "form": "조심",
+                    "original_form": "조심",
+                    "speaker_id": "SD2002422",
+                    "start": 287.41803,
+                    "end": 288.16805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.165",
+                    "form": "해야 됩니다.",
+                    "original_form": "해야 됩니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 288.17808,
+                    "end": 291.25206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.166",
+                    "form": "스포츠는",
+                    "original_form": "스포츠는",
+                    "speaker_id": "SD2002422",
+                    "start": 291.26207,
+                    "end": 292.67002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.167",
+                    "form": "또 매우",
+                    "original_form": "또 매우",
+                    "speaker_id": "SD2002422",
+                    "start": 292.68002,
+                    "end": 294.20808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.168",
+                    "form": "다양한",
+                    "original_form": "다양한",
+                    "speaker_id": "SD2002422",
+                    "start": 294.21808,
+                    "end": 295.38605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.169",
+                    "form": "어~ 종목으로써",
+                    "original_form": "어~ 종목으로써",
+                    "speaker_id": "SD2002422",
+                    "start": 295.39605,
+                    "end": 296.94503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.170",
+                    "form": "수영이 있는데",
+                    "original_form": "수영이 있는데",
+                    "speaker_id": "SD2002422",
+                    "start": 296.95508,
+                    "end": 298.46405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.171",
+                    "form": "그~ 수영을 꼭 배우면은",
+                    "original_form": "그~ 수영을 꼭 배우면은",
+                    "speaker_id": "SD2002422",
+                    "start": 298.47402,
+                    "end": 301.33601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.172",
+                    "form": "일단 몸매가",
+                    "original_form": "((일단)) 몸매가",
+                    "speaker_id": "SD2002422",
+                    "start": 301.34605,
+                    "end": 302.52201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.173",
+                    "form": "좋아질 수 있고요.",
+                    "original_form": "좋아질 수 있구요.",
+                    "speaker_id": "SD2002422",
+                    "start": 302.53201,
+                    "end": 304.04703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.174",
+                    "form": "또 수영의 종류 중에",
+                    "original_form": "또 수영의 종류 중에",
+                    "speaker_id": "SD2002422",
+                    "start": 304.05703,
+                    "end": 306.01601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.175",
+                    "form": "하나가",
+                    "original_form": "하나가",
+                    "speaker_id": "SD2002422",
+                    "start": 306.02603,
+                    "end": 306.89603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.176",
+                    "form": "평영과",
+                    "original_form": "평영과",
+                    "speaker_id": "SD2002422",
+                    "start": 306.90606,
+                    "end": 307.91301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.177",
+                    "form": "배영",
+                    "original_form": "배영",
+                    "speaker_id": "SD2002422",
+                    "start": 307.92306,
+                    "end": 308.86303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.178",
+                    "form": "접영",
+                    "original_form": "접영",
+                    "speaker_id": "SD2002422",
+                    "start": 308.87302,
+                    "end": 310.36605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.179",
+                    "form": "등등이 있습니다.",
+                    "original_form": "등등이 있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 310.37601,
+                    "end": 313.85707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.180",
+                    "form": "저는",
+                    "original_form": "저는",
+                    "speaker_id": "SD2002422",
+                    "start": 313.86708,
+                    "end": 314.83807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.181",
+                    "form": "어~ 수영을",
+                    "original_form": "어~ 수영을",
+                    "speaker_id": "SD2002422",
+                    "start": 314.84804,
+                    "end": 315.97806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.182",
+                    "form": "어~ 해군에서 배웠기 때문에",
+                    "original_form": "어~ 해군에서 배웠기 때문에",
+                    "speaker_id": "SD2002422",
+                    "start": 315.98804,
+                    "end": 318.49805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.183",
+                    "form": "접영이나",
+                    "original_form": "접영이나",
+                    "speaker_id": "SD2002422",
+                    "start": 318.50806,
+                    "end": 320.22204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.184",
+                    "form": "전투 수영",
+                    "original_form": "전투 수영",
+                    "speaker_id": "SD2002422",
+                    "start": 320.23207,
+                    "end": 321.36107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.185",
+                    "form": "그리고 배영",
+                    "original_form": "그리고 배영",
+                    "speaker_id": "SD2002422",
+                    "start": 321.37103,
+                    "end": 322.85601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.186",
+                    "form": "등등을",
+                    "original_form": "등등을",
+                    "speaker_id": "SD2002422",
+                    "start": 322.86601,
+                    "end": 323.94108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.187",
+                    "form": "잘할 수",
+                    "original_form": "잘할 수",
+                    "speaker_id": "SD2002422",
+                    "start": 323.95107,
+                    "end": 324.76808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.188",
+                    "form": "있습니다.",
+                    "original_form": "있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 324.77806,
+                    "end": 325.94003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.189",
+                    "form": "그런데 배영을 할 때",
+                    "original_form": "그런데 배영을 할 때",
+                    "speaker_id": "SD2002422",
+                    "start": 325.95005,
+                    "end": 328.21305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.190",
+                    "form": "호흡을",
+                    "original_form": "호흡을",
+                    "speaker_id": "SD2002422",
+                    "start": 328.22308,
+                    "end": 329.39303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.191",
+                    "form": "어~ 잘해야 되는데",
+                    "original_form": "어~ 잘해야 되는데",
+                    "speaker_id": "SD2002422",
+                    "start": 329.40303,
+                    "end": 331.93301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.192",
+                    "form": "오른쪽",
+                    "original_form": "오른쪽",
+                    "speaker_id": "SD2002422",
+                    "start": 331.94308,
+                    "end": 332.99203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.193",
+                    "form": "팔 내젓고",
+                    "original_form": "팔 내젓고",
+                    "speaker_id": "SD2002422",
+                    "start": 333.00202,
+                    "end": 334.16205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.194",
+                    "form": "왼쪽으로 다시",
+                    "original_form": "왼쪽으로 다시",
+                    "speaker_id": "SD2002422",
+                    "start": 334.17206,
+                    "end": 335.83602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.195",
+                    "form": "올라올 때 숨을",
+                    "original_form": "올라올 때 숨을",
+                    "speaker_id": "SD2002422",
+                    "start": 335.84605,
+                    "end": 337.30303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.196",
+                    "form": "내쉬어야 되고요.",
+                    "original_form": "내쉬어야 되고요.",
+                    "speaker_id": "SD2002422",
+                    "start": 337.31304,
+                    "end": 338.77203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.197",
+                    "form": "다시",
+                    "original_form": "다시",
+                    "speaker_id": "SD2002422",
+                    "start": 338.78204,
+                    "end": 340.01401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.198",
+                    "form": "왼쪽으로 접고",
+                    "original_form": "왼쪽으로 접고",
+                    "speaker_id": "SD2002422",
+                    "start": 340.02406,
+                    "end": 341.65601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.199",
+                    "form": "오른쪽으로 접을 때",
+                    "original_form": "오른쪽으로 접을 때",
+                    "speaker_id": "SD2002422",
+                    "start": 341.66605,
+                    "end": 343.35501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.200",
+                    "form": "다시 숨을 들이마시는",
+                    "original_form": "다시 숨을 들이마시는",
+                    "speaker_id": "SD2002422",
+                    "start": 343.36502,
+                    "end": 345.52402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.201",
+                    "form": "것을 잘해야 됩니다.",
+                    "original_form": "것을 잘해야 됩니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 345.53408,
+                    "end": 347.36304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.202",
+                    "form": "수영뿐만 아니라",
+                    "original_form": "수영뿐만 아니라",
+                    "speaker_id": "SD2002422",
+                    "start": 347.37305,
+                    "end": 349.85707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.203",
+                    "form": "검도",
+                    "original_form": "검도",
+                    "speaker_id": "SD2002422",
+                    "start": 349.86704,
+                    "end": 351.29605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.204",
+                    "form": "유도 합기도",
+                    "original_form": "유도 합기도",
+                    "speaker_id": "SD2002422",
+                    "start": 351.30605,
+                    "end": 353.10607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.205",
+                    "form": "같은 것을",
+                    "original_form": "같은 것을",
+                    "speaker_id": "SD2002422",
+                    "start": 353.11607,
+                    "end": 354.37601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.206",
+                    "form": "어렸을 때 많이 배웠었는데요.",
+                    "original_form": "어렸을 때 많이 배웠었는데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 354.38603,
+                    "end": 357.10405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.207",
+                    "form": "합기도는",
+                    "original_form": "합기도는",
+                    "speaker_id": "SD2002422",
+                    "start": 357.11405,
+                    "end": 358.88301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.208",
+                    "form": "또 부상이",
+                    "original_form": "또 부상이",
+                    "speaker_id": "SD2002422",
+                    "start": 358.89304,
+                    "end": 359.92302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.209",
+                    "form": "위험이 크기 때문에",
+                    "original_form": "위험이 크기 때문에",
+                    "speaker_id": "SD2002422",
+                    "start": 359.93301,
+                    "end": 362.26908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.210",
+                    "form": "항상",
+                    "original_form": "항상",
+                    "speaker_id": "SD2002422",
+                    "start": 362.27903,
+                    "end": 363.74904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.211",
+                    "form": "대련할 때",
+                    "original_form": "대련할 때",
+                    "speaker_id": "SD2002422",
+                    "start": 363.75904,
+                    "end": 364.86207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.212",
+                    "form": "상대방과 예의를 갖추고",
+                    "original_form": "상대방과 예의를 갖추고",
+                    "speaker_id": "SD2002422",
+                    "start": 364.87207,
+                    "end": 366.70406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.213",
+                    "form": "조심해서 대련을",
+                    "original_form": "조심해서 대련을",
+                    "speaker_id": "SD2002422",
+                    "start": 366.71402,
+                    "end": 368.13403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.214",
+                    "form": "해야 됩니다.",
+                    "original_form": "해야 됩니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 368.14401,
+                    "end": 369.56302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.215",
+                    "form": "태권도도 스포츠 중에 하나인데요.",
+                    "original_form": "태권도도 스포츠 중에 하나인데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 369.57304,
+                    "end": 372.75704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.216",
+                    "form": "어~ 태권도는 제가 4단",
+                    "original_form": "어~ 태권도는 제가 사 단",
+                    "speaker_id": "SD2002422",
+                    "start": 372.76703,
+                    "end": 375.68605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.217",
+                    "form": "을 가지고 있는데",
+                    "original_form": "을 가지고 있는데",
+                    "speaker_id": "SD2002422",
+                    "start": 375.69602,
+                    "end": 377.66203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.218",
+                    "form": "태권도는",
+                    "original_form": "태권도는",
+                    "speaker_id": "SD2002422",
+                    "start": 377.67202,
+                    "end": 378.87501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.219",
+                    "form": "어~ 상대방에 대한 예의와",
+                    "original_form": "어~ 상대방에 대한 예의와",
+                    "speaker_id": "SD2002422",
+                    "start": 378.88506,
+                    "end": 380.93605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.220",
+                    "form": "배려",
+                    "original_form": "배려",
+                    "speaker_id": "SD2002422",
+                    "start": 380.94601,
+                    "end": 381.99302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.221",
+                    "form": "가 엄격하게",
+                    "original_form": "가 엄격하게",
+                    "speaker_id": "SD2002422",
+                    "start": 382.00302,
+                    "end": 382.93202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.222",
+                    "form": "지켜져야 되기 때문에",
+                    "original_form": "지켜져야 되기 때문에",
+                    "speaker_id": "SD2002422",
+                    "start": 382.94204,
+                    "end": 384.74201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.223",
+                    "form": "예 항상",
+                    "original_form": "예 항상",
+                    "speaker_id": "SD2002422",
+                    "start": 384.75208,
+                    "end": 386.32103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.224",
+                    "form": "대련 연습이나",
+                    "original_form": "대련 연습이나",
+                    "speaker_id": "SD2002422",
+                    "start": 386.33106,
+                    "end": 387.92906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.225",
+                    "form": "실제로",
+                    "original_form": "실제로",
+                    "speaker_id": "SD2002422",
+                    "start": 387.93908,
+                    "end": 389.11103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.226",
+                    "form": "어떤",
+                    "original_form": "어떤",
+                    "speaker_id": "SD2002422",
+                    "start": 389.12102,
+                    "end": 389.69401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.227",
+                    "form": "훈련할 때",
+                    "original_form": "훈련할 때",
+                    "speaker_id": "SD2002422",
+                    "start": 389.70406,
+                    "end": 391.30306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.228",
+                    "form": "항상 조심해서 상대방에게",
+                    "original_form": "항상 조심해서 상대방에게",
+                    "speaker_id": "SD2002422",
+                    "start": 391.31304,
+                    "end": 393.53308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.229",
+                    "form": "배려를 해야 되는",
+                    "original_form": "배려를 해야 되는",
+                    "speaker_id": "SD2002422",
+                    "start": 393.54301,
+                    "end": 394.99208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.230",
+                    "form": "예의 있는 운동 중에",
+                    "original_form": "예의 있는 운동 중에",
+                    "speaker_id": "SD2002422",
+                    "start": 395.00206,
+                    "end": 396.56106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.231",
+                    "form": "하나입니다.",
+                    "original_form": "하나입니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 396.57106,
+                    "end": 398.47002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.232",
+                    "form": "검도도",
+                    "original_form": "검도두",
+                    "speaker_id": "SD2002422",
+                    "start": 398.48004,
+                    "end": 400.09008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.233",
+                    "form": "마찬가지로",
+                    "original_form": "마찬가지로",
+                    "speaker_id": "SD2002422",
+                    "start": 400.10004,
+                    "end": 401.49007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.234",
+                    "form": "엄 엄격한",
+                    "original_form": "-엄- 엄격한",
+                    "speaker_id": "SD2002422",
+                    "start": 401.50002,
+                    "end": 402.59303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.235",
+                    "form": "예의범절이 중요시 되는데요.",
+                    "original_form": "예의범절이 중요시 되는데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 402.60303,
+                    "end": 405.01307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.236",
+                    "form": "예 검도도 스포츠 중에 하나입니다.",
+                    "original_form": "예 검도도 스포츠 중에 하나입니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 405.02303,
+                    "end": 408.66301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.237",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 408.67307,
+                    "end": 410.10208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.238",
+                    "form": "유도도",
+                    "original_form": "유도도",
+                    "speaker_id": "SD2002422",
+                    "start": 410.11204,
+                    "end": 411.40503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.239",
+                    "form": "마찬가지로",
+                    "original_form": "마찬가지로",
+                    "speaker_id": "SD2002422",
+                    "start": 411.41508,
+                    "end": 412.64507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.240",
+                    "form": "네.",
+                    "original_form": "네.",
+                    "speaker_id": "SD2002422",
+                    "start": 412.65501,
+                    "end": 413.72707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.241",
+                    "form": "예의가 중요시 되는 것이",
+                    "original_form": "예의가 중요시 되는 것이",
+                    "speaker_id": "SD2002422",
+                    "start": 413.73702,
+                    "end": 415.39105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.242",
+                    "form": "스포츠 중에 하나입니다.",
+                    "original_form": "스포츠 중에 하나입니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 415.40102,
+                    "end": 417.41305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.243",
+                    "form": "우리나라에",
+                    "original_form": "우리나라에",
+                    "speaker_id": "SD2002422",
+                    "start": 417.42308,
+                    "end": 419.13805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.244",
+                    "form": "운동 중에 하나가",
+                    "original_form": "운동 중에 하나가",
+                    "speaker_id": "SD2002422",
+                    "start": 419.14806,
+                    "end": 420.82901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.245",
+                    "form": "씨름이 있는데",
+                    "original_form": "씨름이 있는데",
+                    "speaker_id": "SD2002422",
+                    "start": 420.83901,
+                    "end": 422.48708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.246",
+                    "form": "씨름도",
+                    "original_form": "씨름도",
+                    "speaker_id": "SD2002422",
+                    "start": 422.49701,
+                    "end": 424.28006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.247",
+                    "form": "최근에",
+                    "original_form": "최근에",
+                    "speaker_id": "SD2002422",
+                    "start": 424.29007,
+                    "end": 425.39001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.248",
+                    "form": "인기가 많아져서",
+                    "original_form": "인기가 많아져서",
+                    "speaker_id": "SD2002422",
+                    "start": 429.44704,
+                    "end": 431.73001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.249",
+                    "form": "다시 한 번 붐을 기대하고",
+                    "original_form": "다시 한 번 붐을 기대하고",
+                    "speaker_id": "SD2002422",
+                    "start": 431.74004,
+                    "end": 433.80406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.250",
+                    "form": "있습니다.",
+                    "original_form": "있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 433.81401,
+                    "end": 435.38803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.251",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 435.39802,
+                    "end": 437.30902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.252",
+                    "form": "한국에는 씨름이 있고",
+                    "original_form": "한국에는 씨름이 있고",
+                    "speaker_id": "SD2002422",
+                    "start": 437.31905,
+                    "end": 439.20507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.253",
+                    "form": "일본에는",
+                    "original_form": "일본에는",
+                    "speaker_id": "SD2002422",
+                    "start": 439.21502,
+                    "end": 439.99501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.254",
+                    "form": "스모가 있습니다.",
+                    "original_form": "스모가 있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 440.00508,
+                    "end": 441.53106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.255",
+                    "form": "서로 비슷한 종목인 거 같지만",
+                    "original_form": "서로 비슷한 종목인 거 같지만",
+                    "speaker_id": "SD2002422",
+                    "start": 441.54108,
+                    "end": 444.54905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.256",
+                    "form": "어~ 경기 운영 방식이라든가",
+                    "original_form": "어~ 경기 운영 방식이라든가",
+                    "speaker_id": "SD2002422",
+                    "start": 444.55903,
+                    "end": 447.31107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.257",
+                    "form": "어~ 어떤",
+                    "original_form": "어~ 어떤",
+                    "speaker_id": "SD2002422",
+                    "start": 447.32108,
+                    "end": 448.08801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.258",
+                    "form": "승패",
+                    "original_form": "승패",
+                    "speaker_id": "SD2002422",
+                    "start": 448.09803,
+                    "end": 449.16405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.259",
+                    "form": "어~ 결과 방식이",
+                    "original_form": "어~ 결과 방식이",
+                    "speaker_id": "SD2002422",
+                    "start": 449.17404,
+                    "end": 451.03307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.260",
+                    "form": "많이",
+                    "original_form": "많이",
+                    "speaker_id": "SD2002422",
+                    "start": 451.04303,
+                    "end": 451.84608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.261",
+                    "form": "다릅니다.",
+                    "original_form": "다릅니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 451.85602,
+                    "end": 453.25207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.262",
+                    "form": "씨름은",
+                    "original_form": "씨름은",
+                    "speaker_id": "SD2002422",
+                    "start": 453.26204,
+                    "end": 454.42102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.263",
+                    "form": "상대방을",
+                    "original_form": "상대방을",
+                    "speaker_id": "SD2002422",
+                    "start": 454.43104,
+                    "end": 455.37103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.264",
+                    "form": "잡고",
+                    "original_form": "잡고",
+                    "speaker_id": "SD2002422",
+                    "start": 455.38105,
+                    "end": 456.73707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.265",
+                    "form": "겉 겉다리 치기라든가",
+                    "original_form": "-겉- 겉다리 치기라든가",
+                    "speaker_id": "SD2002422",
+                    "start": 456.74704,
+                    "end": 458.87808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.266",
+                    "form": "들배 업기 등등을",
+                    "original_form": "들배 업기 등등을",
+                    "speaker_id": "SD2002422",
+                    "start": 458.88806,
+                    "end": 460.98005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.267",
+                    "form": "해서",
+                    "original_form": "해서",
+                    "speaker_id": "SD2002422",
+                    "start": 460.99008,
+                    "end": 461.77105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.268",
+                    "form": "상대방을",
+                    "original_form": "상대방을",
+                    "speaker_id": "SD2002422",
+                    "start": 461.78101,
+                    "end": 462.61305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.269",
+                    "form": "제압하는 것이고",
+                    "original_form": "제압하는 것이고",
+                    "speaker_id": "SD2002422",
+                    "start": 462.62308,
+                    "end": 464.53402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.270",
+                    "form": "스모는",
+                    "original_form": "스모는",
+                    "speaker_id": "SD2002422",
+                    "start": 464.54403,
+                    "end": 465.69702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.271",
+                    "form": "비슷한",
+                    "original_form": "비슷한",
+                    "speaker_id": "SD2002422",
+                    "start": 465.70708,
+                    "end": 466.86804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.272",
+                    "form": "모래판 위에서 싸우는 것이지만",
+                    "original_form": "모래판 위에서 싸우는 것이지만",
+                    "speaker_id": "SD2002422",
+                    "start": 466.87801,
+                    "end": 469.28404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.273",
+                    "form": "어~ 손으로",
+                    "original_form": "어~ 손으로",
+                    "speaker_id": "SD2002422",
+                    "start": 469.29403,
+                    "end": 470.39006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.274",
+                    "form": "상대방을어~ 밀쳐내서",
+                    "original_form": "상대방을 (()) 어~ 밀쳐내서",
+                    "speaker_id": "SD2002422",
+                    "start": 470.40006,
+                    "end": 472.65003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.275",
+                    "form": "네 원 밖으로",
+                    "original_form": "네 원 밖으로",
+                    "speaker_id": "SD2002422",
+                    "start": 472.66007,
+                    "end": 474.72103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.276",
+                    "form": "뭐",
+                    "original_form": "뭐",
+                    "speaker_id": "SD2002422",
+                    "start": 474.73105,
+                    "end": 475.38104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.277",
+                    "form": "밀쳐내면은",
+                    "original_form": "밀쳐내면은",
+                    "speaker_id": "SD2002422",
+                    "start": 475.39103,
+                    "end": 476.32708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.278",
+                    "form": "이기게 되는",
+                    "original_form": "이기게 되는",
+                    "speaker_id": "SD2002422",
+                    "start": 476.33708,
+                    "end": 477.97708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.279",
+                    "form": "승패 방식 중에",
+                    "original_form": "승패 방식 중에",
+                    "speaker_id": "SD2002422",
+                    "start": 477.98708,
+                    "end": 479.61304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.280",
+                    "form": "하나입니다.",
+                    "original_form": "하나입니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 479.62308,
+                    "end": 481.19701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.281",
+                    "form": "그리고 야구도 최근에",
+                    "original_form": "그리고 야구도 최근에",
+                    "speaker_id": "SD2002422",
+                    "start": 481.20708,
+                    "end": 483.73004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.282",
+                    "form": "메이저리그",
+                    "original_form": "메이저리그",
+                    "speaker_id": "SD2002422",
+                    "start": 483.74005,
+                    "end": 485.99005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.283",
+                    "form": "어~ 어떤 한국의",
+                    "original_form": "어~ 어떤 한국의",
+                    "speaker_id": "SD2002422",
+                    "start": 486.00002,
+                    "end": 488.21904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.284",
+                    "form": "네 케이비오를 보고 있는데요.",
+                    "original_form": "네 케이비오를 보고 있는데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 488.22908,
+                    "end": 490.80801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.285",
+                    "form": "지금 코로나 때문에 관중이 없어서",
+                    "original_form": "지금 코로나 때문에 관중이 없어서",
+                    "speaker_id": "SD2002422",
+                    "start": 490.81801,
+                    "end": 494.49702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.286",
+                    "form": "어~ 많이 좀",
+                    "original_form": "어~ 많이 좀",
+                    "speaker_id": "SD2002422",
+                    "start": 494.50705,
+                    "end": 496.58002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.287",
+                    "form": "인기가",
+                    "original_form": "인기가",
+                    "speaker_id": "SD2002422",
+                    "start": 496.59006,
+                    "end": 497.60602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.288",
+                    "form": "식을 것 같지만",
+                    "original_form": "식을 것 같지만",
+                    "speaker_id": "SD2002422",
+                    "start": 497.61605,
+                    "end": 499.67706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.289",
+                    "form": "굉장히",
+                    "original_form": "굉장히",
+                    "speaker_id": "SD2002422",
+                    "start": 499.68707,
+                    "end": 500.71801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.290",
+                    "form": "미국에서도",
+                    "original_form": "미국에서도",
+                    "speaker_id": "SD2002422",
+                    "start": 500.72803,
+                    "end": 501.82704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.291",
+                    "form": "한국의 야구를",
+                    "original_form": "한국의 야구를",
+                    "speaker_id": "SD2002422",
+                    "start": 501.83701,
+                    "end": 503.37401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.292",
+                    "form": "온라인이나 방송을 통해서",
+                    "original_form": "온라인이나 방송을 통해서",
+                    "speaker_id": "SD2002422",
+                    "start": 503.38408,
+                    "end": 505.44406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.293",
+                    "form": "많이 시청한다고",
+                    "original_form": "많이 시청한다고",
+                    "speaker_id": "SD2002422",
+                    "start": 505.45401,
+                    "end": 507.11301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.294",
+                    "form": "들었습니다.",
+                    "original_form": "들었습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 507.12301,
+                    "end": 508.56508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.295",
+                    "form": "롯데나",
+                    "original_form": "롯데나",
+                    "speaker_id": "SD2002422",
+                    "start": 511.29805,
+                    "end": 512.95704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.296",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 512.96704,
+                    "end": 513.97507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.297",
+                    "form": "다른",
+                    "original_form": "다른",
+                    "speaker_id": "SD2002422",
+                    "start": 513.98504,
+                    "end": 514.98601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.298",
+                    "form": "팀",
+                    "original_form": "팀",
+                    "speaker_id": "SD2002422",
+                    "start": 514.99604,
+                    "end": 515.90605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.299",
+                    "form": "들을",
+                    "original_form": "들을",
+                    "speaker_id": "SD2002422",
+                    "start": 515.91603,
+                    "end": 516.73603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.300",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 516.74606,
+                    "end": 517.33702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.301",
+                    "form": "야구를 많이 좋아하는데요.",
+                    "original_form": "야구를 많이 좋아하는데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 517.34701,
+                    "end": 519.62505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.302",
+                    "form": "야구도",
+                    "original_form": "야구도",
+                    "speaker_id": "SD2002422",
+                    "start": 519.63507,
+                    "end": 522.28904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.303",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 522.29902,
+                    "end": 523.87102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.304",
+                    "form": "굉장히",
+                    "original_form": "굉장히",
+                    "speaker_id": "SD2002422",
+                    "start": 523.88102,
+                    "end": 525.13003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.305",
+                    "form": "인기가 많은 종목이라서",
+                    "original_form": "인기가 많은 종목이라서",
+                    "speaker_id": "SD2002422",
+                    "start": 525.14007,
+                    "end": 527.76902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.306",
+                    "form": "저도",
+                    "original_form": "저도",
+                    "speaker_id": "SD2002422",
+                    "start": 527.77901,
+                    "end": 529.89003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.307",
+                    "form": "많이",
+                    "original_form": "많이",
+                    "speaker_id": "SD2002422",
+                    "start": 529.90005,
+                    "end": 530.70902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.308",
+                    "form": "관람을 갔었던 적이 있었습니다.",
+                    "original_form": "관람을 갔었던 적이 있었습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 530.71907,
+                    "end": 534.18506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.309",
+                    "form": "코로나가 사라지면 다시 한 번",
+                    "original_form": "코로나가 사라지면 다시 한 번",
+                    "speaker_id": "SD2002422",
+                    "start": 534.19502,
+                    "end": 536.99808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.310",
+                    "form": "직접",
+                    "original_form": "직접",
+                    "speaker_id": "SD2002422",
+                    "start": 537.00805,
+                    "end": 537.60507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.311",
+                    "form": "관람을 가고 싶습니다.",
+                    "original_form": "관람을 가고 싶습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 537.61503,
+                    "end": 540.46205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.312",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 540.47203,
+                    "end": 543.69505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.313",
+                    "form": "검도도",
+                    "original_form": "검도도",
+                    "speaker_id": "SD2002422",
+                    "start": 543.70508,
+                    "end": 547.07508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.314",
+                    "form": "상대방을",
+                    "original_form": "상대방을",
+                    "speaker_id": "SD2002422",
+                    "start": 547.08506,
+                    "end": 549.15506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.315",
+                    "form": "어~ 찌르기",
+                    "original_form": "어~ 찌른기",
+                    "speaker_id": "SD2002422",
+                    "start": 549.16505,
+                    "end": 550.42508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.316",
+                    "form": "그리고 내려치기",
+                    "original_form": "그리고 내려치기",
+                    "speaker_id": "SD2002422",
+                    "start": 550.43501,
+                    "end": 552.14505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.317",
+                    "form": "등등으로",
+                    "original_form": "등등으로",
+                    "speaker_id": "SD2002422",
+                    "start": 552.15501,
+                    "end": 552.97404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.318",
+                    "form": "승패를 결정하는 스포츠",
+                    "original_form": "승패를 결정하는 스포츠",
+                    "speaker_id": "SD2002422",
+                    "start": 552.98407,
+                    "end": 554.75706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.319",
+                    "form": "인데요.",
+                    "original_form": "인데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 554.76702,
+                    "end": 556.59703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.320",
+                    "form": "검도는 보호장구를",
+                    "original_form": "검도는 보호장구를",
+                    "speaker_id": "SD2002422",
+                    "start": 556.60705,
+                    "end": 558.53103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.321",
+                    "form": "잘 착용해야 됩니다.",
+                    "original_form": "잘 착용해야 됩니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 558.54108,
+                    "end": 560.73907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.322",
+                    "form": "얼굴을",
+                    "original_form": "얼굴을",
+                    "speaker_id": "SD2002422",
+                    "start": 560.74906,
+                    "end": 561.68706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.323",
+                    "form": "막",
+                    "original_form": "막",
+                    "speaker_id": "SD2002422",
+                    "start": 561.69707,
+                    "end": 562.07502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.324",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2002422",
+                    "start": 562.08506,
+                    "end": 562.65704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.325",
+                    "form": "막는",
+                    "original_form": "막는",
+                    "speaker_id": "SD2002422",
+                    "start": 562.66705,
+                    "end": 563.95706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.326",
+                    "form": "얼굴 보호용과",
+                    "original_form": "얼굴 보호용과",
+                    "speaker_id": "SD2002422",
+                    "start": 563.96701,
+                    "end": 565.63701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.327",
+                    "form": "그리고 어깨",
+                    "original_form": "그리고 어깨",
+                    "speaker_id": "SD2002422",
+                    "start": 565.64706,
+                    "end": 567.03705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.328",
+                    "form": "가슴",
+                    "original_form": "가슴",
+                    "speaker_id": "SD2002422",
+                    "start": 567.04704,
+                    "end": 568.08705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.329",
+                    "form": "허벅지",
+                    "original_form": "허벅지",
+                    "speaker_id": "SD2002422",
+                    "start": 568.09707,
+                    "end": 569.52602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.330",
+                    "form": "다리",
+                    "original_form": "다리",
+                    "speaker_id": "SD2002422",
+                    "start": 569.53603,
+                    "end": 570.82605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.331",
+                    "form": "등등을",
+                    "original_form": "등등을",
+                    "speaker_id": "SD2002422",
+                    "start": 570.83608,
+                    "end": 571.90702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.332",
+                    "form": "막는",
+                    "original_form": "막는",
+                    "speaker_id": "SD2002422",
+                    "start": 571.91704,
+                    "end": 572.85605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.333",
+                    "form": "보호장구를",
+                    "original_form": "보호장구를",
+                    "speaker_id": "SD2002422",
+                    "start": 572.86607,
+                    "end": 574.26502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.334",
+                    "form": "잘",
+                    "original_form": "잘",
+                    "speaker_id": "SD2002422",
+                    "start": 574.27507,
+                    "end": 575.02103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.335",
+                    "form": "착용해야",
+                    "original_form": "착용해야",
+                    "speaker_id": "SD2002422",
+                    "start": 575.03107,
+                    "end": 576.30106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.336",
+                    "form": "합니다.",
+                    "original_form": "합니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 576.31103,
+                    "end": 578.11104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.337",
+                    "form": "보호장구를 잘 착용하지 않으면",
+                    "original_form": "보호장구를 잘 착용하지 않으면",
+                    "speaker_id": "SD2002422",
+                    "start": 578.12106,
+                    "end": 581.27102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.338",
+                    "form": "부상이 큰",
+                    "original_form": "부상이 큰",
+                    "speaker_id": "SD2002422",
+                    "start": 581.28101,
+                    "end": 582.81004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.339",
+                    "form": "스포츠 중에",
+                    "original_form": "스포츠 중에",
+                    "speaker_id": "SD2002422",
+                    "start": 582.82001,
+                    "end": 583.79105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.340",
+                    "form": "하나이기 때문에",
+                    "original_form": "하나이기 때문에",
+                    "speaker_id": "SD2002422",
+                    "start": 583.80104,
+                    "end": 586.27201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.341",
+                    "form": "큰",
+                    "original_form": "큰",
+                    "speaker_id": "SD2002422",
+                    "start": 586.28208,
+                    "end": 586.84202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.342",
+                    "form": "부상을",
+                    "original_form": "부상을",
+                    "speaker_id": "SD2002422",
+                    "start": 586.85203,
+                    "end": 587.57105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.343",
+                    "form": "잘못하면",
+                    "original_form": "잘못하면",
+                    "speaker_id": "SD2002422",
+                    "start": 587.58103,
+                    "end": 588.68005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.344",
+                    "form": "겪을 수",
+                    "original_form": "겪을 수",
+                    "speaker_id": "SD2002422",
+                    "start": 588.69001,
+                    "end": 589.59902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.345",
+                    "form": "있습니다.",
+                    "original_form": "있습니다.",
+                    "speaker_id": "SD2002422",
+                    "start": 589.60906,
+                    "end": 591.60907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.346",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2002422",
+                    "start": 591.61908,
+                    "end": 593.36003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.347",
+                    "form": "부상위험이 큰 스포츠 중에 하나가",
+                    "original_form": "부상위험이 큰 스포츠 중에 하나가",
+                    "speaker_id": "SD2002422",
+                    "start": 593.37004,
+                    "end": 597.15902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.348",
+                    "form": "격투기도",
+                    "original_form": "격투기도",
+                    "speaker_id": "SD2002422",
+                    "start": 597.16902,
+                    "end": 599.04601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001953.1.1.349",
+                    "form": "부상이 큰 스포츠 중에 하나인데요.",
+                    "original_form": "부상이 큰 스포츠 중에 하나인데요.",
+                    "speaker_id": "SD2002422",
+                    "start": 599.05602,
+                    "end": 601.90906,
+                    "note": ""
+                }
+            ]
+        }
+    ]
+}

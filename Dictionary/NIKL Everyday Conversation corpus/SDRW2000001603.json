@@ -1,0 +1,3338 @@
+{
+    "id": "SDRW2000001603",
+    "metadata": {
+        "title": "국립국어원 구어 말뭉치 SDRW2000001603",
+        "creator": "국립국어원",
+        "distributor": "국립국어원",
+        "year": "2020",
+        "category": "구어 > 사적 대화 > 일상대화",
+        "annotation_level": [
+            "원시"
+        ],
+        "sampling": "본문 전체"
+    },
+    "document": [
+        {
+            "id": "SDRW2000001603.1",
+            "metadata": {
+                "title": "2인 일상 대화",
+                "author": "개인 발화자",
+                "publisher": "개인 발화 녹음",
+                "date": "20200623",
+                "topic": "먹거리 > 해장국, 커피, 낙지볶음, 토스트, 땅콩잼, 빵집, 카페",
+                "speaker": [
+                    {
+                        "id": "SD2001940",
+                        "age": "30대",
+                        "occupation": "기타",
+                        "sex": "여성",
+                        "birthplace": "제주",
+                        "pricipal_residence": "제주",
+                        "current_residence": "제주",
+                        "education": "대졸"
+                    },
+                    {
+                        "id": "SD2001941",
+                        "age": "30대",
+                        "occupation": "무직/취업준비생",
+                        "sex": "남성",
+                        "birthplace": "인천",
+                        "pricipal_residence": "인천",
+                        "current_residence": "제주",
+                        "education": "대학원 이상"
+                    }
+                ],
+                "setting": {
+                    "relation": "연인"
+                }
+            },
+            "utterance": [
+                {
+                    "id": "SDRW2000001603.1.1.1",
+                    "form": "해장국",
+                    "original_form": "해장국",
+                    "speaker_id": "SD2001940",
+                    "start": 5.04206,
+                    "end": 6.23408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.2",
+                    "form": "좋아하잖아.",
+                    "original_form": "좋아하잖아.",
+                    "speaker_id": "SD2001940",
+                    "start": 6.24408,
+                    "end": 8.53902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.3",
+                    "form": "나랑 해장국 먹으러 갈까?",
+                    "original_form": "나랑 해장국 먹으러 갈까?",
+                    "speaker_id": "SD2001940",
+                    "start": 8.54904,
+                    "end": 11.05906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.4",
+                    "form": "해장국 좋아하지.",
+                    "original_form": "해장국 좋아하지.",
+                    "speaker_id": "SD2001941",
+                    "start": 14.50704,
+                    "end": 16.25706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.5",
+                    "form": "해장국",
+                    "original_form": "해장국",
+                    "speaker_id": "SD2001941",
+                    "start": 16.26703,
+                    "end": 17.69103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.6",
+                    "form": "근처에 있는 해장국",
+                    "original_form": "(()) 근처에 있는 해장국",
+                    "speaker_id": "SD2001941",
+                    "start": 17.70104,
+                    "end": 20.84408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.7",
+                    "form": "일하면서 몇 번 먹으러 갔었었는데",
+                    "original_form": "일하면서 몇 번 먹으러 갔었었는데",
+                    "speaker_id": "SD2001941",
+                    "start": 20.85407,
+                    "end": 24.07807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.8",
+                    "form": "내가 갔었을 때는",
+                    "original_form": "내가 갔었을 때는",
+                    "speaker_id": "SD2001941",
+                    "start": 26.04603,
+                    "end": 27.56906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.9",
+                    "form": "그렇게 큰",
+                    "original_form": "그렇게 큰",
+                    "speaker_id": "SD2001941",
+                    "start": 27.57901,
+                    "end": 28.87105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.10",
+                    "form": "맛있",
+                    "original_form": "맛있",
+                    "speaker_id": "SD2001941",
+                    "start": 28.88108,
+                    "end": 29.69301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.11",
+                    "form": "다는 느낌을",
+                    "original_form": "다는 느낌을",
+                    "speaker_id": "SD2001941",
+                    "start": 29.70303,
+                    "end": 30.61606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.12",
+                    "form": "받지 못했었는데",
+                    "original_form": "받지 못했었는데",
+                    "speaker_id": "SD2001941",
+                    "start": 30.62603,
+                    "end": 32.18201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.13",
+                    "form": "name 씨가 그러는데",
+                    "original_form": "&name& 씨가 그러는데",
+                    "speaker_id": "SD2001941",
+                    "start": 32.19208,
+                    "end": 35.03705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.14",
+                    "form": "방일 해장국도 되게 맛있다고 그러더라고.",
+                    "original_form": "방일 해장국도 되게 맛있다고 그러더라고.",
+                    "speaker_id": "SD2001941",
+                    "start": 35.04704,
+                    "end": 38.17901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.15",
+                    "form": "근데 내가 예걸",
+                    "original_form": "근데 내가 예걸",
+                    "speaker_id": "SD2001941",
+                    "start": 38.18904,
+                    "end": 39.90606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.16",
+                    "form": "예전에 갔었을 때는",
+                    "original_form": "예전에 갔었을 때는",
+                    "speaker_id": "SD2001941",
+                    "start": 39.91606,
+                    "end": 41.35606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.17",
+                    "form": "방일 해장국은",
+                    "original_form": "방일 해장국은",
+                    "speaker_id": "SD2001941",
+                    "start": 41.36605,
+                    "end": 43.11505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.18",
+                    "form": "맛도",
+                    "original_form": "맛도",
+                    "speaker_id": "SD2001941",
+                    "start": 43.12507,
+                    "end": 44.99707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.19",
+                    "form": "그저 그랬었었고",
+                    "original_form": "그저 그랬었었고",
+                    "speaker_id": "SD2001941",
+                    "start": 45.00701,
+                    "end": 47.15508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.20",
+                    "form": "서비스도 별로 좋지가 않아 가지고",
+                    "original_form": "서비스도 별로 좋지가 않아 가지고",
+                    "speaker_id": "SD2001941",
+                    "start": 47.16508,
+                    "end": 49.77502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.21",
+                    "form": "되게 급하게 먹고 나왔던",
+                    "original_form": "되게 급하게 먹고 나왔던",
+                    "speaker_id": "SD2001941",
+                    "start": 49.78501,
+                    "end": 51.67902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.22",
+                    "form": "기억만 있어.",
+                    "original_form": "기억만 있어.",
+                    "speaker_id": "SD2001941",
+                    "start": 51.68908,
+                    "end": 54.00704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.23",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2001941",
+                    "start": 54.01708,
+                    "end": 54.99601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.24",
+                    "form": "바",
+                    "original_form": "바",
+                    "speaker_id": "SD2001941",
+                    "start": 55.00608,
+                    "end": 56.48902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.25",
+                    "form": "여기 옆에",
+                    "original_form": "여기 옆에",
+                    "speaker_id": "SD2001941",
+                    "start": 56.49906,
+                    "end": 57.96003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.26",
+                    "form": "은희네 해장국",
+                    "original_form": "은희네 해장국",
+                    "speaker_id": "SD2001941",
+                    "start": 57.97001,
+                    "end": 59.10905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.27",
+                    "form": "은",
+                    "original_form": "은",
+                    "speaker_id": "SD2001941",
+                    "start": 59.11904,
+                    "end": 60.44404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.28",
+                    "form": "본점은 아닌데",
+                    "original_form": "본점은 아닌데",
+                    "speaker_id": "SD2001941",
+                    "start": 60.45406,
+                    "end": 62.80306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.29",
+                    "form": "늘 사람도 많고",
+                    "original_form": "늘 사람도 많고",
+                    "speaker_id": "SD2001941",
+                    "start": 62.81308,
+                    "end": 64.90505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.30",
+                    "form": "조금 좋았던 거 같아.",
+                    "original_form": "쫌 좋았던 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 64.91506,
+                    "end": 66.29805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.31",
+                    "form": "맛도 좋고",
+                    "original_form": "맛도 좋고",
+                    "speaker_id": "SD2001941",
+                    "start": 66.30805,
+                    "end": 68.19705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.32",
+                    "form": "사람들도",
+                    "original_form": "사람들도",
+                    "speaker_id": "SD2001941",
+                    "start": 68.20706,
+                    "end": 69.50206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.33",
+                    "form": "일하시는 분들도 활기차 보이고",
+                    "original_form": "일하시는 분들도 활기차 보이고",
+                    "speaker_id": "SD2001941",
+                    "start": 69.51202,
+                    "end": 72.06204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.34",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 72.07205,
+                    "end": 73.49506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.35",
+                    "form": "늘 갔을 때마다",
+                    "original_form": "늘 갔을 때마다",
+                    "speaker_id": "SD2001941",
+                    "start": 73.50503,
+                    "end": 75.11704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.36",
+                    "form": "맛은 있었었거든.",
+                    "original_form": "맛은 있었었거든.",
+                    "speaker_id": "SD2001941",
+                    "start": 75.12704,
+                    "end": 76.39907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.37",
+                    "form": "맛있게",
+                    "original_form": "맛있게",
+                    "speaker_id": "SD2001941",
+                    "start": 76.40905,
+                    "end": 77.44406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.38",
+                    "form": "잘 먹고 나왔었거든.",
+                    "original_form": "잘 먹고 나왔었거든.",
+                    "speaker_id": "SD2001941",
+                    "start": 77.45402,
+                    "end": 79.68408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.39",
+                    "form": "또 다른 해장국집이 어디에 있는지는 잘",
+                    "original_form": "또 다른 해장국집이 어디에 있는지는 잘",
+                    "speaker_id": "SD2001941",
+                    "start": 79.69404,
+                    "end": 83.46704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.40",
+                    "form": "모르겠는데",
+                    "original_form": "모르겠는데",
+                    "speaker_id": "SD2001941",
+                    "start": 83.47702,
+                    "end": 85.34004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.41",
+                    "form": "들어보니까",
+                    "original_form": "들어보니까",
+                    "speaker_id": "SD2001941",
+                    "start": 85.35008,
+                    "end": 86.63705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.42",
+                    "form": "몇 군데 더 있다고 듣긴 했었어.",
+                    "original_form": "몇 군데 더 있다고 듣긴 했었어.",
+                    "speaker_id": "SD2001941",
+                    "start": 86.64703,
+                    "end": 88.70503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.43",
+                    "form": "특히",
+                    "original_form": "특히",
+                    "speaker_id": "SD2001941",
+                    "start": 88.71508,
+                    "end": 89.60302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.44",
+                    "form": "이 주변에",
+                    "original_form": "이 주변에",
+                    "speaker_id": "SD2001941",
+                    "start": 89.61304,
+                    "end": 90.77602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.45",
+                    "form": "해장국집이 유독 많은 거 같아. 보면",
+                    "original_form": "해장국집이 유독 많은 거 같애. 보면",
+                    "speaker_id": "SD2001941",
+                    "start": 90.78601,
+                    "end": 93.83207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.46",
+                    "form": "근처에",
+                    "original_form": "근처에",
+                    "speaker_id": "SD2001941",
+                    "start": 93.84206,
+                    "end": 94.91002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.47",
+                    "form": "주점이 많아서 그런지",
+                    "original_form": "주점이 많아서 그런지",
+                    "speaker_id": "SD2001941",
+                    "start": 94.92007,
+                    "end": 97.33301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.48",
+                    "form": "사람이 늘",
+                    "original_form": "사람이 늘",
+                    "speaker_id": "SD2001941",
+                    "start": 97.34305,
+                    "end": 98.40505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.49",
+                    "form": "사람들이 많이 살아서 그런지",
+                    "original_form": "사람들이 많이 살아서 그런지",
+                    "speaker_id": "SD2001941",
+                    "start": 98.41504,
+                    "end": 100.43704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.50",
+                    "form": "되게 해장국집이 많은 거 같아.",
+                    "original_form": "되게 해장국집이 많은 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 100.44701,
+                    "end": 102.74406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.51",
+                    "form": "해장국도",
+                    "original_form": "해장국도",
+                    "speaker_id": "SD2001941",
+                    "start": 107.73704,
+                    "end": 108.77708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.52",
+                    "form": "좋은데",
+                    "original_form": "좋은데",
+                    "speaker_id": "SD2001941",
+                    "start": 108.78708,
+                    "end": 110.25201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.53",
+                    "form": "나는 뭐 목이 조금 말라서",
+                    "original_form": "나는 뭐 목이 쫌 말라서",
+                    "speaker_id": "SD2001941",
+                    "start": 110.26206,
+                    "end": 113.05008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.54",
+                    "form": "커피 한잔하고 싶은데",
+                    "original_form": "커피 한잔하고 싶은데",
+                    "speaker_id": "SD2001941",
+                    "start": 113.06002,
+                    "end": 115.50005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.55",
+                    "form": "커피는 어때?",
+                    "original_form": "커피는 어때?",
+                    "speaker_id": "SD2001941",
+                    "start": 115.51006,
+                    "end": 118.09001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.56",
+                    "form": "커피",
+                    "original_form": "커피",
+                    "speaker_id": "SD2001940",
+                    "start": 118.10008,
+                    "end": 120.38703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.57",
+                    "form": "좋지.",
+                    "original_form": "좋지.",
+                    "speaker_id": "SD2001940",
+                    "start": 120.39707,
+                    "end": 122.70701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.58",
+                    "form": "커피",
+                    "original_form": "커피",
+                    "speaker_id": "SD2001940",
+                    "start": 122.71703,
+                    "end": 124.55302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.59",
+                    "form": "배가 좀 고파가지고",
+                    "original_form": "배가 좀 고파가지고",
+                    "speaker_id": "SD2001940",
+                    "start": 124.56307,
+                    "end": 126.37908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.60",
+                    "form": "커피 하면서",
+                    "original_form": "커피 하면서",
+                    "speaker_id": "SD2001940",
+                    "start": 126.38902,
+                    "end": 128.36004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.61",
+                    "form": "케이크나",
+                    "original_form": "케익이나",
+                    "speaker_id": "SD2001940",
+                    "start": 128.37004,
+                    "end": 130.73902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.62",
+                    "form": "빵을 조금 같이 먹었으면 좋겠는데",
+                    "original_form": "빵을 쫌 같이 먹었으면 좋겠는데",
+                    "speaker_id": "SD2001940",
+                    "start": 130.74903,
+                    "end": 133.59507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.63",
+                    "form": "그러고 나면은",
+                    "original_form": "그러고 나면은",
+                    "speaker_id": "SD2001940",
+                    "start": 133.60507,
+                    "end": 134.97205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.64",
+                    "form": "밥을 못 먹겠지?",
+                    "original_form": "밥을 못 먹겠지?",
+                    "speaker_id": "SD2001940",
+                    "start": 134.98202,
+                    "end": 136.91406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.65",
+                    "form": "커피는",
+                    "original_form": "커피는",
+                    "speaker_id": "SD2001940",
+                    "start": 136.92405,
+                    "end": 139.61108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.66",
+                    "form": "새로운 데",
+                    "original_form": "새로운 데",
+                    "speaker_id": "SD2001940",
+                    "start": 139.62101,
+                    "end": 142.48507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.67",
+                    "form": "새로운 커피숍으로",
+                    "original_form": "새로운 커피숍으로",
+                    "speaker_id": "SD2001940",
+                    "start": 142.49507,
+                    "end": 144.53205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.68",
+                    "form": "가 볼 거지?",
+                    "original_form": "가 볼 거지?",
+                    "speaker_id": "SD2001940",
+                    "start": 144.54206,
+                    "end": 145.77202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.69",
+                    "form": "어~ 내가 요",
+                    "original_form": "어~ 내가 요",
+                    "speaker_id": "SD2001941",
+                    "start": 152.03005,
+                    "end": 153.37203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.70",
+                    "form": "주변에",
+                    "original_form": "주변에",
+                    "speaker_id": "SD2001941",
+                    "start": 153.38206,
+                    "end": 155.62406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.71",
+                    "form": "몽니라는",
+                    "original_form": "몽니라는",
+                    "speaker_id": "SD2001941",
+                    "start": 155.63406,
+                    "end": 158.23907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.72",
+                    "form": "카페가 있는데",
+                    "original_form": "까페가 있는데",
+                    "speaker_id": "SD2001941",
+                    "start": 158.24905,
+                    "end": 160.29301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.73",
+                    "form": "거기를 되게 가보고 싶었었거든.",
+                    "original_form": "거기를 되게 가보고 싶었었거든.",
+                    "speaker_id": "SD2001941",
+                    "start": 160.30306,
+                    "end": 162.96608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.74",
+                    "form": "그 카페는",
+                    "original_form": "그 까페는",
+                    "speaker_id": "SD2001941",
+                    "start": 162.97603,
+                    "end": 165.08003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.75",
+                    "form": "주로 핸드드립 위주로",
+                    "original_form": "주로 핸드드립 위주로",
+                    "speaker_id": "SD2001941",
+                    "start": 165.09004,
+                    "end": 167.80808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.76",
+                    "form": "커피를 내려주고",
+                    "original_form": "커피를 내려주고",
+                    "speaker_id": "SD2001941",
+                    "start": 167.81808,
+                    "end": 170.74202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.77",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2001941",
+                    "start": 170.75205,
+                    "end": 171.83701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.78",
+                    "form": "저녁에는",
+                    "original_form": "저녁에는",
+                    "speaker_id": "SD2001941",
+                    "start": 171.84703,
+                    "end": 173.70902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.79",
+                    "form": "음~ 하우스 와인",
+                    "original_form": "음~ 하우스 와인",
+                    "speaker_id": "SD2001941",
+                    "start": 173.71906,
+                    "end": 175.30702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.80",
+                    "form": "음~ 잘",
+                    "original_form": "음~ 잘",
+                    "speaker_id": "SD2001941",
+                    "start": 175.31707,
+                    "end": 176.64608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.81",
+                    "form": "주인들이 와인을 셀렉트해서",
+                    "original_form": "주인들이 와인을 셀렉해서",
+                    "speaker_id": "SD2001941",
+                    "start": 176.65602,
+                    "end": 178.64903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.82",
+                    "form": "그것들을 내려주는 방식으로 주로",
+                    "original_form": "그것들을 내려주는 방식으로 주로",
+                    "speaker_id": "SD2001941",
+                    "start": 178.65902,
+                    "end": 181.65304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.83",
+                    "form": "어~ 그렇게 영업을 하더라고.",
+                    "original_form": "어~ 그렇게 영업을 하더라고.",
+                    "speaker_id": "SD2001941",
+                    "start": 181.66303,
+                    "end": 184.15407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.84",
+                    "form": "그런데 가오픈때부터",
+                    "original_form": "그런데 가오픈때부터",
+                    "speaker_id": "SD2001941",
+                    "start": 184.16406,
+                    "end": 187.25208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.85",
+                    "form": "신기하게 손님들도 되게 많았고 어떻게 찾았는지는 모르겠지만",
+                    "original_form": "신기하게 손님들도 되게 많았고 어떻게 찾았는지는 모르겠지만",
+                    "speaker_id": "SD2001941",
+                    "start": 187.26201,
+                    "end": 191.91302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.86",
+                    "form": "손님도 되게 많았고",
+                    "original_form": "손님도 되게 많았고",
+                    "speaker_id": "SD2001941",
+                    "start": 191.92302,
+                    "end": 194.05506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.87",
+                    "form": "지금은",
+                    "original_form": "지금은",
+                    "speaker_id": "SD2001941",
+                    "start": 194.06503,
+                    "end": 195.16901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.88",
+                    "form": "그때만큼은 아닌데도",
+                    "original_form": "그때만큼은 아닌데도",
+                    "speaker_id": "SD2001941",
+                    "start": 195.17901,
+                    "end": 196.57008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.89",
+                    "form": "손님도 되게 많은 거 같더라고.",
+                    "original_form": "손님도 되게 많은 거 같더라고.",
+                    "speaker_id": "SD2001941",
+                    "start": 196.58002,
+                    "end": 198.76108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.90",
+                    "form": "안에 내부 인테리어도 되게",
+                    "original_form": "안에 내부 인테리어도 되게",
+                    "speaker_id": "SD2001941",
+                    "start": 198.77103,
+                    "end": 201.64001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.91",
+                    "form": "모던하고",
+                    "original_form": "모던하고",
+                    "speaker_id": "SD2001941",
+                    "start": 201.65006,
+                    "end": 204.21104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.92",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2001941",
+                    "start": 204.22101,
+                    "end": 206.90807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.93",
+                    "form": "그리고 예쁘게",
+                    "original_form": "그리고 예쁘게",
+                    "speaker_id": "SD2001941",
+                    "start": 206.91808,
+                    "end": 209.48407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.94",
+                    "form": "잘",
+                    "original_form": "잘",
+                    "speaker_id": "SD2001941",
+                    "start": 209.49403,
+                    "end": 210.12702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.95",
+                    "form": "꾸며놔서",
+                    "original_form": "꾸며놔서",
+                    "speaker_id": "SD2001941",
+                    "start": 210.13703,
+                    "end": 211.49006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.96",
+                    "form": "창밖에서 봤을 때",
+                    "original_form": "창밖에서 봤을 때",
+                    "speaker_id": "SD2001941",
+                    "start": 211.50001,
+                    "end": 213.55006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.97",
+                    "form": "항상 내부가 궁금했었어.",
+                    "original_form": "항상 내부가 궁금했었어.",
+                    "speaker_id": "SD2001941",
+                    "start": 213.56003,
+                    "end": 216.33205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.98",
+                    "form": "에스엔에스에서도",
+                    "original_form": "에스엔에스에서도",
+                    "speaker_id": "SD2001941",
+                    "start": 216.34201,
+                    "end": 219.52502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.99",
+                    "form": "사람들이 많이 올리는 거 같고 그래서",
+                    "original_form": "사람들이 많이 올리는 거 같고 그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 219.53507,
+                    "end": 222.30702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.100",
+                    "form": "거기를 한번 가보고 싶었었고",
+                    "original_form": "거기를 한번 가보고 싶었었고",
+                    "speaker_id": "SD2001941",
+                    "start": 222.31704,
+                    "end": 226.19202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.101",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2001941",
+                    "start": 226.20203,
+                    "end": 228.97008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.102",
+                    "form": "시청에 있는",
+                    "original_form": "시청에 있는",
+                    "speaker_id": "SD2001941",
+                    "start": 228.98006,
+                    "end": 231.55402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.103",
+                    "form": "단정한 카페도",
+                    "original_form": "단정한 카페도",
+                    "speaker_id": "SD2001941",
+                    "start": 231.56405,
+                    "end": 233.82805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.104",
+                    "form": "새로",
+                    "original_form": "새로",
+                    "speaker_id": "SD2001941",
+                    "start": 233.83808,
+                    "end": 234.88106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.105",
+                    "form": "아~ 맞다. 거기는",
+                    "original_form": "아~ 맞다. 거기는",
+                    "speaker_id": "SD2001941",
+                    "start": 234.89107,
+                    "end": 237.07902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.106",
+                    "form": "지금 가오픈",
+                    "original_form": "지금 가오픈",
+                    "speaker_id": "SD2001941",
+                    "start": 237.08902,
+                    "end": 238.16304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.107",
+                    "form": "상태 아~ 거긴 닫은 상태지.",
+                    "original_form": "상태 아~ 거긴 닫은 상태지.",
+                    "speaker_id": "SD2001941",
+                    "start": 238.17308,
+                    "end": 240.69906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.108",
+                    "form": "그럼 거기는 안 되겠구나.",
+                    "original_form": "그럼 거기는 안 되겠구나.",
+                    "speaker_id": "SD2001941",
+                    "start": 240.70907,
+                    "end": 242.74604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.109",
+                    "form": "거기도 가보려고 했는데",
+                    "original_form": "거기도 가볼려고 했는데",
+                    "speaker_id": "SD2001941",
+                    "start": 242.75601,
+                    "end": 245.31004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.110",
+                    "form": "지금",
+                    "original_form": "지금",
+                    "speaker_id": "SD2001941",
+                    "start": 245.32002,
+                    "end": 247.60306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.111",
+                    "form": "커피",
+                    "original_form": "커피",
+                    "speaker_id": "SD2001941",
+                    "start": 247.61305,
+                    "end": 248.83705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.112",
+                    "form": "굳이 먹지 않아도",
+                    "original_form": "굳이 먹지 않아도",
+                    "speaker_id": "SD2001941",
+                    "start": 248.84705,
+                    "end": 250.57501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.113",
+                    "form": "돼.",
+                    "original_form": "돼.",
+                    "speaker_id": "SD2001941",
+                    "start": 250.58508,
+                    "end": 251.26704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.114",
+                    "form": "그냥",
+                    "original_form": "그냥",
+                    "speaker_id": "SD2001941",
+                    "start": 251.27703,
+                    "end": 251.86103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.115",
+                    "form": "배가 고프면",
+                    "original_form": "배가 고프면",
+                    "speaker_id": "SD2001941",
+                    "start": 251.87102,
+                    "end": 253.19302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.116",
+                    "form": "밥을 먹으러 가도 되거든.",
+                    "original_form": "밥을 먹으러 가도 되거든.",
+                    "speaker_id": "SD2001941",
+                    "start": 253.20306,
+                    "end": 255.28701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.117",
+                    "form": "혹시 밥",
+                    "original_form": "혹시 밥",
+                    "speaker_id": "SD2001941",
+                    "start": 260.39203,
+                    "end": 261.90503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.118",
+                    "form": "해장국 말고는",
+                    "original_form": "해장국 말고는",
+                    "speaker_id": "SD2001941",
+                    "start": 261.91505,
+                    "end": 263.93806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.119",
+                    "form": "먹고 싶은 거 있어?",
+                    "original_form": "먹고 싶은 거 있어?",
+                    "speaker_id": "SD2001941",
+                    "start": 263.94801,
+                    "end": 267.85807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.120",
+                    "form": "생각나는 건",
+                    "original_form": "생각나는 건",
+                    "speaker_id": "SD2001940",
+                    "start": 267.86805,
+                    "end": 270.90905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.121",
+                    "form": "아까는 없었는데",
+                    "original_form": "아까는 없었는데",
+                    "speaker_id": "SD2001940",
+                    "start": 270.91905,
+                    "end": 273.52102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.122",
+                    "form": "낙지볶음이 생각나네.",
+                    "original_form": "낙지볶음이 생각나네.",
+                    "speaker_id": "SD2001940",
+                    "start": 273.53101,
+                    "end": 277.03004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.123",
+                    "form": "낙지볶음",
+                    "original_form": "낙지볶음",
+                    "speaker_id": "SD2001940",
+                    "start": 277.04006,
+                    "end": 279.77305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.124",
+                    "form": "어제",
+                    "original_form": "어제",
+                    "speaker_id": "SD2001940",
+                    "start": 279.78304,
+                    "end": 281.77606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.125",
+                    "form": "자기 전에",
+                    "original_form": "자기 전에",
+                    "speaker_id": "SD2001940",
+                    "start": 281.78601,
+                    "end": 283.67305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.126",
+                    "form": "그~",
+                    "original_form": "그~",
+                    "speaker_id": "SD2001940",
+                    "start": 283.68303,
+                    "end": 284.87503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.127",
+                    "form": "티브이는 아니고",
+                    "original_form": "티비는 아니고",
+                    "speaker_id": "SD2001940",
+                    "start": 284.88508,
+                    "end": 287.23807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.128",
+                    "form": "그~ 보던 드라마에서",
+                    "original_form": "그~ 보던 드라마에서",
+                    "speaker_id": "SD2001940",
+                    "start": 287.24802,
+                    "end": 289.27005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.129",
+                    "form": "낙지볶음이 나와가지고",
+                    "original_form": "낙지볶음이 나와가지고",
+                    "speaker_id": "SD2001940",
+                    "start": 289.28006,
+                    "end": 291.18202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.130",
+                    "form": "그게",
+                    "original_form": "그게",
+                    "speaker_id": "SD2001940",
+                    "start": 291.19204,
+                    "end": 292.48702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.131",
+                    "form": "먹고 싶다는 생각을 했었던",
+                    "original_form": "먹고 싶다는 생각을 했었던",
+                    "speaker_id": "SD2001940",
+                    "start": 292.49706,
+                    "end": 294.46306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.132",
+                    "form": "음~ 그게 기억이 난다.",
+                    "original_form": "음~ 그게 기억이 난다.",
+                    "speaker_id": "SD2001940",
+                    "start": 294.47305,
+                    "end": 296.43603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.133",
+                    "form": "어~ 낙지 먹",
+                    "original_form": "어~ 낙지 먹",
+                    "speaker_id": "SD2001940",
+                    "start": 296.44604,
+                    "end": 298.42407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.134",
+                    "form": "먹을 거면",
+                    "original_form": "먹을 거면",
+                    "speaker_id": "SD2001940",
+                    "start": 298.43406,
+                    "end": 299.81007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.135",
+                    "form": "해장국 아니면",
+                    "original_form": "해장국 아니면",
+                    "speaker_id": "SD2001940",
+                    "start": 299.82003,
+                    "end": 300.95305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.136",
+                    "form": "낙지볶음",
+                    "original_form": "낙지볶음",
+                    "speaker_id": "SD2001940",
+                    "start": 300.96304,
+                    "end": 302.31505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.137",
+                    "form": "먹으러 가면 좋을 거 같고",
+                    "original_form": "먹으러 가면 좋을 거 같고",
+                    "speaker_id": "SD2001940",
+                    "start": 302.32508,
+                    "end": 304.89806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.138",
+                    "form": "요즘에",
+                    "original_form": "요즘에",
+                    "speaker_id": "SD2001940",
+                    "start": 304.90807,
+                    "end": 307.00105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.139",
+                    "form": "매운 걸 조금 먹었더니",
+                    "original_form": "매운 걸 쫌 먹었더니",
+                    "speaker_id": "SD2001940",
+                    "start": 307.01101,
+                    "end": 309.67505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.140",
+                    "form": "속이 조금",
+                    "original_form": "속이 쫌",
+                    "speaker_id": "SD2001940",
+                    "start": 309.68507,
+                    "end": 311.08406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.141",
+                    "form": "안 좋아서",
+                    "original_form": "안 좋아서",
+                    "speaker_id": "SD2001940",
+                    "start": 311.09404,
+                    "end": 311.99302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.142",
+                    "form": "먹고 괜찮을까 싶기도 한데",
+                    "original_form": "먹고 괜찮을까 싶기도 한데",
+                    "speaker_id": "SD2001940",
+                    "start": 312.00303,
+                    "end": 314.85908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.143",
+                    "form": "그~ 이왕 먹을 거면",
+                    "original_form": "그~ 이왕 먹을 거면",
+                    "speaker_id": "SD2001940",
+                    "start": 314.86902,
+                    "end": 317.16608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.144",
+                    "form": "그걸 먹었으면 좋겠어.",
+                    "original_form": "그걸 먹었으면 좋겠어.",
+                    "speaker_id": "SD2001940",
+                    "start": 317.17605,
+                    "end": 319.39803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.145",
+                    "form": "집에서는",
+                    "original_form": "집에서는",
+                    "speaker_id": "SD2001940",
+                    "start": 328.56306,
+                    "end": 330.38703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.146",
+                    "form": "항상",
+                    "original_form": "항상",
+                    "speaker_id": "SD2001940",
+                    "start": 330.39706,
+                    "end": 331.46108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.147",
+                    "form": "닭가슴살",
+                    "original_form": "닭가슴살",
+                    "speaker_id": "SD2001940",
+                    "start": 331.47105,
+                    "end": 332.77708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.148",
+                    "form": "이랑 양배추 볶음밥만 먹",
+                    "original_form": "이랑 양배추 볶음밥만 먹",
+                    "speaker_id": "SD2001940",
+                    "start": 332.78706,
+                    "end": 334.88408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.149",
+                    "form": "는 거지?",
+                    "original_form": "는 거지?",
+                    "speaker_id": "SD2001940",
+                    "start": 334.89401,
+                    "end": 336.19403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.150",
+                    "form": "아니 며칠 전에 내가",
+                    "original_form": "아니 며칠 전에 내가",
+                    "speaker_id": "SD2001941",
+                    "start": 340.60707,
+                    "end": 342.71203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.151",
+                    "form": "토스터기 샀잖아.",
+                    "original_form": "토스터기 샀잖아.",
+                    "speaker_id": "SD2001941",
+                    "start": 342.72202,
+                    "end": 344.97405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.152",
+                    "form": "토스트기를 사면서",
+                    "original_form": "토스트기를 사면서",
+                    "speaker_id": "SD2001941",
+                    "start": 344.98406,
+                    "end": 347.32707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.153",
+                    "form": "식빵",
+                    "original_form": "식빵",
+                    "speaker_id": "SD2001941",
+                    "start": 347.33706,
+                    "end": 348.72406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.154",
+                    "form": "대용량을",
+                    "original_form": "대용량을",
+                    "speaker_id": "SD2001941",
+                    "start": 348.73404,
+                    "end": 349.84402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.155",
+                    "form": "구입해서",
+                    "original_form": "구입해서",
+                    "speaker_id": "SD2001941",
+                    "start": 349.85402,
+                    "end": 350.82705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.156",
+                    "form": "그거를",
+                    "original_form": "그거를",
+                    "speaker_id": "SD2001941",
+                    "start": 350.83708,
+                    "end": 352.42108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.157",
+                    "form": "토스터기로",
+                    "original_form": "토스터기로",
+                    "speaker_id": "SD2001941",
+                    "start": 352.43108,
+                    "end": 353.91703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.158",
+                    "form": "구워서 먹는데",
+                    "original_form": "구워서 먹는데",
+                    "speaker_id": "SD2001941",
+                    "start": 353.92704,
+                    "end": 355.64305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.159",
+                    "form": "그게",
+                    "original_form": "그게",
+                    "speaker_id": "SD2001941",
+                    "start": 355.65302,
+                    "end": 356.71504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.160",
+                    "form": "너무 맛있어서",
+                    "original_form": "너무 맛있어서",
+                    "speaker_id": "SD2001941",
+                    "start": 356.72501,
+                    "end": 358.24204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.161",
+                    "form": "자꾸자꾸 먹게 되더라고.",
+                    "original_form": "자꾸자꾸 먹게 되더라고.",
+                    "speaker_id": "SD2001941",
+                    "start": 358.25206,
+                    "end": 360.13201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.162",
+                    "form": "그리고 예전에는",
+                    "original_form": "그리고 예전에는",
+                    "speaker_id": "SD2001941",
+                    "start": 360.14203,
+                    "end": 362.27906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.163",
+                    "form": "땅콩",
+                    "original_form": "땅콩",
+                    "speaker_id": "SD2001941",
+                    "start": 362.28904,
+                    "end": 363.93202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.164",
+                    "form": "잼을 별로 안 좋아했었어. 되게",
+                    "original_form": "잼을 별로 안 좋아했었어. 되게",
+                    "speaker_id": "SD2001941",
+                    "start": 363.94204,
+                    "end": 366.60108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.165",
+                    "form": "너무 목 막히고 퍽퍽하고",
+                    "original_form": "((너무)) 목 막히고 퍽퍽하고",
+                    "speaker_id": "SD2001941",
+                    "start": 366.61106,
+                    "end": 369.06504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.166",
+                    "form": "그래서 되게 안 좋아했는데",
+                    "original_form": "그래서 되게 안 좋아했는데",
+                    "speaker_id": "SD2001941",
+                    "start": 369.07506,
+                    "end": 370.98603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.167",
+                    "form": "요즘에는 땅콩 잼이 너무 맛있어.",
+                    "original_form": "요즘에는 땅콩 잼이 너무 맛있어.",
+                    "speaker_id": "SD2001941",
+                    "start": 370.99606,
+                    "end": 373.56102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.168",
+                    "form": "그래서 계속 땅콩 잼을 많이 발라먹고",
+                    "original_form": "그래서 계속 땅콩 잼을 많이 발라먹고",
+                    "speaker_id": "SD2001941",
+                    "start": 373.57102,
+                    "end": 377.53904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.169",
+                    "form": "딸기잼을 좋아",
+                    "original_form": "딸기잼을 좋아",
+                    "speaker_id": "SD2001941",
+                    "start": 377.54905,
+                    "end": 380.77905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.170",
+                    "form": "했었는데 오히려 딸기잼보다 땅콩 잼이 더 맛있는 거 같아.",
+                    "original_form": "했었는데 오히려 딸기잼보다 땅콩 잼이 더 맛있는 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 380.78908,
+                    "end": 385.71806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.171",
+                    "form": "담백",
+                    "original_form": "담백",
+                    "speaker_id": "SD2001941",
+                    "start": 385.72803,
+                    "end": 387.93205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.172",
+                    "form": "담백하다고 해야 되나?",
+                    "original_form": "담백하다고 해야 되나?",
+                    "speaker_id": "SD2001941",
+                    "start": 387.94201,
+                    "end": 390.44502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.173",
+                    "form": "조금 너무 달지 않고",
+                    "original_form": "쫌 너무 달지 않고",
+                    "speaker_id": "SD2001941",
+                    "start": 390.45502,
+                    "end": 392.97001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.174",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2001941",
+                    "start": 392.98004,
+                    "end": 394.92201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.175",
+                    "form": "부드럽고",
+                    "original_form": "부드럽고",
+                    "speaker_id": "SD2001941",
+                    "start": 394.93206,
+                    "end": 396.39305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.176",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 396.40303,
+                    "end": 397.37201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.177",
+                    "form": "땅콩 잼을 발라",
+                    "original_form": "땅콩 잼을 발라",
+                    "speaker_id": "SD2001941",
+                    "start": 397.38201,
+                    "end": 399.30501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.178",
+                    "form": "식빵을",
+                    "original_form": "식빵을",
+                    "speaker_id": "SD2001941",
+                    "start": 399.31508,
+                    "end": 400.61803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.179",
+                    "form": "구워서 많이 먹는데",
+                    "original_form": "구워서 많이 먹는데",
+                    "speaker_id": "SD2001941",
+                    "start": 400.62808,
+                    "end": 402.60308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.180",
+                    "form": "어제도",
+                    "original_form": "어제도",
+                    "speaker_id": "SD2001941",
+                    "start": 402.61307,
+                    "end": 405.00905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.181",
+                    "form": "일하고 와서",
+                    "original_form": "일하고 와서",
+                    "speaker_id": "SD2001941",
+                    "start": 405.01903,
+                    "end": 406.81501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.182",
+                    "form": "피곤하기도 하고 그래서",
+                    "original_form": "피곤하기도 하고 그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 406.82503,
+                    "end": 409.37504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.183",
+                    "form": "식빵에 땅콩 잼을 발라서",
+                    "original_form": "식빵에 땅콩 잼을 발라서",
+                    "speaker_id": "SD2001941",
+                    "start": 409.38502,
+                    "end": 412.43301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.184",
+                    "form": "먹었거든. 그냥",
+                    "original_form": "먹었거든. 그냥",
+                    "speaker_id": "SD2001941",
+                    "start": 412.44305,
+                    "end": 414.96103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.185",
+                    "form": "냉장고 안에 양배추랑",
+                    "original_form": "냉장고 안에 양배추랑",
+                    "speaker_id": "SD2001941",
+                    "start": 414.97107,
+                    "end": 418.40407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.186",
+                    "form": "있어서",
+                    "original_form": "있어서",
+                    "speaker_id": "SD2001941",
+                    "start": 418.41402,
+                    "end": 419.51307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.187",
+                    "form": "그 식재료도 얼른 다",
+                    "original_form": "그 식재료도 얼른 다",
+                    "speaker_id": "SD2001941",
+                    "start": 419.52302,
+                    "end": 421.55101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.188",
+                    "form": "써 버려야 되는데",
+                    "original_form": "써 버려야 되는데",
+                    "speaker_id": "SD2001941",
+                    "start": 421.56104,
+                    "end": 423.66308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.189",
+                    "form": "너무",
+                    "original_form": "너무",
+                    "speaker_id": "SD2001941",
+                    "start": 423.67306,
+                    "end": 424.45806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.190",
+                    "form": "냉장고 안에 오래 있었거든.",
+                    "original_form": "냉장고 안에 오래 있었거든.",
+                    "speaker_id": "SD2001941",
+                    "start": 424.46805,
+                    "end": 426.53603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.191",
+                    "form": "너무 오래 있어서",
+                    "original_form": "너무 오래 있어서",
+                    "speaker_id": "SD2001941",
+                    "start": 426.54608,
+                    "end": 428.50403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.192",
+                    "form": "빨리 먹어야 되는데",
+                    "original_form": "빨리 먹어야 되는데",
+                    "speaker_id": "SD2001941",
+                    "start": 428.51406,
+                    "end": 430.68602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.193",
+                    "form": "일하고 와서",
+                    "original_form": "일하고 와서",
+                    "speaker_id": "SD2001941",
+                    "start": 430.69602,
+                    "end": 432.73106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.194",
+                    "form": "요리를 하려고 하다 보면",
+                    "original_form": "요리를 할려고 하다 보면",
+                    "speaker_id": "SD2001941",
+                    "start": 432.74101,
+                    "end": 435.03804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.195",
+                    "form": "조금",
+                    "original_form": "쫌",
+                    "speaker_id": "SD2001941",
+                    "start": 435.04801,
+                    "end": 436.54903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.196",
+                    "form": "피곤해서 많이",
+                    "original_form": "피곤해서 많이",
+                    "speaker_id": "SD2001941",
+                    "start": 436.55901,
+                    "end": 437.83107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.197",
+                    "form": "잘 안 하게 되는 거 같아.",
+                    "original_form": "잘 안 하게 되는 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 437.84107,
+                    "end": 439.72708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.198",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2001941",
+                    "start": 439.73701,
+                    "end": 441.05606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.199",
+                    "form": "그동안 미뤘었던",
+                    "original_form": "그동안 미뤘었던",
+                    "speaker_id": "SD2001941",
+                    "start": 441.06607,
+                    "end": 442.92201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.200",
+                    "form": "설거지를 한 번에 싹 해서 지금 되게 깔끔한 상태거든.",
+                    "original_form": "설거지를 한 번에 싹 해서 지금 되게 깔끔한 상태거든.",
+                    "speaker_id": "SD2001941",
+                    "start": 442.93206,
+                    "end": 446.86602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.201",
+                    "form": "그래서 그거 때문에",
+                    "original_form": "그래서 그거 때문에",
+                    "speaker_id": "SD2001941",
+                    "start": 446.87602,
+                    "end": 449.25706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.202",
+                    "form": "더 그 깔끔한 상태를 유지하고 싶고 더 더럽히지 않고 않고 싶은 마음도 조금 있는",
+                    "original_form": "더 그 깔끔한 상태를 유지하고 싶고 더 더럽히지 않고 않고 싶은 마음도 쫌 있는",
+                    "speaker_id": "SD2001941",
+                    "start": 449.26708,
+                    "end": 455.64707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.203",
+                    "form": "있어서",
+                    "original_form": "있어서",
+                    "speaker_id": "SD2001941",
+                    "start": 455.65705,
+                    "end": 457.17306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.204",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 457.18305,
+                    "end": 458.42408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.205",
+                    "form": "지금 요리",
+                    "original_form": "지금 요리",
+                    "speaker_id": "SD2001941",
+                    "start": 458.43405,
+                    "end": 459.51106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.206",
+                    "form": "안 하고",
+                    "original_form": "안 하고",
+                    "speaker_id": "SD2001941",
+                    "start": 459.52103,
+                    "end": 460.40508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.207",
+                    "form": "그냥 식빵만 먹었어.",
+                    "original_form": "그냥 식빵만 먹었어.",
+                    "speaker_id": "SD2001941",
+                    "start": 460.41506,
+                    "end": 463.79601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.208",
+                    "form": "빵 좋아하잖아.",
+                    "original_form": "빵 좋아하잖아.",
+                    "speaker_id": "SD2001941",
+                    "start": 463.80601,
+                    "end": 467.40807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.209",
+                    "form": "이 근처에 있는",
+                    "original_form": "이 근처에 있는",
+                    "speaker_id": "SD2001941",
+                    "start": 467.41807,
+                    "end": 470.08905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.210",
+                    "form": "빵집 중에서",
+                    "original_form": "빵집 중에서",
+                    "speaker_id": "SD2001941",
+                    "start": 470.09908,
+                    "end": 471.54204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.211",
+                    "form": "괜찮았던 빵집이 있었어?",
+                    "original_form": "괜찮았던 빵집이 있었어?",
+                    "speaker_id": "SD2001941",
+                    "start": 471.55201,
+                    "end": 474.41501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.212",
+                    "form": "음~ 이 근처는",
+                    "original_form": "음~ 이 근처는",
+                    "speaker_id": "SD2001940",
+                    "start": 474.42501,
+                    "end": 477.62108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.213",
+                    "form": "가 본 데가 르 에스까르고",
+                    "original_form": "가 본 데가 르 에스까르고",
+                    "speaker_id": "SD2001940",
+                    "start": 477.63106,
+                    "end": 480.59505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.214",
+                    "form": "거기밖에 없었던 거 같은데",
+                    "original_form": "거기밖에 없었던 거 같은데",
+                    "speaker_id": "SD2001940",
+                    "start": 480.60501,
+                    "end": 483.87208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.215",
+                    "form": "나는",
+                    "original_form": "나는",
+                    "speaker_id": "SD2001940",
+                    "start": 483.88202,
+                    "end": 485.72208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.216",
+                    "form": "옛날 빵집",
+                    "original_form": "옛날 빵집",
+                    "speaker_id": "SD2001940",
+                    "start": 485.73205,
+                    "end": 487.24402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.217",
+                    "form": "스타일 아니면",
+                    "original_form": "스타일 아니면",
+                    "speaker_id": "SD2001940",
+                    "start": 487.25403,
+                    "end": 489.41501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.218",
+                    "form": "요즘",
+                    "original_form": "요즘",
+                    "speaker_id": "SD2001940",
+                    "start": 494.08001,
+                    "end": 496.04008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.219",
+                    "form": "유행하는",
+                    "original_form": "유행하는",
+                    "speaker_id": "SD2001940",
+                    "start": 496.05006,
+                    "end": 497.62607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.220",
+                    "form": "요즘 많이 생기는 빵집",
+                    "original_form": "요즘 많이 생기는 빵집",
+                    "speaker_id": "SD2001940",
+                    "start": 497.63603,
+                    "end": 500.05404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.221",
+                    "form": "들을 많이 안 가봤어.",
+                    "original_form": "들을 많이 안 가봤어.",
+                    "speaker_id": "SD2001940",
+                    "start": 500.06407,
+                    "end": 501.97607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.222",
+                    "form": "근데 여기저기 많이 다녀보고 싶기도 하고",
+                    "original_form": "근데 여기저기 많이 다녀보고 싶기도 하고",
+                    "speaker_id": "SD2001940",
+                    "start": 501.98607,
+                    "end": 504.81306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.223",
+                    "form": "종류별로",
+                    "original_form": "종류별로",
+                    "speaker_id": "SD2001940",
+                    "start": 504.82306,
+                    "end": 506.24703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.224",
+                    "form": "빵을 워낙 좋아하니까",
+                    "original_form": "빵을 워낙 좋아하니까",
+                    "speaker_id": "SD2001940",
+                    "start": 506.25706,
+                    "end": 507.94306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.225",
+                    "form": "빵집 가면",
+                    "original_form": "빵집 가면",
+                    "speaker_id": "SD2001940",
+                    "start": 507.95307,
+                    "end": 509.21305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.226",
+                    "form": "그 빵을 종류별로 다 사서 먹어 보고 싶지.",
+                    "original_form": "그 빵을 종류별로 다 사서 먹어 보고 싶지.",
+                    "speaker_id": "SD2001940",
+                    "start": 509.22308,
+                    "end": 512.32004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.227",
+                    "form": "근데",
+                    "original_form": "근데",
+                    "speaker_id": "SD2001940",
+                    "start": 512.33002,
+                    "end": 514.67605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.228",
+                    "form": "옛날만큼",
+                    "original_form": "옛날만큼",
+                    "speaker_id": "SD2001940",
+                    "start": 514.68607,
+                    "end": 516.33707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.229",
+                    "form": "빵을 좋아하는 거 같",
+                    "original_form": "빵을 좋아하는 거 같",
+                    "speaker_id": "SD2001940",
+                    "start": 516.34706,
+                    "end": 518.69607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.230",
+                    "form": "다고 해야 되나 옛날만큼은 아닌 거 같고",
+                    "original_form": "다고 해야 되나 옛날만큼은 아닌 거 같고",
+                    "speaker_id": "SD2001940",
+                    "start": 518.70603,
+                    "end": 521.81801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.231",
+                    "form": "잘 안 먹히기도 해.",
+                    "original_form": "잘 안 먹히기도 해.",
+                    "speaker_id": "SD2001940",
+                    "start": 521.82807,
+                    "end": 523.84904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.232",
+                    "form": "특히 요즘에는",
+                    "original_form": "특히 요즘에는",
+                    "speaker_id": "SD2001940",
+                    "start": 523.85907,
+                    "end": 525.50408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.233",
+                    "form": "어제도 동생이랑",
+                    "original_form": "어제도 동생이랑",
+                    "speaker_id": "SD2001940",
+                    "start": 525.51408,
+                    "end": 527.02902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.234",
+                    "form": "브런치 먹으러 갔는데",
+                    "original_form": "브런치 먹으러 갔는데",
+                    "speaker_id": "SD2001940",
+                    "start": 527.03908,
+                    "end": 528.53205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.235",
+                    "form": "거기에 식빵이",
+                    "original_form": "거기에 식빵이",
+                    "speaker_id": "SD2001940",
+                    "start": 528.54207,
+                    "end": 530.47306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.236",
+                    "form": "구워져서 나오거든.",
+                    "original_form": "구워져서 나오거든.",
+                    "speaker_id": "SD2001940",
+                    "start": 530.48307,
+                    "end": 532.37504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.237",
+                    "form": "근데 그것도 한 조각",
+                    "original_form": "근데 그것두 한 조각",
+                    "speaker_id": "SD2001940",
+                    "start": 532.38501,
+                    "end": 535.25206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.238",
+                    "form": "한 아니지 반 조각인데",
+                    "original_form": "한 아니지 반 조각인데",
+                    "speaker_id": "SD2001940",
+                    "start": 535.26203,
+                    "end": 537.65202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.239",
+                    "form": "그거 먹는 것도 그렇게 맛있게 느껴지지 않더라고.",
+                    "original_form": "그거 먹는 것도 그렇게 맛있게 느껴지지 않더라고.",
+                    "speaker_id": "SD2001940",
+                    "start": 537.66207,
+                    "end": 540.34707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.240",
+                    "form": "토스트 해서 나온 건데",
+                    "original_form": "토스트 해서 나온 건데",
+                    "speaker_id": "SD2001940",
+                    "start": 540.35703,
+                    "end": 542.47903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.241",
+                    "form": "그런 거 보면",
+                    "original_form": "그런 거 보면",
+                    "speaker_id": "SD2001940",
+                    "start": 542.48908,
+                    "end": 543.78208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.242",
+                    "form": "옛날만큼",
+                    "original_form": "옛날만큼",
+                    "speaker_id": "SD2001940",
+                    "start": 543.79204,
+                    "end": 544.70802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.243",
+                    "form": "빵을 좋아하는",
+                    "original_form": "빵을 좋아하는",
+                    "speaker_id": "SD2001940",
+                    "start": 544.71806,
+                    "end": 545.94501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.244",
+                    "form": "건 아닌 거 같아.",
+                    "original_form": "건 아닌 거 같아.",
+                    "speaker_id": "SD2001940",
+                    "start": 545.95503,
+                    "end": 547.13301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.245",
+                    "form": "조금 물렸다고 해야 되나?",
+                    "original_form": "쫌 물렸다고 해야 되나?",
+                    "speaker_id": "SD2001940",
+                    "start": 547.14305,
+                    "end": 549.68107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.246",
+                    "form": "그래도",
+                    "original_form": "그래도",
+                    "speaker_id": "SD2001940",
+                    "start": 549.69108,
+                    "end": 551.71307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.247",
+                    "form": "새로운 데 가서",
+                    "original_form": "새로운 데 가서",
+                    "speaker_id": "SD2001940",
+                    "start": 551.72308,
+                    "end": 552.76907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.248",
+                    "form": "좀 새로운 스타일을 좀 먹고 보고 싶기는 해.",
+                    "original_form": "좀 새로운 스타일을 좀 먹고 보고 싶기는 해.",
+                    "speaker_id": "SD2001940",
+                    "start": 552.77901,
+                    "end": 556.16003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.249",
+                    "form": "가 본 빵집 중에 추천해 줄 만한 빵집 있어?",
+                    "original_form": "가 본 빵집 중에 추천해 줄 만한 빵집 있어?",
+                    "speaker_id": "SD2001940",
+                    "start": 561.79001,
+                    "end": 565.72201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.250",
+                    "form": "나도 빵을 많이 좋아해서",
+                    "original_form": "나도 빵을 많이 좋아해서",
+                    "speaker_id": "SD2001941",
+                    "start": 571.67506,
+                    "end": 574.57204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.251",
+                    "form": "최대한 여기저기 많이",
+                    "original_form": "최대한 여기저기 많이",
+                    "speaker_id": "SD2001941",
+                    "start": 574.58206,
+                    "end": 576.70503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.252",
+                    "form": "다녀보려고 하는데",
+                    "original_form": "다녀볼라고 하는데",
+                    "speaker_id": "SD2001941",
+                    "start": 576.71501,
+                    "end": 578.57707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.253",
+                    "form": "아~ 담백한 빵을 많이 좋아하고",
+                    "original_form": "아~ 담백한 빵을 많이 좋아하고",
+                    "speaker_id": "SD2001941",
+                    "start": 583.26206,
+                    "end": 586.03307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.254",
+                    "form": "치아바타 같은 거 많이 좋아하니까",
+                    "original_form": "치아바타 같은 거 많이 좋아하니까",
+                    "speaker_id": "SD2001941",
+                    "start": 586.04304,
+                    "end": 588.46102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.255",
+                    "form": "그런 빵집 찾아서 많이 가는데",
+                    "original_form": "그런 빵집 찾아서 많이 가는데",
+                    "speaker_id": "SD2001941",
+                    "start": 588.47107,
+                    "end": 592.23002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.256",
+                    "form": "생각보다 만족스러운 집은 그렇게 많지 않은 거 같아.",
+                    "original_form": "생각보다 만족스러운 집은 그렇게 많지 않은 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 592.24006,
+                    "end": 596.38402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.257",
+                    "form": "최근에",
+                    "original_form": "최근에",
+                    "speaker_id": "SD2001941",
+                    "start": 599.19705,
+                    "end": 601.29908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.258",
+                    "form": "크루아상",
+                    "original_form": "크로와상",
+                    "speaker_id": "SD2001941",
+                    "start": 601.30905,
+                    "end": 604.01105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.259",
+                    "form": "맛있는 맛있게 하는 데라고 해서",
+                    "original_form": "맛있는 맛있게 하는 데라고 해서",
+                    "speaker_id": "SD2001941",
+                    "start": 604.02105,
+                    "end": 606.87604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.260",
+                    "form": "누가 사 갖고 와 가지고 먹었었는데",
+                    "original_form": "누가 사 갖고 와 가지고 먹었었는데",
+                    "speaker_id": "SD2001941",
+                    "start": 606.88608,
+                    "end": 610.13004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.261",
+                    "form": "그것도 생각보다 맛있지 않았고",
+                    "original_form": "그것도 생각보다 맛있지 않았고",
+                    "speaker_id": "SD2001941",
+                    "start": 610.14004,
+                    "end": 613.17607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.262",
+                    "form": "전체적으로 빵 가 가격들이 너무 높아서",
+                    "original_form": "전체적으로 빵 -가- 가격들이 너무 높아서",
+                    "speaker_id": "SD2001941",
+                    "start": 613.18605,
+                    "end": 616.70003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.263",
+                    "form": "이것저것 많이 먹어 먹어보고 싶은데",
+                    "original_form": "이것저것 많이 -먹어- 먹어보고 싶은데",
+                    "speaker_id": "SD2001941",
+                    "start": 616.71007,
+                    "end": 619.51205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.264",
+                    "form": "그렇",
+                    "original_form": "그렇",
+                    "speaker_id": "SD2001941",
+                    "start": 619.52208,
+                    "end": 620.70105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.265",
+                    "form": "지 못하게 되고",
+                    "original_form": "지 못하게 되고",
+                    "speaker_id": "SD2001941",
+                    "start": 620.71108,
+                    "end": 622.57608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.266",
+                    "form": "또 비싼 값을 주면서",
+                    "original_form": "또 비싼 값을 주면서",
+                    "speaker_id": "SD2001941",
+                    "start": 622.58602,
+                    "end": 625.09405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.267",
+                    "form": "비싼 값을 지불하고 빵을 사서 먹었는데",
+                    "original_form": "비싼 값을 지불하고 빵을 사서 먹었는데",
+                    "speaker_id": "SD2001941",
+                    "start": 625.10405,
+                    "end": 628.35301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.268",
+                    "form": "그게 너무",
+                    "original_form": "그게 너무",
+                    "speaker_id": "SD2001941",
+                    "start": 628.36305,
+                    "end": 629.54203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.269",
+                    "form": "맛이 없거나",
+                    "original_form": "맛이 없거나",
+                    "speaker_id": "SD2001941",
+                    "start": 629.55204,
+                    "end": 631.62404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.270",
+                    "form": "아니면",
+                    "original_form": "아니면",
+                    "speaker_id": "SD2001941",
+                    "start": 631.63403,
+                    "end": 633.27002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.271",
+                    "form": "너무",
+                    "original_form": "너무",
+                    "speaker_id": "SD2001941",
+                    "start": 633.28005,
+                    "end": 634.26804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.272",
+                    "form": "사진 찍기만 좋게 만들어져 있거나",
+                    "original_form": "사진 찍기만 좋게 만들어져 있거나",
+                    "speaker_id": "SD2001941",
+                    "start": 634.27805,
+                    "end": 636.98008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.273",
+                    "form": "그런 류들의 빵들을 많이 보다 보니까",
+                    "original_form": "그런 류들의 빵들을 많이 보다 보니까",
+                    "speaker_id": "SD2001941",
+                    "start": 636.99006,
+                    "end": 641.14708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.274",
+                    "form": "조금 많이 실망을 하게 되는 거 같아.",
+                    "original_form": "쫌 많이 실망을 하게 되는 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 641.15708,
+                    "end": 644.15806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.275",
+                    "form": "그렇게 에스엔에스에 올라온 빵집들을 가서 먹어 보면",
+                    "original_form": "그렇게 에스엔에스에 올라온 빵집들을 가서 먹어 보면",
+                    "speaker_id": "SD2001941",
+                    "start": 644.16806,
+                    "end": 649.94102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.276",
+                    "form": "대부분 그런 집들이 많아가지고",
+                    "original_form": "대부분 그런 집들이 많아가지고",
+                    "speaker_id": "SD2001941",
+                    "start": 649.95101,
+                    "end": 652.34907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.277",
+                    "form": "에스엔에스도 잘 신뢰하지 못하겠고",
+                    "original_form": "에스엔에스도 잘 신뢰하지 못하겠고",
+                    "speaker_id": "SD2001941",
+                    "start": 652.35901,
+                    "end": 655.41501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.278",
+                    "form": "말한 것처럼 나도",
+                    "original_form": "말한 것처럼 나도",
+                    "speaker_id": "SD2001941",
+                    "start": 655.42504,
+                    "end": 658.78901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.279",
+                    "form": "파리바게뜨 같은",
+                    "original_form": "파리바게뜨 같은",
+                    "speaker_id": "SD2001941",
+                    "start": 658.79902,
+                    "end": 660.17303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.280",
+                    "form": "오히려 대중적인 빵",
+                    "original_form": "오히려 대중적인 빵",
+                    "speaker_id": "SD2001941",
+                    "start": 660.18307,
+                    "end": 661.72401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.281",
+                    "form": "집에서",
+                    "original_form": "집에서",
+                    "speaker_id": "SD2001941",
+                    "start": 661.73401,
+                    "end": 663.04503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.282",
+                    "form": "먹는 게",
+                    "original_form": "먹는 게",
+                    "speaker_id": "SD2001941",
+                    "start": 663.05502,
+                    "end": 664.33906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.283",
+                    "form": "차라리 나은 거 같기도 하고",
+                    "original_form": "차라리 나은 거 같기도 하고",
+                    "speaker_id": "SD2001941",
+                    "start": 664.34905,
+                    "end": 668.49803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.284",
+                    "form": "외국 사람들 특히 유럽사람들은 빵을 주식으로 먹는데",
+                    "original_form": "외국 사람들 특히 유럽사람들은 빵을 주식으로 먹는데",
+                    "speaker_id": "SD2001941",
+                    "start": 668.50801,
+                    "end": 673.25901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.285",
+                    "form": "우리나라는",
+                    "original_form": "우리나라는",
+                    "speaker_id": "SD2001941",
+                    "start": 673.26906,
+                    "end": 674.46901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.286",
+                    "form": "간식으로 먹잖아.",
+                    "original_form": "간식으로 먹잖아.",
+                    "speaker_id": "SD2001941",
+                    "start": 674.47907,
+                    "end": 676.08506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.287",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 676.09507,
+                    "end": 677.89308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.288",
+                    "form": "빵이 훨씬 더",
+                    "original_form": "빵이 훨씬 더",
+                    "speaker_id": "SD2001941",
+                    "start": 677.90305,
+                    "end": 680.57301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.289",
+                    "form": "맛있다",
+                    "original_form": "맛있다",
+                    "speaker_id": "SD2001941",
+                    "start": 680.58306,
+                    "end": 681.57901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.290",
+                    "form": "라는 표현을 많이 하더라고.",
+                    "original_form": "라는 표현을 많이 하더라고.",
+                    "speaker_id": "SD2001941",
+                    "start": 681.58904,
+                    "end": 683.73401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.291",
+                    "form": "빵",
+                    "original_form": "빵",
+                    "speaker_id": "SD2001941",
+                    "start": 683.74408,
+                    "end": 685.02903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.292",
+                    "form": "그러니까 설탕이 많고",
+                    "original_form": "그러니까 설탕이 많고",
+                    "speaker_id": "SD2001941",
+                    "start": 685.03903,
+                    "end": 686.90101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.293",
+                    "form": "더 달고",
+                    "original_form": "더 달고",
+                    "speaker_id": "SD2001941",
+                    "start": 686.91106,
+                    "end": 687.77305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.294",
+                    "form": "더 자극적인 빵들을 많이",
+                    "original_form": "더 자극적인 빵들을 많이",
+                    "speaker_id": "SD2001941",
+                    "start": 687.78304,
+                    "end": 689.77405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.295",
+                    "form": "만들어서 우리나라 빵이",
+                    "original_form": "만들어서 우리나라 빵이",
+                    "speaker_id": "SD2001941",
+                    "start": 689.78408,
+                    "end": 691.48904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.296",
+                    "form": "더 맛있다는 얘기를 하더 하더",
+                    "original_form": "더 맛있다는 얘기를 하더 하더",
+                    "speaker_id": "SD2001941",
+                    "start": 691.49904,
+                    "end": 693.34403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.297",
+                    "form": "한대.",
+                    "original_form": "한대.",
+                    "speaker_id": "SD2001941",
+                    "start": 693.35408,
+                    "end": 695.15203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.298",
+                    "form": "생각해 보면은",
+                    "original_form": "생각해 보면은",
+                    "speaker_id": "SD2001941",
+                    "start": 695.16205,
+                    "end": 697.42906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.299",
+                    "form": "그런 담백한 빵들은 주로",
+                    "original_form": "그런 담백한 빵들은 주로",
+                    "speaker_id": "SD2001941",
+                    "start": 697.43902,
+                    "end": 699.94705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.300",
+                    "form": "외국에서 많이 먹는 빵들",
+                    "original_form": "외국에서 많이 먹는 빵들",
+                    "speaker_id": "SD2001941",
+                    "start": 699.95701,
+                    "end": 702.09203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.301",
+                    "form": "유럽권에서 많이 먹는 빵들인 거 같고",
+                    "original_form": "유럽권에서 많이 먹는 빵들인 거 같고",
+                    "speaker_id": "SD2001941",
+                    "start": 702.10204,
+                    "end": 704.85505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.302",
+                    "form": "정말 우리나라에서 먹는 빵들은",
+                    "original_form": "정말 우리나라에서 먹는 빵들은",
+                    "speaker_id": "SD2001941",
+                    "start": 704.86506,
+                    "end": 706.90703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.303",
+                    "form": "밥을 먹고 나서",
+                    "original_form": "밥을 먹고 나서",
+                    "speaker_id": "SD2001941",
+                    "start": 706.91705,
+                    "end": 708.10101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.304",
+                    "form": "간식으로 먹는 빵들이니까",
+                    "original_form": "간식으로 먹는 빵들이니까",
+                    "speaker_id": "SD2001941",
+                    "start": 708.11107,
+                    "end": 710.35406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.305",
+                    "form": "너무 달고 그래서",
+                    "original_form": "너무 달고 그래서",
+                    "speaker_id": "SD2001941",
+                    "start": 710.36403,
+                    "end": 712.26201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.306",
+                    "form": "먹으면서도 너무 맛있긴 한데",
+                    "original_form": "먹으면서도 너무 맛있긴 한데",
+                    "speaker_id": "SD2001941",
+                    "start": 712.27206,
+                    "end": 714.64807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.307",
+                    "form": "맛있으면서도",
+                    "original_form": "맛있으면서도",
+                    "speaker_id": "SD2001941",
+                    "start": 714.65807,
+                    "end": 716.40608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.308",
+                    "form": "아~ 이걸 계속 먹어도 되나?",
+                    "original_form": "아~ 이걸 계속 먹어도 되나?",
+                    "speaker_id": "SD2001941",
+                    "start": 716.41605,
+                    "end": 718.25606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.309",
+                    "form": "그런 마음도 많이 들고",
+                    "original_form": "그런 마음도 많이 들고",
+                    "speaker_id": "SD2001941",
+                    "start": 718.26604,
+                    "end": 720.00808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.310",
+                    "form": "또 주로 커피 해서",
+                    "original_form": "또 주로 커피 해서",
+                    "speaker_id": "SD2001941",
+                    "start": 720.01803,
+                    "end": 721.62805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.311",
+                    "form": "마시면서 많이 마시니까",
+                    "original_form": "마시면서 많이 마시니까",
+                    "speaker_id": "SD2001941",
+                    "start": 721.63805,
+                    "end": 724.74008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.312",
+                    "form": "그래서 카페에서도 많이 먹게 되고",
+                    "original_form": "그래서 까페에서도 많이 먹게 되고",
+                    "speaker_id": "SD2001941",
+                    "start": 724.75002,
+                    "end": 729.18807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.313",
+                    "form": "그래서 내가 커",
+                    "original_form": "그래서 내가 커",
+                    "speaker_id": "SD2001941",
+                    "start": 729.19808,
+                    "end": 732.88602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.314",
+                    "form": "그~ 베이커리를 배운",
+                    "original_form": "그~ 베이커리를 배운",
+                    "speaker_id": "SD2001941",
+                    "start": 732.89608,
+                    "end": 735.61608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.315",
+                    "form": "것",
+                    "original_form": "것",
+                    "speaker_id": "SD2001941",
+                    "start": 735.62601,
+                    "end": 736.86603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.316",
+                    "form": "것도 있고",
+                    "original_form": "것도 있고",
+                    "speaker_id": "SD2001941",
+                    "start": 736.87603,
+                    "end": 738.44001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.317",
+                    "form": "차라리 그냥 빵보다는",
+                    "original_form": "차라리 그냥 빵보다는",
+                    "speaker_id": "SD2001941",
+                    "start": 738.45002,
+                    "end": 740.68706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.318",
+                    "form": "케이크가 훨씬 나은 거 같아.",
+                    "original_form": "케익이 훨씬 나은 거 같애.",
+                    "speaker_id": "SD2001941",
+                    "start": 740.69708,
+                    "end": 742.68901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.319",
+                    "form": "예전에 한라대 근처에",
+                    "original_form": "예전에 한라대 근처에",
+                    "speaker_id": "SD2001941",
+                    "start": 753.03807,
+                    "end": 756.85703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.320",
+                    "form": "쑥 케이크 파는",
+                    "original_form": "쑥 케익 파는",
+                    "speaker_id": "SD2001941",
+                    "start": 756.86706,
+                    "end": 760.74601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.321",
+                    "form": "그 카페 있었잖아.",
+                    "original_form": "그 까페 있었잖아.",
+                    "speaker_id": "SD2001941",
+                    "start": 760.75608,
+                    "end": 762.68603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.322",
+                    "form": "그 카페",
+                    "original_form": "그 카페",
+                    "speaker_id": "SD2001941",
+                    "start": 762.69604,
+                    "end": 764.98205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.323",
+                    "form": "그 카페는 어땠어?",
+                    "original_form": "그 까페는 어땠어?",
+                    "speaker_id": "SD2001941",
+                    "start": 764.99203,
+                    "end": 767.11707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.324",
+                    "form": "내부 분위기나",
+                    "original_form": "내부 분위기나",
+                    "speaker_id": "SD2001941",
+                    "start": 767.12701,
+                    "end": 768.69102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.325",
+                    "form": "아니면은",
+                    "original_form": "아니면은",
+                    "speaker_id": "SD2001941",
+                    "start": 768.70103,
+                    "end": 769.89608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.326",
+                    "form": "빵이나",
+                    "original_form": "빵이나",
+                    "speaker_id": "SD2001941",
+                    "start": 769.90601,
+                    "end": 770.90806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.327",
+                    "form": "커피의 맛 같은 거",
+                    "original_form": "커피의 맛 같은 거",
+                    "speaker_id": "SD2001941",
+                    "start": 770.91803,
+                    "end": 773.13202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.328",
+                    "form": "커피 맛은",
+                    "original_form": "커피 맛은",
+                    "speaker_id": "SD2001940",
+                    "start": 773.14204,
+                    "end": 775.26605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.329",
+                    "form": "나는",
+                    "original_form": "나는",
+                    "speaker_id": "SD2001940",
+                    "start": 775.27605,
+                    "end": 776.04308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.330",
+                    "form": "잘 모르겠고",
+                    "original_form": "잘 모르겠고",
+                    "speaker_id": "SD2001940",
+                    "start": 776.05305,
+                    "end": 777.51607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.331",
+                    "form": "일단은 기억이 잘 안 나니까",
+                    "original_form": "일단은 기억이 잘 안 나니까",
+                    "speaker_id": "SD2001940",
+                    "start": 777.52607,
+                    "end": 779.66403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.332",
+                    "form": "어떤",
+                    "original_form": "어떤",
+                    "speaker_id": "SD2001940",
+                    "start": 779.67408,
+                    "end": 780.63204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.333",
+                    "form": "갔던 커피숍마다",
+                    "original_form": "갔던 커피숍마다",
+                    "speaker_id": "SD2001940",
+                    "start": 780.64208,
+                    "end": 782.70805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.334",
+                    "form": "그 맛이 기억이 나면 참 좋겠는데",
+                    "original_form": "그 맛이 기억이 나면 참 좋겠는데",
+                    "speaker_id": "SD2001940",
+                    "start": 782.71803,
+                    "end": 785.09504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.335",
+                    "form": "그냥 가서 먹을 때",
+                    "original_form": "그냥 가서 먹을 때",
+                    "speaker_id": "SD2001940",
+                    "start": 785.10508,
+                    "end": 787.22805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.336",
+                    "form": "아~ 이런 맛이구나 정도 느껴지는",
+                    "original_form": "아~ 이런 맛이구나 정도 느껴지는",
+                    "speaker_id": "SD2001940",
+                    "start": 787.23801,
+                    "end": 790.09204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.337",
+                    "form": "거 외에는",
+                    "original_form": "거 외에는",
+                    "speaker_id": "SD2001940",
+                    "start": 790.10204,
+                    "end": 791.81402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.338",
+                    "form": "그렇게 오래 기억에 남",
+                    "original_form": "그렇게 오래 기억에 남",
+                    "speaker_id": "SD2001940",
+                    "start": 791.82403,
+                    "end": 793.44102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.339",
+                    "form": "진 않고",
+                    "original_form": "진 않고",
+                    "speaker_id": "SD2001940",
+                    "start": 793.45101,
+                    "end": 795.30905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.340",
+                    "form": "일단 일단 인테리어는",
+                    "original_form": "일단 일단 인테리어는",
+                    "speaker_id": "SD2001940",
+                    "start": 795.31905,
+                    "end": 799.10502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.341",
+                    "form": "생각보다는 꽤 괜찮았던 거 같아.",
+                    "original_form": "생각보다는 꽤 괜찮았던 거 같아.",
+                    "speaker_id": "SD2001940",
+                    "start": 799.11508,
+                    "end": 802.21301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.342",
+                    "form": "뭔가 바닥",
+                    "original_form": "뭔가 바닥",
+                    "speaker_id": "SD2001940",
+                    "start": 802.22305,
+                    "end": 803.66608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.343",
+                    "form": "도 일반적이지 않은",
+                    "original_form": "도 일반적이지 않은",
+                    "speaker_id": "SD2001940",
+                    "start": 803.67601,
+                    "end": 805.52408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.344",
+                    "form": "인테리어여서",
+                    "original_form": "인테리어여서",
+                    "speaker_id": "SD2001940",
+                    "start": 805.53405,
+                    "end": 807.34202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.345",
+                    "form": "나는 그게 쪼금 마음에 들었고",
+                    "original_form": "나는 그게 쪼금 마음에 들었고",
+                    "speaker_id": "SD2001940",
+                    "start": 807.35206,
+                    "end": 810.22206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.346",
+                    "form": "케이크가 엄청 맛있었지.",
+                    "original_form": "케익이 엄청 맛있었지.",
+                    "speaker_id": "SD2001940",
+                    "start": 810.23206,
+                    "end": 814.25505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.347",
+                    "form": "뭔가",
+                    "original_form": "뭔가",
+                    "speaker_id": "SD2001940",
+                    "start": 814.26508,
+                    "end": 815.87101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.348",
+                    "form": "내가 워낙 쑥을 좋아하기도 하고",
+                    "original_form": "내가 워낙 쑥을 좋아하기도 하고",
+                    "speaker_id": "SD2001940",
+                    "start": 815.88103,
+                    "end": 818.36502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.349",
+                    "form": "근데 그렇게 달지도 않으면서",
+                    "original_form": "근데 그렇게 달지도 않으면서",
+                    "speaker_id": "SD2001940",
+                    "start": 818.37502,
+                    "end": 821.68701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.350",
+                    "form": "음~ 담백하기도 하고",
+                    "original_form": "음~ 담백하기도 하고",
+                    "speaker_id": "SD2001940",
+                    "start": 821.69702,
+                    "end": 824.06407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.351",
+                    "form": "커피랑은 되게 잘 어울렸던 거 같아.",
+                    "original_form": "커피랑은 되게 잘 어울렸던 거 같애.",
+                    "speaker_id": "SD2001940",
+                    "start": 824.07403,
+                    "end": 827.01007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.352",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2001940",
+                    "start": 827.02008,
+                    "end": 828.49602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.353",
+                    "form": "그거는 한 번씩 생각나.",
+                    "original_form": "그거는 한 번씩 생각나.",
+                    "speaker_id": "SD2001940",
+                    "start": 828.50604,
+                    "end": 830.76206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.354",
+                    "form": "먹고 싶기도 하고",
+                    "original_form": "먹고 싶기도 하고",
+                    "speaker_id": "SD2001940",
+                    "start": 830.77201,
+                    "end": 832.79208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.355",
+                    "form": "어떻게 만드는지",
+                    "original_form": "어떻게 만드는지",
+                    "speaker_id": "SD2001940",
+                    "start": 832.80207,
+                    "end": 834.55507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.356",
+                    "form": "궁금하기도 하고",
+                    "original_form": "궁금하기도 하고",
+                    "speaker_id": "SD2001940",
+                    "start": 834.56507,
+                    "end": 836.61707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.357",
+                    "form": "거기는 또 혼자서",
+                    "original_form": "거기는 또 혼자서",
+                    "speaker_id": "SD2001940",
+                    "start": 836.62707,
+                    "end": 839.79001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.358",
+                    "form": "음~ 제 제빵이랑",
+                    "original_form": "음~ -제- 제빵이랑",
+                    "speaker_id": "SD2001940",
+                    "start": 839.80006,
+                    "end": 841.74407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.359",
+                    "form": "그거 다 하니까",
+                    "original_form": "그거 다 하니까",
+                    "speaker_id": "SD2001940",
+                    "start": 841.75403,
+                    "end": 843.46107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.360",
+                    "form": "대단하게 느껴지기도 하고",
+                    "original_form": "대단하게 느껴지기도 하고",
+                    "speaker_id": "SD2001940",
+                    "start": 843.47103,
+                    "end": 846.62903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.361",
+                    "form": "아~ 갔던 커피숍",
+                    "original_form": "아~ 갔던 커피숍",
+                    "speaker_id": "SD2001940",
+                    "start": 846.63908,
+                    "end": 849.92904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.362",
+                    "form": "중에서는",
+                    "original_form": "중에서는",
+                    "speaker_id": "SD2001940",
+                    "start": 849.93901,
+                    "end": 851.34205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.363",
+                    "form": "아~ 디저트랑 같이 먹는 걸로 하면 거기는",
+                    "original_form": "아~ 디저트랑 같이 먹는 걸로 하면 거기는",
+                    "speaker_id": "SD2001940",
+                    "start": 851.35206,
+                    "end": 854.50105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.364",
+                    "form": "꽤 괜찮았던 걸로 기억이",
+                    "original_form": "꽤 괜찮았던 걸로 기억이",
+                    "speaker_id": "SD2001940",
+                    "start": 854.51106,
+                    "end": 856.48207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000001603.1.1.365",
+                    "form": "나지.",
+                    "original_form": "나지.",
+                    "speaker_id": "SD2001940",
+                    "start": 856.49206,
+                    "end": 858.36203,
+                    "note": ""
+                }
+            ]
+        }
+    ]
+}

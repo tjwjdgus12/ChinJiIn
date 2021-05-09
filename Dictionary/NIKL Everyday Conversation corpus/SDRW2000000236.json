@@ -1,0 +1,2888 @@
+{
+    "id": "SDRW2000000236",
+    "metadata": {
+        "title": "국립국어원 구어 말뭉치 SDRW2000000236",
+        "creator": "국립국어원",
+        "distributor": "국립국어원",
+        "year": "2020",
+        "category": "구어 > 사적 대화 > 일상대화",
+        "annotation_level": [
+            "원시"
+        ],
+        "sampling": "본문 전체"
+    },
+    "document": [
+        {
+            "id": "SDRW2000000236.1",
+            "metadata": {
+                "title": "2인 일상 대화",
+                "author": "개인 발화자",
+                "publisher": "개인 발화 녹음",
+                "date": "20200612",
+                "topic": "계절/날씨 > 더위, 비, 눈, 습도, 태풍, 일기예보",
+                "speaker": [
+                    {
+                        "id": "SD2000332",
+                        "age": "20대",
+                        "occupation": "학생",
+                        "sex": "남성",
+                        "birthplace": "제주",
+                        "pricipal_residence": "제주",
+                        "current_residence": "제주",
+                        "education": "고졸"
+                    },
+                    {
+                        "id": "SD2000330",
+                        "age": "40대",
+                        "occupation": "주부",
+                        "sex": "여성",
+                        "birthplace": "전남",
+                        "pricipal_residence": "전북",
+                        "current_residence": "제주",
+                        "education": "대졸"
+                    }
+                ],
+                "setting": {
+                    "relation": "기타"
+                }
+            },
+            "utterance": [
+                {
+                    "id": "SDRW2000000236.1.1.1",
+                    "form": "지금 현재 날씨가",
+                    "original_form": "지금 현재 날씨가",
+                    "speaker_id": "SD2000332",
+                    "start": 3.71008,
+                    "end": 5.98204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.2",
+                    "form": "많이 덥고",
+                    "original_form": "많이 덥고",
+                    "speaker_id": "SD2000332",
+                    "start": 5.99205,
+                    "end": 8.06105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.3",
+                    "form": "습하고",
+                    "original_form": "습하고",
+                    "speaker_id": "SD2000332",
+                    "start": 8.07103,
+                    "end": 9.81207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.4",
+                    "form": "이런데",
+                    "original_form": "이런데",
+                    "speaker_id": "SD2000332",
+                    "start": 9.82204,
+                    "end": 12.03103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.5",
+                    "form": "어떻게 생각해요?",
+                    "original_form": "어떻게 생각해요?",
+                    "speaker_id": "SD2000332",
+                    "start": 12.04101,
+                    "end": 13.83107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.6",
+                    "form": "나는 더워지기 시작하는 날씨부터가",
+                    "original_form": "나는 더워지기 시작하는 날씨부터가",
+                    "speaker_id": "SD2000330",
+                    "start": 17.16104,
+                    "end": 22.53508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.7",
+                    "form": "안 좋아해.",
+                    "original_form": "안 좋아해.",
+                    "speaker_id": "SD2000330",
+                    "start": 22.54503,
+                    "end": 24.27003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.8",
+                    "form": "그러니까",
+                    "original_form": "그러니까",
+                    "speaker_id": "SD2000330",
+                    "start": 24.28002,
+                    "end": 25.85708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.9",
+                    "form": "올해보면은",
+                    "original_form": "올해보면은",
+                    "speaker_id": "SD2000330",
+                    "start": 25.86704,
+                    "end": 27.33801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.10",
+                    "form": "5월 1일이 되면서",
+                    "original_form": "오월 일 일이 되면서",
+                    "speaker_id": "SD2000330",
+                    "start": 27.34804,
+                    "end": 29.62105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.11",
+                    "form": "갑자기 더워졌는데",
+                    "original_form": "갑자기 더워졌는데",
+                    "speaker_id": "SD2000330",
+                    "start": 29.63103,
+                    "end": 33.12803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.12",
+                    "form": "그때부터",
+                    "original_form": "그때부터",
+                    "speaker_id": "SD2000330",
+                    "start": 33.13808,
+                    "end": 35.40104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.13",
+                    "form": "아 이제 더위가 시작되는구나 했는데",
+                    "original_form": "아 이제 더위가 시작되는구나 했는데",
+                    "speaker_id": "SD2000330",
+                    "start": 35.41103,
+                    "end": 39.42103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.14",
+                    "form": "작년",
+                    "original_form": "작년",
+                    "speaker_id": "SD2000330",
+                    "start": 39.43103,
+                    "end": 40.70701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.15",
+                    "form": "에 비해서 올해",
+                    "original_form": "에 비해서 올해",
+                    "speaker_id": "SD2000330",
+                    "start": 40.71702,
+                    "end": 42.41403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.16",
+                    "form": "더위가",
+                    "original_form": "더위가",
+                    "speaker_id": "SD2000330",
+                    "start": 42.42403,
+                    "end": 43.99802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.17",
+                    "form": "빨리 찾아온 거 같아.",
+                    "original_form": "빨리 찾아온 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 44.00807,
+                    "end": 46.03707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.18",
+                    "form": "물론 2018년도에는",
+                    "original_form": "물론 이천십팔 년도에는",
+                    "speaker_id": "SD2000330",
+                    "start": 46.04701,
+                    "end": 48.35407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.19",
+                    "form": "정말 많이 더웠는데",
+                    "original_form": "정말 많이 더웠는데",
+                    "speaker_id": "SD2000330",
+                    "start": 48.36405,
+                    "end": 50.16308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.20",
+                    "form": "작년에는",
+                    "original_form": "작년에는",
+                    "speaker_id": "SD2000330",
+                    "start": 50.17303,
+                    "end": 51.73605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.21",
+                    "form": "2018년도에 비해서 쪼끔",
+                    "original_form": "이천십팔 년도에 비해서 쪼끔",
+                    "speaker_id": "SD2000330",
+                    "start": 51.74604,
+                    "end": 54.22506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.22",
+                    "form": "덜 했다는 생각이 들어서 그런지",
+                    "original_form": "덜 했다는 생각이 들어서 그런지",
+                    "speaker_id": "SD2000330",
+                    "start": 54.23504,
+                    "end": 57.20202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.23",
+                    "form": "그렇게까지 많이 덥다고",
+                    "original_form": "그렇게까지 많이 덥다고",
+                    "speaker_id": "SD2000330",
+                    "start": 57.21201,
+                    "end": 59.67808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.24",
+                    "form": "못 느꼈었던 거 같은데",
+                    "original_form": "못 느꼈었던 거 같은데",
+                    "speaker_id": "SD2000330",
+                    "start": 59.68807,
+                    "end": 61.56704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.25",
+                    "form": "올해",
+                    "original_form": "올해",
+                    "speaker_id": "SD2000330",
+                    "start": 61.57704,
+                    "end": 62.82303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.26",
+                    "form": "올해는",
+                    "original_form": "올해는",
+                    "speaker_id": "SD2000330",
+                    "start": 62.83304,
+                    "end": 64.77807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.27",
+                    "form": "다시 똣 많이",
+                    "original_form": "다시 똣 많이",
+                    "speaker_id": "SD2000330",
+                    "start": 64.78802,
+                    "end": 66.64907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.28",
+                    "form": "더워지는 거 같아.",
+                    "original_form": "더워지는 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 66.65904,
+                    "end": 69.29708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.29",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000330",
+                    "start": 69.30703,
+                    "end": 70.67903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.30",
+                    "form": "땀도 많이 나고",
+                    "original_form": "땀도 많이 나고",
+                    "speaker_id": "SD2000330",
+                    "start": 70.68907,
+                    "end": 72.81903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.31",
+                    "form": "좋지 않아.",
+                    "original_form": "좋지 않아.",
+                    "speaker_id": "SD2000330",
+                    "start": 72.82908,
+                    "end": 74.22001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.32",
+                    "form": "너는",
+                    "original_form": "너는",
+                    "speaker_id": "SD2000330",
+                    "start": 79.50506,
+                    "end": 81.32605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.33",
+                    "form": "좋아하는 날씨가 어떤 날씨야?",
+                    "original_form": "좋아하는 날씨가 어떤 날씨야?",
+                    "speaker_id": "SD2000330",
+                    "start": 81.33608,
+                    "end": 86.85503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.34",
+                    "form": "4계절 중",
+                    "original_form": "사계절 중",
+                    "speaker_id": "SD2000332",
+                    "start": 86.86505,
+                    "end": 88.74403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.35",
+                    "form": "봄 여름 가을 겨울 중에서",
+                    "original_form": "봄 여름 가을 겨울 중에서",
+                    "speaker_id": "SD2000332",
+                    "start": 88.75405,
+                    "end": 92.59403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.36",
+                    "form": "나는 가을을 제일 좋아해.",
+                    "original_form": "나는 가을을 제일 좋아해.",
+                    "speaker_id": "SD2000332",
+                    "start": 92.60402,
+                    "end": 96.29703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.37",
+                    "form": "그 이유는",
+                    "original_form": "그 이유는",
+                    "speaker_id": "SD2000332",
+                    "start": 96.30707,
+                    "end": 101.11805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.38",
+                    "form": "비도 많이 안 오고",
+                    "original_form": "비도 많이 안 오고",
+                    "speaker_id": "SD2000332",
+                    "start": 101.12803,
+                    "end": 103.02702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.39",
+                    "form": "춥지도 않고 덥지도 않고",
+                    "original_form": "춥지도 않고 덥지도 않고",
+                    "speaker_id": "SD2000332",
+                    "start": 103.03705,
+                    "end": 105.84506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.40",
+                    "form": "선선한 발람이",
+                    "original_form": "선선한 발람이",
+                    "speaker_id": "SD2000332",
+                    "start": 105.85507,
+                    "end": 107.27701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.41",
+                    "form": "불어서",
+                    "original_form": "불어서",
+                    "speaker_id": "SD2000332",
+                    "start": 107.28708,
+                    "end": 108.32308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.42",
+                    "form": "난 가을을 좋아해.",
+                    "original_form": "난 가을을 좋아해.",
+                    "speaker_id": "SD2000332",
+                    "start": 108.33302,
+                    "end": 112.56107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.43",
+                    "form": "이 사람 드는",
+                    "original_form": "이 사람 드는",
+                    "speaker_id": "SD2000332",
+                    "start": 112.57101,
+                    "end": 114.84204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.44",
+                    "form": "여름이 다가오면",
+                    "original_form": "여름이 다가오면",
+                    "speaker_id": "SD2000332",
+                    "start": 114.85207,
+                    "end": 116.59101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.45",
+                    "form": "겨울이 그립다.",
+                    "original_form": "겨울이 그립다.",
+                    "speaker_id": "SD2000332",
+                    "start": 116.60102,
+                    "end": 118.08102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.46",
+                    "form": "시원한 게 좋다.",
+                    "original_form": "시원한 게 좋다.",
+                    "speaker_id": "SD2000332",
+                    "start": 118.09103,
+                    "end": 119.88904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.47",
+                    "form": "겨울이 오면",
+                    "original_form": "겨울이 오면",
+                    "speaker_id": "SD2000332",
+                    "start": 119.89902,
+                    "end": 121.38405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.48",
+                    "form": "추워서 싫다.",
+                    "original_form": "추워서 싫다.",
+                    "speaker_id": "SD2000332",
+                    "start": 121.39403,
+                    "end": 122.76102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.49",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000332",
+                    "start": 122.77108,
+                    "end": 123.47107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.50",
+                    "form": "여름이 그립다.",
+                    "original_form": "여름이 그립다.",
+                    "speaker_id": "SD2000332",
+                    "start": 123.48101,
+                    "end": 127.93303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.51",
+                    "form": "그래서 나는",
+                    "original_form": "그래서 나는",
+                    "speaker_id": "SD2000332",
+                    "start": 127.94307,
+                    "end": 131.11506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.52",
+                    "form": "가을 날씨를 좋아해.",
+                    "original_form": "가을 날씨를 좋아해.",
+                    "speaker_id": "SD2000332",
+                    "start": 131.12503,
+                    "end": 134.50601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.53",
+                    "form": "어~ 혹시 비나",
+                    "original_form": "어~ 혹시 비나",
+                    "speaker_id": "SD2000332",
+                    "start": 134.51603,
+                    "end": 136.93003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.54",
+                    "form": "눈",
+                    "original_form": "눈",
+                    "speaker_id": "SD2000332",
+                    "start": 136.94001,
+                    "end": 139.35102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.55",
+                    "form": "이런 거에 대해서 많이 오면",
+                    "original_form": "이런 거에 대해서 많이 오면",
+                    "speaker_id": "SD2000332",
+                    "start": 139.36107,
+                    "end": 141.38406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.56",
+                    "form": "제일 불편한 게 뭐야?",
+                    "original_form": "제일 불편한 게 뭐야?",
+                    "speaker_id": "SD2000332",
+                    "start": 141.39402,
+                    "end": 143.21702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.57",
+                    "form": "비 오는 날씨나",
+                    "original_form": "비 오는 날씨나",
+                    "speaker_id": "SD2000330",
+                    "start": 148.75402,
+                    "end": 150.63601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.58",
+                    "form": "눈 오는 날씨 중에",
+                    "original_form": "눈 오는 날씨 중에",
+                    "speaker_id": "SD2000330",
+                    "start": 150.64608,
+                    "end": 152.91606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.59",
+                    "form": "내가",
+                    "original_form": "내가",
+                    "speaker_id": "SD2000330",
+                    "start": 152.92604,
+                    "end": 154.00608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.60",
+                    "form": "만약에 실내에 있다면",
+                    "original_form": "만약에 실내에 있다면",
+                    "speaker_id": "SD2000330",
+                    "start": 154.01601,
+                    "end": 156.10202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.61",
+                    "form": "둘 다 좋겠지만",
+                    "original_form": "둘 다 좋겠지만",
+                    "speaker_id": "SD2000330",
+                    "start": 156.11203,
+                    "end": 158.78201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.62",
+                    "form": "내가 운전을 해야 되는 상황이면",
+                    "original_form": "내가 운전을 해야 되는 상황이면",
+                    "speaker_id": "SD2000330",
+                    "start": 158.79207,
+                    "end": 161.98108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.63",
+                    "form": "나는 차라리 비 오는 날씨가 쪼금 날 거 같아.",
+                    "original_form": "나는 차라리 비 오는 날씨가 쪼금 날 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 161.99101,
+                    "end": 168.55203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.64",
+                    "form": "눈 오는 날씨에도 운전을",
+                    "original_form": "눈 오는 날씨에도 운전을",
+                    "speaker_id": "SD2000330",
+                    "start": 168.56208,
+                    "end": 171.96902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.65",
+                    "form": "하는 것까진 괜찮은데",
+                    "original_form": "하는 것까진 괜찮은데",
+                    "speaker_id": "SD2000330",
+                    "start": 171.97908,
+                    "end": 173.80506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.66",
+                    "form": "눈이 오고 난 후에",
+                    "original_form": "눈이 오고 난 후에",
+                    "speaker_id": "SD2000330",
+                    "start": 173.81508,
+                    "end": 175.51703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.67",
+                    "form": "날씨가 또 추워지면",
+                    "original_form": "날씨가 또 추워지면",
+                    "speaker_id": "SD2000330",
+                    "start": 175.52702,
+                    "end": 177.92508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.68",
+                    "form": "그게 얼기 때문에",
+                    "original_form": "그게 얼기 때문에",
+                    "speaker_id": "SD2000330",
+                    "start": 177.93504,
+                    "end": 179.74004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.69",
+                    "form": "운전할 때는",
+                    "original_form": "운전할 때는",
+                    "speaker_id": "SD2000330",
+                    "start": 179.75002,
+                    "end": 182.33702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.70",
+                    "form": "비 때문에 미끄러지는 거보다",
+                    "original_form": "비 때문에 미끄러지는 거보다",
+                    "speaker_id": "SD2000330",
+                    "start": 182.34703,
+                    "end": 184.94607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.71",
+                    "form": "빙판길에서 미끄러진 경험을 해봐서",
+                    "original_form": "빙판길에서 미끄러진 경험을 해봐서",
+                    "speaker_id": "SD2000330",
+                    "start": 184.95605,
+                    "end": 188.34001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.72",
+                    "form": "눈 오는 날씨가",
+                    "original_form": "눈 오는 날씨가",
+                    "speaker_id": "SD2000330",
+                    "start": 188.35004,
+                    "end": 190.34006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.73",
+                    "form": "더 무서웠던 거 같아.",
+                    "original_form": "더 무서웠던 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 190.35008,
+                    "end": 193.17905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.74",
+                    "form": "그래서 지금은",
+                    "original_form": "그래서 지금은",
+                    "speaker_id": "SD2000330",
+                    "start": 193.18902,
+                    "end": 195.19307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.75",
+                    "form": "눈이 많이 오거나",
+                    "original_form": "눈이 많이 오거나",
+                    "speaker_id": "SD2000330",
+                    "start": 195.20301,
+                    "end": 197.48107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.76",
+                    "form": "그럴 때는 조금 운전을",
+                    "original_form": "그럴 때는 쫌 운전을",
+                    "speaker_id": "SD2000330",
+                    "start": 197.49101,
+                    "end": 199.90901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.77",
+                    "form": "자제해.",
+                    "original_form": "자제해.",
+                    "speaker_id": "SD2000330",
+                    "start": 199.91906,
+                    "end": 201.33701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.78",
+                    "form": "근데 비가 많이 오면",
+                    "original_form": "근데 비가 많이 오면",
+                    "speaker_id": "SD2000330",
+                    "start": 201.34702,
+                    "end": 203.83101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.79",
+                    "form": "그래도 운전을 해야 되는 때는",
+                    "original_form": "그래도 운전을 해야 되는 때는",
+                    "speaker_id": "SD2000330",
+                    "start": 203.84105,
+                    "end": 206.23605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.80",
+                    "form": "하게 되는 거 같아.",
+                    "original_form": "하게 되는 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 206.24605,
+                    "end": 209.47804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.81",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000330",
+                    "start": 209.48803,
+                    "end": 211.86201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.82",
+                    "form": "눈이 많이 오는 거는",
+                    "original_form": "눈이 많이 오는 거는",
+                    "speaker_id": "SD2000330",
+                    "start": 211.87204,
+                    "end": 213.93508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.83",
+                    "form": "실내에서 보기엔 좋지만",
+                    "original_form": "실내에서 보기엔 좋지만",
+                    "speaker_id": "SD2000330",
+                    "start": 213.94501,
+                    "end": 216.17105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.84",
+                    "form": "운전하기에는",
+                    "original_form": "운전하기에는",
+                    "speaker_id": "SD2000330",
+                    "start": 216.18102,
+                    "end": 217.74307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.85",
+                    "form": "비 오는 날씨가 조금 더 낫다고 생각해.",
+                    "original_form": "비 오는 날씨가 쫌 더 낫다고 생각해.",
+                    "speaker_id": "SD2000330",
+                    "start": 217.75303,
+                    "end": 224.00605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.86",
+                    "form": "지금부터 습도가",
+                    "original_form": "지금부터 습도가",
+                    "speaker_id": "SD2000330",
+                    "start": 224.01606,
+                    "end": 228.46505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.87",
+                    "form": "높은 날씨가 이제 시작되는데",
+                    "original_form": "높은 날씨가 이제 시작되는데",
+                    "speaker_id": "SD2000330",
+                    "start": 228.47502,
+                    "end": 231.65207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.88",
+                    "form": "습기가 많은 날씨에는",
+                    "original_form": "습기가 많은 날씨에는",
+                    "speaker_id": "SD2000330",
+                    "start": 231.66203,
+                    "end": 235.51806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.89",
+                    "form": "뭐 너만의 극복 방법이 있을까?",
+                    "original_form": "뭐 너만의 극복 방법이 있을까?",
+                    "speaker_id": "SD2000330",
+                    "start": 235.52804,
+                    "end": 240.58806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.90",
+                    "form": "제습기를 튼다든가 아니면 에어컨을 켠다든가 하는",
+                    "original_form": "제습기를 튼다든가 아니면 에어컨을 켠다든가 하는",
+                    "speaker_id": "SD2000330",
+                    "start": 240.59804,
+                    "end": 245.64506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.91",
+                    "form": "너만의 그런",
+                    "original_form": "너만의 그런",
+                    "speaker_id": "SD2000330",
+                    "start": 245.65503,
+                    "end": 246.96703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.92",
+                    "form": "방법이 있어?",
+                    "original_form": "방법이 있어?",
+                    "speaker_id": "SD2000330",
+                    "start": 246.97704,
+                    "end": 250.47708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.93",
+                    "form": "난 습도가",
+                    "original_form": "난 습도가",
+                    "speaker_id": "SD2000332",
+                    "start": 250.48701,
+                    "end": 252.77506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.94",
+                    "form": "많은 날씨가 제일 싫어.",
+                    "original_form": "많은 날씨가 제일 싫어.",
+                    "speaker_id": "SD2000332",
+                    "start": 252.78503,
+                    "end": 256.78801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.95",
+                    "form": "여기 제주도는",
+                    "original_form": "여기 제주도는",
+                    "speaker_id": "SD2000332",
+                    "start": 256.79805,
+                    "end": 258.75608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.96",
+                    "form": "유난히",
+                    "original_form": "유난히",
+                    "speaker_id": "SD2000332",
+                    "start": 258.76606,
+                    "end": 259.89402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.97",
+                    "form": "바다가 있기 때문에",
+                    "original_form": "바다가 있기 때문에",
+                    "speaker_id": "SD2000332",
+                    "start": 259.90405,
+                    "end": 261.38902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.98",
+                    "form": "날씨가",
+                    "original_form": "날씨가",
+                    "speaker_id": "SD2000332",
+                    "start": 261.39904,
+                    "end": 262.73206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.99",
+                    "form": "덥고",
+                    "original_form": "덥고",
+                    "speaker_id": "SD2000332",
+                    "start": 262.74201,
+                    "end": 263.61207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.100",
+                    "form": "습한 거 같아.",
+                    "original_form": "습한 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 263.62207,
+                    "end": 266.03001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.101",
+                    "form": "그러면 몸도 찝찝하고",
+                    "original_form": "그러면 몸도 찝찝하고",
+                    "speaker_id": "SD2000332",
+                    "start": 266.04004,
+                    "end": 268.54908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.102",
+                    "form": "불쾌지수도 올라가서",
+                    "original_form": "불쾌지수도 올라가서",
+                    "speaker_id": "SD2000332",
+                    "start": 268.55907,
+                    "end": 270.93601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.103",
+                    "form": "나는 주로",
+                    "original_form": "나는 주로",
+                    "speaker_id": "SD2000332",
+                    "start": 270.94602,
+                    "end": 273.10001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.104",
+                    "form": "그럴 땐 에어컨을 켜는 거 같아.",
+                    "original_form": "그를 땐 에어컨을 키는 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 273.11005,
+                    "end": 279.84808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.105",
+                    "form": "더울 때는",
+                    "original_form": "더울 때는",
+                    "speaker_id": "SD2000332",
+                    "start": 279.85808,
+                    "end": 281.52708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.106",
+                    "form": "날씨 더울 때 날씨에는",
+                    "original_form": "날씨 더울 때 날씨에는",
+                    "speaker_id": "SD2000332",
+                    "start": 281.53705,
+                    "end": 284.96303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.107",
+                    "form": "에어컨과 선풍기를 같이 켜면",
+                    "original_form": "에어컨과 선풍기를 같이 키면",
+                    "speaker_id": "SD2000332",
+                    "start": 284.97301,
+                    "end": 287.36801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.108",
+                    "form": "나는 제일",
+                    "original_form": "나는 제일",
+                    "speaker_id": "SD2000332",
+                    "start": 287.37802,
+                    "end": 289.50208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.109",
+                    "form": "좋은 거 같아.",
+                    "original_form": "좋은 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 289.51208,
+                    "end": 290.90704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.110",
+                    "form": "날씨가 제주도는",
+                    "original_form": "날씨가 제주도는",
+                    "speaker_id": "SD2000332",
+                    "start": 297.08604,
+                    "end": 300.13708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.111",
+                    "form": "이랬다저랬다",
+                    "original_form": "이랬다저랬다",
+                    "speaker_id": "SD2000332",
+                    "start": 300.14705,
+                    "end": 302.44307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.112",
+                    "form": "뭐 제주시나 서귀포시나",
+                    "original_form": "뭐 제주시나 서귀포시나",
+                    "speaker_id": "SD2000332",
+                    "start": 302.45306,
+                    "end": 307.09703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.113",
+                    "form": "제주시는 만약 비 온다면",
+                    "original_form": "제주시는 만약 비 온다면",
+                    "speaker_id": "SD2000332",
+                    "start": 307.10705,
+                    "end": 308.95305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.114",
+                    "form": "서귀포시는",
+                    "original_form": "서귀포시는",
+                    "speaker_id": "SD2000332",
+                    "start": 308.96303,
+                    "end": 310.57202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.115",
+                    "form": "날씨가 쨍쨍할 때도 이런 경우도 많은데",
+                    "original_form": "날씨가 쨍쨍할 때도 이런 경우도 많은데",
+                    "speaker_id": "SD2000332",
+                    "start": 310.58202,
+                    "end": 314.86604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.116",
+                    "form": "이 제주도 특성상",
+                    "original_form": "이 제주도 특성상",
+                    "speaker_id": "SD2000332",
+                    "start": 314.87603,
+                    "end": 317.01304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.117",
+                    "form": "그런 거 같은데",
+                    "original_form": "그런 거 같은데",
+                    "speaker_id": "SD2000332",
+                    "start": 317.02303,
+                    "end": 319.22906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.118",
+                    "form": "혹시 이런 거에 대해서 잘 아니?",
+                    "original_form": "혹시 이런 거에 대해서 잘 아니?",
+                    "speaker_id": "SD2000332",
+                    "start": 319.23906,
+                    "end": 321.52907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.119",
+                    "form": "제주도가",
+                    "original_form": "제주도가",
+                    "speaker_id": "SD2000330",
+                    "start": 325.59904,
+                    "end": 329.17604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.120",
+                    "form": "섬이기 때문에",
+                    "original_form": "섬이기 때문에",
+                    "speaker_id": "SD2000330",
+                    "start": 329.18604,
+                    "end": 332.01402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.121",
+                    "form": "그~ 섬의 특성상",
+                    "original_form": "그~ 섬의 특성상",
+                    "speaker_id": "SD2000330",
+                    "start": 332.02405,
+                    "end": 334.75507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.122",
+                    "form": "그렇다고 생각해.",
+                    "original_form": "그렇다고 생각해.",
+                    "speaker_id": "SD2000330",
+                    "start": 334.76503,
+                    "end": 336.47604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.123",
+                    "form": "예전에",
+                    "original_form": "예전에",
+                    "speaker_id": "SD2000330",
+                    "start": 336.48603,
+                    "end": 338.95203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.124",
+                    "form": "예전에 영국 여행을",
+                    "original_form": "예전에 영국 여행을",
+                    "speaker_id": "SD2000330",
+                    "start": 338.96205,
+                    "end": 342.65505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.125",
+                    "form": "대학 때 했었는데",
+                    "original_form": "대학 때 했었는데",
+                    "speaker_id": "SD2000330",
+                    "start": 342.66502,
+                    "end": 345.91101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.126",
+                    "form": "지금 생각하면 제주도 날씨랑 조금 비슷했던 거 같아.",
+                    "original_form": "지금 생각하면 제주도 날씨랑 쫌 비슷했던 거 같애.",
+                    "speaker_id": "SD2000330",
+                    "start": 345.92103,
+                    "end": 350.08107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.127",
+                    "form": "어느 날은",
+                    "original_form": "어느 날은",
+                    "speaker_id": "SD2000330",
+                    "start": 350.09107,
+                    "end": 353.00104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.128",
+                    "form": "정말 4계절 날씨가 뭐 그렇게",
+                    "original_form": "정말 사계절 날씨가 뭐 그렇게",
+                    "speaker_id": "SD2000330",
+                    "start": 353.01101,
+                    "end": 355.70905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.129",
+                    "form": "추운 그거까지는 아니어도",
+                    "original_form": "추운 그거까지는 아니어두",
+                    "speaker_id": "SD2000330",
+                    "start": 355.71903,
+                    "end": 358.47603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.130",
+                    "form": "4계절 날씨가 한 번에 하루에 왔다 가는 경우도",
+                    "original_form": "사계절 날씨가 한 번에 하루에 왔다 가는 경우두",
+                    "speaker_id": "SD2000330",
+                    "start": 358.48602,
+                    "end": 361.92605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.131",
+                    "form": "있었던 거 같아.",
+                    "original_form": "있었던 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 361.93605,
+                    "end": 363.34207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.132",
+                    "form": "오래 머물진 않았어도",
+                    "original_form": "오래 머물진 않았어도",
+                    "speaker_id": "SD2000330",
+                    "start": 363.35207,
+                    "end": 365.97003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.133",
+                    "form": "그때는 잘 몰랐는데",
+                    "original_form": "그때는 잘 몰랐는데",
+                    "speaker_id": "SD2000330",
+                    "start": 365.98001,
+                    "end": 367.91806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.134",
+                    "form": "정 음~",
+                    "original_form": "정 음~",
+                    "speaker_id": "SD2000330",
+                    "start": 367.92808,
+                    "end": 369.08602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.135",
+                    "form": "섬 나라 날씨가 이런가 보다라는 생각을 했었는데",
+                    "original_form": "섬 나라 날씨가 이런가 보다라는 생각을 했었는데",
+                    "speaker_id": "SD2000330",
+                    "start": 369.09605,
+                    "end": 372.70206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.136",
+                    "form": "제주도 날씨가",
+                    "original_form": "제주도 날씨가",
+                    "speaker_id": "SD2000330",
+                    "start": 372.71205,
+                    "end": 375.59403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.137",
+                    "form": "섬이기 때문에",
+                    "original_form": "섬이기 때문에",
+                    "speaker_id": "SD2000330",
+                    "start": 375.60407,
+                    "end": 377.44202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.138",
+                    "form": "덥기도 하고 춥기도 하고",
+                    "original_form": "덥기도 하고 춥기도 하고",
+                    "speaker_id": "SD2000330",
+                    "start": 377.45208,
+                    "end": 379.83308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.139",
+                    "form": "서귀포 날씨가 다르고 제주시 날씨가 다르고",
+                    "original_form": "서귀포 날씨가 다르구 제주시 날씨가 다르구",
+                    "speaker_id": "SD2000330",
+                    "start": 379.84303,
+                    "end": 384.16403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.140",
+                    "form": "여러 가지 날씨가 하루에도 한 번씩 왔다 가고",
+                    "original_form": "여러 가지 날씨가 하루에도 한 번씩 왔다 가고",
+                    "speaker_id": "SD2000330",
+                    "start": 384.17401,
+                    "end": 389.31206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.141",
+                    "form": "그렇다고 생각하는데",
+                    "original_form": "그렇다고 생각하는데",
+                    "speaker_id": "SD2000330",
+                    "start": 389.32202,
+                    "end": 392.02102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.142",
+                    "form": "썩 좋아하진 않아.",
+                    "original_form": "썩 좋아하진 않아.",
+                    "speaker_id": "SD2000330",
+                    "start": 392.03105,
+                    "end": 395.79205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.143",
+                    "form": "그럼 너는",
+                    "original_form": "그럼 너는",
+                    "speaker_id": "SD2000330",
+                    "start": 395.80205,
+                    "end": 398.96508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.144",
+                    "form": "해가 쨍쨍한 날씨가 좋아",
+                    "original_form": "해가 쨍쨍한 날씨가 좋아",
+                    "speaker_id": "SD2000330",
+                    "start": 398.97507,
+                    "end": 402.72605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.145",
+                    "form": "그래도 아주 추운 날씨가 나은 거 같아?",
+                    "original_form": "그래도 아주 추운 날씨가 나은 거 같아?",
+                    "speaker_id": "SD2000330",
+                    "start": 402.73605,
+                    "end": 409.65508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.146",
+                    "form": "나는",
+                    "original_form": "나는",
+                    "speaker_id": "SD2000332",
+                    "start": 409.66506,
+                    "end": 410.78701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.147",
+                    "form": "그래도",
+                    "original_form": "그래도",
+                    "speaker_id": "SD2000332",
+                    "start": 410.79706,
+                    "end": 411.57807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.148",
+                    "form": "더위를 더 많이 타서",
+                    "original_form": "더위를 더 많이 타서",
+                    "speaker_id": "SD2000332",
+                    "start": 411.58802,
+                    "end": 414.04507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.149",
+                    "form": "차라리 추운 게 더 나은 거 같아.",
+                    "original_form": "차라리 추운 게 더 나은 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 414.05507,
+                    "end": 418.36903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.150",
+                    "form": "아무리 더우면",
+                    "original_form": "아무리 더우면",
+                    "speaker_id": "SD2000332",
+                    "start": 418.37904,
+                    "end": 420.24002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.151",
+                    "form": "다 벗어도 덥거든.",
+                    "original_form": "다 벗어도 덥거든.",
+                    "speaker_id": "SD2000332",
+                    "start": 420.25007,
+                    "end": 422.51008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.152",
+                    "form": "근데",
+                    "original_form": "근데",
+                    "speaker_id": "SD2000332",
+                    "start": 422.52007,
+                    "end": 423.57804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.153",
+                    "form": "추우면",
+                    "original_form": "추우면",
+                    "speaker_id": "SD2000332",
+                    "start": 423.58807,
+                    "end": 424.82407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.154",
+                    "form": "몇 겹을",
+                    "original_form": "몇 겹을",
+                    "speaker_id": "SD2000332",
+                    "start": 424.83407,
+                    "end": 426.60205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.155",
+                    "form": "껴",
+                    "original_form": "껴",
+                    "speaker_id": "SD2000332",
+                    "start": 426.61206,
+                    "end": 427.50001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.156",
+                    "form": "입고",
+                    "original_form": "입고",
+                    "speaker_id": "SD2000332",
+                    "start": 427.51003,
+                    "end": 429.75806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.157",
+                    "form": "그러면",
+                    "original_form": "그러면",
+                    "speaker_id": "SD2000332",
+                    "start": 429.76808,
+                    "end": 430.67402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.158",
+                    "form": "몸이 그래도 따뜻해서서 좋은 거 같아.",
+                    "original_form": "몸이 그래도 따뜻해서서 좋은 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 430.68404,
+                    "end": 434.79506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.159",
+                    "form": "내가 초등학교 때",
+                    "original_form": "내가 초등학교 때",
+                    "speaker_id": "SD2000332",
+                    "start": 434.80506,
+                    "end": 438.31803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.160",
+                    "form": "나리 태풍이 왔었는데",
+                    "original_form": "나리 태풍이 왔었는데",
+                    "speaker_id": "SD2000332",
+                    "start": 438.32808,
+                    "end": 442.22707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.161",
+                    "form": "나는 현재 구 제주에서",
+                    "original_form": "나는 현재 구 제주에서",
+                    "speaker_id": "SD2000332",
+                    "start": 442.23706,
+                    "end": 444.52007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.162",
+                    "form": "거주하고 있어.",
+                    "original_form": "거주하고 있어.",
+                    "speaker_id": "SD2000332",
+                    "start": 444.53007,
+                    "end": 446.28105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.163",
+                    "form": "근데 내가 있던 지 내가 있던",
+                    "original_form": "((근데)) 내가 있던 지 내가 있던",
+                    "speaker_id": "SD2000332",
+                    "start": 446.29101,
+                    "end": 448.70404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.164",
+                    "form": "동네에서",
+                    "original_form": "동네에서",
+                    "speaker_id": "SD2000332",
+                    "start": 448.71401,
+                    "end": 450.25201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.165",
+                    "form": "제일 피해를 많이 봤어.",
+                    "original_form": "제일 피해를 많이 봤어.",
+                    "speaker_id": "SD2000332",
+                    "start": 450.26206,
+                    "end": 453.15104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.166",
+                    "form": "제주도에서",
+                    "original_form": "제주도에서",
+                    "speaker_id": "SD2000332",
+                    "start": 453.16105,
+                    "end": 455.56201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.167",
+                    "form": "제일 태풍 피해가 많이",
+                    "original_form": "제일 태풍 피해가 많이",
+                    "speaker_id": "SD2000332",
+                    "start": 455.57205,
+                    "end": 457.74006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.168",
+                    "form": "왔던",
+                    "original_form": "왔던",
+                    "speaker_id": "SD2000332",
+                    "start": 457.75002,
+                    "end": 458.69001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.169",
+                    "form": "태풍이",
+                    "original_form": "태풍이",
+                    "speaker_id": "SD2000332",
+                    "start": 458.70008,
+                    "end": 459.92904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.170",
+                    "form": "나리 태풍이었던 걸로 나는 기억을 해.",
+                    "original_form": "나리 태풍이었던 걸로 나는 기억을 해.",
+                    "speaker_id": "SD2000332",
+                    "start": 459.93905,
+                    "end": 463.98206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.171",
+                    "form": "이 나리 태풍 때",
+                    "original_form": "이 나리 태풍 때",
+                    "speaker_id": "SD2000332",
+                    "start": 463.99204,
+                    "end": 467.94907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.172",
+                    "form": "사람들이",
+                    "original_form": "사람들이",
+                    "speaker_id": "SD2000332",
+                    "start": 467.95907,
+                    "end": 469.48908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.173",
+                    "form": "많이",
+                    "original_form": "많이",
+                    "speaker_id": "SD2000332",
+                    "start": 469.49906,
+                    "end": 470.64405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.174",
+                    "form": "피해를 입고",
+                    "original_form": "피해를 입고",
+                    "speaker_id": "SD2000332",
+                    "start": 470.65408,
+                    "end": 473.20307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.175",
+                    "form": "힘들어했었지.",
+                    "original_form": "힘들어했었지.",
+                    "speaker_id": "SD2000332",
+                    "start": 473.21305,
+                    "end": 476.82907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.176",
+                    "form": "혹시 태풍 피해",
+                    "original_form": "혹시 태풍 피해",
+                    "speaker_id": "SD2000332",
+                    "start": 476.83906,
+                    "end": 479.85507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.177",
+                    "form": "기억 남는 거 있어?",
+                    "original_form": "기억 남는 거 있어?",
+                    "speaker_id": "SD2000332",
+                    "start": 479.86506,
+                    "end": 484.17406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.178",
+                    "form": "나는 태풍이 있었을 때는",
+                    "original_form": "나는 태풍이 있었을 때는",
+                    "speaker_id": "SD2000330",
+                    "start": 484.18408,
+                    "end": 488.42604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.179",
+                    "form": "욕지에서 살고 있었어.",
+                    "original_form": "욕지에서 살고 있었어.",
+                    "speaker_id": "SD2000330",
+                    "start": 488.43604,
+                    "end": 492.73702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.180",
+                    "form": "학교도 휴교를 했었던 걸로 기억을 해.",
+                    "original_form": "학교도 휴교를 했었던 걸로 기억을 해.",
+                    "speaker_id": "SD2000330",
+                    "start": 492.74701,
+                    "end": 496.61507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.181",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2000330",
+                    "start": 496.62508,
+                    "end": 498.91908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.182",
+                    "form": "유리 창문에",
+                    "original_form": "유리 창문에",
+                    "speaker_id": "SD2000330",
+                    "start": 498.92901,
+                    "end": 500.31202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.183",
+                    "form": "신문지를",
+                    "original_form": "신문지를",
+                    "speaker_id": "SD2000330",
+                    "start": 500.32202,
+                    "end": 501.75808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.184",
+                    "form": "붙여놨었어.",
+                    "original_form": "붙여놨었어.",
+                    "speaker_id": "SD2000330",
+                    "start": 501.76802,
+                    "end": 503.96702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.185",
+                    "form": "신문지를 붙여놓으면 효과가 있다고 그랬는데",
+                    "original_form": "신문지를 붙여놓으면 효과가 있다고 그랬는데",
+                    "speaker_id": "SD2000330",
+                    "start": 503.97706,
+                    "end": 508.16504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.186",
+                    "form": "그게 정말 효과가 있는지는 모르겠어.",
+                    "original_form": "그게 정말 효과가 있는지는 모르겠어.",
+                    "speaker_id": "SD2000330",
+                    "start": 508.17504,
+                    "end": 511.34204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.187",
+                    "form": "그래도 불안한 마음에",
+                    "original_form": "그래도 불안한 마음에",
+                    "speaker_id": "SD2000330",
+                    "start": 511.35207,
+                    "end": 513.75807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.188",
+                    "form": "신문지를",
+                    "original_form": "신문지를",
+                    "speaker_id": "SD2000330",
+                    "start": 513.76805,
+                    "end": 515.33605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.189",
+                    "form": "붙여놨었어.",
+                    "original_form": "붙여놨었어.",
+                    "speaker_id": "SD2000330",
+                    "start": 515.34603,
+                    "end": 517.68506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.190",
+                    "form": "근데 그때 생각보다 태풍이 덜했어.",
+                    "original_form": "근데 그때 생각보다 태풍이 덜했어.",
+                    "speaker_id": "SD2000330",
+                    "start": 517.69505,
+                    "end": 521.60603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.191",
+                    "form": "태풍이 덜해서",
+                    "original_form": "태풍이 덜해서",
+                    "speaker_id": "SD2000330",
+                    "start": 521.61602,
+                    "end": 523.77305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.192",
+                    "form": "이 정도로",
+                    "original_form": "이 정도로",
+                    "speaker_id": "SD2000330",
+                    "start": 523.78307,
+                    "end": 527.62208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.193",
+                    "form": "태풍이 온 거면",
+                    "original_form": "태풍이 온 거면",
+                    "speaker_id": "SD2000330",
+                    "start": 527.63207,
+                    "end": 529.56201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.194",
+                    "form": "학교를",
+                    "original_form": "학교를",
+                    "speaker_id": "SD2000330",
+                    "start": 529.57207,
+                    "end": 530.48505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.195",
+                    "form": "휴교를 하지 않아도 되지 않았을을까 하는 생각이 들었었어.",
+                    "original_form": "휴교를 하지 않아도 되지 않았을을까 하는 생각이 들었었어.",
+                    "speaker_id": "SD2000330",
+                    "start": 530.49503,
+                    "end": 535.66307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.196",
+                    "form": "메스컴에서 떠드는 거보다",
+                    "original_form": "메스컴에서 떠드는 거보다",
+                    "speaker_id": "SD2000330",
+                    "start": 535.67306,
+                    "end": 537.98204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.197",
+                    "form": "느끼는 거가",
+                    "original_form": "느끼는 거가",
+                    "speaker_id": "SD2000330",
+                    "start": 537.99205,
+                    "end": 540.05101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.198",
+                    "form": "조금 덜 했던 거 같아.",
+                    "original_form": "쫌 덜 했던 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 540.06101,
+                    "end": 542.82006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.199",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000330",
+                    "start": 542.83005,
+                    "end": 544.26505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.200",
+                    "form": "나는",
+                    "original_form": "나는",
+                    "speaker_id": "SD2000330",
+                    "start": 544.27506,
+                    "end": 545.66101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.201",
+                    "form": "아파트에 살았고",
+                    "original_form": "아파트에 살았고",
+                    "speaker_id": "SD2000330",
+                    "start": 545.67107,
+                    "end": 547.40503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.202",
+                    "form": "큰 피해를 입진 못했는데",
+                    "original_form": "큰 피해를 입진 못했는데",
+                    "speaker_id": "SD2000330",
+                    "start": 547.41505,
+                    "end": 549.80801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.203",
+                    "form": "내가 아는",
+                    "original_form": "내가 아는",
+                    "speaker_id": "SD2000330",
+                    "start": 549.81806,
+                    "end": 551.94806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.204",
+                    "form": "친구 중엔",
+                    "original_form": "친구 중엔",
+                    "speaker_id": "SD2000330",
+                    "start": 551.95807,
+                    "end": 553.64002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.205",
+                    "form": "외국에 살면서 태풍이 왔었을 때",
+                    "original_form": "외국에 살면서 태풍이 왔었을 때",
+                    "speaker_id": "SD2000330",
+                    "start": 553.65002,
+                    "end": 557.36808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.206",
+                    "form": "피해를 본",
+                    "original_form": "피해를 본",
+                    "speaker_id": "SD2000330",
+                    "start": 557.37804,
+                    "end": 559.46906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.207",
+                    "form": "경우를 봤어.",
+                    "original_form": "경우를 봤어.",
+                    "speaker_id": "SD2000330",
+                    "start": 559.47903,
+                    "end": 561.35705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.208",
+                    "form": "그 친구는",
+                    "original_form": "그 친구는",
+                    "speaker_id": "SD2000330",
+                    "start": 561.36707,
+                    "end": 562.97606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.209",
+                    "form": "중국에 살고 있었고",
+                    "original_form": "중국에 살고 있었고",
+                    "speaker_id": "SD2000330",
+                    "start": 562.98603,
+                    "end": 564.94407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.210",
+                    "form": "좋은 아파트였고 고층 아파트였는데",
+                    "original_form": "좋은 아파트였고 고층 아파트였는데",
+                    "speaker_id": "SD2000330",
+                    "start": 564.95402,
+                    "end": 568.21305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.211",
+                    "form": "태풍이 왔을 때",
+                    "original_form": "태풍이 왔을 때",
+                    "speaker_id": "SD2000330",
+                    "start": 568.22305,
+                    "end": 569.80106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.212",
+                    "form": "유리 창문이 깨져서",
+                    "original_form": "유리 창문이 깨져서",
+                    "speaker_id": "SD2000330",
+                    "start": 569.81108,
+                    "end": 572.23006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.213",
+                    "form": "그 깨진 창문을",
+                    "original_form": "그 깨진 창문을",
+                    "speaker_id": "SD2000330",
+                    "start": 572.24007,
+                    "end": 575.04707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.214",
+                    "form": "모습을 사진으로 찍어 보냈는데 정말 무서웠을 거 같더라고.",
+                    "original_form": "모습을 사진으로 찍어 보냈는데 정말 무서웠을 거 같드라구.",
+                    "speaker_id": "SD2000330",
+                    "start": 575.05702,
+                    "end": 581.48305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.215",
+                    "form": "나는 겪어보진 않았지만",
+                    "original_form": "나는 겪어보진 않았지만",
+                    "speaker_id": "SD2000330",
+                    "start": 581.49302,
+                    "end": 586.75802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.216",
+                    "form": "그런 경우가 오면",
+                    "original_form": "그런 경우가 오면",
+                    "speaker_id": "SD2000330",
+                    "start": 586.76802,
+                    "end": 588.70208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.217",
+                    "form": "정말 무서웠을 거 같아.",
+                    "original_form": "정말 무서웠을 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 588.71205,
+                    "end": 594.20203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.218",
+                    "form": "너는",
+                    "original_form": "너는",
+                    "speaker_id": "SD2000330",
+                    "start": 594.21201,
+                    "end": 595.67904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.219",
+                    "form": "가을이 춥지도 않고 덥지도 않아서 좋다고 했는데",
+                    "original_form": "가을이 춥지도 않고 덥지도 않아서 좋다고 했는데",
+                    "speaker_id": "SD2000330",
+                    "start": 595.68902,
+                    "end": 600.95502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.220",
+                    "form": "그럼 봄 날씨는 싫어하는 거야?",
+                    "original_form": "그럼 봄 날씨는 싫어하는 거야?",
+                    "speaker_id": "SD2000330",
+                    "start": 600.96501,
+                    "end": 607.70907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.221",
+                    "form": "봄 날씨는",
+                    "original_form": "봄 날씨는",
+                    "speaker_id": "SD2000332",
+                    "start": 607.71905,
+                    "end": 609.23704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.222",
+                    "form": "나는 별로 안 좋아해.",
+                    "original_form": "나는 별로 안 좋아해.",
+                    "speaker_id": "SD2000332",
+                    "start": 609.24703,
+                    "end": 612.35804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.223",
+                    "form": "그 이유는",
+                    "original_form": "그 이유는",
+                    "speaker_id": "SD2000332",
+                    "start": 612.36808,
+                    "end": 614.59908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.224",
+                    "form": "꽃 가루가",
+                    "original_form": "꽃 가루가",
+                    "speaker_id": "SD2000332",
+                    "start": 614.60904,
+                    "end": 616.53402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.225",
+                    "form": "너무 날아다니고",
+                    "original_form": "너무 날라다니고",
+                    "speaker_id": "SD2000332",
+                    "start": 616.54407,
+                    "end": 619.49108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.226",
+                    "form": "벌레도",
+                    "original_form": "벌레도",
+                    "speaker_id": "SD2000332",
+                    "start": 619.50103,
+                    "end": 620.86302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.227",
+                    "form": "유난히",
+                    "original_form": "유난히",
+                    "speaker_id": "SD2000332",
+                    "start": 620.87306,
+                    "end": 622.75706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.228",
+                    "form": "벌",
+                    "original_form": "벌",
+                    "speaker_id": "SD2000332",
+                    "start": 622.76702,
+                    "end": 624.34602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.229",
+                    "form": "나비",
+                    "original_form": "나비",
+                    "speaker_id": "SD2000332",
+                    "start": 624.35604,
+                    "end": 626.26502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.230",
+                    "form": "이런 것들이 더 많이",
+                    "original_form": "이런 것들이 더 많이",
+                    "speaker_id": "SD2000332",
+                    "start": 626.27504,
+                    "end": 628.86707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.231",
+                    "form": "날아다니는 거 같아서 나는 별로 안 좋아해.",
+                    "original_form": "날라다니는 거 같아서 나는 별로 안 좋아해.",
+                    "speaker_id": "SD2000332",
+                    "start": 628.87702,
+                    "end": 633.05904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.232",
+                    "form": "볼 때는 뭐 꽃이나",
+                    "original_form": "볼 때는 뭐 꽃이나",
+                    "speaker_id": "SD2000332",
+                    "start": 633.06901,
+                    "end": 636.77104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.233",
+                    "form": "벚꽃 나무",
+                    "original_form": "벚꽃 나무",
+                    "speaker_id": "SD2000332",
+                    "start": 636.78104,
+                    "end": 638.09406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.234",
+                    "form": "이런 것을 볼 땐",
+                    "original_form": "이런 것을 볼 땐",
+                    "speaker_id": "SD2000332",
+                    "start": 638.10404,
+                    "end": 639.92307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.235",
+                    "form": "좋지만",
+                    "original_form": "좋지만",
+                    "speaker_id": "SD2000332",
+                    "start": 639.93305,
+                    "end": 642.45601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.236",
+                    "form": "나는 별로",
+                    "original_form": "나는 별로",
+                    "speaker_id": "SD2000332",
+                    "start": 642.46608,
+                    "end": 645.81203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.237",
+                    "form": "그런 걸 안 좋아해서 봄을 별로 안 좋아하는 거 같아.",
+                    "original_form": "그런 걸 안 좋아해서 봄을 별로 안 좋아하는 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 645.82205,
+                    "end": 649.21602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.238",
+                    "form": "일기 예보 얘기를 한 한번 해볼려 하는데",
+                    "original_form": "일기 예보 얘기를 -한- 한번 해볼려 하는데",
+                    "speaker_id": "SD2000332",
+                    "start": 654.58701,
+                    "end": 659.77703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.239",
+                    "form": "이 일기 예보가",
+                    "original_form": "이 일기 예보가",
+                    "speaker_id": "SD2000332",
+                    "start": 659.78701,
+                    "end": 661.61305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.240",
+                    "form": "항상",
+                    "original_form": "항상",
+                    "speaker_id": "SD2000332",
+                    "start": 661.62307,
+                    "end": 663.87406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.241",
+                    "form": "맞진 않는 거 같아.",
+                    "original_form": "맞진 않는 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 663.88401,
+                    "end": 665.66206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.242",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000332",
+                    "start": 665.67204,
+                    "end": 666.83105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.243",
+                    "form": "어떤 사이트를 믿어야 되는 건지",
+                    "original_form": "어떤 사이트를 믿어야 되는 건지",
+                    "speaker_id": "SD2000332",
+                    "start": 666.84102,
+                    "end": 669.24407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.244",
+                    "form": "이 한국 기상청을",
+                    "original_form": "이 한국 기상청을",
+                    "speaker_id": "SD2000332",
+                    "start": 669.25408,
+                    "end": 671.20605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.245",
+                    "form": "믿어도 되는 건지",
+                    "original_form": "믿어도 되는 건지",
+                    "speaker_id": "SD2000332",
+                    "start": 671.21607,
+                    "end": 672.82001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.246",
+                    "form": "고민할 때가 많아.",
+                    "original_form": "고민할 때가 많아.",
+                    "speaker_id": "SD2000332",
+                    "start": 672.83003,
+                    "end": 675.84705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.247",
+                    "form": "아까 방금 말한 것처럼",
+                    "original_form": "아까 방금 말한 것처럼",
+                    "speaker_id": "SD2000332",
+                    "start": 675.85704,
+                    "end": 678.09903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.248",
+                    "form": "태풍의 피해가",
+                    "original_form": "태풍의 피해가",
+                    "speaker_id": "SD2000332",
+                    "start": 678.10902,
+                    "end": 679.62504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.249",
+                    "form": "많을 걸로 예상된다",
+                    "original_form": "많을 걸로 예상된다",
+                    "speaker_id": "SD2000332",
+                    "start": 679.63504,
+                    "end": 683.28905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.250",
+                    "form": "근데",
+                    "original_form": "근데",
+                    "speaker_id": "SD2000332",
+                    "start": 683.29902,
+                    "end": 684.98903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.251",
+                    "form": "막상 겪어본 그 태풍은",
+                    "original_form": "막상 겪어본 그 태풍은",
+                    "speaker_id": "SD2000332",
+                    "start": 684.99907,
+                    "end": 687.69403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.252",
+                    "form": "그렇게 피해가 많이 없었다고 하는데",
+                    "original_form": "그렇게 피해가 많이 없었다고 하는데",
+                    "speaker_id": "SD2000332",
+                    "start": 687.70401,
+                    "end": 692.57503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.253",
+                    "form": "그래서 어떤 걸 믿어야 될지 나는 잘 모르겠어.",
+                    "original_form": "그래서 어떤 걸 믿어야 될지 나는 잘 모르겠어.",
+                    "speaker_id": "SD2000332",
+                    "start": 692.58503,
+                    "end": 697.46808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.254",
+                    "form": "나 같은 경우도",
+                    "original_form": "나 같은 경우도",
+                    "speaker_id": "SD2000332",
+                    "start": 697.47802,
+                    "end": 699.08305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.255",
+                    "form": "우리 폭염",
+                    "original_form": "우리 폭염",
+                    "speaker_id": "SD2000332",
+                    "start": 699.09307,
+                    "end": 700.96103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.256",
+                    "form": "날씨 때",
+                    "original_form": "날씨 때",
+                    "speaker_id": "SD2000332",
+                    "start": 700.97101,
+                    "end": 703.42808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.257",
+                    "form": "난 진짜",
+                    "original_form": "난 진짜",
+                    "speaker_id": "SD2000332",
+                    "start": 703.43801,
+                    "end": 705.34808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.258",
+                    "form": "더워 죽을 거 같아.",
+                    "original_form": "더워 죽을 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 705.35807,
+                    "end": 707.34607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.259",
+                    "form": "근데 꼭 굳이",
+                    "original_form": "근데 꼭 굳이",
+                    "speaker_id": "SD2000332",
+                    "start": 707.35606,
+                    "end": 708.88206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.260",
+                    "form": "긴급 재난 문자로",
+                    "original_form": "긴급 재난 문자로",
+                    "speaker_id": "SD2000332",
+                    "start": 708.89206,
+                    "end": 712.22401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.261",
+                    "form": "폭염 폭염이다 지금 덥다",
+                    "original_form": "폭염 폭염이다 지금 덥다",
+                    "speaker_id": "SD2000332",
+                    "start": 712.23407,
+                    "end": 715.35003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.262",
+                    "form": "난 알고 있는데",
+                    "original_form": "난 알고 있는데",
+                    "speaker_id": "SD2000332",
+                    "start": 715.36008,
+                    "end": 716.83402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.263",
+                    "form": "꼭 그렇게 쓸데없는",
+                    "original_form": "꼭 그렇게 쓸데없는",
+                    "speaker_id": "SD2000332",
+                    "start": 716.84406,
+                    "end": 719.39808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.264",
+                    "form": "문자를 꼭",
+                    "original_form": "문자를 꼭",
+                    "speaker_id": "SD2000332",
+                    "start": 719.40808,
+                    "end": 721.01807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.265",
+                    "form": "제공을 해야 되나",
+                    "original_form": "제공을 해야 되나",
+                    "speaker_id": "SD2000332",
+                    "start": 721.02808,
+                    "end": 722.11802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.266",
+                    "form": "생각도 할 때도 있었어.",
+                    "original_form": "생각도 할 때도 있었어.",
+                    "speaker_id": "SD2000332",
+                    "start": 722.12806,
+                    "end": 723.80901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.267",
+                    "form": "장마가 왔을 때",
+                    "original_form": "장마가 왔을 때",
+                    "speaker_id": "SD2000332",
+                    "start": 731.04307,
+                    "end": 734.26302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.268",
+                    "form": "비가 많이 올 때",
+                    "original_form": "비가 많이 올 때",
+                    "speaker_id": "SD2000332",
+                    "start": 734.27306,
+                    "end": 736.23107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.269",
+                    "form": "어른드는",
+                    "original_form": "어른드는",
+                    "speaker_id": "SD2000332",
+                    "start": 736.24103,
+                    "end": 738.44402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.270",
+                    "form": "뭐 허리가 아프다",
+                    "original_form": "뭐 허리가 아프다",
+                    "speaker_id": "SD2000332",
+                    "start": 738.45407,
+                    "end": 740.22002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.271",
+                    "form": "여기 다 쑤신다 이렇게 많이 말을 하는데",
+                    "original_form": "여기 다 쑤신다 이렇게 많이 말을 하는데",
+                    "speaker_id": "SD2000332",
+                    "start": 740.23003,
+                    "end": 744.41807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.272",
+                    "form": "그런 적이",
+                    "original_form": "그런 적이",
+                    "speaker_id": "SD2000332",
+                    "start": 744.42801,
+                    "end": 746.35505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.273",
+                    "form": "있어?",
+                    "original_form": "있어?",
+                    "speaker_id": "SD2000332",
+                    "start": 746.36507,
+                    "end": 747.31403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.274",
+                    "form": "그래서 비가 오는 게 별로 안 좋아?",
+                    "original_form": "그래서 비가 오는 게 별로 안 좋아?",
+                    "speaker_id": "SD2000332",
+                    "start": 747.32408,
+                    "end": 753.99105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.275",
+                    "form": "몸으로 날씨를 느끼는",
+                    "original_form": "몸으로 날씨를 느끼는",
+                    "speaker_id": "SD2000330",
+                    "start": 754.00105,
+                    "end": 757.82603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.276",
+                    "form": "나이는 아직 안 된 거 같은데",
+                    "original_form": "나이는 아직 안 된 거 같은데",
+                    "speaker_id": "SD2000330",
+                    "start": 757.83607,
+                    "end": 761.54302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.277",
+                    "form": "친구 중에는",
+                    "original_form": "친구 중에는",
+                    "speaker_id": "SD2000330",
+                    "start": 761.55307,
+                    "end": 763.39507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.278",
+                    "form": "그렇게 표현하는 친구들도 있기는 해.",
+                    "original_form": "그렇게 표현하는 친구들도 있기는 해.",
+                    "speaker_id": "SD2000330",
+                    "start": 763.40506,
+                    "end": 767.14403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.279",
+                    "form": "비가 오려고 그래서 그런지",
+                    "original_form": "비가 올려고 그래서 그런지",
+                    "speaker_id": "SD2000330",
+                    "start": 767.15408,
+                    "end": 770.00906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.280",
+                    "form": "아니면 날씨가 이래서 이런지",
+                    "original_form": "아니면 날씨가 이래서 이런지",
+                    "speaker_id": "SD2000330",
+                    "start": 770.01906,
+                    "end": 772.69506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.281",
+                    "form": "다리가 쑤셔오더라",
+                    "original_form": "다리가 쑤셔오더라",
+                    "speaker_id": "SD2000330",
+                    "start": 772.70501,
+                    "end": 774.43707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.282",
+                    "form": "이렇게 표현하는 친구들이 있는데",
+                    "original_form": "이렇게 표현하는 친구들이 있는데",
+                    "speaker_id": "SD2000330",
+                    "start": 774.44702,
+                    "end": 777.38602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.283",
+                    "form": "아직까지 나는",
+                    "original_form": "아직까지 나는",
+                    "speaker_id": "SD2000330",
+                    "start": 777.39605,
+                    "end": 780.67204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.284",
+                    "form": "비나 날씨 때문에",
+                    "original_form": "비나 날씨 때문에",
+                    "speaker_id": "SD2000330",
+                    "start": 780.68208,
+                    "end": 783.93407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.285",
+                    "form": "몸이 쑤신다거나",
+                    "original_form": "몸이 쑤신다거나",
+                    "speaker_id": "SD2000330",
+                    "start": 783.94401,
+                    "end": 786.45803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.286",
+                    "form": "그렇게 특별히 몸으로 느끼는 나이는 아직은 아닌 거 같아.",
+                    "original_form": "그렇게 특별히 몸으로 느끼는 나이는 아직은 아닌 거 같아.",
+                    "speaker_id": "SD2000330",
+                    "start": 786.46808,
+                    "end": 793.71403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.287",
+                    "form": "장마가 아니라면",
+                    "original_form": "장마가 아니라면",
+                    "speaker_id": "SD2000330",
+                    "start": 793.72401,
+                    "end": 797.09806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.288",
+                    "form": "비 오는 날씨는 좋기는 해.",
+                    "original_form": "비 오는 날씨는 좋기는 해.",
+                    "speaker_id": "SD2000330",
+                    "start": 797.10805,
+                    "end": 800.27305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.289",
+                    "form": "그러니까 내가",
+                    "original_form": "그니까 내가",
+                    "speaker_id": "SD2000330",
+                    "start": 800.28304,
+                    "end": 802.34106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.290",
+                    "form": "비 오는 날씨에 바삐 외 외부에서 지내는 게 아니라",
+                    "original_form": "비 오는 날씨에 바삐 -외- 외부에서 지내는 게 아니라",
+                    "speaker_id": "SD2000330",
+                    "start": 802.35108,
+                    "end": 806.91702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.291",
+                    "form": "실내에서 있을 때는",
+                    "original_form": "실내에서 있을 때는",
+                    "speaker_id": "SD2000330",
+                    "start": 806.92702,
+                    "end": 808.61705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.292",
+                    "form": "비 오는 날씨는 좋아해.",
+                    "original_form": "비 오는 날씨는 좋아해.",
+                    "speaker_id": "SD2000330",
+                    "start": 808.62707,
+                    "end": 812.41007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.293",
+                    "form": "너는",
+                    "original_form": "너는",
+                    "speaker_id": "SD2000330",
+                    "start": 812.42004,
+                    "end": 814.86204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.294",
+                    "form": "제주도가 아닌 곳에 산다면",
+                    "original_form": "제주도가 아닌 곳에 산다면",
+                    "speaker_id": "SD2000330",
+                    "start": 814.87203,
+                    "end": 818.57501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.295",
+                    "form": "서늘한 강원도",
+                    "original_form": "서늘한 강원도",
+                    "speaker_id": "SD2000330",
+                    "start": 818.58502,
+                    "end": 822.03305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.296",
+                    "form": "그쪽에서 사는 게 좋을 거 같아",
+                    "original_form": "그쪽에서 사는 게 좋을 거 같아",
+                    "speaker_id": "SD2000330",
+                    "start": 822.04303,
+                    "end": 824.72605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.297",
+                    "form": "아니면 더워도 화려한",
+                    "original_form": "아니면 더워도 화려한",
+                    "speaker_id": "SD2000330",
+                    "start": 824.73608,
+                    "end": 826.82308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.298",
+                    "form": "서울에서 사는 게 좋을 거 같아?",
+                    "original_form": "서울에서 사는 게 좋을 거 같아?",
+                    "speaker_id": "SD2000330",
+                    "start": 826.83307,
+                    "end": 832.28402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.299",
+                    "form": "나는",
+                    "original_form": "나는",
+                    "speaker_id": "SD2000332",
+                    "start": 832.29402,
+                    "end": 834.57008,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.300",
+                    "form": "자연보다",
+                    "original_form": "자연보다",
+                    "speaker_id": "SD2000332",
+                    "start": 834.58004,
+                    "end": 836.80006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.301",
+                    "form": "도시이기 때문에",
+                    "original_form": "도시이기 때문에",
+                    "speaker_id": "SD2000332",
+                    "start": 836.81005,
+                    "end": 839.08801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.302",
+                    "form": "그래도",
+                    "original_form": "그래도",
+                    "speaker_id": "SD2000332",
+                    "start": 839.09801,
+                    "end": 840.12606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.303",
+                    "form": "서울에서 살 거 같아.",
+                    "original_form": "서울에서 살 거 같아.",
+                    "speaker_id": "SD2000332",
+                    "start": 840.13608,
+                    "end": 842.36002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.304",
+                    "form": "그게 말이 조금 이상하지.",
+                    "original_form": "그게 말이 쫌 이상하지.",
+                    "speaker_id": "SD2000332",
+                    "start": 842.37006,
+                    "end": 844.52707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.305",
+                    "form": "더운 게 싫은데",
+                    "original_form": "더운 게 싫은데",
+                    "speaker_id": "SD2000332",
+                    "start": 844.53707,
+                    "end": 845.87601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.306",
+                    "form": "왜",
+                    "original_form": "왜",
+                    "speaker_id": "SD2000332",
+                    "start": 845.88606,
+                    "end": 847.19406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.307",
+                    "form": "시원한 데가 아니라",
+                    "original_form": "시원한 데가 아니라",
+                    "speaker_id": "SD2000332",
+                    "start": 847.20406,
+                    "end": 848.89302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.308",
+                    "form": "굳이",
+                    "original_form": "굳이",
+                    "speaker_id": "SD2000332",
+                    "start": 848.90303,
+                    "end": 851.19804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.309",
+                    "form": "덥고",
+                    "original_form": "덥고",
+                    "speaker_id": "SD2000332",
+                    "start": 851.20806,
+                    "end": 853.09503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.310",
+                    "form": "짜증 난는",
+                    "original_form": "짜증 난는",
+                    "speaker_id": "SD2000332",
+                    "start": 853.10505,
+                    "end": 854.61401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.311",
+                    "form": "서울에서 살까.",
+                    "original_form": "서울에서 살까.",
+                    "speaker_id": "SD2000332",
+                    "start": 854.62407,
+                    "end": 858.84608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.312",
+                    "form": "근데 나는",
+                    "original_form": "((근데)) 나는",
+                    "speaker_id": "SD2000332",
+                    "start": 858.85602,
+                    "end": 860.23505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.313",
+                    "form": "그래도 안에 있을 거니깐",
+                    "original_form": "그래도 안에 있을 거니깐",
+                    "speaker_id": "SD2000332",
+                    "start": 860.24502,
+                    "end": 862.17305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.314",
+                    "form": "에어컨 켜면 된다 이 생각이기 때문에",
+                    "original_form": "에어컨 키면 된다 이 생각이기 때문에",
+                    "speaker_id": "SD2000332",
+                    "start": 862.18306,
+                    "end": 864.76403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000236.1.1.315",
+                    "form": "서울에서 살 거 같x.",
+                    "original_form": "서울에서 살 거 ((같x)).",
+                    "speaker_id": "SD2000332",
+                    "start": 864.77408,
+                    "end": 866.45404,
+                    "note": ""
+                }
+            ]
+        }
+    ]
+}

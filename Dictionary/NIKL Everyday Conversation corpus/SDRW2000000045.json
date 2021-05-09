@@ -1,0 +1,4490 @@
+{
+    "id": "SDRW2000000045",
+    "metadata": {
+        "title": "국립국어원 구어 말뭉치 SDRW2000000045",
+        "creator": "국립국어원",
+        "distributor": "국립국어원",
+        "year": "2020",
+        "category": "구어 > 사적 대화 > 일상대화",
+        "annotation_level": [
+            "원시"
+        ],
+        "sampling": "본문 전체"
+    },
+    "document": [
+        {
+            "id": "SDRW2000000045.1",
+            "metadata": {
+                "title": "2인 일상 대화",
+                "author": "개인 발화자",
+                "publisher": "개인 발화 녹음",
+                "date": "20200610",
+                "topic": "꿈(목표) > 연구자, 임상심리학, 선생님, 악용",
+                "speaker": [
+                    {
+                        "id": "SD2000066",
+                        "age": "20대",
+                        "occupation": "학생",
+                        "sex": "여성",
+                        "birthplace": "충북",
+                        "pricipal_residence": "서울",
+                        "current_residence": "경기",
+                        "education": "대재"
+                    },
+                    {
+                        "id": "SD2000067",
+                        "age": "20대",
+                        "occupation": "무직/취업준비생",
+                        "sex": "여성",
+                        "birthplace": "경북",
+                        "pricipal_residence": "대구",
+                        "current_residence": "서울",
+                        "education": "대졸"
+                    }
+                ],
+                "setting": {
+                    "relation": "기타"
+                }
+            },
+            "utterance": [
+                {
+                    "id": "SDRW2000000045.1.1.1",
+                    "form": "아~ name1 씨는",
+                    "original_form": "아~ &name1& 씨는",
+                    "speaker_id": "SD2000066",
+                    "start": 1.13101,
+                    "end": 2.55406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.2",
+                    "form": "인생의 목표가",
+                    "original_form": "인생의 목표가",
+                    "speaker_id": "SD2000066",
+                    "start": 2.56402,
+                    "end": 4.20701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.3",
+                    "form": "몇 가지인지",
+                    "original_form": "몇 가지인지",
+                    "speaker_id": "SD2000066",
+                    "start": 4.21708,
+                    "end": 5.80102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.4",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 5.81106,
+                    "end": 6.72707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.5",
+                    "form": "크게",
+                    "original_form": "크게",
+                    "speaker_id": "SD2000066",
+                    "start": 6.73704,
+                    "end": 7.78303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.6",
+                    "form": "몇 가지인지",
+                    "original_form": "몇 가지인지",
+                    "speaker_id": "SD2000066",
+                    "start": 7.79301,
+                    "end": 8.75006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.7",
+                    "form": "얘기해주시면 좋겠습니다.",
+                    "original_form": "얘기해주시면 좋겠습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 8.76002,
+                    "end": 13.23503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.8",
+                    "form": "제 인생의 목표는 사실",
+                    "original_form": "제 인생의 목표는 사실",
+                    "speaker_id": "SD2000067",
+                    "start": 13.24505,
+                    "end": 14.96403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.9",
+                    "form": "하납니다.",
+                    "original_form": "하납니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 14.97401,
+                    "end": 15.81304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.10",
+                    "form": "교순데",
+                    "original_form": "교순데",
+                    "speaker_id": "SD2000067",
+                    "start": 15.82307,
+                    "end": 16.90504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.11",
+                    "form": "어~ 사실",
+                    "original_form": "어~ 사실",
+                    "speaker_id": "SD2000067",
+                    "start": 16.91502,
+                    "end": 17.80207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.12",
+                    "form": "그 목표가 쪼금 무너진 것 같습니다.",
+                    "original_form": "그 목표가 쪼금 무너진 것 같습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 17.81202,
+                    "end": 20.16907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.13",
+                    "form": "현실적인",
+                    "original_form": "현실적인",
+                    "speaker_id": "SD2000067",
+                    "start": 20.17902,
+                    "end": 21.20103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.14",
+                    "form": "조언이 있었는데",
+                    "original_form": "조언이 있었는데",
+                    "speaker_id": "SD2000067",
+                    "start": 21.21106,
+                    "end": 22.57101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.15",
+                    "form": "어~ 임용 합격하고",
+                    "original_form": "어~ 임용 합격하고",
+                    "speaker_id": "SD2000067",
+                    "start": 22.58102,
+                    "end": 24.43308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.16",
+                    "form": "어~ 박사 학위는 따고 싶은데 이제",
+                    "original_form": "어~ 박사 학위는 따고 싶은데 이제",
+                    "speaker_id": "SD2000067",
+                    "start": 24.44306,
+                    "end": 27.23802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.17",
+                    "form": "교수를 하려면은",
+                    "original_form": "교수를 하려면은",
+                    "speaker_id": "SD2000067",
+                    "start": 27.24802,
+                    "end": 28.37101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.18",
+                    "form": "기본적으로 유학을 가야 됩니다.",
+                    "original_form": "기본적으로 유학을 가야 됩니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 28.38105,
+                    "end": 30.23602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.19",
+                    "form": "근데 이제 미대 같은 경우는",
+                    "original_form": "근데 이제 미대 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 30.24602,
+                    "end": 31.99601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.20",
+                    "form": "어~ 외국 미대 석",
+                    "original_form": "어~ 외국 미대 석",
+                    "speaker_id": "SD2000067",
+                    "start": 32.00604,
+                    "end": 33.36503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.21",
+                    "form": "미대 같은 경우는 석사밖에",
+                    "original_form": "미대 같은 경우는 석싹밖에",
+                    "speaker_id": "SD2000067",
+                    "start": 33.37506,
+                    "end": 35.02704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.22",
+                    "form": "없습니다. 박사 학위가 없습니다.",
+                    "original_form": "없습니다. 박사 학위가 없습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 35.03707,
+                    "end": 36.78401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.23",
+                    "form": "그래서 이제 석사를 따려고 알아봤는데",
+                    "original_form": "그래서 이제 석사를 딸려고 알아봤는데",
+                    "speaker_id": "SD2000067",
+                    "start": 36.79408,
+                    "end": 39.61401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.24",
+                    "form": "이제",
+                    "original_form": "이제",
+                    "speaker_id": "SD2000067",
+                    "start": 39.62401,
+                    "end": 40.60403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.25",
+                    "form": "임용 합격 후에",
+                    "original_form": "임용 합격 후에",
+                    "speaker_id": "SD2000067",
+                    "start": 40.61408,
+                    "end": 41.69002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.26",
+                    "form": "그런 제도가 있습니다.",
+                    "original_form": "그런 제도가 있습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 41.70007,
+                    "end": 42.96802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.27",
+                    "form": "임용",
+                    "original_form": "임용",
+                    "speaker_id": "SD2000067",
+                    "start": 42.97806,
+                    "end": 43.83908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.28",
+                    "form": "그~",
+                    "original_form": "그~",
+                    "speaker_id": "SD2000067",
+                    "start": 43.84908,
+                    "end": 44.55807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.29",
+                    "form": "관련",
+                    "original_form": "관련",
+                    "speaker_id": "SD2000067",
+                    "start": 44.56803,
+                    "end": 45.31903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.30",
+                    "form": "미술 교사면은 예를 들면",
+                    "original_form": "미술 교사면은 예를 들면",
+                    "speaker_id": "SD2000067",
+                    "start": 45.32904,
+                    "end": 47.00801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.31",
+                    "form": "미술 유학을 가고 싶으면",
+                    "original_form": "미술 유학을 가고 싶으면",
+                    "speaker_id": "SD2000067",
+                    "start": 47.01803,
+                    "end": 48.55503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.32",
+                    "form": "미술",
+                    "original_form": "미술",
+                    "speaker_id": "SD2000067",
+                    "start": 48.56504,
+                    "end": 49.98103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.33",
+                    "form": "미술교육과에",
+                    "original_form": "미술교육과에",
+                    "speaker_id": "SD2000067",
+                    "start": 49.99108,
+                    "end": 51.70504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.34",
+                    "form": "박사로 가고",
+                    "original_form": "박사로 가고",
+                    "speaker_id": "SD2000067",
+                    "start": 51.71506,
+                    "end": 53.17303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.35",
+                    "form": "플러스에 이제",
+                    "original_form": "플러스에 이제",
+                    "speaker_id": "SD2000067",
+                    "start": 53.18307,
+                    "end": 54.47707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.36",
+                    "form": "더불어",
+                    "original_form": "더불어",
+                    "speaker_id": "SD2000067",
+                    "start": 54.48708,
+                    "end": 55.80901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.37",
+                    "form": "이제 복수학위로",
+                    "original_form": "이제 복수학위로",
+                    "speaker_id": "SD2000067",
+                    "start": 55.81905,
+                    "end": 57.20406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.38",
+                    "form": "미술 석사로 가는 방법이 있는데",
+                    "original_form": "미술 석싸로 가는 방법이 있는데",
+                    "speaker_id": "SD2000067",
+                    "start": 57.21401,
+                    "end": 60.36001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.39",
+                    "form": "어~ 그 방법으로 가면 된다고 생각을 했고",
+                    "original_form": "어~ 그 방법으로 가면 된다고 생각을 했고",
+                    "speaker_id": "SD2000067",
+                    "start": 60.37002,
+                    "end": 62.75607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.40",
+                    "form": "그리고 지금 임용 준비를 하고 있었던",
+                    "original_form": "그러고 지금 임용 준비를 하고 있었던",
+                    "speaker_id": "SD2000067",
+                    "start": 62.76607,
+                    "end": 65.04505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.41",
+                    "form": "찰나에",
+                    "original_form": "찰나에",
+                    "speaker_id": "SD2000067",
+                    "start": 65.05506,
+                    "end": 65.88802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.42",
+                    "form": "알아보니까",
+                    "original_form": "알아보니까",
+                    "speaker_id": "SD2000067",
+                    "start": 65.89804,
+                    "end": 67.70405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.43",
+                    "form": "그게 학비를",
+                    "original_form": "그게 학비를",
+                    "speaker_id": "SD2000067",
+                    "start": 67.71407,
+                    "end": 69.56401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.44",
+                    "form": "전부 지원해주는 게 아니라 그냥 생활비만",
+                    "original_form": "전부 지원해주는 게 아니라 그냥 생활비만",
+                    "speaker_id": "SD2000067",
+                    "start": 69.57407,
+                    "end": 71.92305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.45",
+                    "form": "지원해준다고 합니다.",
+                    "original_form": "지원해준다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 71.93307,
+                    "end": 73.52405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.46",
+                    "form": "그런데 이제 외국에",
+                    "original_form": "그런데 이제 외국에",
+                    "speaker_id": "SD2000067",
+                    "start": 73.53402,
+                    "end": 74.88806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.47",
+                    "form": "생활",
+                    "original_form": "생활",
+                    "speaker_id": "SD2000067",
+                    "start": 74.89801,
+                    "end": 75.37402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.48",
+                    "form": "이제 유학비는",
+                    "original_form": "이제 유학비는",
+                    "speaker_id": "SD2000067",
+                    "start": 75.38402,
+                    "end": 76.62003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.49",
+                    "form": "한 학기에",
+                    "original_form": "한 학기에",
+                    "speaker_id": "SD2000067",
+                    "start": 76.63006,
+                    "end": 77.66306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.50",
+                    "form": "6000만 원이죠.",
+                    "original_form": "육천만 원이죠.",
+                    "speaker_id": "SD2000067",
+                    "start": 77.67306,
+                    "end": 79.09907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.51",
+                    "form": "이제 교사에",
+                    "original_form": "이제 교사에",
+                    "speaker_id": "SD2000067",
+                    "start": 80.30104,
+                    "end": 82.38408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.52",
+                    "form": "월급으로",
+                    "original_form": "월급으로",
+                    "speaker_id": "SD2000067",
+                    "start": 82.39404,
+                    "end": 83.55202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.53",
+                    "form": "그 모든",
+                    "original_form": "그 모든",
+                    "speaker_id": "SD2000067",
+                    "start": 83.56208,
+                    "end": 84.77603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.54",
+                    "form": "학비를 감당을 하려면은",
+                    "original_form": "학비를 감당을 할려면은",
+                    "speaker_id": "SD2000067",
+                    "start": 84.78608,
+                    "end": 87.31304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.55",
+                    "form": "대출을 해야 된다라는",
+                    "original_form": "대출을 해야 된다라는",
+                    "speaker_id": "SD2000067",
+                    "start": 87.32302,
+                    "end": 90.21507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.56",
+                    "form": "문제점이 생겼습니다.",
+                    "original_form": "문제점이 생겼습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 90.22505,
+                    "end": 91.98806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.57",
+                    "form": "근데 이제 대출을 하면은",
+                    "original_form": "근데 이제 대출을 하면은",
+                    "speaker_id": "SD2000067",
+                    "start": 91.99806,
+                    "end": 93.68206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.58",
+                    "form": "제 인생은",
+                    "original_form": "제 인생은",
+                    "speaker_id": "SD2000067",
+                    "start": 93.69205,
+                    "end": 94.64808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.59",
+                    "form": "나락으로 떨어지겠죠?",
+                    "original_form": "나락으로 떨어지겠죠?",
+                    "speaker_id": "SD2000067",
+                    "start": 94.65807,
+                    "end": 96.15601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.60",
+                    "form": "하지만 그것은 저가 원하지 않습니다.",
+                    "original_form": "하지만 그것은 저가 원하지 않습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 96.16602,
+                    "end": 98.47506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.61",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000067",
+                    "start": 98.48506,
+                    "end": 99.37803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.62",
+                    "form": "어~ 박",
+                    "original_form": "어~ 박",
+                    "speaker_id": "SD2000067",
+                    "start": 99.38805,
+                    "end": 101.11905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.63",
+                    "form": "그냥",
+                    "original_form": "그냥",
+                    "speaker_id": "SD2000067",
+                    "start": 101.12907,
+                    "end": 102.33901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.64",
+                    "form": "어~ 국내",
+                    "original_form": "어~ 국내",
+                    "speaker_id": "SD2000067",
+                    "start": 102.34905,
+                    "end": 104.32806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.65",
+                    "form": "국내 박사까지만 따고",
+                    "original_form": "국내 박사까지만 따고",
+                    "speaker_id": "SD2000067",
+                    "start": 104.33801,
+                    "end": 106.32905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.66",
+                    "form": "그냥 잔잔바리로",
+                    "original_form": "그냥 잔잔바리로",
+                    "speaker_id": "SD2000067",
+                    "start": 106.33901,
+                    "end": 108.05402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.67",
+                    "form": "지방에",
+                    "original_form": "지방에",
+                    "speaker_id": "SD2000067",
+                    "start": 108.06405,
+                    "end": 110.10408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.68",
+                    "form": "대학교수가 되는 것이",
+                    "original_form": "대학교수가 되는 것이",
+                    "speaker_id": "SD2000067",
+                    "start": 110.11406,
+                    "end": 112.20808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.69",
+                    "form": "맞지 않을까라는",
+                    "original_form": "맞지 않을까라는",
+                    "speaker_id": "SD2000067",
+                    "start": 112.21808,
+                    "end": 114.04001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.70",
+                    "form": "생각을",
+                    "original_form": "생각을",
+                    "speaker_id": "SD2000067",
+                    "start": 114.05004,
+                    "end": 114.65702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.71",
+                    "form": "요즘에는 살짝 합니다.",
+                    "original_form": "요즘에는 살짝 합니다. {laughing}",
+                    "speaker_id": "SD2000067",
+                    "start": 114.66701,
+                    "end": 116.42706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.72",
+                    "form": "에 근데 하시먼",
+                    "original_form": "에 근데 하시먼",
+                    "speaker_id": "SD2000067",
+                    "start": 116.43707,
+                    "end": 117.39904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.73",
+                    "form": "어떻게 될지 모릅니다. 국비로 저가",
+                    "original_form": "어떻게 될지 모릅니다. 국비로 저가",
+                    "speaker_id": "SD2000067",
+                    "start": 117.40906,
+                    "end": 119.33505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.74",
+                    "form": "전액 지원을 받아서",
+                    "original_form": "전액 지원을 받아서",
+                    "speaker_id": "SD2000067",
+                    "start": 119.34501,
+                    "end": 120.39208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.75",
+                    "form": "받아서 갈 수도 있는 노릇이기 때문에",
+                    "original_form": "받아서 갈 수도 있는 노릇이기 때문에",
+                    "speaker_id": "SD2000067",
+                    "start": 120.40202,
+                    "end": 122.52708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.76",
+                    "form": "기대는 해봅니다.",
+                    "original_form": "기대는 해봅니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 122.53701,
+                    "end": 124.33806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.77",
+                    "form": "그럼 name2 씨는",
+                    "original_form": "그럼 &name2& 씨는",
+                    "speaker_id": "SD2000067",
+                    "start": 124.34807,
+                    "end": 125.74304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.78",
+                    "form": "어~ 과를 졸업하고 난 다음에",
+                    "original_form": "어~ 과를 졸업하고 난 다음에",
+                    "speaker_id": "SD2000067",
+                    "start": 125.75301,
+                    "end": 128.40403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.79",
+                    "form": "어~ 어떤",
+                    "original_form": "어~ 어떤",
+                    "speaker_id": "SD2000067",
+                    "start": 128.41406,
+                    "end": 130.09105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.80",
+                    "form": "나아갈 진로나 계획이 있습니까?",
+                    "original_form": "나아갈 진로나 계획이 있습니까?",
+                    "speaker_id": "SD2000067",
+                    "start": 130.10108,
+                    "end": 133.58208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.81",
+                    "form": "음 저의 경우에는",
+                    "original_form": "음 저의 경우에는",
+                    "speaker_id": "SD2000066",
+                    "start": 133.59206,
+                    "end": 135.29703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.82",
+                    "form": "대학원",
+                    "original_form": "대학원",
+                    "speaker_id": "SD2000066",
+                    "start": 135.30705,
+                    "end": 136.15307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.83",
+                    "form": "석박 통합을 생각하고 있습니다.",
+                    "original_form": "석박 통합을 생각하고 있습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 136.16306,
+                    "end": 138.06501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.84",
+                    "form": "물론 국내 대학으로요.",
+                    "original_form": "물론 국내 대학으로요.",
+                    "speaker_id": "SD2000066",
+                    "start": 138.07507,
+                    "end": 139.85505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.85",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 139.86501,
+                    "end": 141.22101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.86",
+                    "form": "여기에서 제가 전공하고 싶은 것은",
+                    "original_form": "여기에서 제가 전공하고 싶은 것은",
+                    "speaker_id": "SD2000066",
+                    "start": 141.23105,
+                    "end": 143.97006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.87",
+                    "form": "뇌과학인데요.",
+                    "original_form": "뇌과학인데요.",
+                    "speaker_id": "SD2000066",
+                    "start": 143.98007,
+                    "end": 145.75701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.88",
+                    "form": "에 이~",
+                    "original_form": "에 이~",
+                    "speaker_id": "SD2000066",
+                    "start": 145.76707,
+                    "end": 147.15907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.89",
+                    "form": "뇌과학으로만",
+                    "original_form": "뇌과학으로만",
+                    "speaker_id": "SD2000066",
+                    "start": 147.16904,
+                    "end": 148.42701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.90",
+                    "form": "찾아봐도",
+                    "original_form": "찾아봐도",
+                    "speaker_id": "SD2000066",
+                    "start": 148.43705,
+                    "end": 149.35002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.91",
+                    "form": "이~ 다양한",
+                    "original_form": "이~ 다양한",
+                    "speaker_id": "SD2000066",
+                    "start": 149.36003,
+                    "end": 150.58404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.92",
+                    "form": "학문",
+                    "original_form": "학문",
+                    "speaker_id": "SD2000066",
+                    "start": 150.59406,
+                    "end": 151.94208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.93",
+                    "form": "이름이 있습니다. 뭐 뇌인지과학과라든지",
+                    "original_form": "이름이 있습니다. 뭐 뇌인지과학과라든지",
+                    "speaker_id": "SD2000066",
+                    "start": 151.95201,
+                    "end": 154.91804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.94",
+                    "form": "뇌공학",
+                    "original_form": "뇌공학",
+                    "speaker_id": "SD2000066",
+                    "start": 154.92808,
+                    "end": 156.18504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.95",
+                    "form": "이런 것도 있고",
+                    "original_form": "이런 것도 있고",
+                    "speaker_id": "SD2000066",
+                    "start": 156.19501,
+                    "end": 157.50105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.96",
+                    "form": "근데 공학 쪽은 저랑",
+                    "original_form": "근데 공학 쪽은 저랑",
+                    "speaker_id": "SD2000066",
+                    "start": 157.51102,
+                    "end": 160.10204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.97",
+                    "form": "쪼금 안 맞는 것 같고",
+                    "original_form": "쪼금 안 맞는 것 같고",
+                    "speaker_id": "SD2000066",
+                    "start": 160.11203,
+                    "end": 162.63708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.98",
+                    "form": "저는 조금 생리학적인 쪽에",
+                    "original_form": "저는 쫌 생리학적인 쪽에",
+                    "speaker_id": "SD2000066",
+                    "start": 162.64708,
+                    "end": 165.11407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.99",
+                    "form": "조금 집중을 하고 싶어서",
+                    "original_form": "쫌 집중을 하고 싶어서",
+                    "speaker_id": "SD2000066",
+                    "start": 165.12401,
+                    "end": 167.15103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.100",
+                    "form": "음 그쪽에",
+                    "original_form": "음 그쪽에",
+                    "speaker_id": "SD2000066",
+                    "start": 167.16108,
+                    "end": 168.76505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.101",
+                    "form": "그 그런 생리학적인 부분과",
+                    "original_form": "-그- 그런 생리학적인 부분과",
+                    "speaker_id": "SD2000066",
+                    "start": 168.77505,
+                    "end": 171.07304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.102",
+                    "form": "또 임상심리쪽이 결합한",
+                    "original_form": "또 임상심리쪽이 결합한",
+                    "speaker_id": "SD2000066",
+                    "start": 171.08303,
+                    "end": 173.30006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.103",
+                    "form": "임상신경과학이라는",
+                    "original_form": "임상신경과학이라는",
+                    "speaker_id": "SD2000066",
+                    "start": 173.31007,
+                    "end": 175.07806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.104",
+                    "form": "부분이 있는데",
+                    "original_form": "부분이 있는데",
+                    "speaker_id": "SD2000066",
+                    "start": 175.08807,
+                    "end": 176.40505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.105",
+                    "form": "어~ 그것을 전공하고 싶은 것이",
+                    "original_form": "어~ 그것을 전공하고 싶은 것이",
+                    "speaker_id": "SD2000066",
+                    "start": 176.41504,
+                    "end": 178.40403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.106",
+                    "form": "저의 꿈입니다.",
+                    "original_form": "저의 꿈입니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 178.41407,
+                    "end": 179.92804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.107",
+                    "form": "그래서 조금 의미있는 연구를 해내가지고",
+                    "original_form": "그래서 쫌 의미있는 연구를 해내가지고",
+                    "speaker_id": "SD2000066",
+                    "start": 179.93801,
+                    "end": 183.44508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.108",
+                    "form": "어~ 많은 사람들이 도움을 받을 수 있으면 좋겠다.",
+                    "original_form": "어~ 많은 사람들이 도움을 받을 수 있으면 좋겠다.",
+                    "speaker_id": "SD2000066",
+                    "start": 183.45508,
+                    "end": 185.95004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.109",
+                    "form": "뭔가",
+                    "original_form": "((뭔가))",
+                    "speaker_id": "SD2000066",
+                    "start": 185.96005,
+                    "end": 187.94404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.110",
+                    "form": "음 그런 생각이 있습니다.",
+                    "original_form": "음 그런 생각이 있습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 187.95401,
+                    "end": 190.28608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.111",
+                    "form": "아~ 그렇다면은 name1 씨는",
+                    "original_form": "아~ 그렇다면은 &name1& 씨는",
+                    "speaker_id": "SD2000066",
+                    "start": 190.29604,
+                    "end": 193.15606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.112",
+                    "form": "박사를 하 하신다고 하셨는데",
+                    "original_form": "박사를 -하- 하신다고 하셨는데 {laughing}",
+                    "speaker_id": "SD2000066",
+                    "start": 193.16602,
+                    "end": 195.71204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.113",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 195.72207,
+                    "end": 197.23306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.114",
+                    "form": "그것이 언제쯤이 될 것 같습니까?",
+                    "original_form": "그것이 언제쯤이 될 것 같습니까?",
+                    "speaker_id": "SD2000066",
+                    "start": 197.24306,
+                    "end": 201.16806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.115",
+                    "form": "어~ 일단",
+                    "original_form": "어~ 일단",
+                    "speaker_id": "SD2000067",
+                    "start": 201.17804,
+                    "end": 204.60604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.116",
+                    "form": "어~ 박사학위 같은 경우는",
+                    "original_form": "어~ 박사학위 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 204.61605,
+                    "end": 207.05802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.117",
+                    "form": "국내 박사학위 같은 경우는",
+                    "original_form": "국내 박사학위 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 207.06806,
+                    "end": 208.70605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.118",
+                    "form": "언제든지 가능합니다.",
+                    "original_form": "언제든지 가능합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 208.71608,
+                    "end": 210.01304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.119",
+                    "form": "그거는 교사 월급으로도 충분히 어~",
+                    "original_form": "그거는 교사 월급으로도 충분히 어~",
+                    "speaker_id": "SD2000067",
+                    "start": 210.02303,
+                    "end": 213.12807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.120",
+                    "form": "커버 가능한",
+                    "original_form": "커버 가능한",
+                    "speaker_id": "SD2000067",
+                    "start": 213.13802,
+                    "end": 214.55807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.121",
+                    "form": "사항입니다.",
+                    "original_form": "사항입니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 214.56806,
+                    "end": 215.64003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.122",
+                    "form": "왜냐하면 국내는 싸가지고",
+                    "original_form": "왜냐하면 국내는 싸가지구",
+                    "speaker_id": "SD2000067",
+                    "start": 215.65001,
+                    "end": 217.05708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.123",
+                    "form": "대출을 받아도",
+                    "original_form": "대출을 받아도",
+                    "speaker_id": "SD2000067",
+                    "start": 217.06702,
+                    "end": 218.05806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.124",
+                    "form": "문제가 없습니다.",
+                    "original_form": "문제가 없습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 218.06802,
+                    "end": 219.51207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.125",
+                    "form": "그런데 이제",
+                    "original_form": "그런데 이제",
+                    "speaker_id": "SD2000067",
+                    "start": 219.52202,
+                    "end": 220.62406,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.126",
+                    "form": "국외 같은 경우는",
+                    "original_form": "국외 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 220.63406,
+                    "end": 222.62402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.127",
+                    "form": "기본적으로 5년 뒤에 해야 됩니다. 그렇기 때문에",
+                    "original_form": "기본적으로 5년 뒤에 해야 됩니다. 그렇기 때문에",
+                    "speaker_id": "SD2000067",
+                    "start": 222.63407,
+                    "end": 225.57602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.128",
+                    "form": "계획을 일단 짜보면은",
+                    "original_form": "계획을 일단 짜보면은",
+                    "speaker_id": "SD2000067",
+                    "start": 225.58607,
+                    "end": 227.24304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.129",
+                    "form": "어~ 임용을 합격하고",
+                    "original_form": "어~ 임용을 합격하고",
+                    "speaker_id": "SD2000067",
+                    "start": 227.25307,
+                    "end": 229.18906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.130",
+                    "form": "바로 석사에 들어간다는 가정으로",
+                    "original_form": "바로 석사에 들어간다는 가정으로",
+                    "speaker_id": "SD2000067",
+                    "start": 229.19901,
+                    "end": 232.25403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.131",
+                    "form": "한 박사학위 3년 정도 잡고",
+                    "original_form": "한 박사학위 삼 년 정도 잡고",
+                    "speaker_id": "SD2000067",
+                    "start": 232.26405,
+                    "end": 235.54803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.132",
+                    "form": "2년 동안",
+                    "original_form": "이 년 동안",
+                    "speaker_id": "SD2000067",
+                    "start": 235.55804,
+                    "end": 236.69608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.133",
+                    "form": "유학을 준비하고",
+                    "original_form": "유학을 준비하고",
+                    "speaker_id": "SD2000067",
+                    "start": 236.70606,
+                    "end": 238.24306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.134",
+                    "form": "그다음에 유학을 준비하고 난 뒤에",
+                    "original_form": "그다음에 유학을 준비하고 난 뒤에",
+                    "speaker_id": "SD2000067",
+                    "start": 238.25305,
+                    "end": 240.03205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.135",
+                    "form": "국비가 언제 될지 모르기 때문에 계속 항상",
+                    "original_form": "국비가 언제 될지 모르기 때문에 계속 항상",
+                    "speaker_id": "SD2000067",
+                    "start": 240.04208,
+                    "end": 243.04503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.136",
+                    "form": "국비를 신청하는 마음을",
+                    "original_form": "국비를 신청하는 마음을",
+                    "speaker_id": "SD2000067",
+                    "start": 243.05504,
+                    "end": 244.59704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.137",
+                    "form": "한 켠에 갖다 두고",
+                    "original_form": "한 켠에 갖다 두고",
+                    "speaker_id": "SD2000067",
+                    "start": 244.60702,
+                    "end": 245.75408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.138",
+                    "form": "일을 열심히 하면서",
+                    "original_form": "일을 열심히 하면서",
+                    "speaker_id": "SD2000067",
+                    "start": 245.76403,
+                    "end": 247.02205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.139",
+                    "form": "계속 국비는",
+                    "original_form": "계속 국비는 {laughing}",
+                    "speaker_id": "SD2000067",
+                    "start": 247.03205,
+                    "end": 248.00706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.140",
+                    "form": "이제 영어랑",
+                    "original_form": "이제 영어랑",
+                    "speaker_id": "SD2000067",
+                    "start": 248.01702,
+                    "end": 249.28707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.141",
+                    "form": "그다음에 뭐 포토 포토폴리오 뭐",
+                    "original_form": "그다음에 뭐 포토 포토폴리오 뭐",
+                    "speaker_id": "SD2000067",
+                    "start": 249.29704,
+                    "end": 251.53307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.142",
+                    "form": "그다음에 박사 석사",
+                    "original_form": "그다음에 박사 석사",
+                    "speaker_id": "SD2000067",
+                    "start": 251.54304,
+                    "end": 252.88108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.143",
+                    "form": "학위 논문은 기본적으로",
+                    "original_form": "학위 논문은 기본적으로",
+                    "speaker_id": "SD2000067",
+                    "start": 252.89101,
+                    "end": 254.47706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.144",
+                    "form": "다 대출을 하되",
+                    "original_form": "다 대출을 하되",
+                    "speaker_id": "SD2000067",
+                    "start": 254.48701,
+                    "end": 256.55702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.145",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000067",
+                    "start": 256.56702,
+                    "end": 258.11005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.146",
+                    "form": "이제 2년 동안 이렇게",
+                    "original_form": "이제 이 년 동안 이렇게",
+                    "speaker_id": "SD2000067",
+                    "start": 258.12001,
+                    "end": 260.11005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.147",
+                    "form": "준비하면서 계속 열심히",
+                    "original_form": "준비하면서 계속 열심히",
+                    "speaker_id": "SD2000067",
+                    "start": 260.12004,
+                    "end": 261.59307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.148",
+                    "form": "어~ 내 뭐 그 뭐냐",
+                    "original_form": "어~ 내 뭐 그 뭐냐",
+                    "speaker_id": "SD2000067",
+                    "start": 261.60302,
+                    "end": 263.57505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.149",
+                    "form": "국비를 한 번 내 보고",
+                    "original_form": "국비를 한 번 내 보고",
+                    "speaker_id": "SD2000067",
+                    "start": 263.58504,
+                    "end": 265.41906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.150",
+                    "form": "그다음에 계속",
+                    "original_form": "그다음에 계속",
+                    "speaker_id": "SD2000067",
+                    "start": 265.42904,
+                    "end": 267.23205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.151",
+                    "form": "존버를 해야죠?",
+                    "original_form": "존버를 해야죠?",
+                    "speaker_id": "SD2000067",
+                    "start": 267.24205,
+                    "end": 268.77403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.152",
+                    "form": "그래야 외국 석사 이제 입학 허가는 금방 난다고 합니다.",
+                    "original_form": "그래야 외국 석사 이제 입학 허가는 금방 난다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 268.78404,
+                    "end": 273.11507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.153",
+                    "form": "저가 기본적으로 성적이 높아가지고 동생 말로는",
+                    "original_form": "저가 기본적으로 성적이 높아가지고 동생 말로는",
+                    "speaker_id": "SD2000067",
+                    "start": 273.12503,
+                    "end": 275.92804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.154",
+                    "form": "아이비리그도 쌉가능하다고 그랬습니다.",
+                    "original_form": "아이비리그도 쌉가능하다고 그랬습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 275.93808,
+                    "end": 278.73401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.155",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000067",
+                    "start": 278.74408,
+                    "end": 279.46206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.156",
+                    "form": "가능하면은",
+                    "original_form": "가능하면은",
+                    "speaker_id": "SD2000067",
+                    "start": 279.47206,
+                    "end": 280.81506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.157",
+                    "form": "동생이 예일대를 내라고 하는데",
+                    "original_form": "동생이 예일대를 내라고 하는데",
+                    "speaker_id": "SD2000067",
+                    "start": 280.82508,
+                    "end": 283.05208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.158",
+                    "form": "가능한지는 모르겠습니다.",
+                    "original_form": "가능한지는 모르겠습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 283.06206,
+                    "end": 284.55507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.159",
+                    "form": "근데 일단 시도는 해보려고 합니다.",
+                    "original_form": "근데 일단 시도는 해볼려고 합니다. {laughing}",
+                    "speaker_id": "SD2000067",
+                    "start": 284.56507,
+                    "end": 287.14001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.160",
+                    "form": "동생은",
+                    "original_form": "동생은",
+                    "speaker_id": "SD2000067",
+                    "start": 287.15003,
+                    "end": 288.69907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.161",
+                    "form": "그 성공 경험으로 인해서",
+                    "original_form": "그 성공 경험으로 인해서",
+                    "speaker_id": "SD2000067",
+                    "start": 288.70907,
+                    "end": 290.36803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.162",
+                    "form": "굉장히 자신감이 많이 올라간 상태라는 걸 쪼금",
+                    "original_form": "굉장히 자신감이 많이 올라간 상태라는 걸 쪼금",
+                    "speaker_id": "SD2000067",
+                    "start": 290.37805,
+                    "end": 293.22707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.163",
+                    "form": "어~ 이 조건을 인지해줬으면 좋겠습니다.",
+                    "original_form": "어~ 이 조건을 인지해줬으면 좋겠습니다. {laughing}",
+                    "speaker_id": "SD2000067",
+                    "start": 293.23702,
+                    "end": 297.33705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.164",
+                    "form": "어~ 그러면은",
+                    "original_form": "어~ 그러면은",
+                    "speaker_id": "SD2000067",
+                    "start": 297.34706,
+                    "end": 299.27904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.165",
+                    "form": "그~",
+                    "original_form": "그~",
+                    "speaker_id": "SD2000067",
+                    "start": 299.28904,
+                    "end": 300.37405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.166",
+                    "form": "어떤 연구자가 되고 싶습니까?",
+                    "original_form": "어떤 연구자가 되고 싶습니까?",
+                    "speaker_id": "SD2000067",
+                    "start": 300.38407,
+                    "end": 303.02608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.167",
+                    "form": "저 말은 그 신념체계가 어떠한지 궁금합니다.",
+                    "original_form": "저 말은 그 신념체계가 어떠한지 궁금합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 303.03608,
+                    "end": 306.59405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.168",
+                    "form": "음 어떤 연구자가 되고 싶은가",
+                    "original_form": "음 어떤 연구자가 되고 싶은가",
+                    "speaker_id": "SD2000066",
+                    "start": 306.60407,
+                    "end": 311.23301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.169",
+                    "form": "아~",
+                    "original_form": "아~",
+                    "speaker_id": "SD2000066",
+                    "start": 311.24305,
+                    "end": 313.41303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.170",
+                    "form": "이 질문은 굉장히",
+                    "original_form": "이 질문은 굉장히",
+                    "speaker_id": "SD2000066",
+                    "start": 313.42305,
+                    "end": 315.42802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.171",
+                    "form": "음 추상적이고 어려운 질문이라고 할 수 있겠는데요.",
+                    "original_form": "음 추상적이고 어려운 질문이라고 할 수 있겠는데요.",
+                    "speaker_id": "SD2000066",
+                    "start": 315.43801,
+                    "end": 319.17902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.172",
+                    "form": "어~ 저는 저의",
+                    "original_form": "어~ 저는 저의",
+                    "speaker_id": "SD2000066",
+                    "start": 319.18905,
+                    "end": 321.07303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.173",
+                    "form": "가치관 자체는 일단",
+                    "original_form": "가치관 자체는 일단",
+                    "speaker_id": "SD2000066",
+                    "start": 321.08307,
+                    "end": 323.29507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.174",
+                    "form": "다른 사람들에게",
+                    "original_form": "다른 사람들에게",
+                    "speaker_id": "SD2000066",
+                    "start": 323.30507,
+                    "end": 325.67503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.175",
+                    "form": "혹은 뭐 사람이 아니더라도",
+                    "original_form": "혹은 뭐 사람이 아니더라도",
+                    "speaker_id": "SD2000066",
+                    "start": 325.68501,
+                    "end": 327.71407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.176",
+                    "form": "다른 생명체에게 도움이 될 수 있는 연구라면",
+                    "original_form": "다른 생명체에게 도움이 될 수 있는 연구라면",
+                    "speaker_id": "SD2000066",
+                    "start": 327.72404,
+                    "end": 331.05107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.177",
+                    "form": "좋은 연구라고 생각을 합니다.",
+                    "original_form": "좋은 연구라고 생각을 합니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 331.06106,
+                    "end": 332.82708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.178",
+                    "form": "그런 의미에서",
+                    "original_form": "그런 의미에서",
+                    "speaker_id": "SD2000066",
+                    "start": 332.83708,
+                    "end": 334.09103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.179",
+                    "form": "제가 좋은 연구를 해내는",
+                    "original_form": "제가 좋은 연구를 해내는",
+                    "speaker_id": "SD2000066",
+                    "start": 334.10102,
+                    "end": 335.56308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.180",
+                    "form": "연구자가 되면 좋겠다고",
+                    "original_form": "연구자가 되면 좋겠다고",
+                    "speaker_id": "SD2000066",
+                    "start": 335.57308,
+                    "end": 336.97403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.181",
+                    "form": "생각을 하고 있습니다.",
+                    "original_form": "생각을 하고 있습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 336.98402,
+                    "end": 338.36806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.182",
+                    "form": "음",
+                    "original_form": "음",
+                    "speaker_id": "SD2000066",
+                    "start": 338.37802,
+                    "end": 340.00403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.183",
+                    "form": "제가 아까 말씀드렸던",
+                    "original_form": "제가 아까 말씀드렸떤",
+                    "speaker_id": "SD2000066",
+                    "start": 340.01401,
+                    "end": 341.73107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.184",
+                    "form": "임상신경과학이라는",
+                    "original_form": "임상신경과학이라는",
+                    "speaker_id": "SD2000066",
+                    "start": 341.74105,
+                    "end": 343.51701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.185",
+                    "form": "학문은",
+                    "original_form": "학문은",
+                    "speaker_id": "SD2000066",
+                    "start": 343.52705,
+                    "end": 344.53807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.186",
+                    "form": "물론 사람에게만 국한되긴 하지만",
+                    "original_form": "물론 사람에게만 국한되긴 하지만",
+                    "speaker_id": "SD2000066",
+                    "start": 344.54806,
+                    "end": 347.19707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.187",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 347.20701,
+                    "end": 348.90708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.188",
+                    "form": "이 세상에 굉장히 심리적인 어려움을",
+                    "original_form": "이 세상에 굉장히 심리적인 어려움을",
+                    "speaker_id": "SD2000066",
+                    "start": 348.91703,
+                    "end": 351.56506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.189",
+                    "form": "겪는 사람들이 많기 때문에",
+                    "original_form": "겪는 사람들이 많기 때문에",
+                    "speaker_id": "SD2000066",
+                    "start": 351.57504,
+                    "end": 353.23105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.190",
+                    "form": "그러한 어려움을 쪼금",
+                    "original_form": "그러한 어려움을 쪼금",
+                    "speaker_id": "SD2000066",
+                    "start": 353.24103,
+                    "end": 355.09801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.191",
+                    "form": "음 쉽게 해소를",
+                    "original_form": "음 쉽게 해소를",
+                    "speaker_id": "SD2000066",
+                    "start": 355.10808,
+                    "end": 357.95107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.192",
+                    "form": "하면 좋겠다는",
+                    "original_form": "하면 좋겠다는",
+                    "speaker_id": "SD2000066",
+                    "start": 357.96103,
+                    "end": 359.67705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.193",
+                    "form": "생각을 하고 있습니다.",
+                    "original_form": "생각을 하고 있습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 359.68706,
+                    "end": 362.11403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.194",
+                    "form": "음 아~ 그렇다면은",
+                    "original_form": "음 아~ 그렇다면은",
+                    "speaker_id": "SD2000066",
+                    "start": 362.12406,
+                    "end": 364.80605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.195",
+                    "form": "name1 씨는",
+                    "original_form": "&name1& 씨는",
+                    "speaker_id": "SD2000066",
+                    "start": 364.81602,
+                    "end": 366.05607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.196",
+                    "form": "아~ 해외에 박사가",
+                    "original_form": "아~ 해외에 박사가",
+                    "speaker_id": "SD2000066",
+                    "start": 366.06601,
+                    "end": 367.88107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.197",
+                    "form": "박사과정이 있는",
+                    "original_form": "박사과정이 있는",
+                    "speaker_id": "SD2000066",
+                    "start": 367.89101,
+                    "end": 370.07507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.198",
+                    "form": "어~ 대학이 없다고 하셨는데",
+                    "original_form": "어~ 대학이 없다고 하셨는데",
+                    "speaker_id": "SD2000066",
+                    "start": 370.08506,
+                    "end": 372.39407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.199",
+                    "form": "그러면 예일대도 박사가 없는 것인지",
+                    "original_form": "그러면 예일대도 박사가 없는 것인지",
+                    "speaker_id": "SD2000066",
+                    "start": 372.40408,
+                    "end": 375.19308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.200",
+                    "form": "어~ 그렇다면은",
+                    "original_form": "어~ 그렇다면은",
+                    "speaker_id": "SD2000066",
+                    "start": 375.20304,
+                    "end": 377.40408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.201",
+                    "form": "그~ 국내 조금",
+                    "original_form": "그~ 국내 쫌",
+                    "speaker_id": "SD2000066",
+                    "start": 377.41402,
+                    "end": 379.11404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.202",
+                    "form": "유수 대학에",
+                    "original_form": "유수 대학에",
+                    "speaker_id": "SD2000066",
+                    "start": 379.12404,
+                    "end": 380.30608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.203",
+                    "form": "계신 교수님들은",
+                    "original_form": "계신 교수님들은",
+                    "speaker_id": "SD2000066",
+                    "start": 380.31601,
+                    "end": 381.62807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.204",
+                    "form": "어떤 과정을 통해서 들어오신 건지",
+                    "original_form": "어떤 과정을 통해서 들어오신 건지",
+                    "speaker_id": "SD2000066",
+                    "start": 381.63806,
+                    "end": 383.70901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.205",
+                    "form": "궁금합니다.",
+                    "original_form": "궁금합니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 383.71902,
+                    "end": 385.11508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.206",
+                    "form": "어~ 교수님에게 질문을 해본 결과",
+                    "original_form": "어~ 교수님에게 질문을 해본 결과",
+                    "speaker_id": "SD2000067",
+                    "start": 385.12501,
+                    "end": 390.61404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.207",
+                    "form": "어~ 보통",
+                    "original_form": "어~ 보통",
+                    "speaker_id": "SD2000067",
+                    "start": 390.62408,
+                    "end": 392.07605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.208",
+                    "form": "석사 박사",
+                    "original_form": "석사 박사",
+                    "speaker_id": "SD2000067",
+                    "start": 392.08604,
+                    "end": 393.91503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.209",
+                    "form": "국내 석사 박사를 따시고",
+                    "original_form": "국내 석사 박사를 따시고",
+                    "speaker_id": "SD2000067",
+                    "start": 393.92502,
+                    "end": 395.90906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.210",
+                    "form": "그다음에 외국 외국에 나가서",
+                    "original_form": "그다음에 외국 외국에 나가서",
+                    "speaker_id": "SD2000067",
+                    "start": 395.91902,
+                    "end": 398.31605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.211",
+                    "form": "석사를 땄다고 합니다.",
+                    "original_form": "석사를 땄다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 398.32604,
+                    "end": 400.07007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.212",
+                    "form": "그 과정에서",
+                    "original_form": "그 과정에서",
+                    "speaker_id": "SD2000067",
+                    "start": 400.08006,
+                    "end": 401.54204,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.213",
+                    "form": "어~ 실기로 이제",
+                    "original_form": "어~ 실기로 이제",
+                    "speaker_id": "SD2000067",
+                    "start": 401.55207,
+                    "end": 403.92904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.214",
+                    "form": "어~ 논문을 대체하신 분도 있으시긴 한데",
+                    "original_form": "어~ 논문을 대체하신 분도 있으시긴 한데",
+                    "speaker_id": "SD2000067",
+                    "start": 403.93905,
+                    "end": 407.12401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.215",
+                    "form": "실기로 대체할 경우에는 사실",
+                    "original_form": "실기로 대체할 경우에는 사실",
+                    "speaker_id": "SD2000067",
+                    "start": 407.13404,
+                    "end": 409.59402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.216",
+                    "form": "교수 임용에서 사실 그렇게 큰 메리트가 없다고 합니다.",
+                    "original_form": "교수 임용에서 사실 그렇게 큰 메리트가 없다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 409.60403,
+                    "end": 413.22103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.217",
+                    "form": "그렇기 때문에 무조건 논문을 쓰는 것이 맞다고",
+                    "original_form": "그렇기 때문에 무조건 논문을 쓰는 것이 맞다고",
+                    "speaker_id": "SD2000067",
+                    "start": 413.23108,
+                    "end": 415.90806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.218",
+                    "form": "보고요.",
+                    "original_form": "보고요.",
+                    "speaker_id": "SD2000067",
+                    "start": 415.91807,
+                    "end": 416.95504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.219",
+                    "form": "어~ 교수 임용",
+                    "original_form": "어~ 교수 임용",
+                    "speaker_id": "SD2000067",
+                    "start": 416.96505,
+                    "end": 419.31601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.220",
+                    "form": "후에 조건을 추가적으로 쪼금 얘기를 해보자면은",
+                    "original_form": "후에 조건을 추가적으로 쪼금 얘기를 해보자면은",
+                    "speaker_id": "SD2000067",
+                    "start": 419.32603,
+                    "end": 422.86104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.221",
+                    "form": "어~ 교수 임용",
+                    "original_form": "어~ 교수 임용",
+                    "speaker_id": "SD2000067",
+                    "start": 422.87104,
+                    "end": 424.72805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.222",
+                    "form": "항을 하고 난 뒤에",
+                    "original_form": "항을 하고 난 뒤에",
+                    "speaker_id": "SD2000067",
+                    "start": 424.73807,
+                    "end": 426.45302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.223",
+                    "form": "한 학기에",
+                    "original_form": "한 학기에",
+                    "speaker_id": "SD2000067",
+                    "start": 426.46301,
+                    "end": 427.50106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.224",
+                    "form": "두 세 편에",
+                    "original_form": "두 세 편에",
+                    "speaker_id": "SD2000067",
+                    "start": 427.51101,
+                    "end": 428.94607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.225",
+                    "form": "논문을 써야 된다고 합니다.",
+                    "original_form": "논문을 써야 된다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 428.95603,
+                    "end": 430.67901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.226",
+                    "form": "근데 이제 실기 교수 같은 경우는",
+                    "original_form": "근데 이제 실기 교수 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 430.68906,
+                    "end": 434.17005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.227",
+                    "form": "어~ 그냥 작품",
+                    "original_form": "어~ 그냥 작품",
+                    "speaker_id": "SD2000067",
+                    "start": 434.18007,
+                    "end": 435.93001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.228",
+                    "form": "전시회? 개인 전시회를 2 3회 정도 연다고 연다고 합니다.",
+                    "original_form": "전시회? 개인 전시회를 이삼 회 정도 연다고 연다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 435.94002,
+                    "end": 439.41606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.229",
+                    "form": "그러면은 교수 임용의 조건에 맞다고 하고요.",
+                    "original_form": "그러면은 교수 임용의 조건에 맞다고 하구요.",
+                    "speaker_id": "SD2000067",
+                    "start": 439.42603,
+                    "end": 442.13905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.230",
+                    "form": "그런 의미로",
+                    "original_form": "그런 의미로",
+                    "speaker_id": "SD2000067",
+                    "start": 442.14905,
+                    "end": 443.37804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.231",
+                    "form": "사실",
+                    "original_form": "사실",
+                    "speaker_id": "SD2000067",
+                    "start": 443.38807,
+                    "end": 444.17206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.232",
+                    "form": "어~ 논문을 쓰",
+                    "original_form": "어~ 논문을 쓰",
+                    "speaker_id": "SD2000067",
+                    "start": 444.18204,
+                    "end": 445.63603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.233",
+                    "form": "그 커리어 자체는 논문을 쓰는 게 좋 좋기는 한데",
+                    "original_form": "그 커리어 자체는 논문을 쓰는 게 -좋- 좋기는 한데",
+                    "speaker_id": "SD2000067",
+                    "start": 445.64607,
+                    "end": 449.63401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.234",
+                    "form": "실기",
+                    "original_form": "실기",
+                    "speaker_id": "SD2000067",
+                    "start": 449.64402,
+                    "end": 451.06808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.235",
+                    "form": "교수로 가는 게",
+                    "original_form": "교수로 가는 게",
+                    "speaker_id": "SD2000067",
+                    "start": 451.07803,
+                    "end": 452.55706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.236",
+                    "form": "사실",
+                    "original_form": "사실",
+                    "speaker_id": "SD2000067",
+                    "start": 452.56707,
+                    "end": 453.35603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.237",
+                    "form": "놀고 먹기에는 사실 좋습니다.",
+                    "original_form": "놀고 먹기에는 사실 좋습니다. {laughing}",
+                    "speaker_id": "SD2000067",
+                    "start": 453.36601,
+                    "end": 455.50601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.238",
+                    "form": "그런 의미로 저는 실기 교수로 한 번 가고 싶은 것이 꿈입니다.",
+                    "original_form": "그런 의미로 저는 실기 교수로 한 번 가고 싶은 것이 꿈입니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 455.51603,
+                    "end": 459.30407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.239",
+                    "form": "지금 꿈은 꿈이지만 꿈일 뿐",
+                    "original_form": "지금 꿈은 꿈이지만 꿈일 뿐",
+                    "speaker_id": "SD2000067",
+                    "start": 459.31407,
+                    "end": 461.50607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.240",
+                    "form": "잘 이루어지지도 않는다는 것을",
+                    "original_form": "잘 이루어지지도 않는다는 것을",
+                    "speaker_id": "SD2000067",
+                    "start": 461.51604,
+                    "end": 463.34402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.241",
+                    "form": "스스로 인지하고 있습니다.",
+                    "original_form": "스스로 인지하고 있습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 463.35401,
+                    "end": 464.64903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.242",
+                    "form": "그렇기 때문에",
+                    "original_form": "그렇기 때문에",
+                    "speaker_id": "SD2000067",
+                    "start": 464.65907,
+                    "end": 465.47303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.243",
+                    "form": "더욱더 노력할 것입니다.",
+                    "original_form": "더욱더 노력할 것입니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 465.48302,
+                    "end": 468.14504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.244",
+                    "form": "왜 인지",
+                    "original_form": "왜 인지",
+                    "speaker_id": "SD2000067",
+                    "start": 468.15502,
+                    "end": 469.84101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.245",
+                    "form": "그~",
+                    "original_form": "그~",
+                    "speaker_id": "SD2000067",
+                    "start": 469.85108,
+                    "end": 470.86905,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.246",
+                    "form": "인지학",
+                    "original_form": "인지학",
+                    "speaker_id": "SD2000067",
+                    "start": 470.87907,
+                    "end": 472.13806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.247",
+                    "form": "인지학 같은 경우는",
+                    "original_form": "인지학 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 472.14804,
+                    "end": 474.22806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.248",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000067",
+                    "start": 474.23804,
+                    "end": 475.58403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.249",
+                    "form": "구체적으로 어떤",
+                    "original_form": "구체적으로 어떤",
+                    "speaker_id": "SD2000067",
+                    "start": 475.59401,
+                    "end": 477.37804,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.250",
+                    "form": "사례가 있는지",
+                    "original_form": "사례가 있는지",
+                    "speaker_id": "SD2000067",
+                    "start": 477.38804,
+                    "end": 478.51001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.251",
+                    "form": "그니깐 그~",
+                    "original_form": "그니깐 그~",
+                    "speaker_id": "SD2000067",
+                    "start": 478.52001,
+                    "end": 480.00607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.252",
+                    "form": "뭐라지 어떤 일을 하는지?",
+                    "original_form": "뭐라지 어떤 일을 하는지?",
+                    "speaker_id": "SD2000067",
+                    "start": 480.01605,
+                    "end": 482.30403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.253",
+                    "form": "구체적으로.",
+                    "original_form": "구체적으로.",
+                    "speaker_id": "SD2000067",
+                    "start": 482.31408,
+                    "end": 484.65504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.254",
+                    "form": "왜냐면 분야가 다양하니깐",
+                    "original_form": "왜냐면 분야가 다양하니깐",
+                    "speaker_id": "SD2000067",
+                    "start": 484.66504,
+                    "end": 486.67505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.255",
+                    "form": "그 분야별마다",
+                    "original_form": "그 분야별마다",
+                    "speaker_id": "SD2000067",
+                    "start": 486.68501,
+                    "end": 488.41106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.256",
+                    "form": "뭔가 예시를 한 번",
+                    "original_form": "뭔가 예시를 한 번",
+                    "speaker_id": "SD2000067",
+                    "start": 488.42106,
+                    "end": 490.08707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.257",
+                    "form": "알려줄 수 있습니까?",
+                    "original_form": "알려줄 수 있습니까?",
+                    "speaker_id": "SD2000067",
+                    "start": 490.09706,
+                    "end": 492.71704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.258",
+                    "form": "아~ 제가 말씀드렸던 임상신경과학을 얘기하시는 것 같은데요.",
+                    "original_form": "아~ 제가 말씀드렸던 임상신경과학을 얘기하시는 것 같은데요.",
+                    "speaker_id": "SD2000066",
+                    "start": 492.72704,
+                    "end": 497.44708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.259",
+                    "form": "아~ 그것은",
+                    "original_form": "아~ 그것은",
+                    "speaker_id": "SD2000066",
+                    "start": 497.45702,
+                    "end": 498.53608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.260",
+                    "form": "임상심리학에서는 일반적으로",
+                    "original_form": "임상심리학에서는 일반적으로",
+                    "speaker_id": "SD2000066",
+                    "start": 498.54605,
+                    "end": 501.46206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.261",
+                    "form": "어~ 정신병리를 다룹니다.",
+                    "original_form": "어~ 정신병리를 다룹니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 501.47205,
+                    "end": 503.54505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.262",
+                    "form": "예를 들면",
+                    "original_form": "예를 들면",
+                    "speaker_id": "SD2000066",
+                    "start": 503.55503,
+                    "end": 504.72107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.263",
+                    "form": "어~ 주요 우울장애라든지",
+                    "original_form": "어~ 주요 우울장애라든지",
+                    "speaker_id": "SD2000066",
+                    "start": 504.73105,
+                    "end": 506.55607,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.264",
+                    "form": "뭐 사이코패스라고 불리는",
+                    "original_form": "뭐 싸이코패스라고 불리는",
+                    "speaker_id": "SD2000066",
+                    "start": 506.56603,
+                    "end": 508.72708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.265",
+                    "form": "뭐 반사회적 인격장애라든지",
+                    "original_form": "뭐 반사회적 인격장애라든지",
+                    "speaker_id": "SD2000066",
+                    "start": 508.73708,
+                    "end": 511.69401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.266",
+                    "form": "음 아니면 강박장애",
+                    "original_form": "음 아니면 강박장애",
+                    "speaker_id": "SD2000066",
+                    "start": 511.70408,
+                    "end": 513.86806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.267",
+                    "form": "이런 것들",
+                    "original_form": "이런 것들",
+                    "speaker_id": "SD2000066",
+                    "start": 513.87804,
+                    "end": 515.13501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.268",
+                    "form": "그런 것들이",
+                    "original_form": "그런 것들이",
+                    "speaker_id": "SD2000066",
+                    "start": 515.14505,
+                    "end": 516.77003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.269",
+                    "form": "임상신경과학에서 어떻게 다루어지냐 하면은",
+                    "original_form": "임상신경과학에서 어떻게 다루어지냐 하면은",
+                    "speaker_id": "SD2000066",
+                    "start": 516.78007,
+                    "end": 520.18308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.270",
+                    "form": "어~ 그런 사람들의",
+                    "original_form": "어~ 그런 사람들의",
+                    "speaker_id": "SD2000066",
+                    "start": 520.19308,
+                    "end": 522.17604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.271",
+                    "form": "뇌에 생리적인 패턴이",
+                    "original_form": "뇌에 생리적인 패턴이",
+                    "speaker_id": "SD2000066",
+                    "start": 522.18607,
+                    "end": 524.34402,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.272",
+                    "form": "어떻게 되는지를 관찰하고",
+                    "original_form": "어떻게 되는지를 관찰하고",
+                    "speaker_id": "SD2000066",
+                    "start": 524.35401,
+                    "end": 526.48604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.273",
+                    "form": "어~ 이를 통해서",
+                    "original_form": "어~ 이를 통해서",
+                    "speaker_id": "SD2000066",
+                    "start": 526.49606,
+                    "end": 528.31207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.274",
+                    "form": "치료방법을 강구할 수 있을 거라고 생각을 합니다.",
+                    "original_form": "치료방법을 강구할 수 있을 거라고 생각을 합니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 528.32202,
+                    "end": 531.59702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.275",
+                    "form": "어~ 예를 들면은",
+                    "original_form": "어~ 예를 들면은",
+                    "speaker_id": "SD2000066",
+                    "start": 531.60704,
+                    "end": 533.23707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.276",
+                    "form": "어~ 제가 최근에 봤던 강연 중에는",
+                    "original_form": "어~ 제가 최근에 봤던 강연 중에는",
+                    "speaker_id": "SD2000066",
+                    "start": 533.24705,
+                    "end": 536.07507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.277",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 536.08505,
+                    "end": 537.08404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.278",
+                    "form": "전극을",
+                    "original_form": "전극을",
+                    "speaker_id": "SD2000066",
+                    "start": 537.09402,
+                    "end": 538.38908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.279",
+                    "form": "몸속에 심어가지고 뇌 쪽에 심어 가지고",
+                    "original_form": "몸속에 심어가지고 뇌 쪽에 심어 가지고",
+                    "speaker_id": "SD2000066",
+                    "start": 538.39904,
+                    "end": 541.23701,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.280",
+                    "form": "버튼을 누르면은",
+                    "original_form": "버튼을 누르면은",
+                    "speaker_id": "SD2000066",
+                    "start": 541.24702,
+                    "end": 542.74205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.281",
+                    "form": "뭐 자극이 돼가지고",
+                    "original_form": "뭐 자극이 돼가지고",
+                    "speaker_id": "SD2000066",
+                    "start": 542.75203,
+                    "end": 544.68401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.282",
+                    "form": "우울했던 기분이 가라 앉는다든지와 같은",
+                    "original_form": "우울했던 기분이 가라 앉는다든지와 같은",
+                    "speaker_id": "SD2000066",
+                    "start": 544.69407,
+                    "end": 548.44802,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.283",
+                    "form": "어~ 장치를",
+                    "original_form": "어~ 장치를",
+                    "speaker_id": "SD2000066",
+                    "start": 548.45804,
+                    "end": 551.13805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.284",
+                    "form": "어~ 기획했다던",
+                    "original_form": "어~ 기획했다던",
+                    "speaker_id": "SD2000066",
+                    "start": 551.14805,
+                    "end": 553.55601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.285",
+                    "form": "그런 강연을 본 적이 있는데",
+                    "original_form": "그런 강연을 본 적이 있는데",
+                    "speaker_id": "SD2000066",
+                    "start": 553.56602,
+                    "end": 555.27902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.286",
+                    "form": "고것도 굉장히 흥미롭긴 하지만",
+                    "original_form": "고것도 굉장히 흥미롭긴 하지만",
+                    "speaker_id": "SD2000066",
+                    "start": 555.28905,
+                    "end": 557.45601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.287",
+                    "form": "그런 기계 같은 경우에는",
+                    "original_form": "그런 기계 같은 경우에는",
+                    "speaker_id": "SD2000066",
+                    "start": 557.46603,
+                    "end": 559.95007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.288",
+                    "form": "쪼금 악용이 될 수",
+                    "original_form": "쪼금 악용이 될 수",
+                    "speaker_id": "SD2000066",
+                    "start": 559.96002,
+                    "end": 561.34904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.289",
+                    "form": "되기가 쉽다고 생각을 해서",
+                    "original_form": "되기가 쉽다고 생각을 해서",
+                    "speaker_id": "SD2000066",
+                    "start": 561.35907,
+                    "end": 563.18503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.290",
+                    "form": "조금 명상이라든지 어떤",
+                    "original_form": "쫌 명상이라든지 어떤",
+                    "speaker_id": "SD2000066",
+                    "start": 563.19507,
+                    "end": 566.84508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.291",
+                    "form": "구체적인 주제로 생각을 할 때",
+                    "original_form": "구체적인 주제로 생각을 할 때",
+                    "speaker_id": "SD2000066",
+                    "start": 566.85502,
+                    "end": 569.16103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.292",
+                    "form": "뭐 뇌 뇌에 생리적 패턴이 바뀐다면",
+                    "original_form": "뭐 냅 뇌에 생리적 패턴이 바뀐다면",
+                    "speaker_id": "SD2000066",
+                    "start": 569.17108,
+                    "end": 571.29303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.293",
+                    "form": "그런 걸 통해서",
+                    "original_form": "그런 걸 통해서",
+                    "speaker_id": "SD2000066",
+                    "start": 571.30308,
+                    "end": 572.72102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.294",
+                    "form": "자기가 직접 생각을 통해서",
+                    "original_form": "자기가 직접 생각을 통해서",
+                    "speaker_id": "SD2000066",
+                    "start": 572.73107,
+                    "end": 574.83603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.295",
+                    "form": "조금 그런",
+                    "original_form": "쫌 그런",
+                    "speaker_id": "SD2000066",
+                    "start": 574.84603,
+                    "end": 576.48006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.296",
+                    "form": "우울한 증상을 완화시킬 수 있다든지",
+                    "original_form": "우울한 증상을 완화시킬 수 있다든지",
+                    "speaker_id": "SD2000066",
+                    "start": 576.49006,
+                    "end": 579.03201,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.297",
+                    "form": "하는 방법으로",
+                    "original_form": "하는 방법으로",
+                    "speaker_id": "SD2000066",
+                    "start": 579.04208,
+                    "end": 580.53505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.298",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 580.54504,
+                    "end": 581.34906,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.299",
+                    "form": "연구를 진행을 해보고 싶습니다.",
+                    "original_form": "연구를 진행을 해보고 싶습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 581.35903,
+                    "end": 584.95504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.300",
+                    "form": "음",
+                    "original_form": "음",
+                    "speaker_id": "SD2000066",
+                    "start": 584.96503,
+                    "end": 586.00308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.301",
+                    "form": "그렇다면 name1 씨는",
+                    "original_form": "그렇다면 &name1& 씨는",
+                    "speaker_id": "SD2000066",
+                    "start": 586.01306,
+                    "end": 588.38506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.302",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 588.39508,
+                    "end": 590.09902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.303",
+                    "form": "현재 임용을",
+                    "original_form": "현재 임용을",
+                    "speaker_id": "SD2000066",
+                    "start": 590.10903,
+                    "end": 591.85104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.304",
+                    "form": "준비 중이신데",
+                    "original_form": "준비 중이신데",
+                    "speaker_id": "SD2000066",
+                    "start": 591.86104,
+                    "end": 593.11704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.305",
+                    "form": "어~ 그럼 어떤 선생님이 되고 싶은지",
+                    "original_form": "어~ 그럼 어떤 선생님이 되고 싶은지",
+                    "speaker_id": "SD2000066",
+                    "start": 593.12701,
+                    "end": 596.18703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.306",
+                    "form": "궁금합니다.",
+                    "original_form": "궁금합니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 596.19704,
+                    "end": 600.31002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.307",
+                    "form": "어~ 저에게 어떤 선생님이라는 개념은 사실",
+                    "original_form": "어~ 저에게 어떤 선생님이라는 개념은 사실",
+                    "speaker_id": "SD2000067",
+                    "start": 600.32005,
+                    "end": 603.56007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.308",
+                    "form": "없는 거 같습니다.",
+                    "original_form": "없는 거 가습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 603.57003,
+                    "end": 604.84207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.309",
+                    "form": "제가 뭔가 구체적인 목표가 없다는 게 아니라",
+                    "original_form": "제가 뭔가 구체적인 목표가 없다는 게 아니라",
+                    "speaker_id": "SD2000067",
+                    "start": 604.85204,
+                    "end": 608.79605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.310",
+                    "form": "어~ 아직 현직에 나가지 못해서",
+                    "original_form": "어~ 아직 현직에 나가지 못해서",
+                    "speaker_id": "SD2000067",
+                    "start": 608.80607,
+                    "end": 612.46405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.311",
+                    "form": "그~ 정확한",
+                    "original_form": "그~ 정확한",
+                    "speaker_id": "SD2000067",
+                    "start": 612.47401,
+                    "end": 614.05306,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.312",
+                    "form": "현직에 비추어서 아마 저의 성격이 많이 바뀔 것 같습니다.",
+                    "original_form": "현직에 비추어서 아마 저의 성격이 많이 바뀔 것 같습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 614.06305,
+                    "end": 617.97907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.313",
+                    "form": "원래 사람은",
+                    "original_form": "원래 사람은",
+                    "speaker_id": "SD2000067",
+                    "start": 617.98907,
+                    "end": 619.36508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.314",
+                    "form": "처음은 이상적이었다가",
+                    "original_form": "처음은 이상적이었다가",
+                    "speaker_id": "SD2000067",
+                    "start": 619.37506,
+                    "end": 621.49706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.315",
+                    "form": "들어가서",
+                    "original_form": "들어가서",
+                    "speaker_id": "SD2000067",
+                    "start": 621.50702,
+                    "end": 623.08703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.316",
+                    "form": "조금",
+                    "original_form": "조큼",
+                    "speaker_id": "SD2000067",
+                    "start": 623.09702,
+                    "end": 623.81805,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.317",
+                    "form": "그 현실에 적응하게 되면서",
+                    "original_form": "그 현실에 적응하게 되면서",
+                    "speaker_id": "SD2000067",
+                    "start": 623.82801,
+                    "end": 625.99104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.318",
+                    "form": "성격이 바뀐다고 들었습니다.",
+                    "original_form": "성격이 바뀐다고 들었습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 626.00104,
+                    "end": 627.83808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.319",
+                    "form": "그래서 근데 조금 개인적인",
+                    "original_form": "그래서 근데 쫌 개인적인",
+                    "speaker_id": "SD2000067",
+                    "start": 627.84804,
+                    "end": 629.74505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.320",
+                    "form": "생각으로는",
+                    "original_form": "생각으로는",
+                    "speaker_id": "SD2000067",
+                    "start": 629.75507,
+                    "end": 630.98103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.321",
+                    "form": "학생들의 개개인의 특성을 알아주는",
+                    "original_form": "학생들의 개개인의 특성을 알아주는",
+                    "speaker_id": "SD2000067",
+                    "start": 630.99103,
+                    "end": 634.03108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.322",
+                    "form": "교사가 되고 싶습니다.",
+                    "original_form": "교사가 되고 싶습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 634.04106,
+                    "end": 635.55708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.323",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000067",
+                    "start": 635.56708,
+                    "end": 636.15506,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.324",
+                    "form": "그 학생들에게",
+                    "original_form": "그 학생들에게",
+                    "speaker_id": "SD2000067",
+                    "start": 636.16506,
+                    "end": 637.45001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.325",
+                    "form": "거기에",
+                    "original_form": "거기에",
+                    "speaker_id": "SD2000067",
+                    "start": 637.46001,
+                    "end": 638.67305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.326",
+                    "form": "맞는",
+                    "original_form": "맞는",
+                    "speaker_id": "SD2000067",
+                    "start": 638.68307,
+                    "end": 639.43706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.327",
+                    "form": "교육법을",
+                    "original_form": "교육법을",
+                    "speaker_id": "SD2000067",
+                    "start": 639.44707,
+                    "end": 640.62107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.328",
+                    "form": "제공해주어서",
+                    "original_form": "제공해주어서",
+                    "speaker_id": "SD2000067",
+                    "start": 640.63104,
+                    "end": 641.84007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.329",
+                    "form": "아이들이 스스로",
+                    "original_form": "아이들이 스스로",
+                    "speaker_id": "SD2000067",
+                    "start": 641.85003,
+                    "end": 643.89708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.330",
+                    "form": "더 나은 길을",
+                    "original_form": "더 나은 길을",
+                    "speaker_id": "SD2000067",
+                    "start": 643.90703,
+                    "end": 645.40004,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.331",
+                    "form": "가도록 도와주는 그런",
+                    "original_form": "가도록 도와주는 그런",
+                    "speaker_id": "SD2000067",
+                    "start": 645.41008,
+                    "end": 647.19703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.332",
+                    "form": "교사로",
+                    "original_form": "교사로",
+                    "speaker_id": "SD2000067",
+                    "start": 647.20706,
+                    "end": 647.95606,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.333",
+                    "form": "성장하고 싶습니다.",
+                    "original_form": "성장하고 싶습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 647.96605,
+                    "end": 649.36308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.334",
+                    "form": "하지만 그러려면",
+                    "original_form": "하지만 그럴려면",
+                    "speaker_id": "SD2000067",
+                    "start": 649.37305,
+                    "end": 650.74604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.335",
+                    "form": "많은 공부를 해야 되고",
+                    "original_form": "많은 공부를 해야 되고",
+                    "speaker_id": "SD2000067",
+                    "start": 650.75601,
+                    "end": 652.37707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.336",
+                    "form": "그렇기 때문에",
+                    "original_form": "그렇기 때문에",
+                    "speaker_id": "SD2000067",
+                    "start": 652.38701,
+                    "end": 653.25501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.337",
+                    "form": "박사학위를 가거나",
+                    "original_form": "박사학위를 가거나",
+                    "speaker_id": "SD2000067",
+                    "start": 653.26506,
+                    "end": 655.09505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.338",
+                    "form": "아~ 유학은",
+                    "original_form": "아~ 유학은",
+                    "speaker_id": "SD2000067",
+                    "start": 655.10505,
+                    "end": 656.25508,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.339",
+                    "form": "저의 욕심이지만",
+                    "original_form": "저의 욕심이지만",
+                    "speaker_id": "SD2000067",
+                    "start": 656.26504,
+                    "end": 657.49501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.340",
+                    "form": "박사학위는 쪼끔",
+                    "original_form": "박사학위는 쪼끔",
+                    "speaker_id": "SD2000067",
+                    "start": 657.50507,
+                    "end": 659.22403,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.341",
+                    "form": "그 교육과 관련해서 가고 싶기 때문에",
+                    "original_form": "그 교육과 관련해서 가고 싶기 때문에",
+                    "speaker_id": "SD2000067",
+                    "start": 659.23401,
+                    "end": 662.03107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.342",
+                    "form": "그~ 아이들에게 쪼끔 더",
+                    "original_form": "그~ 아이들에게 쪼끔 더",
+                    "speaker_id": "SD2000067",
+                    "start": 662.04105,
+                    "end": 664.10108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.343",
+                    "form": "도움이 되지 않을까 하는",
+                    "original_form": "도움이 되지 않을까 하는",
+                    "speaker_id": "SD2000067",
+                    "start": 664.11105,
+                    "end": 666.08504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.344",
+                    "form": "마음으로 가는",
+                    "original_form": "마음으로 가는",
+                    "speaker_id": "SD2000067",
+                    "start": 666.09507,
+                    "end": 667.07308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.345",
+                    "form": "것이기도 합니다.",
+                    "original_form": "것이기도 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 667.08301,
+                    "end": 668.36807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.346",
+                    "form": "저의 욕심도 있기도 하지만. 어~",
+                    "original_form": "저의 욕심도 있기도 하지만. 어~",
+                    "speaker_id": "SD2000067",
+                    "start": 668.37806,
+                    "end": 671.95305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.347",
+                    "form": "그런 의미로",
+                    "original_form": "그런 의미로",
+                    "speaker_id": "SD2000067",
+                    "start": 671.96307,
+                    "end": 673.19502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.348",
+                    "form": "아이들에게 도움이 되는",
+                    "original_form": "아이들에게 도움이 되는",
+                    "speaker_id": "SD2000067",
+                    "start": 673.20507,
+                    "end": 675.04005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.349",
+                    "form": "그리고",
+                    "original_form": "그리고",
+                    "speaker_id": "SD2000067",
+                    "start": 675.05004,
+                    "end": 675.95808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.350",
+                    "form": "나중",
+                    "original_form": "나중 (())",
+                    "speaker_id": "SD2000067",
+                    "start": 675.96802,
+                    "end": 677.12207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.351",
+                    "form": "그 당시에는 사실 아이들에게 사실 별로 좋지는 않겠죠.",
+                    "original_form": "그 당시에는 사실 아이들에게 사실 별로 좋지는 않겠죠.",
+                    "speaker_id": "SD2000067",
+                    "start": 677.13203,
+                    "end": 679.80106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.352",
+                    "form": "뭐해라 이거 이거 선생님 이거 어때요? 그러니까",
+                    "original_form": "뭐해라 이거 이거 선생님 이거 어때요? 그러니까",
+                    "speaker_id": "SD2000067",
+                    "start": 679.81104,
+                    "end": 682.40808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.353",
+                    "form": "별로야 요런 말을 할거니까",
+                    "original_form": "별로야 요런 말을 할거니까",
+                    "speaker_id": "SD2000067",
+                    "start": 682.41803,
+                    "end": 684.67605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.354",
+                    "form": "그럼",
+                    "original_form": "고럼",
+                    "speaker_id": "SD2000067",
+                    "start": 684.68603,
+                    "end": 685.34404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.355",
+                    "form": "애들한테 팩폭을 때리는 거니까 이제 그걸",
+                    "original_form": "애들한테 팩폭을 때리는 거니까 이제 그걸",
+                    "speaker_id": "SD2000067",
+                    "start": 685.35401,
+                    "end": 687.95305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.356",
+                    "form": "그때는 별로 좋진 않을 겁니다.",
+                    "original_form": "꾸때는 별로 좋진 않을 겁니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 687.96301,
+                    "end": 690.12801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.357",
+                    "form": "근데 이제 시간이 지나서 애들이 찾아와서 그때 선생님이 해주신 조언이",
+                    "original_form": "근데 이제 시간이 지나서 애들이 찾아와서 그때 선생님이 해주신 조언이",
+                    "speaker_id": "SD2000067",
+                    "start": 690.13808,
+                    "end": 694.17503,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.358",
+                    "form": "너무나 좋았습니다라는 그런 말을 듣는",
+                    "original_form": "너무나 좋았습니다라는 그런 말을 듣는",
+                    "speaker_id": "SD2000067",
+                    "start": 694.18507,
+                    "end": 697.17501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.359",
+                    "form": "교사가 되고 싶습니다.",
+                    "original_form": "교사가 되고 싶습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 697.18501,
+                    "end": 698.56407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.360",
+                    "form": "그래서 착한",
+                    "original_form": "그래서 착한",
+                    "speaker_id": "SD2000067",
+                    "start": 698.57406,
+                    "end": 699.48407,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.361",
+                    "form": "교사가 되는 것이",
+                    "original_form": "교사가 되는 것이",
+                    "speaker_id": "SD2000067",
+                    "start": 699.49405,
+                    "end": 700.43305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.362",
+                    "form": "꿈은 아닙니다.",
+                    "original_form": "꿈은 아닙니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 700.44306,
+                    "end": 701.34207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.363",
+                    "form": "나쁜 교사이긴 한데",
+                    "original_form": "나쁜 교사이긴 한데",
+                    "speaker_id": "SD2000067",
+                    "start": 701.35207,
+                    "end": 703.36101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.364",
+                    "form": "음 팩폭을 날리는",
+                    "original_form": "음 팩폭을 날리는",
+                    "speaker_id": "SD2000067",
+                    "start": 703.37105,
+                    "end": 705.36602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.365",
+                    "form": "음",
+                    "original_form": "음",
+                    "speaker_id": "SD2000067",
+                    "start": 705.37604,
+                    "end": 706.34907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.366",
+                    "form": "마음은 따뜻하지만",
+                    "original_form": "마음은 따뜻하지만",
+                    "speaker_id": "SD2000067",
+                    "start": 706.35908,
+                    "end": 708.40601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.367",
+                    "form": "말은 나쁘게 하는",
+                    "original_form": "말은 나쁘게 하는",
+                    "speaker_id": "SD2000067",
+                    "start": 708.41601,
+                    "end": 709.70605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.368",
+                    "form": "교사가 되고 싶습니다.",
+                    "original_form": "교사가 되고 싶습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 709.71605,
+                    "end": 711.82101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.369",
+                    "form": "그러면은",
+                    "original_form": "그러면은",
+                    "speaker_id": "SD2000067",
+                    "start": 717.01601,
+                    "end": 717.85408,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.370",
+                    "form": "이제 name2 씨 같은 경우는",
+                    "original_form": "이제 &name2& 씨 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 717.86406,
+                    "end": 719.78206,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.371",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000067",
+                    "start": 719.79203,
+                    "end": 720.57106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.372",
+                    "form": "그~ 임상실험을 통해서",
+                    "original_form": "그~ 임상실험을 통해서",
+                    "speaker_id": "SD2000067",
+                    "start": 720.58105,
+                    "end": 722.89405,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.373",
+                    "form": "우울증 완화",
+                    "original_form": "우울증 완화",
+                    "speaker_id": "SD2000067",
+                    "start": 722.90406,
+                    "end": 723.87205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.374",
+                    "form": "이런",
+                    "original_form": "이런",
+                    "speaker_id": "SD2000067",
+                    "start": 723.88202,
+                    "end": 724.43708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.375",
+                    "form": "이런 방향으로 나아간다고 하는데",
+                    "original_form": "이런 방향으로 나아간다고 하는데",
+                    "speaker_id": "SD2000067",
+                    "start": 724.44704,
+                    "end": 727.47205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.376",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000067",
+                    "start": 727.48203,
+                    "end": 729.09603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.377",
+                    "form": "이게 나중에",
+                    "original_form": "이게 나중에",
+                    "speaker_id": "SD2000067",
+                    "start": 729.10602,
+                    "end": 730.34103,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.378",
+                    "form": "이후에",
+                    "original_form": "이후에",
+                    "speaker_id": "SD2000067",
+                    "start": 730.35107,
+                    "end": 731.90801,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.379",
+                    "form": "악용이 된다면은",
+                    "original_form": "악용이 된다면은",
+                    "speaker_id": "SD2000067",
+                    "start": 731.91808,
+                    "end": 733.46901,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.380",
+                    "form": "어떤 식으로",
+                    "original_form": "어떤 식으로",
+                    "speaker_id": "SD2000067",
+                    "start": 733.47908,
+                    "end": 734.53505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.381",
+                    "form": "악용이 되는 건가요?",
+                    "original_form": "악용이 되는 건가요?",
+                    "speaker_id": "SD2000067",
+                    "start": 734.54506,
+                    "end": 736.42007,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.382",
+                    "form": "음 제가",
+                    "original_form": "음 제가",
+                    "speaker_id": "SD2000066",
+                    "start": 736.43004,
+                    "end": 738.26307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.383",
+                    "form": "생각했던",
+                    "original_form": "생각했던",
+                    "speaker_id": "SD2000066",
+                    "start": 738.27301,
+                    "end": 739.37202,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.384",
+                    "form": "뭔가 방식은",
+                    "original_form": "뭔가 방식은",
+                    "speaker_id": "SD2000066",
+                    "start": 739.38207,
+                    "end": 741.04102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.385",
+                    "form": "음 사이비 교주가 쓰기 참 좋을 것 같다는",
+                    "original_form": "음 싸이비 교주가 쓰기 참 좋을 것 같다는",
+                    "speaker_id": "SD2000066",
+                    "start": 741.05104,
+                    "end": 744.37602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.386",
+                    "form": "생각도 들었습니다.",
+                    "original_form": "생각도 들었습니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 744.38607,
+                    "end": 746.07706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.387",
+                    "form": "왜냐하면은",
+                    "original_form": "왜냐하면은",
+                    "speaker_id": "SD2000066",
+                    "start": 746.08707,
+                    "end": 747.14704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.388",
+                    "form": "우울한 자들아 다 나에게 와라 이런 식으로",
+                    "original_form": "우울한 자들아 다 나에게 와라 이런 식으로",
+                    "speaker_id": "SD2000066",
+                    "start": 747.15703,
+                    "end": 750.23602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.389",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000066",
+                    "start": 750.24606,
+                    "end": 750.83501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.390",
+                    "form": "성경의 한 구절을",
+                    "original_form": "성경의 한 구절을",
+                    "speaker_id": "SD2000066",
+                    "start": 750.84508,
+                    "end": 752.13404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.391",
+                    "form": "인용해서",
+                    "original_form": "인용해서",
+                    "speaker_id": "SD2000066",
+                    "start": 752.14404,
+                    "end": 752.94308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.392",
+                    "form": "자기 것으로 만든 다음에",
+                    "original_form": "자기 것으로 만든 다음에",
+                    "speaker_id": "SD2000066",
+                    "start": 752.95303,
+                    "end": 754.74304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.393",
+                    "form": "어~ 뭐",
+                    "original_form": "어~ 뭐",
+                    "speaker_id": "SD2000066",
+                    "start": 754.75305,
+                    "end": 756.19003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.394",
+                    "form": "전극을 심고",
+                    "original_form": "전극을 심고",
+                    "speaker_id": "SD2000066",
+                    "start": 756.20003,
+                    "end": 758.02401,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.395",
+                    "form": "어~ 그런 다음에",
+                    "original_form": "어~ 그런 다음에",
+                    "speaker_id": "SD2000066",
+                    "start": 758.03405,
+                    "end": 759.54101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.396",
+                    "form": "기분을",
+                    "original_form": "기분을",
+                    "speaker_id": "SD2000066",
+                    "start": 759.55108,
+                    "end": 760.82902,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.397",
+                    "form": "좋게",
+                    "original_form": "좋게",
+                    "speaker_id": "SD2000066",
+                    "start": 760.83902,
+                    "end": 761.52302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.398",
+                    "form": "뭐 우울한 증상을 완화시키는",
+                    "original_form": "뭐 우울한 증상을 완화시키는",
+                    "speaker_id": "SD2000066",
+                    "start": 761.53305,
+                    "end": 763.54002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.399",
+                    "form": "그렇게",
+                    "original_form": "그러케",
+                    "speaker_id": "SD2000066",
+                    "start": 763.55003,
+                    "end": 764.48806,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.400",
+                    "form": "그런 방식으로",
+                    "original_form": "그런 방식으로",
+                    "speaker_id": "SD2000066",
+                    "start": 764.49807,
+                    "end": 765.65702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.401",
+                    "form": "한다면은",
+                    "original_form": "한다면은",
+                    "speaker_id": "SD2000066",
+                    "start": 765.66707,
+                    "end": 766.53305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.402",
+                    "form": "어~ 조금 사이비 교주",
+                    "original_form": "어~ 쫌 싸이비 교주",
+                    "speaker_id": "SD2000066",
+                    "start": 766.54301,
+                    "end": 768.72002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.403",
+                    "form": "입장에서는 조금 더 사람들을 많이 끌어들일 수 있는",
+                    "original_form": "입장에서는 쫌 더 사람들을 많이 끌어들일 수 있는",
+                    "speaker_id": "SD2000066",
+                    "start": 768.73003,
+                    "end": 771.79404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.404",
+                    "form": "그런",
+                    "original_form": "그런",
+                    "speaker_id": "SD2000066",
+                    "start": 771.80401,
+                    "end": 773.00608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.405",
+                    "form": "장치가 되지 않",
+                    "original_form": "장치가 되지 않",
+                    "speaker_id": "SD2000066",
+                    "start": 773.01605,
+                    "end": 774.32305,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.406",
+                    "form": "될 수도 있지 않을까?",
+                    "original_form": "될 수도 있지 않을까?",
+                    "speaker_id": "SD2000066",
+                    "start": 774.33305,
+                    "end": 775.84207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.407",
+                    "form": "생각이 들었고",
+                    "original_form": "생각이 들었고",
+                    "speaker_id": "SD2000066",
+                    "start": 775.85204,
+                    "end": 777.03102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.408",
+                    "form": "이외에도 뭐",
+                    "original_form": "이외에도 뭐",
+                    "speaker_id": "SD2000066",
+                    "start": 777.04103,
+                    "end": 779.15203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.409",
+                    "form": "감정을",
+                    "original_form": "감정을",
+                    "speaker_id": "SD2000066",
+                    "start": 779.16203,
+                    "end": 780.29205,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.410",
+                    "form": "이용한다는 것이",
+                    "original_form": "이용한다는 것이",
+                    "speaker_id": "SD2000066",
+                    "start": 780.30203,
+                    "end": 781.35208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.411",
+                    "form": "사실",
+                    "original_form": "사실",
+                    "speaker_id": "SD2000066",
+                    "start": 781.36205,
+                    "end": 781.95002,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.412",
+                    "form": "신뢰에도 많은 영향을 준다고 생각해서",
+                    "original_form": "신뢰에도 많은 영향을 준다고 생각해서",
+                    "speaker_id": "SD2000066",
+                    "start": 781.96004,
+                    "end": 785.24106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.413",
+                    "form": "어~ 이제",
+                    "original_form": "어~ 이젭",
+                    "speaker_id": "SD2000066",
+                    "start": 785.25103,
+                    "end": 786.71104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.414",
+                    "form": "전극으로",
+                    "original_form": "전극으로",
+                    "speaker_id": "SD2000066",
+                    "start": 786.72101,
+                    "end": 787.80702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.415",
+                    "form": "전극을 심어서",
+                    "original_form": "전극을 심어서",
+                    "speaker_id": "SD2000066",
+                    "start": 787.81707,
+                    "end": 789.14604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.416",
+                    "form": "사람의",
+                    "original_form": "사람의",
+                    "speaker_id": "SD2000066",
+                    "start": 789.15604,
+                    "end": 790.04304,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.417",
+                    "form": "감정을 조정할 수 있다면",
+                    "original_form": "감정을 조정할 수 있다면",
+                    "speaker_id": "SD2000066",
+                    "start": 790.05308,
+                    "end": 791.56605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.418",
+                    "form": "전극이 없이도 조정할 수 있는 방법이",
+                    "original_form": "전극이 없이도 조정할 수 있는 방법이",
+                    "speaker_id": "SD2000066",
+                    "start": 791.57602,
+                    "end": 794.05006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.419",
+                    "form": "나올 수도 있다고 생각이 들고",
+                    "original_form": "나올 수도 있다고 생각이 들고",
+                    "speaker_id": "SD2000066",
+                    "start": 794.06006,
+                    "end": 796.09602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.420",
+                    "form": "어~ 그렇게 된다면은 또",
+                    "original_form": "어~ 그렇게 된다면은 또",
+                    "speaker_id": "SD2000066",
+                    "start": 796.10608,
+                    "end": 798.22101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.421",
+                    "form": "광범위하게",
+                    "original_form": "광범위하게",
+                    "speaker_id": "SD2000066",
+                    "start": 798.23106,
+                    "end": 800.14208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.422",
+                    "form": "음 사용돼서",
+                    "original_form": "음 사용돼서",
+                    "speaker_id": "SD2000066",
+                    "start": 800.15208,
+                    "end": 802.86502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.423",
+                    "form": "세계를 지배한다든지 하는",
+                    "original_form": "세계를 지배한다든지 하는",
+                    "speaker_id": "SD2000066",
+                    "start": 802.87502,
+                    "end": 804.89703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.424",
+                    "form": "뭐 그런 뭐",
+                    "original_form": "뭐 그런 {laughing}뭐",
+                    "speaker_id": "SD2000066",
+                    "start": 804.90707,
+                    "end": 805.89303,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.425",
+                    "form": "현상이 생길 수도 있지 않을까?",
+                    "original_form": "현상이 생길 수도 있지 않을까?",
+                    "speaker_id": "SD2000066",
+                    "start": 805.90301,
+                    "end": 807.48904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.426",
+                    "form": "정말",
+                    "original_form": "정말",
+                    "speaker_id": "SD2000066",
+                    "start": 807.49906,
+                    "end": 808.06702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.427",
+                    "form": "음",
+                    "original_form": "음",
+                    "speaker_id": "SD2000066",
+                    "start": 808.07707,
+                    "end": 808.89107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.428",
+                    "form": "지금으로 치자면은",
+                    "original_form": "지금으로 치자면은",
+                    "speaker_id": "SD2000066",
+                    "start": 808.90108,
+                    "end": 810.66907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.429",
+                    "form": "허구 속 이야기지만은",
+                    "original_form": "허구 속 이야기지만은",
+                    "speaker_id": "SD2000066",
+                    "start": 810.67903,
+                    "end": 812.21803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.430",
+                    "form": "음 그런 것도",
+                    "original_form": "음 그런 것도",
+                    "speaker_id": "SD2000066",
+                    "start": 812.22806,
+                    "end": 814.03105,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.431",
+                    "form": "가능할 수도 있지 않을까 하는",
+                    "original_form": "가능할 수도 있지 않을까 하는",
+                    "speaker_id": "SD2000066",
+                    "start": 814.04101,
+                    "end": 816.46605,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.432",
+                    "form": "생각은 듭니다.",
+                    "original_form": "생각은 듭니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 816.47601,
+                    "end": 819.91308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.433",
+                    "form": "어~ 어~",
+                    "original_form": "어~ 어~",
+                    "speaker_id": "SD2000066",
+                    "start": 819.92304,
+                    "end": 823.47108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.434",
+                    "form": "그러면 name1 씨는",
+                    "original_form": "그러면 &name1& 씨는",
+                    "speaker_id": "SD2000066",
+                    "start": 823.48105,
+                    "end": 826.31601,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.435",
+                    "form": "교육에",
+                    "original_form": "교육에",
+                    "speaker_id": "SD2000066",
+                    "start": 826.32607,
+                    "end": 828.03702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.436",
+                    "form": "어떤 것을 활용하고 싶은지",
+                    "original_form": "어떤 것을 활용하고 싶은지",
+                    "speaker_id": "SD2000066",
+                    "start": 828.04704,
+                    "end": 830.49505,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.437",
+                    "form": "어~ 미술교사로",
+                    "original_form": "어~ 미술교사로",
+                    "speaker_id": "SD2000066",
+                    "start": 830.50507,
+                    "end": 832.25608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.438",
+                    "form": "갈 예정이지만",
+                    "original_form": "갈 예정이지만",
+                    "speaker_id": "SD2000066",
+                    "start": 832.26608,
+                    "end": 834.05608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.439",
+                    "form": "뭐 교육에는 미술만 쓰는 것이 아니지 않습니까?",
+                    "original_form": "뭐 교육에는 미술만 쓰는 것이 아니지 않습니까?",
+                    "speaker_id": "SD2000066",
+                    "start": 834.06606,
+                    "end": 836.93102,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.440",
+                    "form": "그렇기 때문에 또",
+                    "original_form": "그렇기 때문에 또",
+                    "speaker_id": "SD2000066",
+                    "start": 836.94105,
+                    "end": 837.97006,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.441",
+                    "form": "어떤 다른 분야를 끌고 와서",
+                    "original_form": "어떤 다른 분야를 끌고 와서",
+                    "speaker_id": "SD2000066",
+                    "start": 837.98001,
+                    "end": 839.92301,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.442",
+                    "form": "교육에 쓰고 싶은지",
+                    "original_form": "교육에 쓰고 싶은지",
+                    "speaker_id": "SD2000066",
+                    "start": 839.93305,
+                    "end": 841.29907,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.443",
+                    "form": "궁금합니다.",
+                    "original_form": "궁금합니다.",
+                    "speaker_id": "SD2000066",
+                    "start": 841.30907,
+                    "end": 844.20207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.444",
+                    "form": "제가",
+                    "original_form": "제가",
+                    "speaker_id": "SD2000067",
+                    "start": 844.21208,
+                    "end": 846.64302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.445",
+                    "form": "이제 미술에 끌고 오고 싶은 분야는",
+                    "original_form": "이제 미술에 끌고 오고 싶은 분야는",
+                    "speaker_id": "SD2000067",
+                    "start": 846.65306,
+                    "end": 849.38707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.446",
+                    "form": "사회학과입니다.",
+                    "original_form": "사회학과입니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 849.39705,
+                    "end": 851.13005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.447",
+                    "form": "그~ 정확하게 말하자면은",
+                    "original_form": "그~ 정확하게 말하자면은",
+                    "speaker_id": "SD2000067",
+                    "start": 851.14005,
+                    "end": 853.33003,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.448",
+                    "form": "지역사회이긴 한데",
+                    "original_form": "지역사회이긴 한데",
+                    "speaker_id": "SD2000067",
+                    "start": 853.34007,
+                    "end": 854.44404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.449",
+                    "form": "이게 제가 논문 썼던 부분이긴 하지만은",
+                    "original_form": "이게 저가 논문 썼던 부분이긴 하지만은",
+                    "speaker_id": "SD2000067",
+                    "start": 854.45405,
+                    "end": 857.29803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.450",
+                    "form": "어~ 아이들에게",
+                    "original_form": "어~ 아이들에게",
+                    "speaker_id": "SD2000067",
+                    "start": 857.30802,
+                    "end": 858.81704,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.451",
+                    "form": "쪼금 더",
+                    "original_form": "쪼금 더",
+                    "speaker_id": "SD2000067",
+                    "start": 858.82702,
+                    "end": 860.01404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.452",
+                    "form": "자신의 지역을",
+                    "original_form": "자신의 지역을",
+                    "speaker_id": "SD2000067",
+                    "start": 860.02402,
+                    "end": 861.74208,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.453",
+                    "form": "애호하면서",
+                    "original_form": "애호하면서",
+                    "speaker_id": "SD2000067",
+                    "start": 861.75208,
+                    "end": 862.98707,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.454",
+                    "form": "그 애호하는 마음으로",
+                    "original_form": "그 애호하는 마음으로",
+                    "speaker_id": "SD2000067",
+                    "start": 862.99703,
+                    "end": 864.58005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.455",
+                    "form": "어~",
+                    "original_form": "어~",
+                    "speaker_id": "SD2000067",
+                    "start": 864.59007,
+                    "end": 865.42808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.456",
+                    "form": "그~ 교육을 통해서",
+                    "original_form": "그~ 교육을 통해서",
+                    "speaker_id": "SD2000067",
+                    "start": 865.43807,
+                    "end": 866.89703,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.457",
+                    "form": "뭔가 그~ 교육활동을 통해서",
+                    "original_form": "뭔가 그~ 교육활동을 통해서",
+                    "speaker_id": "SD2000067",
+                    "start": 866.90706,
+                    "end": 868.97706,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.458",
+                    "form": "아이들이 뭔가를 생산해내고",
+                    "original_form": "아이들이 뭔가를 생산해내고",
+                    "speaker_id": "SD2000067",
+                    "start": 868.98706,
+                    "end": 870.77702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.459",
+                    "form": "거기에 대한",
+                    "original_form": "거기에 대한",
+                    "speaker_id": "SD2000067",
+                    "start": 870.78701,
+                    "end": 871.53708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.460",
+                    "form": "뿌듯함을",
+                    "original_form": "뿌듯함을",
+                    "speaker_id": "SD2000067",
+                    "start": 871.54706,
+                    "end": 872.22602,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.461",
+                    "form": "가질 수 있었으면 좋겠습니다.",
+                    "original_form": "가질 수 있었으면 좋겠습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 872.23607,
+                    "end": 874.08807,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.462",
+                    "form": "더불어 동시에",
+                    "original_form": "더불어 동시에",
+                    "speaker_id": "SD2000067",
+                    "start": 874.09808,
+                    "end": 875.44107,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.463",
+                    "form": "그~ 아이들의 작품을 통해서",
+                    "original_form": "그~ 아이들의 작품을 통해서",
+                    "speaker_id": "SD2000067",
+                    "start": 875.45102,
+                    "end": 877.59504,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.464",
+                    "form": "그~ 지역거리에 에",
+                    "original_form": "그~ 지역거리에 에",
+                    "speaker_id": "SD2000067",
+                    "start": 877.60508,
+                    "end": 879.33904,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.465",
+                    "form": "경제가 활성화되고 또 그~",
+                    "original_form": "경제가 활성화되고 또 그~",
+                    "speaker_id": "SD2000067",
+                    "start": 879.34907,
+                    "end": 882.07502,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.466",
+                    "form": "지역에 방문하는",
+                    "original_form": "지역에 방문하는",
+                    "speaker_id": "SD2000067",
+                    "start": 882.08507,
+                    "end": 883.44308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.467",
+                    "form": "인원또 많아지고",
+                    "original_form": "인원또 많아지고",
+                    "speaker_id": "SD2000067",
+                    "start": 883.45308,
+                    "end": 884.75604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.468",
+                    "form": "그런 의미로",
+                    "original_form": "그런 의미로",
+                    "speaker_id": "SD2000067",
+                    "start": 884.76604,
+                    "end": 886.32203,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.469",
+                    "form": "이게 지역사회에 미술에",
+                    "original_form": "이게 지역사회에 미술에",
+                    "speaker_id": "SD2000067",
+                    "start": 886.33203,
+                    "end": 888.07104,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.470",
+                    "form": "효관데요.",
+                    "original_form": "효관데요.",
+                    "speaker_id": "SD2000067",
+                    "start": 888.08108,
+                    "end": 889.92903,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.471",
+                    "form": "이~ 효과가",
+                    "original_form": "이~ 효과가",
+                    "speaker_id": "SD2000067",
+                    "start": 889.93908,
+                    "end": 891.42501,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.472",
+                    "form": "어~ 경제적이기도 하고",
+                    "original_form": "어~ 경제적이기도 하고",
+                    "speaker_id": "SD2000067",
+                    "start": 891.43502,
+                    "end": 893.34207,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.473",
+                    "form": "그다음에 문화적인",
+                    "original_form": "그다음에 문화적인",
+                    "speaker_id": "SD2000067",
+                    "start": 893.35204,
+                    "end": 894.51308,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.474",
+                    "form": "부분도 있고요.",
+                    "original_form": "부분도 있구요",
+                    "speaker_id": "SD2000067",
+                    "start": 894.52305,
+                    "end": 896.00307,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.475",
+                    "form": "어~ 그다음에 개인적인 차원에서 이제 또",
+                    "original_form": "어~ 그다음에 개인적인 차원에서 이제 또",
+                    "speaker_id": "SD2000067",
+                    "start": 896.01306,
+                    "end": 898.79705,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.476",
+                    "form": "어~ 지역민들의",
+                    "original_form": "어~ 지역민들의",
+                    "speaker_id": "SD2000067",
+                    "start": 898.80703,
+                    "end": 900.51708,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.477",
+                    "form": "유대감을 또 높여 준다고 합니다.",
+                    "original_form": "유대감을 또 높여 준다고 합니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 900.52703,
+                    "end": 902.64608,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.478",
+                    "form": "그런 의미로",
+                    "original_form": "그런 의미로",
+                    "speaker_id": "SD2000067",
+                    "start": 902.65602,
+                    "end": 903.87108,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.479",
+                    "form": "저는 사회학과를 끌어들여서",
+                    "original_form": "저는 사회학과를 끌어들여서",
+                    "speaker_id": "SD2000067",
+                    "start": 903.88108,
+                    "end": 906.20101,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.480",
+                    "form": "지역사회와 연계해서 이제 그 지역사회도",
+                    "original_form": "지역사회와 연계해서 이제 그 지역사회도",
+                    "speaker_id": "SD2000067",
+                    "start": 906.21103,
+                    "end": 908.90808,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.481",
+                    "form": "여러 기관과 연계하는 방법이 있습니다.",
+                    "original_form": "여러 기관과 연계하는 방법이 있습니다.",
+                    "speaker_id": "SD2000067",
+                    "start": 908.91802,
+                    "end": 911.70702,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.482",
+                    "form": "그게 방법의 하나이기도 한데요.",
+                    "original_form": "그게 방법의 하나이기도 한데요.",
+                    "speaker_id": "SD2000067",
+                    "start": 911.71708,
+                    "end": 913.96302,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.483",
+                    "form": "그런 여러 가지 방법을 쓰고 싶습니다. 그래서 뭐",
+                    "original_form": "그런 여러 가지 방법을 쓰고 싶습니다. 그래서 뭐",
+                    "speaker_id": "SD2000067",
+                    "start": 913.97301,
+                    "end": 919.43001,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.484",
+                    "form": "그래서",
+                    "original_form": "그래서",
+                    "speaker_id": "SD2000067",
+                    "start": 919.44003,
+                    "end": 921.45908,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.485",
+                    "form": "어~ name2 씨 같은 경우는",
+                    "original_form": "어~ &name2& 씨 같은 경우는",
+                    "speaker_id": "SD2000067",
+                    "start": 921.46902,
+                    "end": 923.29803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.486",
+                    "form": "어~ 임상을 할 때또 특별히 뭔가",
+                    "original_form": "어~ 임상을 할 때또 특별히 뭔가",
+                    "speaker_id": "SD2000067",
+                    "start": 923.30805,
+                    "end": 927.14603,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.487",
+                    "form": "관심이 있는",
+                    "original_form": "관심이 있는",
+                    "speaker_id": "SD2000067",
+                    "start": 927.15608,
+                    "end": 929.45803,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.488",
+                    "form": "그런 분야는",
+                    "original_form": "그런 분야는",
+                    "speaker_id": "SD2000067",
+                    "start": 929.46802,
+                    "end": 930.92005,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.489",
+                    "form": "그러니까 임상에서도 여러 종류가 있을 텐데",
+                    "original_form": "그니까 임상에서도 여러 종류가 있을 텐데",
+                    "speaker_id": "SD2000067",
+                    "start": 930.93008,
+                    "end": 933.96106,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.490",
+                    "form": "특별히",
+                    "original_form": "특별히",
+                    "speaker_id": "SD2000067",
+                    "start": 933.97108,
+                    "end": 934.67604,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.491",
+                    "form": "가고 싶은",
+                    "original_form": "가고 싶은",
+                    "speaker_id": "SD2000067",
+                    "start": 934.68605,
+                    "end": 935.46507,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.492",
+                    "form": "분야가 있다 어떤 연구소가 있다",
+                    "original_form": "분야가 있다 어떤 연구소가 있다",
+                    "speaker_id": "SD2000067",
+                    "start": 935.47505,
+                    "end": 939.22404,
+                    "note": ""
+                },
+                {
+                    "id": "SDRW2000000045.1.1.493",
+                    "form": "그런 분야가 있나요?",
+                    "original_form": "그런 분야가 있나요?",
+                    "speaker_id": "SD2000067",
+                    "start": 939.23407,
+                    "end": 941.77805,
+                    "note": ""
+                }
+            ]
+        }
+    ]
+}
