@@ -12,6 +12,8 @@ for tag in range(1, 400):
         for utterance in json_data["document"][0]["utterance"]:
             for words in utterance["form"].split(' '):
                 word = words.strip(string.punctuation).strip(string.digits)
+                if word == '' or word.encode().isalpha():
+                    continue
                 if word in dictionary:
                     dictionary[word] += 1
                 else:
