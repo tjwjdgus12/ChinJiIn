@@ -7,7 +7,7 @@ import re
 
 hangul = re.compile("[^ \u3131-\u3163\uac00-\ud7a3]+")
 dictionary = {}
-for tag in range(1, 400):
+for tag in range(1, 2233):
     path = r"./NIKL Everyday Conversation corpus/SDRW200000" + format(tag, '04') + ".json"
     with open(path, encoding='UTF8') as json_file:
         json_data = json.load(json_file)
@@ -15,6 +15,8 @@ for tag in range(1, 400):
             for words in utterance["form"].split(' '):
                 word = words.strip(string.punctuation).strip(string.digits)
                 word = hangul.sub("", word)
+                if word == "":
+                    continue
                 if word in dictionary:
                     dictionary[word] += 1
                 else:
@@ -24,7 +26,7 @@ for tag in range(1, 400):
 dictionary = dict(sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
 
 
-f = open('dictionary.txt', 'w')
+f = open('corpus_dictionary.txt', 'w')
 for key, value in dictionary.items():
     f.write(key + ": " + str(value) + "\n")
 f.close()
