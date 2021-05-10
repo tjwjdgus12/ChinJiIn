@@ -1,4 +1,4 @@
-import re
+import re, json, string
 
 """
 초성 중성 종성 분리 하기
@@ -22,15 +22,16 @@ import re
 BASE_CODE, CHOSUNG, JUNGSUNG = 44032, 588, 28
 
 # 초성 리스트. 00 ~ 18
-CHOSUNG_LIST = ['ㄱ', 'ㄱㄱㄱ', 'ㄴ', 'ㄷ', 'ㄷㄷㄷ', 'ㄴㄴ', 'ㅇㅇ', 'ㅂ', 'ㅂㅂㅂ', 'ㅅ', 'ㅅㅅㅅ', 'ㅇ', 'ㅈ', 'ㅈㅈㅈ', 'ㅈㅈ', 'ㄱㄱ', 'ㄷㄷ', 'ㅂㅂ', 'ㅅㅅ']
+CHOSUNG_LIST = ['ㄱ', 'ㄱㄱㄱ', 'ㄴ', 'ㄷ', 'ㄷㄷㄷ', 'ㄴㄴ', 'ㅇㅇ', 'ㅂ', 'ㅂㅂㅂ', 'ㅅ', 'ㅅㅅㅅ', 'ㅇ',
+                'ㅈ', 'ㅈㅈㅈ', 'ㅈㅈ', 'ㄱㄱ', 'ㄷㄷ', 'ㅂㅂ', 'ㅅㅅ']
 
 # 중성 리스트. 00 ~ 20
 JUNGSUNG_LIST = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ',
                  'ㅣ']
 
 # 종성 리스트. 00 ~ 27 + 1(1개 없음)
-JONGSUNG_LIST = [' ', 'ㄱ', 'ㄱㄱㄱ', 'ㄱㅅ', 'ㄴ', 'ㄴㅈ', 'ㄴㅅㅅ', 'ㄷ', 'ㄴㄴ', 'ㄴㄴㄱ', 'ㄴㄴㅇㅇ', 'ㄴㄴㅂ', 'ㄴㄴㅅ', 'ㄴㄴㄷㄷ', 'ㄴㄴㅂㅂ', 'ㅀ', 'ㅇㅇ', 'ㅂ', 'ㅂㅅ', 'ㅅ',
-                 'ㅅㅅㅅ', 'ㅇ', 'ㅈ', 'ㅈㅈ', 'ㄱㄱ', 'ㄷㄷ', 'ㅂㅂ', 'ㅅㅅ']
+JONGSUNG_LIST = [' ', 'ㄱ', 'ㄱㄱㄱ', 'ㄱㅅ', 'ㄴ', 'ㄴㅈ', 'ㄴㅅㅅ', 'ㄷ', 'ㄴㄴ', 'ㄴㄴㄱ', 'ㄴㄴㅇㅇ', 'ㄴㄴㅂ', 'ㄴㄴㅅ', 'ㄴㄴㄷㄷ',
+                 'ㄴㄴㅂㅂ', 'ㄴㄴㅅㅅ', 'ㅇㅇ', 'ㅂ', 'ㅂㅅ', 'ㅅ', 'ㅅㅅㅅ', 'ㅇ', 'ㅈ', 'ㅈㅈ', 'ㄱㄱ', 'ㄷㄷ', 'ㅂㅂ', 'ㅅㅅ']
 
 JUNGSUNG_CONVERT = {'ㅏ': 'ㅣᆞ', 'ㅐ': 'ㅣᆞㅣ', 'ㅑ': 'ㅣᆞᆞ', 'ㅒ': 'ㅣᆞᆞㅣ', 'ㅓ': 'ᆞㅣ', 'ㅔ': 'ᆞㅣㅣ', 'ㅕ': 'ᆞᆞㅣ', 'ㅖ': 'ᆞᆞㅣㅣ',
                     'ㅗ': 'ᆞㅡ', 'ㅘ': 'ᆞㅡㅣᆞ', 'ㅙ': 'ᆞㅡㅣᆞㅣ', 'ㅚ': 'ᆞㅡㅣ', 'ㅛ': 'ᆞᆞㅡ', 'ㅜ': 'ㅡᆞ', 'ㅝ': 'ㅡᆞᆞㅣ', 'ㅞ': 'ㅡᆞᆞㅣㅣ',
@@ -50,10 +51,11 @@ def cheonjiin_convert(test_keyword):
                 continue
             char1 = int(char_code / CHOSUNG)
             if wsFlag:
-                if prevJamo[-1] == CHOSUNG_LIST[char1][0]:
-                    result.append('#')
-                    wsFlag = False
-                    prevJamo = ''
+                if prevJamo:
+                    if prevJamo[-1] == CHOSUNG_LIST[char1][0]:
+                        result.append('#')
+                        wsFlag = False
+                        prevJamo = ''
             result.append(CHOSUNG_LIST[char1])
 
             char2 = int((char_code - (CHOSUNG * char1)) / JUNGSUNG)
@@ -65,24 +67,50 @@ def cheonjiin_convert(test_keyword):
                 result.append(JONGSUNG_LIST[char3])
                 wsFlag = True
             else:
+                prevJamo = ''
                 continue
         else:
-            result.append('#')
-    # result
+            if keyword == ' ':
+                result.append('#')
+            else:
+                result.append(keyword)
     return "".join(result)
 
 
 def make_outputFile(inputfile, outputfile):
-    wf = open(outputfile, 'w', encoding='utf-8')
-    with open(inputfile, 'r', encoding='utf-8') as rf:
+    wf = open(outputfile, 'wt', encoding='utf-8')
+    with open(inputfile, 'rt', encoding='utf-8') as rf:
         for line in rf:
             t = cheonjiin_convert(line) + '\n'
             wf.write(t)
     wf.close()
 
 
+def make_dictionary(outputFile):
+    dictionary = {}
+    for tag in range(1, 400):
+        path = r"./NIKL Everyday Conversation corpus/SDRW200000" + format(tag, '04') + ".json"
+        with open(path, 'rt', encoding='utf-8') as json_file:
+            json_data = json.load(json_file)
+            for utterance in json_data["document"][0]["utterance"]:
+                for words in utterance["form"].split(' '):
+                    word = words.strip(string.punctuation).strip(string.digits)
+                    if word in dictionary:
+                        dictionary[word] += 1
+                    else:
+                        dictionary[word] = 1
+
+    dictionary = dict(sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
+
+    f = open(outputFile, 'wt', encoding='utf-8')
+    for key, value in dictionary.items():
+        f.write(cheonjiin_convert(key) + " " + str(value) + "\n")
+    f.close()
+
+
 if __name__ == '__main__':
-    test_keyword = "테스트 한글을 입력, 한글이 아닌 문자와 공백은 #로 표시"
+    test_keyword = "안녕 안녕 나는 지수야~!"
     print(cheonjiin_convert(test_keyword))
-    # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
+    make_dictionary('dictionary.txt')
+    # make_outputFile("./dictionary.txt", "dictionary_output.txt")
 

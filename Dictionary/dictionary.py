@@ -26,4 +26,5 @@ for key, value in dictionary.items():
 f.close()
 
 if __name__ == "__main__":
+
     print(json.dumps(dictionary, indent='\t', ensure_ascii=False))
