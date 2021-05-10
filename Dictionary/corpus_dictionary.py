@@ -26,7 +26,7 @@ for tag in range(1, 2233):
 dictionary = dict(sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
 
 
-f = open('corpus_dictionary.txt', 'w')
+f = open("corpus_dictionary.txt", 'wt', encoding="utf-8")
 for key, value in dictionary.items():
     f.write(key + ": " + str(value) + "\n")
 f.close()
