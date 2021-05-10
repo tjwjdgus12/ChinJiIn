@@ -48,10 +48,12 @@ def cheonjiin_convert(test_keyword):
         if re.match('.*[ㄱ-ㅎㅏ-ㅣ가-힣]+.*', keyword) is not None:
             char_code = ord(keyword) - BASE_CODE
             if char_code < 0:
+                result.append(keyword)
+                result.append('#')
                 continue
             char1 = int(char_code / CHOSUNG)
             if wsFlag:
-                if prevJamo:
+                if prevJamo and result[-1] != '##':
                     if prevJamo[-1] == CHOSUNG_LIST[char1][0]:
                         result.append('#')
                         wsFlag = False
@@ -71,7 +73,10 @@ def cheonjiin_convert(test_keyword):
                 continue
         else:
             if keyword == ' ':
-                result.append('#')
+                if result[-1] == '#':
+                    result.append('#')
+                else:
+                    result.append('##')
             else:
                 result.append(keyword)
     return "".join(result)
@@ -95,6 +100,8 @@ def make_dictionary(outputFile):
             for utterance in json_data["document"][0]["utterance"]:
                 for words in utterance["form"].split(' '):
                     word = words.strip(string.punctuation).strip(string.digits)
+                    if word == '' or word.encode().isalpha():
+                        continue
                     if word in dictionary:
                         dictionary[word] += 1
                     else:
@@ -109,8 +116,8 @@ def make_dictionary(outputFile):
 
 
 if __name__ == '__main__':
-    test_keyword = "안녕 안녕 나는 지수야~!"
+    test_keyword = "안녕 안녕 나는 지수야 ㅎㄹㄱㅅ ㅁㅇㄷㄴ ㅇㄹㅋㄷㅈ~"
     print(cheonjiin_convert(test_keyword))
-    make_dictionary('dictionary.txt')
+    # make_dictionary('dictionary.txt')
     # make_outputFile("./dictionary.txt", "dictionary_output.txt")
 
