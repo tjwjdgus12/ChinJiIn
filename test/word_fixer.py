@@ -1,5 +1,6 @@
 import cheonjiin_convert as cji_converter
 import deletes_convert as del_converter
+import hangeul_convert as han_converter
 
 def load_dict():
     dicts = dict()
@@ -10,35 +11,36 @@ def load_dict():
             dicts[words[0]] = words[1:]
     return dicts
 
+
 dicts = load_dict()
+print("dictionary loaded.")
 
 def fix(input_word):
     global dicts
 
     input_word = cji_converter.cheonjiin_convert(input_word)
 
+    ret = set()
+
     if input_word in dicts.keys():
-        return input_word, "correct"
+        ret.add(han_converter.hangeul_convert(input_word))
 
     for dic in dicts.keys():
         if input_word in dicts[dic]:
-            return dic, "typo - deletion"
+            ret.add(han_converter.hangeul_convert(dic))
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in dicts.keys():
-            return input_word_del, "typo - insertion"
+            ret.add(han_converter.hangeul_convert(input_word_del))
 
     for input_word_del in del_converter.deletes(input_word):
         for dic in dicts.keys():
             if input_word_del in dicts[dic]:
-                return dic, "typo - etc"
+                ret.add(han_converter.hangeul_convert(dic))
 
-    return input_word, "???"
-
-def check(input_word):
-    fixed, msg = fix(input_word)
-    print(fixed, msg)
+    for r in ret:
+        print(r)
+    print("------------------")
 
 while True:
-    inp = input()
-    check(inp)
+    fix(input())

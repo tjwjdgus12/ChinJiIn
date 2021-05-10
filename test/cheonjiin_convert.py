@@ -55,16 +55,12 @@ def cheonjiin_convert(test_keyword):
 
 
 def make_outputFile(inputfile, outputfile):
-    wf = open(outputfile, 'w', encoding='utf-8')
-    with open(inputfile, 'r', encoding='utf-8') as rf:
+    wf = open(outputfile, 'wt', encoding='utf-8')
+    with open(inputfile, 'rt', encoding='cp949') as rf:
         for line in rf:
-            t = cheonjiin_convert(line)[:-1] + '\n'
+            t = cheonjiin_convert(line.split(':')[0]) + '\n'
             wf.write(t)
     wf.close()
 
-
-if __name__ == '__main__':
-    test_keyword = "테스트 한글을 입력, 한글이 아닌 문자와 공백은 #로 표시"
-    print(cheonjiin_convert(test_keyword))
-    make_outputFile("dict.txt", "dict_cheonjiin.txt")
+make_outputFile("dict.txt", "dict_cheonjiin.txt")
 
