@@ -13,11 +13,18 @@ def load_dict():
 
 
 dicts = load_dict()
+origin_dict = dict()
+with open('dict.txt', 'r') as file_dict:
+    for line in file_dict:
+        temp = line.split()
+        origin_dict[temp[0].strip(':')] = int(temp[1])
 print("dictionary loaded.")
 
 def fix(input_word):
     global dicts
+    global origin_dict
 
+    origin_input = input_word
     input_word = cji_converter.cheonjiin_convert(input_word)
 
     ret = set()
@@ -37,9 +44,25 @@ def fix(input_word):
         for dic in dicts.keys():
             if input_word_del in dicts[dic]:
                 ret.add(han_converter.hangeul_convert(dic))
-
-    for r in ret:
-        print(r)
+    
+    print_arr = []
+    hasSame = False
+    for i in ret:
+        if i in origin_dict.keys():
+            if i == origin_input:
+                hasSame = True
+                continue
+            else:
+                temp = [i, origin_dict[i]]
+        else:
+            temp = [i, int(0)]
+        print_arr.append(temp)
+    print_arr.sort(key = lambda freq: freq[1], reverse=True)
+    if hasSame == True:
+        print_arr.insert(0, [origin_input, origin_dict[origin_input]])
+    
+    for r in print_arr:
+        print(r[0])
     print("------------------")
 
 while True:
