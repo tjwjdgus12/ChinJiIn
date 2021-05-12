@@ -30,6 +30,7 @@ JUNGSUNG_CONVERT = {'ㅏ': 'ㅣᆞ', 'ㅐ': 'ㅣᆞㅣ', 'ㅑ': 'ㅣᆞᆞ', '�
 def cheonjiin_convert(test_keyword):
     split_keyword_list = list(test_keyword)
     prevJamo = ''
+    prevKeyword = ''
     result = list()
     for keyword in split_keyword_list:
         # 한글 여부 check 후 분리
@@ -37,7 +38,7 @@ def cheonjiin_convert(test_keyword):
             char_code = ord(keyword) - BASE_CODE
             if char_code < 0:  # 초성 + 중성의 조합이 아닌 경우 (ㄱ, ㄴ, ㄷ, ㅏ, ㅣ, ㅜ 등)
                 if keyword in CHOSUNG_CONVERT:  # 단일 자음인 경우 (ㄱ, ㄴ, ㄷ..)
-                    if not prevJamo:  # 이전 종성이 없을 경우 (ex, 아ㄴ녕) 에서 ㄴ 전에 공백 추가
+                    if not prevJamo and (prevKeyword != '' or prevKeyword != 'ᆞ' or prevKeyword != '#'):  # 이전 종성이 없을 경우 (ex, 아ㄴ녕) 에서 ㄴ 전에 공백 추가
                         result.append('#')
                     result.append(CHOSUNG_CONVERT[keyword])
                     prevJamo = CHOSUNG_CONVERT[keyword]
@@ -65,6 +66,7 @@ def cheonjiin_convert(test_keyword):
             else:
                 prevJamo = ''
                 continue
+            prevKeyword = result[-1]
         else:
             if keyword == ' ':  # 띄어쓰기 처리
                 if result[-1] == '#':
@@ -73,6 +75,7 @@ def cheonjiin_convert(test_keyword):
                     result.append('##')
             else:
                 result.append(keyword)
+
     return "".join(result)
 
 
@@ -86,7 +89,7 @@ def _makeFile(inputfile, outputfile):
 
 
 if __name__ == '__main__':
-    testStr = "끄ㄹㅎ사랑"
+    testStr = "아ㅉ자증나ㅉ"
     print(cheonjiin_convert(testStr))
-    _makeFile('dict.txt', 'dict_cji.txt')
+    # _makeFile('dict.txt', 'dict_cji.txt')
 
