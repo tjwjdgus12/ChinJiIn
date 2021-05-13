@@ -2,8 +2,31 @@ import cheonjiin_convert as cji_convert
 
 
 def deletes(word):
-    deletes = [word[:i]+word[i+1:] for i in range(len(word))]
-    return deletes
+    dels = []
+    cycle = [['ㅇ','ㄴ'], ['ㄱ','ㅂ','ㅈ','ㄷ','ㅅ']]
+    for i in range(len(word)):
+        if word[i] == '#' and word[i-1] == word[i+1]:
+            cnt = 2
+            l = i - 2
+            r = i + 2
+            for c in range(2):
+                if word[i-1] in cycle[c]:
+                    while cnt < c + 3:
+                        if l < 0 or word[l] != word[i-1]:
+                            break
+                        cnt += 1
+                        l -= 1
+                    while cnt < c + 3:
+                        if r >= len(word):
+                            break
+                        cnt += 1
+                        r += 1
+                        
+            dels.append(word[:l+2] + word[r:])
+
+        else:
+            dels.append(word[:i] + word[i+1:])
+    return dels
 
 
 def _makeFile(inputfile, outputfile):
