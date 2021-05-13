@@ -2,8 +2,7 @@ import cheonjiin_convert as cji_convert
 
 
 def deletes(word):
-    splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
-    deletes = [L + R[1:] for L, R in splits if R]
+    deletes = [word[:i]+word[i+1:] for i in range(len(word))]
     return deletes
 
 
