@@ -1,5 +1,5 @@
 import cheonjiin_convert as cji_convert
-
+import os
 
 def deletes(word):
     dels = []
@@ -30,22 +30,26 @@ def deletes(word):
 
 
 def _makeFile(inputfile, outputfile):
-    wf = open(outputfile, 'wt', encoding='utf-8')
-    with open(inputfile, 'rt', encoding='utf-8') as rf:
-        for word in rf:
-            line = []
-            line.append(word[:-1]) # 개행 제거
-            for d in deletes(word[:-1]):
-                line.append(d)
-            wf.write('&'.join(line) + '\n')
-    wf.close()
+    # 파일 있는 경우는 스킵, 없는 경우만 새로 만듦
+    if outputfile not in os.listdir('./'):
+        wf = open(outputfile, 'wt', encoding='utf-8')
+        with open(inputfile, 'rt', encoding='utf-8') as rf:
+            for word in rf:
+                line = []
+                line.append(word[:-1]) # 개행 제거
+                for d in deletes(word[:-1]):
+                    line.append(d)
+                wf.write('&'.join(line) + '\n')
+        wf.close()
 
 
 def createDeleteDict(inputFile, outputFile):  # gets input for original dict and make delete dictionary
     tempFileName = "dict_cji.txt"
     print("converting dictionary file into cji sequence")
-    cji_convert._makeFile(inputFile, tempFileName)
-    _makeFile(tempFileName, outputFile)
+    # 파일 있는 경우는 스킵, 없는 경우만 새로 만듦
+    if tempFileName not in os.listdir('./'):
+        cji_convert._makeFile(inputFile, tempFileName)
+        _makeFile(tempFileName, outputFile)
     print("delete dictionary successfully created")
 
 
