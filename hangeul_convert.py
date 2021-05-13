@@ -42,7 +42,10 @@ vowel_plus_basic = [[vowel_list.index('ㅑ'), -1, 1],  # ㅏ(0)
                     ]
 
 space_list = ['#']
-
+l1_list = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+l3_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅁ', 'ㅂ', 'ㅄ',
+           'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+adjust = 0xAC00
 
 def hangeul_convert(keyword):
     arr_list = [consonant_list, basic_vowel_list, space_list]
@@ -94,81 +97,101 @@ def hangeul_convert(keyword):
 
     level = 0
     element = [0, 0, 0, 0]
-    l1_list = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
-    l3_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅁ', 'ㅂ', 'ㅄ',
-               'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 
-    adjust = 0xAC00
     result = ''
 
     for i in range(len(temp)):
-        if temp[i][0] == 0:
+        if temp[i][0] == 0:  # 자음일 때
             if level == 3:
                 merged = consonant_plus_list.get(temp[i - 1][1] + temp[i][1], -1)
                 if merged != -1:
-                    element[3] = l3_list.index(temp[i][1])
+                    element[3] = temp[i][1]
                     level += 1
                 else:
-                    result += chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
-                    element[0] = l1_list.index(temp[i][1])
+                    result += getCharUnicode(element, 3)
+                    element[0] = temp[i][1]
                     element[1] = 0
                     element[2] = 0
                     level = 1
             elif level == 0:
-                element[level] = l1_list.index(temp[i][1])
+                element[0] = temp[i][1]
                 level += 1
             elif level == 2:
-                element[level] = l3_list.index(temp[i][1])
-                level += 1
+                if not temp[i][1] in l3_list:
+                    result += getCharUnicode(element, 2)
+                    level = 1
+                    element[0] = temp[i][1]
+                    element[1] = 0
+                    element[2] = 0
+                else:
+                    element[level] = temp[i][1]
+                    level += 1
 
             else:
                 if level == 4:
-                    element[2] = l3_list.index(consonant_plus_list.get(l3_list[element[2]] + l3_list[element[3]]))
-                result += chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
-                element[0] = l1_list.index(temp[i][1])
+                    element[2] = consonant_plus_list.get(element[2] + element[3])
+                    result += getCharUnicode(element, 3)
+                else:   # level == 1
+                    result += getCharUnicode(element, 1)
+                element[0] = temp[i][1]
                 element[1] = 0
                 element[2] = 0
                 level = 1
 
-        elif temp[i][0] == 1:
+        elif temp[i][0] == 1:  # 모음일 때
             if level == 3:
-                result += chr(((element[0] * 21) + element[1]) * 28 + adjust)
-                element[0] = l1_list.index(l3_list[element[2]])
-                element[1] = vowel_list.index(temp[i][1])
+                result += getCharUnicode(element, 2)
+                element[0] = element[2]
+                element[1] = temp[i][1]
                 element[2] = 0
             elif level == 4:
-                result += chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
-                element[0] = l1_list.index(l3_list[element[3]])
-                element[1] = vowel_list.index(temp[i][1])
+                result += getCharUnicode(element, 3)
+                element[0] = element[3]
+                element[1] = temp[i][1]
                 element[2] = 0
 
             else:
-                element[1] = vowel_list.index(temp[i][1])
+                element[1] = temp[i][1]
                 element[2] = 0
 
             level = 2
+
         else:   # input 이 '#' 일때
             if i == 0:
                 result += ' '
             elif temp[i - 1][0] == temp[i][0]:
                 result += ' '
             else:
-                result += chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
+                result += getCharUnicode(element, level)
                 element = [0,0,0,0]
                 level = 0
 
     if level == 3:
-        result += chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
+        result += getCharUnicode(element, 3)
     elif level == 2:
-        result += chr(((element[0] * 21) + element[1]) * 28 + adjust)
+        result += getCharUnicode(element, 2)
     else:
-        element[2] = l3_list.index(consonant_plus_list.get(l3_list[element[2]] + l3_list[element[3]]))
-        result += chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
-
+        element[2] = consonant_plus_list.get(element[2] + element[3])
+        result += getCharUnicode(element, 3)
     return result
+
+def getCharUnicode(arr, level):
+    element = [0, 0, 0]
+    if level < 1:
+        return ''
+
+    if level > 1:
+        element[0] = l1_list.index(arr[0])
+        element[1] = vowel_list.index(arr[1])
+        if level > 2:
+            element[2] = l3_list.index(arr[2])
+    else:
+        return arr[0]
+
+    return chr(((element[0] * 21) + element[1]) * 28 + element[2] + adjust)
 
 
 if __name__ == '__main__':
-    test_keyword = "ㅇㅇㅣᆞㅇㅈᆞㅡㄱㅅㅡㄴㄴᆞㅣㅇㅡᆞᆞㅣ"
+    test_keyword = "ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㄴㅣᆞㄴㅡㄴ##ㅈㅣㅅㅡᆞㅇㅣᆞᆞ"
     print(hangeul_convert(test_keyword))
     # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
