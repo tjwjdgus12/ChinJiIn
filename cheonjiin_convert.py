@@ -88,6 +88,14 @@ def _makeFile(inputfile, outputfile):
     wf.close()
 
 
+def load_cji_dict(inputfile):  # dict.txt 읽어서 바로 cji_dict load (key 값들만 list로)
+    _cji_dict = dict()
+    with open(inputfile, 'r') as rf:
+        for line in rf:
+            _cji_dict[cheonjiin_convert(line.split(':')[0])] = int(line.split(':')[1])
+    return _cji_dict
+
+
 if __name__ == '__main__':
     testStr = "아ㅉ자증나ㅉ"
     print(cheonjiin_convert(testStr))

@@ -3,9 +3,9 @@
 from symspellpy import SymSpell, Verbosity
 
 sym_spell = SymSpell()
-sym_spell.load_dictionary("./dictionary.txt", term_index=0, count_index=1, encoding='utf-8')
+sym_spell.load_dictionary("./dict.txt", term_index=0, count_index=1)
 
-input_term = "ㅇㅣㅅㅅㄴㅡㄴ"
+input_term = "고통사고"
 # Print out first 5 elements to demonstrate that dictionary is
 # successfully loaded
 suggestions = sym_spell.lookup(input_term, Verbosity.ALL,

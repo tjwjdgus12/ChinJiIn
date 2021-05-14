@@ -1,6 +1,7 @@
 import cheonjiin_convert as cji_convert
 import os
 
+
 def deletes(word):
     dels = []
     cycle = [['ㅇ','ㄴ'], ['ㄱ','ㅂ','ㅈ','ㄷ','ㅅ']]
@@ -29,6 +30,43 @@ def deletes(word):
     return dels
 
 
+def makeNewFile(inputfile, outputfile):
+    # if outputfile not in os.listdir('./'):
+    del_dict = dict()
+    wf = open(outputfile, 'wt', encoding='utf-8')
+    with open(inputfile, 'rt', encoding='utf-8') as rf:
+        for word in rf:
+            word = word.rstrip()
+            for d in deletes(word):
+                if d in del_dict:
+                    del_dict[d].append(word)
+                else:
+                    del_dict[d] = list()
+                    del_dict[d].append(word)
+        for key, value in del_dict.items():
+            wf.write(key + ' : ')
+            for eachItem in value:
+                wf.write(eachItem + ' ')
+            wf.write('\n')
+        wf.close()
+
+
+def makeDeleteDict(inputfile):  # dict.txt 입력받아서 바로 딕셔너리 리턴
+    _delete_dicts = dict()
+    tempFileName = 'dict_cji.txt'
+    cji_convert._makeFile(inputfile, tempFileName)
+    with open(tempFileName, 'rt', encoding='utf-8') as rf:
+        for word in rf:
+            word = word.rstrip()
+            for d in deletes(word):
+                if d in _delete_dicts:
+                    _delete_dicts[d].append(word)
+                else:
+                    _delete_dicts[d] = list()
+                    _delete_dicts[d].append(word)
+    return _delete_dicts
+
+
 def _makeFile(inputfile, outputfile):
     # 파일 있는 경우는 스킵, 없는 경우만 새로 만듦
     if outputfile not in os.listdir('./'):
@@ -54,4 +92,5 @@ def createDeleteDict(inputFile, outputFile):  # gets input for original dict and
 
 
 if __name__ == '__main__':
-    createDeleteDict("dict.txt", "dict_del.txt")
+    # createDeleteDict("dict.txt", "dict_del.txt")
+    makeNewFile("dict_cji.txt", "dict_del.txt")
