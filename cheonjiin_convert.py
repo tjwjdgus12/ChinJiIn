@@ -81,7 +81,7 @@ def cheonjiin_convert(test_keyword):
 
 def _makeFile(inputfile, outputfile):
     wf = open(outputfile, 'wt', encoding='utf-8')
-    with open(inputfile, 'r') as rf:
+    with open(inputfile, 'rt', encoding='utf-8') as rf:
         for line in rf:
             t = cheonjiin_convert(line.split(':')[0]) + '\n'
             wf.write(t)
@@ -90,7 +90,7 @@ def _makeFile(inputfile, outputfile):
 
 def load_cji_dict(inputfile):  # dict.txt 읽어서 바로 cji_dict load (key 값들만 list로)
     _cji_dict = dict()
-    with open(inputfile, 'r') as rf:
+    with open(inputfile, 'rt', encoding='utf-8') as rf:
         for line in rf:
             _cji_dict[cheonjiin_convert(line.split(':')[0])] = int(line.split(':')[1])
     print('cji_converted dictionary loaded')

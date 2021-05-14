@@ -5,7 +5,7 @@ import hangeul_convert as han_converter
 
 def load_origin_dict(inputFile):
     _origin_dict = dict()
-    with open(inputFile, 'r') as file_dict:
+    with open(inputFile, 'rt', encoding="utf-8") as file_dict:
         for line in file_dict:
             temp = line.split()
             _origin_dict[temp[0].strip(':')] = int(temp[1])
@@ -65,7 +65,7 @@ def fix(input_word):
 
 
 if __name__ == '__main__':
-    dictionaryFileName = "dict.txt"
+    dictionaryFileName = "kor_dictionary.txt"
     origin_dict = load_origin_dict(dictionaryFileName)
     cji_dict = cji_converter.load_cji_dict(dictionaryFileName)
     delete_dict = del_converter.makeDeleteDict(dictionaryFileName)
