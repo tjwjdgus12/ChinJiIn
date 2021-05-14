@@ -27,6 +27,7 @@ def deletes(word):
 
         else:
             dels.append(word[:i] + word[i+1:])
+            
     return dels
 
 
