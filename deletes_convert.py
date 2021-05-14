@@ -32,7 +32,6 @@ def deletes(word):
 
 
 def makeNewFile(inputfile, outputfile):
-    # if outputfile not in os.listdir('./'):
     del_dict = dict()
     wf = open(outputfile, 'wt', encoding='utf-8')
     with open(inputfile, 'rt', encoding='utf-8') as rf:
@@ -65,6 +64,7 @@ def makeDeleteDict(inputfile):  # dict.txt 입력받아서 바로 딕셔너리 �
                 else:
                     _delete_dicts[d] = list()
                     _delete_dicts[d].append(word)
+    print("delete dictionary loaded")
     return _delete_dicts
 
 
