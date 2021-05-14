@@ -38,7 +38,8 @@ def load_origin_dict(inputFile):
 def fix(input_word):
     global delete_dict
     global origin_dict
-    cji_dict = cji_converter.load_cji_dict('dict.txt')
+    global cji_dict
+    
     origin_input = input_word
     input_word = cji_converter.cheonjiin_convert(input_word)
 
@@ -88,6 +89,7 @@ def fix(input_word):
 if __name__ == '__main__':
     dictionaryFileName = "dict.txt"
     origin_dict = load_origin_dict(dictionaryFileName)
+    cji_dict = cji_converter.load_cji_dict(dictionaryFileName)
 
     deleteDictFileName = "dict_del.txt"
     # del_converter.createDeleteDict(dictionaryFileName, deleteDictFileName)
