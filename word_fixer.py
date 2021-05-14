@@ -1,7 +1,7 @@
 import cheonjiin_convert as cji_converter
 import deletes_convert as del_converter
 import hangeul_convert as han_converter
-
+import cheonjiin_physical_distance as cjiPhys
 
 def load_origin_dict(inputFile):
     _origin_dict = dict()
@@ -60,7 +60,9 @@ def fix(input_word):
         print_arr.insert(0, [origin_input, origin_dict[origin_input]])
 
     for r in print_arr:
-        print(r[0])
+        print('단어: ' + r[0] + ')', end = ' ')
+        print('물리적거리: %.2f' % cjiPhys.getPhysEditDist(input_word, cji_converter.cheonjiin_convert(r[0])), end = ' ')
+        print('빈도수: ', r[1])
     print("------------------")
 
 
