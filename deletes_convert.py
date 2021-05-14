@@ -22,8 +22,10 @@ def deletes(word):
                             break
                         cnt += 1
                         r += 1
-                        
-            dels.append(word[:l+2] + word[r:])
+            if cnt >= c + 3:           
+                dels.append(word[:l+2] + word[r:])
+            else:
+                dels.append(word[:i] + word[i+1:])
 
         else:
             dels.append(word[:i] + word[i+1:])
