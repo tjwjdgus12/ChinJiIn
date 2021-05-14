@@ -3,28 +3,6 @@ import deletes_convert as del_converter
 import hangeul_convert as han_converter
 
 
-def load_delete_dict(inputFile):
-    _delete_dicts = dict()
-    with open(inputFile, 'rt', encoding='utf-8') as dict_del_file:
-        for line in dict_del_file:
-            line = line[:-1]
-            words = line.split('&')
-            _delete_dicts[words[0]] = words[1:]
-    print("delete dictionary file loaded")
-    return _delete_dicts
-
-
-def load_new_del_dict(inputFile):
-    _delete_dicts = dict()
-    with open(inputFile, 'rt', encoding='utf-8') as dict_del_file:
-        for line in dict_del_file:
-            line = line.rstrip()
-            keyval = line.split(':')
-            _delete_dicts[keyval[0].rstrip()] = keyval[1].rstrip().split(' ')
-        print("delete dictionary file loaded")
-    return _delete_dicts
-
-
 def load_origin_dict(inputFile):
     _origin_dict = dict()
     with open(inputFile, 'r') as file_dict:
@@ -90,11 +68,7 @@ if __name__ == '__main__':
     dictionaryFileName = "dict.txt"
     origin_dict = load_origin_dict(dictionaryFileName)
     cji_dict = cji_converter.load_cji_dict(dictionaryFileName)
-
-    deleteDictFileName = "dict_del.txt"
-    # del_converter.createDeleteDict(dictionaryFileName, deleteDictFileName)
-    delete_dict = del_converter.makeDeleteDict('dict.txt')
-    # delete_dict = load_delete_dict(deleteDictFileName)
+    delete_dict = del_converter.makeDeleteDict(dictionaryFileName)
 
     print("단어를 입력해주세요.")
     while True:

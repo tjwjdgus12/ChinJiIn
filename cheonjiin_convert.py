@@ -93,6 +93,7 @@ def load_cji_dict(inputfile):  # dict.txt 읽어서 바로 cji_dict load (key �
     with open(inputfile, 'r') as rf:
         for line in rf:
             _cji_dict[cheonjiin_convert(line.split(':')[0])] = int(line.split(':')[1])
+    print('cji_converted dictionary loaded')
     return _cji_dict
 
 
