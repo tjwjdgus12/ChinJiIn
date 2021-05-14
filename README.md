@@ -28,4 +28,4 @@ https://github.com/MighTguY/customized-symspell
 
 한글 자모음 분리는 @neotune 님의 https://github.com/neotune/python-korean-handler/blob/master/korean_handler.py 을 참조하였습니다. 
 
-한글 사전은 국립국어원의 일상생활 말뭉치2020(v1.0)과 @songys 님의 https://github.com/songys/Chatbot_data 를 사용하였습니다.
+한글 사전은 @songys 님의 https://github.com/songys/Chatbot_data, K-ICT의 한글형태소사전(cc by-sa 2.0 LICENSE), 국립국어원의 한국어학습용어휘목록을 사용하였습니다.
