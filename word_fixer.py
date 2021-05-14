@@ -67,7 +67,7 @@ def fix(input_word):
 
 
 if __name__ == '__main__':
-    dictionaryFileName = "kor_dictionary.txt"
+    dictionaryFileName = "dict.txt"
     origin_dict = load_origin_dict(dictionaryFileName)
     cji_dict = cji_converter.load_cji_dict(dictionaryFileName)
     delete_dict = del_converter.makeDeleteDict(dictionaryFileName)
