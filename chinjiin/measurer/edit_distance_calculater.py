@@ -1,6 +1,6 @@
 import sys
 
-avg_dist = float(1.65)
+avg_dist = float(1.61)
 convert_dict = {
     'ㅣ': 0, 'ᆞ': 1, 'ㅡ': 2,
     'ㄱ': 3, 'ㄴ': 4, 'ㄷ': 5,
