@@ -1,6 +1,8 @@
 from converter import cji_converter, del_converter, han_converter
 from measurer import edit_distance_calculater
 
+DICTIONARY = 'mungchi_dict'
+
 def fix(input_word):
     global del_dict, cji_dict
     
@@ -53,8 +55,6 @@ def fix(input_word):
 
 
 if __name__ == '__main__':
-    
-    DICTIONARY = 'mungchi_dict'
     cji_converter.make_file(DICTIONARY, reset = True)
     
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
