@@ -41,7 +41,7 @@ vowel_plus_basic = [[vowel_list.index('ㅑ'), -1, 1],  # ㅏ(0)
                     [21, 12, 6],  # ᆢ(22)
                     ]
 
-space_list = ['#']
+space_list = ['#', '$']
 l1_list = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 l3_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅁ', 'ㅂ', 'ㅄ',
            'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
@@ -55,7 +55,7 @@ def convert(keyword):
     prev_type = -1
     saved_index = -1
 
-    keyword += 'ㄲ'
+    keyword += '$'
 
     for ch in keyword:
         ch_type = -1
@@ -192,6 +192,17 @@ def get_char_unicode(arr, level):
 
 
 if __name__ == '__main__':
-    test_keyword = "ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㄴㅣᆞㄴㅡㄴ##ㅈㅣㅅㅡᆞㅇㅣᆞᆞ"
-    print(convert(test_keyword))
+    test_keyword = [
+        "ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㄴㅣᆞㄴㅡㄴ##ㅈㅣㅅㅡᆞㅇㅣᆞᆞ",
+        "ㄱㅣㄱ#ㄱㅣㄱ",
+        "ㄱㅣㅅㄱㅣㅅ",
+        "ㄱㅣㄱㅅ",
+        "ㄷㄷᆞㅣㅣㄷㄷㄷㅣ",
+        "ㅅㅅㅣᆞㅣㅈㅈㅣㅇㅡᆞᆞㅣㅅㅅㅅㄴㅣᆞ"
+    ]
+
+    for s in test_keyword:
+        print(convert(s))
+
+
     # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
