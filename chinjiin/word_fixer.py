@@ -16,17 +16,23 @@ def fix(input_word):
 
     if input_word in del_dict.keys():
         for keyword in del_dict[input_word]:
+            if keyword in ret:
+                continue
             ret.add(keyword)
             print('단어사전 del에 입력 키워드가 있는 예시', keyword)
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in cji_dict.keys():
+            if input_word_del in ret:
+                continue
             ret.add(input_word_del)
             print('단어사전에 입력 키워드 del가 있는 예시', input_word_del)
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in del_dict.keys():
             for keyword in del_dict[input_word_del]:
+                if keyword in ret:
+                    continue
                 ret.add(keyword)
                 print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
 

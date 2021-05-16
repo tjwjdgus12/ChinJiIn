@@ -31,6 +31,7 @@ def deletes(word):
             
     return dels
 
+
 def load_del_dict(dict_name):  # dict.txt 입력받아서 바로 딕셔너리 리턴
     del_dict = dict()
     cji_dict_file = 'converter/dict/%s_cji.txt'%(dict_name)
@@ -39,6 +40,8 @@ def load_del_dict(dict_name):  # dict.txt 입력받아서 바로 딕셔너리 �
             word = word.split(':')[0]
             for d in deletes(word):
                 if d in del_dict:
+                    if word in del_dict[d]:
+                        continue
                     del_dict[d].append(word)
                 else:
                     del_dict[d] = list()
@@ -46,6 +49,7 @@ def load_del_dict(dict_name):  # dict.txt 입력받아서 바로 딕셔너리 �
                     
     print("delete dictionary loaded")
     return del_dict
+
 
 if __name__ == '__main__':
     pass
