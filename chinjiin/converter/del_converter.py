@@ -5,11 +5,12 @@ def deletes(word):
     cycle = [['ㅇ','ㄴ'], ['ㄱ','ㅂ','ㅈ','ㄷ','ㅅ']]
     for i in range(len(word)):
         # 공백이 지워질 경우 연속 자음 축약
+        flag = False
         if word[i] == '#' and word[i-1] == word[i+1]:
-            cnt = 2
-            l = i - 2
-            r = i + 2
             for c in range(2):
+                cnt = 2
+                l = i - 2
+                r = i + 2
                 if word[i-1] in cycle[c]:
                     while cnt < c + 3:
                         if l < 0 or word[l] != word[i-1]:
@@ -21,12 +22,10 @@ def deletes(word):
                             break
                         cnt += 1
                         r += 1
-            if cnt >= c + 3:           
-                dels.append(word[:l+2] + word[r:])
-            else:
-                dels.append(word[:i] + word[i+1:])
-
-        else:
+                if cnt >= c + 3:
+                    dels.append(word[:l+2] + word[r:])
+                    flag = True            
+        if not flag:
             dels.append(word[:i] + word[i+1:])
             
     return dels

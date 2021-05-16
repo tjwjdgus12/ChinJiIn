@@ -2,6 +2,7 @@ from converter import cji_converter, del_converter, han_converter
 from measurer import edit_distance_calculater
 
 DICTIONARY = 'mungchi_dict'
+RESET_ON_EVERY_EXCUTION = False
 
 def fix(input_word):
     global del_dict, cji_dict
@@ -57,11 +58,12 @@ def fix(input_word):
         edit_dist = edit_distance_calculater.calc_edit_dist(input_word, r[0])
         print('편집거리: %.2f' % edit_dist, end = ' ')
         print('빈도수: ', r[1])
+        print('sort_key: ', edit_dist + (0.5 - r[1] / 54868 / 2))
     print("------------------")
 
 
 if __name__ == '__main__':
-    cji_converter.make_file(DICTIONARY, reset = True)
+    cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
     
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
     del_dict = del_converter.load_del_dict(DICTIONARY)
