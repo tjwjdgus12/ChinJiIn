@@ -18,7 +18,7 @@ def deletes(word):
                         cnt += 1
                         l -= 1
                     while cnt < c + 3:
-                        if r >= len(word):
+                        if r >= len(word) or word[r] != word[i-1]:
                             break
                         cnt += 1
                         r += 1
