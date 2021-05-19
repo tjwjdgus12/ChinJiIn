@@ -1,16 +1,18 @@
 from converter import cji_converter, del_converter, han_converter
 from measurer import edit_distance_calculater
+from datetime import timedelta
+from timeit import default_timer as timer
 
 DICTIONARY = 'mungchi_dict'
 RESET_ON_EVERY_EXECUTION = False
 
+
 def fix(input_word):
     global del_dict, cji_dict
-    
     input_word = cji_converter.convert(input_word)
 
     ret = set()
-
+    search_start_time = timer()
     if input_word in cji_dict.keys():
         ret.add(input_word)
         print('단어사전에 입력 키워드가 있는 예시', input_word)
@@ -54,9 +56,11 @@ def fix(input_word):
     if has_same:
         print_arr.insert(0, [input_word, (1 - cji_dict[input_word] / 54868), 0])
 
+    search_end_time = timer()
+    print('탐색 소요 시간 : ' + str(timedelta(seconds=search_end_time - search_start_time)))
     for r in print_arr:
-        print('교정단어: %s' % han_converter.convert(r[0]), end = ' ')
-        print('물리적 편집거리: %.2f' % r[2], end = ' ')
+        print('교정단어: %s' % han_converter.convert(r[0]), end=' ')
+        print('물리적 편집거리: %.2f' % r[2], end=' ')
         print('정규화된 빈도수: ', r[1])
     print("------------------")
 
