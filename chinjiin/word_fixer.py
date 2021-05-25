@@ -10,12 +10,13 @@ RESET_ON_EVERY_EXECUTION = False
 def fix(input_word):
     global del_dict, cji_dict
     input_word = cji_converter.convert(input_word)
-
+    resCnt = 0
     ret = set()
     search_start_time = timer()
     if input_word in cji_dict.keys():
         ret.add(input_word)
         print('단어사전에 입력 키워드가 있는 예시', input_word)
+        resCnt += 1
 
     if input_word in del_dict.keys():
         for keyword in del_dict[input_word]:
@@ -23,6 +24,7 @@ def fix(input_word):
                 continue
             ret.add(keyword)
             print('단어사전 del에 입력 키워드가 있는 예시', keyword)
+            resCnt += 1
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in cji_dict.keys():
@@ -30,6 +32,7 @@ def fix(input_word):
                 continue
             ret.add(input_word_del)
             print('단어사전에 입력 키워드 del가 있는 예시', input_word_del)
+            resCnt += 1
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in del_dict.keys():
@@ -38,6 +41,12 @@ def fix(input_word):
                     continue
                 ret.add(keyword)
                 print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
+                resCnt += 1
+
+    if not resCnt:
+        print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
+        print("------------------")
+        return
 
     print_arr = []
     has_same = False
