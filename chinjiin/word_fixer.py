@@ -76,9 +76,10 @@ def fix(input_word):
 
 if __name__ == '__main__':
     cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
+    del_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
     
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
-    del_dict = del_converter.load_del_dict(DICTIONARY)
+    del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
  
     while True:
         print("Input:", end = ' ')
