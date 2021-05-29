@@ -5,18 +5,27 @@ convert_dict = {
     'ㅣ': 0, 'ᆞ': 1, 'ㅡ': 2,
     'ㄱ': 3, 'ㄴ': 4, 'ㄷ': 5,
     'ㅂ': 6, 'ㅅ': 7, 'ㅈ': 8,
-    'ㅇ': 9, '#': 10
+    'ㅇ': 9, '#': 10, 'ELSE': 11
     }
 distance_table = list()
 with open('measurer/cji_physical_distance_table.txt', 'r') as f:
     distance_table = [list(map(float, f.readline().split())) for i in range(len(convert_dict))]
 
 
+def get_conv_dict(alphabet):
+    if alphabet in convert_dict:
+        return convert_dict[alphabet]
+    else:
+        return convert_dict['ELSE']
+
+
 def get_physical_dist(origin, typo):
     if len(origin) != 1 or len(typo) != 1:
         return int(-1)
+    elif origin == 11 or typo == 11:
+        return 1
     else:
-        return distance_table[convert_dict[origin]][convert_dict[typo]]
+        return distance_table[get_conv_dict(origin)][get_conv_dict(typo)]
 
 
 def get_avg_physical_dist():
