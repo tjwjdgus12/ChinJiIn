@@ -1,10 +1,11 @@
-from converter import cji_converter, del_converter, han_converter
-from measurer import edit_distance_calculater
 from datetime import timedelta
 from timeit import default_timer as timer
+from converter import cji_converter, del_converter, han_converter
+from measurer import edit_distance_calculater
 
-DICTIONARY = 'optimized_dict'
 RESET_ON_EVERY_EXECUTION = False
+DICTIONARY = 'optimized_dict'
+MAX_FREQ = 54868
 
 
 def fix(input_word):
@@ -12,10 +13,13 @@ def fix(input_word):
     
     search_start_time = timer()
     candidates = get_candidates(input_word)
+    if not candidates:
+        return
+    candidates.sort(key = lambda k: sort_key(k, input_word))
     search_end_time = timer()
-    print('탐색 소요 시간 : ' + str(timedelta(seconds=search_end_time - search_start_time)))
+    print('탐색 소요 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
     
-    print_candidates(sorted_candidates(input_word, candidates))
+    print_candidates(candidates, input_word)
 
 
 def get_candidates(input_word):
@@ -46,30 +50,30 @@ def get_candidates(input_word):
         print("------------------")
         return
 
-    return ret
+    return list(ret)
 
 
-def sorted_candidates(input_word, candidates):
-    print_arr = []
+def sort_key(candidate, input_word):
+    normalized_freq = (1 - cji_dict[candidate]/MAX_FREQ) / 2
+    edit_dist = edit_distance_calculater.calc_edit_dist(input_word, candidate)
     
+    return normalized_freq + edit_dist
+
+
+def print_candidates(candidates, input_word = None): # if input_word is None, Not print Infomation
     for cand in candidates:
-        temp = [
-            cand,
-            1 - (cji_dict[cand] / 54868),
-            edit_distance_calculater.calc_edit_dist(input_word, cand)
-        ]
-        print_arr.append(temp)
+        print('교정단어: %s' % han_converter.convert(cand))
         
-    print_arr.sort(key = lambda freq: (freq[1] / 2) + freq[2])
-    return print_arr
-
-
-def print_candidates(candidates):
-    for cand in candidates:
-        print('교정단어: %s' % han_converter.convert(cand[0]), end = ' ')
-        print('물리적 편집거리: %.2f' % cand[2], end = ' ')
-        print('정규화된 빈도수: %.6f' % cand[1])
-    print("------------------")
+        if input_word:
+            key = sort_key(cand, input_word)
+            freq = cji_dict[cand]
+            edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
+            print('\t정렬키: %.6f' % key)
+            print('\t편집거리: %.2f' % edit_dist)
+            print('\t빈도수: %.6f' % freq)
+        print()
+            
+    print("------------------\n")
 
 
 if __name__ == '__main__':
@@ -80,7 +84,7 @@ if __name__ == '__main__':
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
     del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
     search_end_time = timer()
-    print('사전 로딩 시간 : ' + str(timedelta(seconds=search_end_time - search_start_time)))
+    print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
  
     while True:
         fix(input("Input: "))
