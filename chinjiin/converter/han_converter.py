@@ -8,8 +8,8 @@ consonant_list = ['ㄱ', 'ㅋ', 'ㄲ',
                   ]
 
 consonant_plus_list = {'ㄱㅅ': 'ㄳ', 'ㄴㅈ': 'ㄵ', 'ㄴㅎ': 'ㄶ', 'ㄹㄱ': 'ㄺ', 'ㄹㅁ': 'ㄻ', 'ㄹㅂ': 'ㄼ', 'ㄹㅅ': 'ㄽ',
-                  'ㄹㅌ': 'ㄾ', 'ㄹㅍ': 'ㄿ', 'ㄹㅎ': 'ㅀ', 'ㅂㅅ': 'ㅄ'
-                  }
+                       'ㄹㅌ': 'ㄾ', 'ㄹㅍ': 'ㄿ', 'ㄹㅎ': 'ㅀ', 'ㅂㅅ': 'ㅄ'
+                       }
 
 vowel_list = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ',
               'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ',
@@ -164,7 +164,7 @@ def convert(keyword):
                 result += ' '
             else:
                 result += get_char_unicode(element, level)
-                element = [0,0,0,0]
+                element = [0, 0, 0, 0]
                 level = 0
 
     if level == 3:
@@ -202,5 +202,3 @@ if __name__ == '__main__':
     while test_input != '-1':
         print(convert(test_input))
         test_input = input()
-
-    # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
