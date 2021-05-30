@@ -70,7 +70,7 @@ def print_candidates(candidates, input_word = None): # if input_word is None, No
             edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
             print('\t정렬키: %.6f' % key)
             print('\t편집거리: %.2f' % edit_dist)
-            print('\t빈도수: %.6f' % freq)
+            print('\t빈도수: %d' % freq)
         print()
             
     print("------------------\n")
