@@ -1,6 +1,7 @@
 import os
 import pickle
 
+DICT_PATH = 'converter/dict/'
 
 def deletes(word):
     CYCLE = (('ㅇ','ㄴ'),
@@ -55,8 +56,8 @@ def load_del_dict(dict_name):
 
 
 def make_file(dict_name, reset = False):
-    origin_dict_file = 'converter/dict/%s.txt'%(dict_name)
-    del_dict_file = 'converter/dict/%s_del.pickle'%(dict_name)
+    origin_dict_file = DICT_PATH + '%s.txt'%(dict_name)
+    del_dict_file = DICT_PATH + '%s_del.pickle'%(dict_name)
     if not os.path.isfile(del_dict_file) or reset:
         del_dict = load_del_dict(dict_name)
         with open(del_dict_file, 'wb') as f:
@@ -64,11 +65,11 @@ def make_file(dict_name, reset = False):
 
 
 def load_del_dict_by_file(dict_name):
-    del_dict_file = 'converter/dict/%s_del.pickle'%(dict_name)
+    del_dict_file = DICT_PATH + '%s_del.pickle'%(dict_name)
     with open(del_dict_file, 'rb') as f:
         data = pickle.load(f)
     return data
 
 
 if __name__ == '__main__':
-    pass
+    DICT_PATH = 'dict/'
