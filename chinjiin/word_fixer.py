@@ -73,11 +73,14 @@ def print_candidates(candidates):
 
 
 if __name__ == '__main__':
+    search_start_time = timer()
     cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
     del_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
     
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
     del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
+    search_end_time = timer()
+    print('사전 로딩 시간 : ' + str(timedelta(seconds=search_end_time - search_start_time)))
  
     while True:
         fix(input("Input: "))
