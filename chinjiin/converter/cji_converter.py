@@ -54,15 +54,18 @@ JONGSUNG_CONVERT = {
 def convert(test_keyword):
     split_keyword_list = list(test_keyword)
     previous_jamo = ''
-    previous_keyword = ''
     result = list()
-    for keyword in split_keyword_list:
+    for i in range(len(split_keyword_list)):
+        keyword = split_keyword_list[i]
+        if i > 0:
+            previous_keyword = split_keyword_list[i-1]
         if re.match('.*[ㄱ-ㅎㅏ-ㅣ가-힣]+.*', keyword) is not None:
             char_code = ord(keyword) - BASE_CODE
             if char_code < 0:  # 초성 + 중성의 조합이 아닌 경우
                 if keyword in CHOSUNG_CONVERT:  # 단일 자음인 경우 (ㄱ, ㄴ, ㄷ)
-                    if not previous_jamo and \
-                            (previous_keyword != '' or previous_keyword != 'ᆞ' or previous_keyword != '#'):
+                    if not previous_jamo and\
+                        previous_keyword not in JUNGSUNG_LIST and\
+                            previous_keyword not in ('', 'ᆞ', '#'):
                         result.append('#')  # 이전 종성이 없을 경우 (ex, 아ㄴ녕) 에서 ㄴ 전에 공백 추가
                     result.append(CHOSUNG_CONVERT[keyword])
                     previous_jamo = CHOSUNG_CONVERT[keyword]
@@ -91,7 +94,6 @@ def convert(test_keyword):
             else:
                 previous_jamo = ''
                 continue
-            previous_keyword = result[-1]
         else:
             if keyword == ' ':
                 if result[-1] == '#':
@@ -133,5 +135,5 @@ def load_cji_dict(dict_name):
 
 if __name__ == '__main__':
     DICT_PATH = 'dict/'
-    #testStr = "아ㅉ자증나ㅉ"
-    #print(convert(testStr))
+    testStr = "이이ㅡㄴ"
+    print(convert(testStr))
