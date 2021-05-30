@@ -47,6 +47,7 @@ l3_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', '
            'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 adjust = 0xAC00
 
+
 def convert(keyword):
     arr_list = [consonant_list, basic_vowel_list, space_list]
     temp = list()
@@ -177,6 +178,7 @@ def convert(keyword):
         result += get_char_unicode(element, 3)
     return result
 
+
 def get_char_unicode(arr, level):
     element = [0, 0, 0]
     if level < 1:
@@ -197,9 +199,8 @@ if __name__ == '__main__':
     print("Input Word to Convert. Input -1 to exist.")
     test_input = input()
 
-    while test_input != -1:
+    while test_input != '-1':
         print(convert(test_input))
         test_input = input()
-
 
     # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
