@@ -171,6 +171,8 @@ def convert(keyword):
         result += get_char_unicode(element, 3)
     elif level == 2:
         result += get_char_unicode(element, 2)
+    elif level == 1:
+        result += get_char_unicode(element, 1)
     else:
         element[2] = consonant_plus_list.get(element[2] + element[3])
         result += get_char_unicode(element, 3)
@@ -194,16 +196,9 @@ def get_char_unicode(arr, level):
 
 
 if __name__ == '__main__':
-    test_keyword = [
-        "ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㄴㅣᆞㄴㅡㄴ##ㅈㅣㅅㅡᆞㅇㅣᆞᆞ",
-        "ㄱㅣㄱ#ㄱㅣㄱ",
-        "ㄱㅣㅅㄱㅣㅅ",
-        "ㄱㅣㄱㅅ",
-        "ㄷㄷᆞㅣㅣㄷㄷㄷㅣ",
-        "ㅅㅅㅣᆞㅣㅈㅈㅣㅇㅡᆞᆞㅣㅅㅅㅅㄴㅣᆞ"
-    ]
+    print("Input Word to Convert. Input -1 to exist.")
+    test_input = input()
 
-    for s in test_keyword:
-        print(convert(s))
-
-    # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
+    while test_input != '-1':
+        print(convert(test_input))
+        test_input = input()

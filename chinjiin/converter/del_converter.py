@@ -1,4 +1,5 @@
 import os
+import pickle
 
 
 def deletes(word):
@@ -51,6 +52,22 @@ def load_del_dict(dict_name):
                     
     print("delete dictionary loaded")
     return del_dict
+
+
+def make_file(dict_name, reset = False):
+    origin_dict_file = 'converter/dict/%s.txt'%(dict_name)
+    del_dict_file = 'converter/dict/%s_del.pickle'%(dict_name)
+    if not os.path.isfile(del_dict_file) or reset:
+        del_dict = load_del_dict(dict_name)
+        with open(del_dict_file, 'wb') as f:
+            pickle.dump(del_dict, f, pickle.HIGHEST_PROTOCOL)
+
+
+def load_del_dict_by_file(dict_name):
+    del_dict_file = 'converter/dict/%s_del.pickle'%(dict_name)
+    with open(del_dict_file, 'rb') as f:
+        data = pickle.load(f)
+    return data
 
 
 if __name__ == '__main__':
