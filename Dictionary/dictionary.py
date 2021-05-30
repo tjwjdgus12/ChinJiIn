@@ -11,6 +11,8 @@ kor_dict = kor_dictionary()
 
 # it is do not working because corpus data is not uploaded
 for key, value in corpus_dict.items():
+    if value == 1:
+        break
     f.write(key + ": " + str(value) + "\n")
 
 for key, value in chatbot_dict.items():
