@@ -68,6 +68,8 @@ def load_del_dict_by_file(dict_name):
     del_dict_file = DICT_PATH + '%s_del.pickle'%(dict_name)
     with open(del_dict_file, 'rb') as f:
         data = pickle.load(f)
+
+    print("delete dictionary loaded")
     return data
 
 
