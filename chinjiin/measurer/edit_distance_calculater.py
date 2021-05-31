@@ -1,5 +1,6 @@
 import sys
 
+
 INF = float(sys.maxsize)
 NON_CJI = int(11)  # index value of non-cheonjiin input
 AVERAGE_DISTANCE = float(1.61)  # average distance of all possible distance
@@ -10,7 +11,11 @@ convert_dict = {
     'ㅇ': 9, '#': 10, 'ELSE': 11
 }
 distance_table = list()
-with open('measurer/cji_physical_distance_table.txt', 'r') as f:
+if __name__ == '__main__':
+    dist_table_path = 'cji_physical_distance_table.txt'
+else:
+    dist_table_path = 'measurer/cji_physical_distance_table.txt'
+with open(dist_table_path, 'r') as f:
     for cnt in range(len(convert_dict)):
         distance_table.append(list(map(float, f.readline().split())))
 
@@ -48,8 +53,6 @@ def get_str_phys_dist(args):
 def calc_edit_dist(str_ori, str_typ):
     # "Infinity" -- greater than maximum possible edit distance
     # Used to prevent transpositions for first characters
-
-    # print(str_ori, str_typ)
     
     # table: (M + 2) x (N + 2) sized matrix
     table = [[INF for _ in range(len(str_typ) + 2)] for __ in range(len(str_ori) + 2)]
@@ -80,7 +83,9 @@ def calc_edit_dist(str_ori, str_typ):
             last_match_row = last_row.get(ch_str_typ, 0)
 
             # Cost of substitution
-            cost = float(0) if ch_str_ori == ch_str_typ else float(1)  # else some_value (치환에 대한 가중치)
+            cost = float(0)
+            if ch_str_ori != ch_str_typ:
+                cost = get_phys_dist(ch_str_ori, ch_str_typ)
 
             # Compute substring distance
             val_sub = table[i][j] + cost  # Substitution
@@ -101,3 +106,5 @@ def calc_edit_dist(str_ori, str_typ):
 
     # Return last element
     return table[-1][-1]
+
+
