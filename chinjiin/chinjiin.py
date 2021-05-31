@@ -13,3 +13,6 @@ def fix_file(input_file):
         
     with open('fixed_'+input_file, 'wt') as wf:
         wf.write(fix(sentence))
+
+while True:
+    print(fix(input()))
