@@ -21,7 +21,19 @@ def direct_fix(input_word):
             min(candidates, key = lambda k: sort_key(k, input_word_cji)))
     else:
         return input_word
+
+
+def bigram_fix(input_word):
+    input_word_cji = cji_converter.convert(input_word)
+    candidates = get_candidates(input_word_cji)
+
     
+    for i in range(1, len(input_word)):
+        cji = list()
+        cji.append(cji_converter.convert(input_word[:i]))
+        cji.append(cji_converter.convert(input_word[i:]))
+        #edit_dist = 
+
 
 def test_fix(input_word):
     input_word = cji_converter.convert(input_word)
