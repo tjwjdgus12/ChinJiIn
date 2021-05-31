@@ -1,8 +1,6 @@
 import os
 import re
 
-DICT_PATH = 'converter/dict/'
-
 # 한글 유니코드 매핑을 위함 베이스 정수 변수 정의.
 # 유니코드 한글 시작 : 44032, 끝 : 55199
 BASE_CODE, BASE_CHOSUNG, BASE_JUNGSUNG = 44032, 588, 28
@@ -108,23 +106,24 @@ def convert(test_keyword):
 
 # 사전 파일이 입력되었을 때, 천지인으로 변환한 사전 파일을 출력하는 함수
 
-def make_file(dict_name, reset=False):
+def make_file(dict_name):
     origin_dict_file = DICT_PATH + '%s.txt' % dict_name
-    cji_dict_file = DICT_PATH + '%s_cji.txt' % dict_name
-    if not os.path.isfile(cji_dict_file) or reset:
-        with open(cji_dict_file, 'wt', encoding='utf-8') as wf:
-            with open(origin_dict_file, 'rt', encoding='utf-8') as rf:
-                for line in rf:
-                    word = line.split(': ')
-                    new_line = convert(word[0]) + ': ' + word[1]
-                    wf.write(new_line)
+    cji_dict_file = DICT_PATH + '%s_cji.txt' % dict_name   
+    with open(cji_dict_file, 'wt', encoding='utf-8') as wf:
+        with open(origin_dict_file, 'rt', encoding='utf-8') as rf:
+            for line in rf:
+                word = line.split(': ')
+                new_line = convert(word[0]) + ': ' + word[1]
+                wf.write(new_line)
 
 
 # 사전 파일이 입력되었을 때, 천지인으로 변환한 사전 파일을 딕셔너리 형태로 리턴하는 함수
 
-def load_cji_dict(dict_name):
+def load_cji_dict(dict_name, reset=False):
     cji_dict = dict()
     cji_dict_file = DICT_PATH + '%s_cji.txt' % dict_name
+    if not os.path.isfile(cji_dict_file) or reset:
+        make_file(dict_name)
     with open(cji_dict_file, 'rt', encoding='utf-8') as rf:
         for line in rf:
             word = line.split(': ')
@@ -137,3 +136,6 @@ if __name__ == '__main__':
     DICT_PATH = 'dict/'
     testStr = "이이ㅡㄴ"
     print(convert(testStr))
+
+else:
+    DICT_PATH = 'converter/dict/'

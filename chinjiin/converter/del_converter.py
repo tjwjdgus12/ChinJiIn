@@ -55,20 +55,20 @@ def load_del_dict(dict_name):
     return del_dict
 
 
-def make_file(dict_name, reset = False):
+def make_file(dict_name):
     origin_dict_file = DICT_PATH + '%s.txt'%(dict_name)
     del_dict_file = DICT_PATH + '%s_del.pickle'%(dict_name)
-    if not os.path.isfile(del_dict_file) or reset:
-        del_dict = load_del_dict(dict_name)
-        with open(del_dict_file, 'wb') as f:
-            pickle.dump(del_dict, f, pickle.HIGHEST_PROTOCOL)
+    del_dict = load_del_dict(dict_name)
+    with open(del_dict_file, 'wb') as f:
+        pickle.dump(del_dict, f, pickle.HIGHEST_PROTOCOL)
 
 
-def load_del_dict_by_file(dict_name):
+def load_del_dict_by_file(dict_name, reset=False):
     del_dict_file = DICT_PATH + '%s_del.pickle'%(dict_name)
+    if not os.path.isfile(del_dict_file) or reset:
+        make_file(dict_name)
     with open(del_dict_file, 'rb') as f:
         data = pickle.load(f)
-
     print("delete dictionary loaded")
     return data
 

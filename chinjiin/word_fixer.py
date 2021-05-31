@@ -3,16 +3,12 @@ from timeit import default_timer as timer
 from converter import cji_converter, del_converter, han_converter
 from measurer import edit_distance_calculater
 
-RESET_ON_EVERY_EXECUTION = False
 DICTIONARY = 'optimized_dict'
-
 MAX_FREQ = 54868
 
 
 def load_dict(): # It must be called before fix
     global cji_dict, del_dict
-    cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
-    del_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
     del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
 
