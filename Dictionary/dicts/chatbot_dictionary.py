@@ -16,6 +16,7 @@ def chatbot_dictionary():
             for words in line[:2]:
                 for word in words.split(" "):
                     word = word.strip(string.punctuation)
+                    word = word.strip(string.digits)
                     if word == "":
                         continue
                     if word in dictionary:
