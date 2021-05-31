@@ -8,8 +8,8 @@ consonant_list = ['ㄱ', 'ㅋ', 'ㄲ',
                   ]
 
 consonant_plus_list = {'ㄱㅅ': 'ㄳ', 'ㄴㅈ': 'ㄵ', 'ㄴㅎ': 'ㄶ', 'ㄹㄱ': 'ㄺ', 'ㄹㅁ': 'ㄻ', 'ㄹㅂ': 'ㄼ', 'ㄹㅅ': 'ㄽ',
-                  'ㄹㅌ': 'ㄾ', 'ㄹㅍ': 'ㄿ', 'ㄹㅎ': 'ㅀ', 'ㅂㅅ': 'ㅄ'
-                  }
+                       'ㄹㅌ': 'ㄾ', 'ㄹㅍ': 'ㄿ', 'ㄹㅎ': 'ㅀ', 'ㅂㅅ': 'ㅄ'
+                       }
 
 vowel_list = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ',
               'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ',
@@ -46,6 +46,7 @@ l1_list = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ',
 l3_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅁ', 'ㅂ', 'ㅄ',
            'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 adjust = 0xAC00
+
 
 def convert(keyword):
     arr_list = [consonant_list, basic_vowel_list, space_list]
@@ -163,17 +164,20 @@ def convert(keyword):
                 result += ' '
             else:
                 result += get_char_unicode(element, level)
-                element = [0,0,0,0]
+                element = [0, 0, 0, 0]
                 level = 0
 
     if level == 3:
         result += get_char_unicode(element, 3)
     elif level == 2:
         result += get_char_unicode(element, 2)
+    elif level == 1:
+        result += get_char_unicode(element, 1)
     else:
         element[2] = consonant_plus_list.get(element[2] + element[3])
         result += get_char_unicode(element, 3)
     return result
+
 
 def get_char_unicode(arr, level):
     element = [0, 0, 0]
@@ -192,17 +196,9 @@ def get_char_unicode(arr, level):
 
 
 if __name__ == '__main__':
-    test_keyword = [
-        "ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㅇㅣᆞㄴ#ㄴᆞᆞㅣㅇ##ㄴㅣᆞㄴㅡㄴ##ㅈㅣㅅㅡᆞㅇㅣᆞᆞ",
-        "ㄱㅣㄱ#ㄱㅣㄱ",
-        "ㄱㅣㅅㄱㅣㅅ",
-        "ㄱㅣㄱㅅ",
-        "ㄷㄷᆞㅣㅣㄷㄷㄷㅣ",
-        "ㅅㅅㅣᆞㅣㅈㅈㅣㅇㅡᆞᆞㅣㅅㅅㅅㄴㅣᆞ"
-    ]
+    print("Input Word to Convert. Input -1 to exist.")
+    test_input = input()
 
-    for s in test_keyword:
-        print(convert(s))
-
-
-    # make_outputFile("./korean_corpus.txt", "corpus_output.txt")
+    while test_input != '-1':
+        print(convert(test_input))
+        test_input = input()

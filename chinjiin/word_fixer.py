@@ -1,86 +1,101 @@
-from converter import cji_converter, del_converter, han_converter
-from measurer import edit_distance_calculater
 from datetime import timedelta
 from timeit import default_timer as timer
+from converter import cji_converter, del_converter, han_converter
+from measurer import edit_distance_calculater
 
-DICTIONARY = 'mungchi_dict'
-RESET_ON_EVERY_EXECUTION = False
+DICTIONARY = 'optimized_dict'
+MAX_FREQ = 54868
 
 
-def fix(input_word):
-    global del_dict, cji_dict
+def load_dict(): # It must be called before fix
+    global cji_dict, del_dict
+    cji_dict = cji_converter.load_cji_dict(DICTIONARY)
+    del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
+
+
+def direct_fix(input_word):
+    input_word_cji = cji_converter.convert(input_word)
+    candidates = get_candidates(input_word_cji)
+    if candidates:
+        return han_converter.convert(
+            min(candidates, key = lambda k: sort_key(k, input_word_cji)))
+    else:
+        return input_word
+    
+
+def test_fix(input_word):
     input_word = cji_converter.convert(input_word)
-    resCnt = 0
-    ret = set()
+    
     search_start_time = timer()
+    candidates = get_candidates(input_word)
+    if not candidates:
+        print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
+        print("------------------")
+        return
+    candidates.sort(key = lambda k: sort_key(k, input_word))
+    search_end_time = timer()
+    print('탐색 소요 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
+    
+    print_candidates(candidates, input_word)
+
+
+def get_candidates(input_word):
+    ret = set()
+    
     if input_word in cji_dict.keys():
         ret.add(input_word)
-        print('단어사전에 입력 키워드가 있는 예시', input_word)
-        resCnt += 1
+        #print('단어사전에 입력 키워드가 있는 예시', input_word)
 
     if input_word in del_dict.keys():
         for keyword in del_dict[input_word]:
-            if keyword in ret:
-                continue
             ret.add(keyword)
-            print('단어사전 del에 입력 키워드가 있는 예시', keyword)
-            resCnt += 1
+            #print('단어사전 del에 입력 키워드가 있는 예시', keyword)
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in cji_dict.keys():
-            if input_word_del in ret:
-                continue
             ret.add(input_word_del)
-            print('단어사전에 입력 키워드 del가 있는 예시', input_word_del)
-            resCnt += 1
+            #print('단어사전에 입력 키워드 del가 있는 예시', input_word_del)
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in del_dict.keys():
             for keyword in del_dict[input_word_del]:
-                if keyword in ret:
-                    continue
                 ret.add(keyword)
-                print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
-                resCnt += 1
+                #print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
 
-    if not resCnt:
-        print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
-        print("------------------")
-        return
+    return list(ret)
 
-    print_arr = []
-    has_same = False
-    for i in ret:
-        if i in cji_dict:
-            if i == input_word:
-                has_same = True
-                continue
-            else:
-                temp = [i, 1 - (cji_dict[i] / 54868), edit_distance_calculater.calc_edit_dist(input_word, i)]
-        else:
-            temp = [i, int(1), edit_distance_calculater.calc_edit_dist(input_word, i)]
-        print_arr.append(temp)
-    print_arr.sort(key=lambda freq: (freq[1] / 2) + freq[2])
+
+def sort_key(candidate, input_word):
+    normalized_freq = (1 - cji_dict[candidate]/MAX_FREQ) / 2
+    edit_dist = edit_distance_calculater.calc_edit_dist(input_word, candidate)
     
-    if has_same:
-        print_arr.insert(0, [input_word, (1 - cji_dict[input_word] / 54868), 0])
+    return normalized_freq + edit_dist
 
-    search_end_time = timer()
-    print('탐색 소요 시간 : ' + str(timedelta(seconds=search_end_time - search_start_time)))
-    for r in print_arr:
-        print('교정단어: %s' % han_converter.convert(r[0]), end=' ')
-        print('물리적 편집거리: %.2f' % r[2], end=' ')
-        print('정규화된 빈도수: ', r[1])
-    print("------------------")
+
+def print_candidates(candidates, input_word = None): # if input_word is None, Not print Infomation
+    for cand in candidates:
+        print('교정단어: %s' % han_converter.convert(cand))
+        
+        if input_word:
+            key = sort_key(cand, input_word)
+            freq = cji_dict[cand]
+            edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
+            print('\t정렬키: %.6f' % key)
+            print('\t편집거리: %.2f' % edit_dist)
+            print('\t빈도수: %d' % freq)
+        print()
+            
+    print("------------------\n")
 
 
 if __name__ == '__main__':
-    cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
-    del_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
-    
-    cji_dict = cji_converter.load_cji_dict(DICTIONARY)
-    del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
+    search_start_time = timer()
+    load_dict()
+    search_end_time = timer()
+    print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
  
     while True:
-        print("Input:", end = ' ')
-        fix(input())
+        test_fix(input("Input: "))
+
+else:
+    load_dict()
