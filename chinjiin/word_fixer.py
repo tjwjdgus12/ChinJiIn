@@ -5,10 +5,29 @@ from measurer import edit_distance_calculater
 
 RESET_ON_EVERY_EXECUTION = False
 DICTIONARY = 'optimized_dict'
+
 MAX_FREQ = 54868
 
 
-def fix(input_word):
+def load_dict(): # It must be called before fix
+    global cji_dict, del_dict
+    cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
+    del_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
+    cji_dict = cji_converter.load_cji_dict(DICTIONARY)
+    del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
+
+
+def direct_fix(input_word):
+    input_word_cji = cji_converter.convert(input_word)
+    candidates = get_candidates(input_word_cji)
+    if candidates:
+        return han_converter.convert(
+            min(candidates, key = lambda k: sort_key(k, input_word_cji)))
+    else:
+        return input_word
+    
+
+def test_fix(input_word):
     input_word = cji_converter.convert(input_word)
     
     search_start_time = timer()
@@ -78,13 +97,12 @@ def print_candidates(candidates, input_word = None): # if input_word is None, No
 
 if __name__ == '__main__':
     search_start_time = timer()
-    cji_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
-    del_converter.make_file(DICTIONARY, RESET_ON_EVERY_EXECUTION)
-    
-    cji_dict = cji_converter.load_cji_dict(DICTIONARY)
-    del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
+    load_dict()
     search_end_time = timer()
     print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
  
     while True:
-        fix(input("Input: "))
+        test_fix(input("Input: "))
+
+else:
+    load_dict()
