@@ -55,13 +55,14 @@ def convert(test_keyword):
     result = list()
     for i in range(len(split_keyword_list)):
         keyword = split_keyword_list[i]
+        previous_keyword = ''
         if i > 0:
             previous_keyword = split_keyword_list[i-1]
         if re.match('.*[ㄱ-ㅎㅏ-ㅣ가-힣]+.*', keyword) is not None:
             char_code = ord(keyword) - BASE_CODE
             if char_code < 0:  # 초성 + 중성의 조합이 아닌 경우
                 if keyword in CHOSUNG_CONVERT:  # 단일 자음인 경우 (ㄱ, ㄴ, ㄷ)
-                    if not previous_jamo and\
+                    if not previous_jamo and not previous_keyword and\
                         previous_keyword not in JUNGSUNG_LIST and\
                             previous_keyword not in ('', 'ᆞ', '#'):
                         result.append('#')  # 이전 종성이 없을 경우 (ex, 아ㄴ녕) 에서 ㄴ 전에 공백 추가
