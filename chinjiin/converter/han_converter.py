@@ -41,7 +41,7 @@ vowel_plus_basic = [[vowel_list.index('ㅑ'), -1, 1],  # ㅏ(0)
                     [21, 12, 6],  # ᆢ(22)
                     ]
 
-space_list = ['#', '$', '0', '1', '2', '3', '4', '5', '6', '7' '8', '9']
+space_list = ['#', '$']
 l1_list = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 l3_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅁ', 'ㅂ', 'ㅄ',
            'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
@@ -49,6 +49,28 @@ adjust = 0xAC00
 
 
 def convert(keyword):
+    result = ""
+    keyword += '$'
+    left = -1
+
+    for i in range(0, len(keyword)):
+        if ((12593 <= ord(keyword[i]) <= 12643) or  # 12593 : ㄱ, 12643 : ㅣ
+                keyword[i] == 'ᆢ' or
+                keyword[i] == 'ᆞ'):
+            if left == -1:
+                left = i
+        else:
+            if left != -1:
+                result += convert_han(keyword[left:i])
+                left = -1
+            result += keyword[i]
+
+    result = result[0:-1]
+    return result
+
+
+def convert_han(keyword):
+
     arr_list = [consonant_list, basic_vowel_list, space_list]
     temp = list()
     ch_type = -1
@@ -174,12 +196,7 @@ def convert(keyword):
             level = 2
 
         else:   # input 이 '#' 일때
-            if temp[i][1] != '#':
-                result += get_char_unicode(element, level)
-                result += temp[i][1]
-                element = [0, 0, 0, 0]
-                level = 0
-            elif i == 0:
+            if i == 0:
                 result += ' '
             elif temp[i - 1][0] == temp[i][0]:
                 result += ' '
