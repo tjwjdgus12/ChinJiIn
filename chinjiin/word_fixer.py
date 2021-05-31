@@ -33,6 +33,8 @@ def test_fix(input_word):
     search_start_time = timer()
     candidates = get_candidates(input_word)
     if not candidates:
+        print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
+        print("------------------")
         return
     candidates.sort(key = lambda k: sort_key(k, input_word))
     search_end_time = timer()
@@ -63,11 +65,6 @@ def get_candidates(input_word):
             for keyword in del_dict[input_word_del]:
                 ret.add(keyword)
                 #print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
-
-    if not ret:
-        print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
-        print("------------------")
-        return
 
     return list(ret)
 
