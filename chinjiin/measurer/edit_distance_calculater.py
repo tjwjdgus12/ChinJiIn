@@ -49,7 +49,7 @@ def calc_edit_dist(str_ori, str_typ):
     # "Infinity" -- greater than maximum possible edit distance
     # Used to prevent transpositions for first characters
 
-    print(str_ori, str_typ)
+    # print(str_ori, str_typ)
     
     # table: (M + 2) x (N + 2) sized matrix
     table = [[INF for _ in range(len(str_typ) + 2)] for __ in range(len(str_ori) + 2)]
