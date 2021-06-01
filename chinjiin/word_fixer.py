@@ -25,14 +25,30 @@ def direct_fix(input_word):
 
 def bigram_fix(input_word):
     input_word_cji = cji_converter.convert(input_word)
-    candidates = get_candidates(input_word_cji)
+    candidates = get_candidates(input_word_cji, tuple_with_key=True)
 
-    
     for i in range(1, len(input_word)):
-        cji = list()
-        cji.append(cji_converter.convert(input_word[:i]))
-        cji.append(cji_converter.convert(input_word[i:]))
-        #edit_dist = 
+        left = cji_converter.convert(input_word[:i])
+        left_candidates = get_candidates(left, tuple_with_key=True)
+        if not left_candidates:
+            continue
+        fixed_left = min(left_candidates, key = lambda k: k[1])
+        
+        right = cji_converter.convert(input_word[i:])
+        right_candidates = get_candidates(right, tuple_with_key=True)
+        if not right_candidates:
+            continue
+        fixed_right = min(right_candidates, key = lambda k: k[1])
+
+        fixed_word = fixed_left[0] + '#' + fixed_right[0]
+        edit_dist = fixed_left[1] + fixed_right[1]
+        candidates.append((fixed_word, edit_dist))
+
+    if candidates:
+        return han_converter.convert(
+            min(candidates, key = lambda k: k[1])[0])
+    else:
+        return input_word
 
 
 def test_fix(input_word):
@@ -51,31 +67,34 @@ def test_fix(input_word):
     print_candidates(candidates, input_word)
 
 
-def get_candidates(input_word):
-    ret = set()
+def get_candidates(input_word, tuple_with_key=False):
+    candidates = set()
     
     if input_word in cji_dict.keys():
-        ret.add(input_word)
+        candidates.add(input_word)
         #print('단어사전에 입력 키워드가 있는 예시', input_word)
 
     if input_word in del_dict.keys():
         for keyword in del_dict[input_word]:
-            ret.add(keyword)
+            candidates.add(keyword)
             #print('단어사전 del에 입력 키워드가 있는 예시', keyword)
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in cji_dict.keys():
-            ret.add(input_word_del)
+            candidates.add(input_word_del)
             #print('단어사전에 입력 키워드 del가 있는 예시', input_word_del)
 
     for input_word_del in del_converter.deletes(input_word):
         if input_word_del in del_dict.keys():
             for keyword in del_dict[input_word_del]:
-                ret.add(keyword)
+                candidates.add(keyword)
                 #print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
 
-    return list(ret)
-
+    if tuple_with_key:
+        return [(cand, sort_key(cand, input_word)) for cand in candidates]
+    else:
+        return list(candidates)
+    
 
 def sort_key(candidate, input_word):
     normalized_freq = (1 - cji_dict[candidate]/MAX_FREQ) / 2
