@@ -17,31 +17,26 @@ def load_dict(): # It must be called before fix
 def no_any_han(word):
     p = re.compile('[ㄱ-ㅎㅏ-ㅣ가-힣]')
     return not bool(p.search(word))
-        
+
+
+def only_han(word):
+    p = re.compile('[ㄱ-ㅎㅏ-ㅣ가-힣]+')
+    return bool(p.match(word))
+
 
 def direct_fix(input_word):
     input_word_cji = cji_converter.convert(input_word)
     candidates = get_candidates(input_word_cji)
-    if candidates:
-        return han_converter.convert(
-            min(candidates, key = lambda k: sort_key(k, input_word_cji)))
-    else:
-        return input_word
-
-
-def direct_bigram_fix(input_word):
-    input_word_cji = cji_converter.convert(input_word)
-    candidates = get_candidates(input_word_cji, tuple_with_key=True)
 
     for i in range(1, len(input_word)):
         left = cji_converter.convert(input_word[:i])
-        left_candidates = get_candidates(left, tuple_with_key=True)
+        left_candidates = get_candidates(left)
         if not left_candidates:
             continue
         fixed_left = min(left_candidates, key = lambda k: k[1])
         
         right = cji_converter.convert(input_word[i:])
-        right_candidates = get_candidates(right, tuple_with_key=True)
+        right_candidates = get_candidates(right)
         if not right_candidates:
             continue
         fixed_right = min(right_candidates, key = lambda k: k[1])
@@ -57,20 +52,20 @@ def direct_bigram_fix(input_word):
         return input_word
 
 
-def test_bigram_fix(input_word):
+def test_fix(input_word):
     search_start_time = timer()
     input_word_cji = cji_converter.convert(input_word)
-    candidates = get_candidates(input_word_cji, tuple_with_key=True)
+    candidates = get_candidates(input_word_cji)
 
     for i in range(1, len(input_word)):
         left = cji_converter.convert(input_word[:i])
-        left_candidates = get_candidates(left, tuple_with_key=True)
+        left_candidates = get_candidates(left)
         if not left_candidates:
             continue
         fixed_left = min(left_candidates, key = lambda k: k[1])
         
         right = cji_converter.convert(input_word[i:])
-        right_candidates = get_candidates(right, tuple_with_key=True)
+        right_candidates = get_candidates(right)
         if not right_candidates:
             continue
         fixed_right = min(right_candidates, key = lambda k: k[1])
@@ -85,7 +80,10 @@ def test_bigram_fix(input_word):
         if fixed_word not in [cand[0] for cand in candidates]:
             candidates.append((fixed_word, edit_dist))
 
+    
+
     candidates.sort(key=lambda k: k[1])
+        
     search_end_time = timer()
     print()
 
@@ -96,30 +94,11 @@ def test_bigram_fix(input_word):
     print('--------------------------------------------\n')
     
 
-def test_fix(input_word):
-    input_word = cji_converter.convert(input_word)
-    candidates = get_candidates(input_word)
-    if not candidates:
-        print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
-        print("------------------")
-        return
-    candidates.sort(key = lambda k: sort_key(k, input_word)) 
-    for cand in candidates:
-        print('교정단어: %s' % han_converter.convert(cand))
-        key = sort_key(cand, input_word)
-        freq = cji_dict[cand]
-        edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
-        print('\t정렬키: %.6f' % key)
-        print('\t편집거리: %.2f' % edit_dist)
-        print('\t빈도수: %d\n' % freq)
-
-
-def get_candidates(input_word, tuple_with_key=False):
+def get_candidates(input_word):
     if no_any_han(input_word):
-        if tuple_with_key:
-            return [(input_word, 0)]
-        else:
-            return [input_word]
+        return [(input_word, 0)]
+    if not only_han(input_word):
+        return []
     
     candidates = set()
     
@@ -143,10 +122,7 @@ def get_candidates(input_word, tuple_with_key=False):
                 candidates.add(keyword)
                 #print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
 
-    if tuple_with_key:
-        return [(cand, sort_key(cand, input_word)) for cand in candidates]
-    else:
-        return list(candidates)
+    return [(cand, sort_key(cand, input_word)) for cand in candidates]
     
 
 def sort_key(candidate, input_word):
@@ -165,7 +141,7 @@ if __name__ == '__main__':
     print('--------------------------------------------\n')
  
     while True:
-        test_bigram_fix(input("Input: "))
+        test_fix(input("Input: "))
 
 else:
     load_dict()
