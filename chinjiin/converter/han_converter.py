@@ -56,7 +56,8 @@ def convert(keyword):
     for i in range(0, len(keyword)):
         if ((12593 <= ord(keyword[i]) <= 12643) or  # 12593 : ㄱ, 12643 : ㅣ
                 keyword[i] == 'ᆢ' or
-                keyword[i] == 'ᆞ'):
+                keyword[i] == 'ᆞ' or
+                keyword[i] == '#'):
             if left == -1:
                 left = i
         else:
