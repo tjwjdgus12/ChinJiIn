@@ -1,8 +1,8 @@
 import re
 from datetime import timedelta
-from timeit import default_timer as timer
 from converter import cji_converter, del_converter, han_converter
 from measurer import edit_distance_calculater
+from timeit import default_timer as timer
 
 DICTIONARY = 'optimized_dict'
 MAX_FREQ = 54868
@@ -58,6 +58,7 @@ def direct_bigram_fix(input_word):
 
 
 def test_bigram_fix(input_word):
+    search_start_time = timer()
     input_word_cji = cji_converter.convert(input_word)
     candidates = get_candidates(input_word_cji, tuple_with_key=True)
 
@@ -84,12 +85,15 @@ def test_bigram_fix(input_word):
         if fixed_word not in [cand[0] for cand in candidates]:
             candidates.append((fixed_word, edit_dist))
 
-    candidates.sort(key = lambda k: k[1])
-
+    candidates.sort(key=lambda k: k[1])
+    search_end_time = timer()
     print()
+
     for cand in candidates:
         print('교정단어: %s' % han_converter.convert(cand[0]))
         print('정렬키: %.6f\n' % cand[1])
+    print('단어 교정 시간 : %s s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
+    print('--------------------------------------------\n')
     
 
 def test_fix(input_word):
@@ -154,18 +158,14 @@ def sort_key(candidate, input_word):
 
 
 if __name__ == '__main__':
-    search_start_time = timer()
+    dictload_start_time = timer()
     load_dict()
-    search_end_time = timer()
-    print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
+    dictload_end_time = timer()
+    print('사전 로딩 시간 : %s s\n' % str(timedelta(seconds=dictload_end_time-dictload_start_time)))
     print('--------------------------------------------\n')
  
     while True:
-        search_start_time = timer()
         test_bigram_fix(input("Input: "))
-        search_end_time = timer()
-        print('단어 교정 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
-        print('--------------------------------------------\n')
 
 else:
     load_dict()
