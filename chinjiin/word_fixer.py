@@ -74,25 +74,20 @@ def test_bigram_fix(input_word):
 
     candidates.sort(key = lambda k: k[1])
 
+    print()
     for cand in candidates:
-        print('\n교정단어: %s' % han_converter.convert(cand[0]))
+        print('교정단어: %s' % han_converter.convert(cand[0]))
         print('정렬키: %.6f\n' % cand[1])
-    print("-----------------------------\n")
-
+    
 
 def test_fix(input_word):
     input_word = cji_converter.convert(input_word)
-    
-    search_start_time = timer()
     candidates = get_candidates(input_word)
     if not candidates:
         print('입력한 \'' + han_converter.convert(input_word) + ', ' + input_word + '\' 는 교정 단어 목록이 존재하지 않습니다.')
         print("------------------")
         return
-    candidates.sort(key = lambda k: sort_key(k, input_word))
-    search_end_time = timer()
-    print('탐색 소요 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
-    
+    candidates.sort(key = lambda k: sort_key(k, input_word)) 
     for cand in candidates:
         print('교정단어: %s' % han_converter.convert(cand))
         key = sort_key(cand, input_word)
@@ -100,8 +95,7 @@ def test_fix(input_word):
         edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
         print('\t정렬키: %.6f' % key)
         print('\t편집거리: %.2f' % edit_dist)
-        print('\t빈도수: %d\n' % freq)         
-    print("-----------------------------\n")
+        print('\t빈도수: %d\n' % freq)
 
 
 def get_candidates(input_word, tuple_with_key=False):
@@ -146,12 +140,14 @@ if __name__ == '__main__':
     load_dict()
     search_end_time = timer()
     print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
+    print('--------------------------------------------\n')
  
     while True:
         search_start_time = timer()
         test_bigram_fix(input("Input: "))
         search_end_time = timer()
         print('단어 교정 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
+        print('--------------------------------------------\n')
 
 else:
     load_dict()
