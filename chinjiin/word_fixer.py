@@ -41,7 +41,7 @@ def direct_bigram_fix(input_word):
         fixed_right = min(right_candidates, key = lambda k: k[1])
 
         fixed_word = fixed_left[0] + '#' + fixed_right[0]
-        edit_dist = fixed_left[1] + fixed_right[1]
+        edit_dist = fixed_left[1] + fixed_right[1] + 1 # penalty
         candidates.append((fixed_word, edit_dist))
 
     if candidates:
@@ -69,7 +69,7 @@ def test_bigram_fix(input_word):
         fixed_right = min(right_candidates, key = lambda k: k[1])
 
         fixed_word = fixed_left[0] + '#' + fixed_right[0]
-        edit_dist = fixed_left[1] + fixed_right[1]
+        edit_dist = fixed_left[1] + fixed_right[1] + 1 # penalty
         candidates.append((fixed_word, edit_dist))
 
     candidates.sort(key = lambda k: k[1])
@@ -93,7 +93,15 @@ def test_fix(input_word):
     search_end_time = timer()
     print('탐색 소요 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
     
-    print_candidates(candidates, input_word)
+    for cand in candidates:
+        print('교정단어: %s' % han_converter.convert(cand))
+        key = sort_key(cand, input_word)
+        freq = cji_dict[cand]
+        edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
+        print('\t정렬키: %.6f' % key)
+        print('\t편집거리: %.2f' % edit_dist)
+        print('\t빈도수: %d\n' % freq)         
+    print("-----------------------------\n")
 
 
 def get_candidates(input_word, tuple_with_key=False):
@@ -132,21 +140,6 @@ def sort_key(candidate, input_word):
     return normalized_freq + edit_dist
 
 
-def print_candidates(candidates, input_word = None): # if input_word is None, Not print Infomation
-    for cand in candidates:
-        print('교정단어: %s' % han_converter.convert(cand))
-        
-        if input_word:
-            key = sort_key(cand, input_word)
-            freq = cji_dict[cand]
-            edit_dist = edit_distance_calculater.calc_edit_dist(input_word, cand)
-            print('\t정렬키: %.6f' % key)
-            print('\t편집거리: %.2f' % edit_dist)
-            print('\t빈도수: %d' % freq)
-        print()
-            
-    print("-----------------------------\n")
-
 
 if __name__ == '__main__':
     search_start_time = timer()
@@ -155,7 +148,10 @@ if __name__ == '__main__':
     print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
  
     while True:
+        search_start_time = timer()
         test_bigram_fix(input("Input: "))
+        search_end_time = timer()
+        print('단어 교정 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
 
 else:
     load_dict()
