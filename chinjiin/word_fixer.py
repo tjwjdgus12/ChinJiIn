@@ -1,3 +1,4 @@
+import re
 from datetime import timedelta
 from timeit import default_timer as timer
 from converter import cji_converter, del_converter, han_converter
@@ -12,6 +13,11 @@ def load_dict(): # It must be called before fix
     cji_dict = cji_converter.load_cji_dict(DICTIONARY)
     del_dict = del_converter.load_del_dict_by_file(DICTIONARY)
 
+
+def no_any_han(word):
+    p = re.compile('[ㄱ-ㅎㅏ-ㅣ가-힣]')
+    return not bool(p.search(word))
+        
 
 def direct_fix(input_word):
     input_word_cji = cji_converter.convert(input_word)
@@ -105,6 +111,12 @@ def test_fix(input_word):
 
 
 def get_candidates(input_word, tuple_with_key=False):
+    if no_any_han(input_word):
+        if tuple_with_key:
+            return [(input_word, 0)]
+        else:
+            return [input_word]
+    
     candidates = set()
     
     if input_word in cji_dict.keys():
