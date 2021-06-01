@@ -94,8 +94,9 @@ def convert(test_keyword):
                 continue
         else:
             if keyword == ' ':
-                if result[-1] == '#':
-                    result.append('#')
+                if result:
+                    if result[-1] == '#':
+                        result.append('#')
                 else:
                     result.append('##')
             else:
