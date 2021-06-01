@@ -11,10 +11,9 @@ convert_dict = {
     'ㅇ': 9, '#': 10, 'ELSE': 11
 }
 distance_table = list()
-if __name__ == '__main__':
-    dist_table_path = 'cji_physical_distance_table.txt'
-else:
-    dist_table_path = 'measurer/cji_physical_distance_table.txt'
+dist_table_path = 'cji_physical_distance_table.txt'
+if __name__ != '__main__':
+    dist_table_path = 'measurer/' + dist_table_path
 with open(dist_table_path, 'r') as f:
     for cnt in range(len(convert_dict)):
         distance_table.append(list(map(float, f.readline().split())))
@@ -30,23 +29,10 @@ def get_conv_dict(alphabet):
 def get_phys_dist(origin, typo):
     if len(origin) != 1 or len(typo) != 1:
         return int(-1)
-    elif origin == NON_CJI or typo == NON_CJI:
-        return int(1)
     else:
         ind_origin = get_conv_dict(origin)
         ind_typo = get_conv_dict(typo)
         return distance_table[ind_origin][ind_typo]
-
-
-def get_avg_dist():
-    return AVERAGE_DISTANCE
-
-
-def get_str_phys_dist(args):
-    total_len = float(0)
-    for i in range(1, len(args)):
-        total_len += get_phys_dist(args[i], args[i - 1])
-    return total_len
 
 
 # Damerau-Levenshtein distance based function: adjusted to calculate physical distance
@@ -57,8 +43,8 @@ def calc_edit_dist(str_ori, str_typ):
     # table: (M + 2) x (N + 2) sized matrix
     table = [[INF for _ in range(len(str_typ) + 2)] for __ in range(len(str_ori) + 2)]
     table[1][1] = 0
-    table[2][1] = get_avg_dist()
-    table[1][2] = get_avg_dist()
+    table[2][1] = AVERAGE_DISTANCE
+    table[1][2] = AVERAGE_DISTANCE
     for i in range(3, len(str_ori) + 2):
         table[i][1] = table[i - 1][1] + get_phys_dist(str_ori[i - 2], str_ori[i - 3])
     for i in range(3, len(str_typ) + 2):
@@ -92,7 +78,8 @@ def calc_edit_dist(str_ori, str_typ):
             val_add = table[i + 1][j] + (table[1][j + 1] - table[1][j])  # Addition
             val_del = table[i][j + 1] + (table[i + 1][1] - table[i][1])  # Deletion
             val_trs = (table[last_match_row][last_match_col]  # Transposition
-                       + max((i - last_match_row - 1), (j - last_match_col - 1))
+                       + max((i - last_match_row - 1),
+                             (j - last_match_col - 1))
                        + float(1))
             table[i + 1][j + 1] = min(val_sub, val_add,
                                       val_del, val_trs)
