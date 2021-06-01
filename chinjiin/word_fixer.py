@@ -23,7 +23,7 @@ def direct_fix(input_word):
         return input_word
 
 
-def bigram_fix(input_word):
+def direct_bigram_fix(input_word):
     input_word_cji = cji_converter.convert(input_word)
     candidates = get_candidates(input_word_cji, tuple_with_key=True)
 
@@ -49,6 +49,35 @@ def bigram_fix(input_word):
             min(candidates, key = lambda k: k[1])[0])
     else:
         return input_word
+
+
+def test_bigram_fix(input_word):
+    input_word_cji = cji_converter.convert(input_word)
+    candidates = get_candidates(input_word_cji, tuple_with_key=True)
+
+    for i in range(1, len(input_word)):
+        left = cji_converter.convert(input_word[:i])
+        left_candidates = get_candidates(left, tuple_with_key=True)
+        if not left_candidates:
+            continue
+        fixed_left = min(left_candidates, key = lambda k: k[1])
+        
+        right = cji_converter.convert(input_word[i:])
+        right_candidates = get_candidates(right, tuple_with_key=True)
+        if not right_candidates:
+            continue
+        fixed_right = min(right_candidates, key = lambda k: k[1])
+
+        fixed_word = fixed_left[0] + '#' + fixed_right[0]
+        edit_dist = fixed_left[1] + fixed_right[1]
+        candidates.append((fixed_word, edit_dist))
+
+    candidates.sort(key = lambda k: k[1])
+
+    for cand in candidates:
+        print('\n교정단어: %s' % han_converter.convert(cand[0]))
+        print('정렬키: %.6f\n' % cand[1])
+    print("-----------------------------\n")
 
 
 def test_fix(input_word):
@@ -116,7 +145,7 @@ def print_candidates(candidates, input_word = None): # if input_word is None, No
             print('\t빈도수: %d' % freq)
         print()
             
-    print("------------------\n")
+    print("-----------------------------\n")
 
 
 if __name__ == '__main__':
@@ -126,7 +155,7 @@ if __name__ == '__main__':
     print('사전 로딩 시간 : %s\n' % str(timedelta(seconds=search_end_time - search_start_time)))
  
     while True:
-        test_fix(input("Input: "))
+        test_bigram_fix(input("Input: "))
 
 else:
     load_dict()
