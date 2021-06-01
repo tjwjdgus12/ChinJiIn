@@ -68,9 +68,15 @@ def test_bigram_fix(input_word):
             continue
         fixed_right = min(right_candidates, key = lambda k: k[1])
 
-        fixed_word = fixed_left[0] + '#' + fixed_right[0]
+        if fixed_left[0][-1] == fixed_right[0][0] and\
+            fixed_left[0][-1] in ['ㄱ', 'ㄴ', 'ㄷ', 'ㅇ', 'ㅂ', 'ㅅ', 'ㅈ']:
+                fixed_word = fixed_left[0] + '#' + fixed_right[0]
+        else:
+            fixed_word = fixed_left[0] + fixed_right[0]
         edit_dist = fixed_left[1] + fixed_right[1] + 1 # penalty
-        candidates.append((fixed_word, edit_dist))
+        
+        if fixed_word not in [cand[0] for cand in candidates]:
+            candidates.append((fixed_word, edit_dist))
 
     candidates.sort(key = lambda k: k[1])
 
