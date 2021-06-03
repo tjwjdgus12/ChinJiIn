@@ -49,6 +49,29 @@ adjust = 0xAC00
 
 
 def convert(keyword):
+    result = ""
+    keyword += '$'
+    left = -1
+
+    for i in range(0, len(keyword)):
+        if ((12593 <= ord(keyword[i]) <= 12643) or  # 12593 : ㄱ, 12643 : ㅣ
+                keyword[i] == 'ᆢ' or
+                keyword[i] == 'ᆞ' or
+                keyword[i] == '#'):
+            if left == -1:
+                left = i
+        else:
+            if left != -1:
+                result += convert_han(keyword[left:i])
+                left = -1
+            result += keyword[i]
+
+    result = result[0:-1]
+    return result
+
+
+def convert_han(keyword):
+
     arr_list = [consonant_list, basic_vowel_list, space_list]
     temp = list()
     ch_type = -1
@@ -81,7 +104,12 @@ def convert(keyword):
 
         else:
             if ch_type == basic_vowel_list:
-                saved_index = vowel_plus_basic[saved_index][ch_index]
+                if vowel_plus_basic[saved_index][ch_index] == -1:
+                    temp.append([1, vowel_list[saved_index]])
+                    saved_index = vowel_list.index(ch)
+                else:
+                    saved_index = vowel_plus_basic[saved_index][ch_index]
+
             elif ch_type == consonant_list:
                 if saved_index // 3 == ch_index // 3:
                     if saved_index % 3 == 2:
@@ -94,11 +122,11 @@ def convert(keyword):
                     saved_index = ch_index
             elif ch_type == space_list:
                 temp.append([arr_list.index(prev_type), prev_type[saved_index]])
+                saved_index = ch_index
         prev_type = ch_type
 
     level = 0
     element = [0, 0, 0, 0]
-
     result = ''
 
     for i in range(len(temp)):
@@ -134,6 +162,7 @@ def convert(keyword):
                     result += get_char_unicode(element, 3)
                 else:   # level == 1
                     result += get_char_unicode(element, 1)
+
                 element[0] = temp[i][1]
                 element[1] = 0
                 element[2] = 0
@@ -150,6 +179,16 @@ def convert(keyword):
                 element[0] = element[3]
                 element[1] = temp[i][1]
                 element[2] = 0
+
+            elif (level == 2 or
+                    level == 0 or
+                    temp[i][1] == 'ᆞ' or
+                    temp[i][1] == 'ᆢ'):
+                result += get_char_unicode(element, level)
+                result += temp[i][1]
+                element = [0, 0, 0, 0]
+                level = 0
+                continue
 
             else:
                 element[1] = temp[i][1]
@@ -173,7 +212,7 @@ def convert(keyword):
         result += get_char_unicode(element, 2)
     elif level == 1:
         result += get_char_unicode(element, 1)
-    else:
+    elif level == 4:
         element[2] = consonant_plus_list.get(element[2] + element[3])
         result += get_char_unicode(element, 3)
     return result
@@ -185,6 +224,8 @@ def get_char_unicode(arr, level):
         return ''
 
     if level > 1:
+        if arr[0] == 0:
+            return arr[1]
         element[0] = l1_list.index(arr[0])
         element[1] = vowel_list.index(arr[1])
         if level > 2:
@@ -196,9 +237,9 @@ def get_char_unicode(arr, level):
 
 
 if __name__ == '__main__':
-    print("Input Word to Convert. Input -1 to exist.")
+    print("Input Word to Convert. Input \"-exit\" to terminate.")
     test_input = input()
 
-    while test_input != '-1':
+    while test_input != '-exit':
         print(convert(test_input))
         test_input = input()
