@@ -36,7 +36,7 @@ Symspell의 오타 교정 알고리즘은 아래와 같습니다.
 
 ### (4)  물리적 거리
 
- Symspell 알고리즘을 기반으로 하되, 키보드 자판간의 거리로 교정 단어간의 우선순위를 정했습니다. 영어 Qwerty키보드 자판의 물리적 거리를 Symspell에 적용한 Customized-Symspell이라는 프로젝트를 찾아볼 수 있었습니다.  
+ Symspell 알고리즘을 기반으로 하되, 키보드 자판간의 거리로 교정 단어간의 우선순위를 정했습니다. 영어 Qwerty키보드 자판의 물리적 거리를 Symspell에 적용한 [Customized-Symspell](https://github.com/MighTguY/customized-symspell)이라는 프로젝트를 찾아볼 수 있었습니다.  
  천지인 자판이 가로 3, 세로 4의 12개 배열로 이루어져 있고 실질적인 글자를 나타내는 자판은 10개라는 점에 착안해 10x10 배열에 각 자판 간의 물리적 거리를 계산하여 우선순위를 정할 때 사용하였습니다.  
 거리 데이터는 chinjiin/measurer/cji_physical_distance_table.txt를,  
 거리 데이터를 적용하는 코드는 chinjiin/measurer/edit_distance_calculater.py 를 참고하시면 됩니다.  
@@ -47,10 +47,10 @@ Symspell의 오타 교정 알고리즘은 아래와 같습니다.
 
 **3.8 버전 이상의 파이썬 (Python 3.8+)** 이 필요합니다.  **utf-8 인코딩된 한글**만 지원합니다. 
 
-원하는 디렉터리에 clone하여 받아주세요. 
+원하는 디렉터리에 clone하여 받아주세요.  
 ```git clone https://github.com/tjwjdgus12/ChinJiIn.git```
 
-파이썬 환경에서 다운 받은 친지인 모듈을 import 하여 사용하실 수 있습니다. 
+파이썬 환경에서 다운 받은 친지인 모듈을 import 하여 사용하실 수 있습니다.  
 ```import chinjiin```
 
 ## 사용법 How to Use
