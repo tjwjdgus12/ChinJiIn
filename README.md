@@ -100,7 +100,7 @@ Issues 탭에서 Create New Issue를 통해 제보해주시면 감사합니다!!
 2. 천지인 시퀀스에서 한글로 변환 (han_converter 관련) : @SuperChobo
 3. 천지인 자판의 물리적 거리 (edit_distance_calculater 관련) : @ChangminYi
 4. 한글 사전  (Dictionary/ 관련) : @kindkiz 
-5. word_fixer의 단어 교정 (word_fixer 및 chinjin 관련) : @tjwjdgus12
+5. word_fixer의 단어 교정 (word_fixer 및 chinjiin 관련) : @tjwjdgus12
 ### 코드 기여 Code Contribution
 Pull Request를 열어주시면 최대한 빠른 시일 내에 review하여 답변 드리도록 하겠습니다. 
 PR 작성 시 어떤 부분을 왜 이렇게 수정했는지에 대한 설명 꼭 남겨주시면 감사하겠습니다!
