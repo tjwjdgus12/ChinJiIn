@@ -1,6 +1,7 @@
 import os
 import word_fixer
 
+
 def fix(sentence):
     words = sentence.split()
     fixed = ''
@@ -23,5 +24,6 @@ def fix_dir(path_dir):
         fix_file(path_dir + file, path_dir + 'fixed_' + file)
 
 
-while True:
-    print(fix(input()))
+if __name__ == '__main__':
+    while True:
+        print(fix(input()))
