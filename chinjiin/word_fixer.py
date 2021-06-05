@@ -52,8 +52,7 @@ def direct_fix(input_word):
         return input_word
 
 
-def more_fix(input_word):
-    search_start_time = timer()
+def more_fix(input_word, info=False):
     input_word_cji = cji_converter.convert(input_word)
     candidates = get_candidates(input_word_cji)
 
@@ -81,10 +80,19 @@ def more_fix(input_word):
             candidates.append((fixed_word, edit_dist))
 
     candidates.sort(key=lambda k: k[1])
+    
+    if info:
+        return candidates
+    else:
+        return [han_converter.convert(cand[0]) for cand in candidates]
 
+
+def debug_fix(input_word):
+    search_start_time = timer()
+    candidates = more_fix(input_word, info=True)
     search_end_time = timer()
-    print()
 
+    print()
     for cand in candidates:
         print('교정단어: %s' % han_converter.convert(cand[0]))
         print('정렬키: %.6f\n' % cand[1])
@@ -138,7 +146,7 @@ if __name__ == '__main__':
     print('--------------------------------------------\n')
 
     while True:
-        more_fix(input("Input: "))
+        debug_fix(input("Input: "))
 
 else:
     load_dict()
