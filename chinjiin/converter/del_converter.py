@@ -32,7 +32,14 @@ def deletes(word):
                     flag = True
 
         if not flag:
-            dels.append(word[:i] + word[i + 1:])
+            l = i
+            r = i + 1
+            if 2 <= i <= len(word)-3:
+                if word[i-1] == '#' and word[i-2] == word[i]:
+                    l = i - 1
+                elif word[i+1] == '#' and word[i+2] == word[i]:
+                    r = i + 2
+            dels.append(word[:l] + word[r:])
 
     return dels
 

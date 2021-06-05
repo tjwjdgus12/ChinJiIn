@@ -125,7 +125,7 @@ def get_candidates(input_word):
 
 def sort_key(candidate, input_word):
     normalized_freq = (1 - cji_dict[candidate] / MAX_FREQ) / 2
-    edit_dist = edit_distance_calculater.calc_edit_dist(input_word, candidate)
+    edit_dist = edit_distance_calculater.calc_edit_dist(candidate, input_word)
 
     return normalized_freq + edit_dist
 
