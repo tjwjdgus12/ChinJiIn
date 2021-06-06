@@ -92,19 +92,8 @@ chinjiin/converter/dict 폴더의 여러 사전을 참고하시면 되겠습니�
 delete 사전 파일은 pickle 파일로 저장됩니다. 천지인 변환 사전 파일은 txt 파일로 저장됩니다. 
 
 ## 기여 Contribution
-친지인은 코드 기여 및 버그 제보를 해주시는 개발자분들을 늘 환영합니다.
-### 버그 제보 Bug Report
-Issues 탭에서 Create New Issue를 통해 제보해주시면 감사합니다!!
-제목은 bug: 태그로 시작하면서 내용이 잘 표현 될 수 있게 작성해주시고, 어떤 모듈에서 발생하는 것인지 인지하고 계시다면 제보시 아래의 사람들을 assign 해주시면 조금 더 빠른 버그 수정이 가능합니다.
-1. 한글에서 천지인 시퀀스로 변환 (cji_converter 관련) : @redjen8
-2. 천지인 시퀀스에서 한글로 변환 (han_converter 관련) : @SuperChobo
-3. 천지인 자판의 물리적 거리 (edit_distance_calculater 관련) : @ChangminYi
-4. 한글 사전  (Dictionary/ 관련) : @kindkiz 
-5. word_fixer의 단어 교정 (word_fixer 및 chinjiin 관련) : @tjwjdgus12
-### 코드 기여 Code Contribution
-Pull Request를 열어주시면 최대한 빠른 시일 내에 review하여 답변 드리도록 하겠습니다. 
-PR 작성 시 어떤 부분을 왜 이렇게 수정했는지에 대한 설명 꼭 남겨주시면 감사하겠습니다!
-
+[CONTRIBUTING.md](https://github.com/tjwjdgus12/ChinJiIn/blob/main/CONTRIBUTING.md) 를 참고해주세요.  
+  
 ## 참조 References
 한글 자모음 분리: @neotune 님의 https://github.com/neotune/python-korean-handler/blob/master/korean_handler.py. 
 
