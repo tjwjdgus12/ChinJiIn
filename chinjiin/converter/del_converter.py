@@ -35,12 +35,11 @@ def deletes(word):
             ll = i
             rr = i + 1
             if 2 <= i <= len(word)-3:
-                if word[i-1] == '#' and word[i-2] == word[i] \
-                   and word[i] in cycle[0] + cycle[1]:
-                    ll = i - 1
-                elif word[i+1] == '#' and word[i+2] == word[i] \
-                     and word[i] in cycle[0] + cycle[1]:
-                    rr = i + 2
+                if word[i-1] == '#' and word[i] in cycle[0] + cycle[1]:
+                    if word[i-2] == word[i]:
+                        ll = i - 1
+                    elif word[i+2] == word[i]:
+                        rr = i + 2
             dels.append(word[:ll] + word[rr:])
 
     return dels
