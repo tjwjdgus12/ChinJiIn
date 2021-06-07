@@ -80,7 +80,7 @@ def more_fix(input_word, info=False):
             candidates.append((fixed_word, edit_dist))
 
     candidates.sort(key=lambda k: k[1])
-    
+
     if info:
         return candidates
     else:

@@ -14,34 +14,34 @@ def deletes(word):
         if word[i] == '#' and word[i - 1] == word[i + 1]:
             for c in range(2):
                 cnt = 2
-                l = i - 2
-                r = i + 2
+                ll = i - 2
+                rr = i + 2
                 if word[i - 1] in cycle[c]:
                     while cnt < c + 3:
-                        if l < 0 or word[l] != word[i - 1]:
+                        if ll < 0 or word[ll] != word[i - 1]:
                             break
                         cnt += 1
-                        l -= 1
+                        ll -= 1
                     while cnt < c + 3:
-                        if r >= len(word) or word[r] != word[i - 1]:
+                        if rr >= len(word) or word[rr] != word[i - 1]:
                             break
                         cnt += 1
-                        r += 1
+                        rr += 1
                 if cnt >= c + 3:
-                    dels.append(word[:l + 2] + word[r:])
+                    dels.append(word[:ll + 2] + word[rr:])
                     flag = True
 
         if not flag:
-            l = i
-            r = i + 1
+            ll = i
+            rr = i + 1
             if 2 <= i <= len(word)-3:
                 if word[i-1] == '#' and word[i-2] == word[i] \
-                   and word[i] in cycle[0] + cycle[1] :
-                    l = i - 1
+                   and word[i] in cycle[0] + cycle[1]:
+                    ll = i - 1
                 elif word[i+1] == '#' and word[i+2] == word[i] \
                      and word[i] in cycle[0] + cycle[1]:
-                    r = i + 2
-            dels.append(word[:l] + word[r:])
+                    rr = i + 2
+            dels.append(word[:ll] + word[rr:])
 
     return dels
 
