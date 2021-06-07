@@ -36,47 +36,51 @@ def get_phys_dist(origin, typo):
 
 
 # Damerau-Levenshtein distance based function: adjusted to calculate physical distance
-def calc_edit_dist(str_ori, str_typ):
+# first param: right keyword (something in dictionary)
+# second param: keyword to fix (is input)
+def calc_edit_dist(str_dict, str_input):
     # "Infinity" -- greater than maximum possible edit distance
     # Used to prevent transpositions for first characters
     
     # table: (M + 2) x (N + 2) sized matrix
-    table = [[INF for _ in range(len(str_typ) + 2)] for __ in range(len(str_ori) + 2)]
+    table = [[INF for _ in range(len(str_input) + 2)] for __ in range(len(str_dict) + 2)]
     table[1][1] = 0
     table[2][1] = AVERAGE_DISTANCE
     table[1][2] = AVERAGE_DISTANCE
-    for i in range(3, len(str_ori) + 2):
-        table[i][1] = table[i - 1][1] + get_phys_dist(str_ori[i - 2], str_ori[i - 3])
-    for i in range(3, len(str_typ) + 2):
-        table[1][i] = table[1][i - 1] + get_phys_dist(str_typ[i - 2], str_typ[i - 3])
+    for i in range(3, len(str_dict) + 2):
+        table[i][1] = table[i - 1][1] + get_phys_dist(str_dict[i - 2], str_dict[i - 3])
+    for i in range(3, len(str_input) + 2):
+        table[1][i] = table[1][i - 1] + get_phys_dist(str_input[i - 2], str_input[i - 3])
 
     # Holds last row each element was encountered: DA in the Wikipedia pseudocode
     last_row = {}
 
     # Fill in costs
-    for i in range(1, len(str_ori) + 1):
+    for i in range(1, len(str_dict) + 1):
         # Current character in a
-        ch_str_ori = str_ori[i - 1]
+        ch_str_dict = str_dict[i - 1]
 
         # Column of last match on this row: DB in pseudocode
         last_match_col = 0
 
-        for j in range(1, len(str_typ) + 1):
+        for j in range(1, len(str_input) + 1):
             # Current character in b
-            ch_str_typ = str_typ[j - 1]
+            ch_str_input = str_input[j - 1]
 
             # Last row with matching character
-            last_match_row = last_row.get(ch_str_typ, 0)
+            last_match_row = last_row.get(ch_str_input, 0)
 
             # Cost of substitution
             cost = float(0)
-            if ch_str_ori != ch_str_typ:
-                cost = get_phys_dist(ch_str_ori, ch_str_typ)
+            if ch_str_dict != ch_str_input:
+                cost = get_phys_dist(ch_str_dict, ch_str_input)
 
             # Compute substring distance
-            val_sub = table[i][j] + cost  # Substitution
-            val_add = table[i + 1][j] + (table[1][j + 1] - table[1][j])  # Addition
-            val_del = table[i][j + 1] + (table[i + 1][1] - table[i][1])  # Deletion
+            val_sub = table[i][j] + cost    # Substitution
+            val_add = (table[i + 1][j]      # Addition
+                       + (table[1][j + 1] - table[1][j]))   # distance from previous
+            val_del = (table[i][j + 1]      # Deletion
+                       + float(1))          # previous: (table[i + 1][1] - table[i][1])
             val_trs = (table[last_match_row][last_match_col]  # Transposition
                        + max((i - last_match_row - 1),
                              (j - last_match_col - 1))
@@ -89,9 +93,8 @@ def calc_edit_dist(str_ori, str_typ):
                 last_match_col = j
 
         # Update last row for current character
-        last_row[ch_str_ori] = i
+        last_row[ch_str_dict] = i
 
     # Return last element
     return table[-1][-1]
-
 

@@ -100,6 +100,10 @@ def convert(test_keyword):
                 else:
                     result.append('##')
             else:
+                if keyword == 'ᆢ':
+                    result.append('ᆞ')
+                    result.append('ᆞ')
+                    continue
                 result.append(keyword)
 
     return "".join(result)
@@ -135,7 +139,7 @@ def load_cji_dict(dict_name, reset=False):
 
 if __name__ == '__main__':
     DICT_PATH = 'dict/'
-    testStr = "안녕"
+    testStr = "깨우ㅁᆢㄴ"
     print(convert(testStr))
 
 else:
