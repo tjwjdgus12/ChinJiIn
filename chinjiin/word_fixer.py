@@ -7,6 +7,8 @@ from .converter import cji_converter, del_converter, han_converter
 from .measurer import edit_distance_calculater
 
 DICTIONARY = 'optimized_dict'
+HANGUL_WORD_PATTERN = re.compile(r'[ㄱ-ㅎㅏ-ㅣ가-힣]+')
+CJI_WORD_PATTERN = re.compile(r'[ㄱ-ㅎㅏ-ㅣ가-힣ᆞ#]+')
 cji_dict = {}
 del_dict = {}
 max_freq = 1
@@ -40,16 +42,17 @@ def _ensure_dict_loaded():
 
 
 def no_any_han(word):
-    p = re.compile('[ㄱ-ㅎㅏ-ㅣ가-힣]')
-    return not bool(p.search(word))
+    return HANGUL_WORD_PATTERN.search(word) is None
 
 
 def only_han(word):
-    p = re.compile('[ㄱ-ㅎㅏ-ㅣ가-힣]+')
-    return bool(p.match(word))
+    return HANGUL_WORD_PATTERN.fullmatch(word) is not None
 
 
 def direct_fix(input_word):
+    if not only_han(input_word):
+        return input_word
+
     input_word_cji = cji_converter.convert(input_word)
     candidates = get_candidates(input_word_cji)
 
@@ -78,6 +81,9 @@ def direct_fix(input_word):
 
 
 def more_fix(input_word, info=False):
+    if not only_han(input_word):
+        return [(input_word, 0)] if info else [input_word]
+
     input_word_cji = cji_converter.convert(input_word)
     candidates = get_candidates(input_word_cji)
 
@@ -130,7 +136,7 @@ def get_candidates(input_word):
 
     if no_any_han(input_word):
         return [(input_word, 0)]
-    if not only_han(input_word):
+    if CJI_WORD_PATTERN.fullmatch(input_word) is None:
         return []
 
     candidates = set()
