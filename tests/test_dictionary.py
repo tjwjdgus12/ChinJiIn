@@ -34,8 +34,8 @@ class DictionaryTests(unittest.TestCase):
 
     def test_delete_index_deduplicates_candidates(self):
         index = del_converter.build_delete_index(["가", "가"])
-        self.assertTrue(all(isinstance(candidates, set) for candidates in index.values()))
-        self.assertTrue(all(candidates == {"가"} for candidates in index.values()))
+        self.assertTrue(all(isinstance(candidates, list) for candidates in index.values()))
+        self.assertTrue(all(candidates == ["가"] for candidates in index.values()))
 
 
 if __name__ == "__main__":

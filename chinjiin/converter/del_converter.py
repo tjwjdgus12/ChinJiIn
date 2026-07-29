@@ -47,10 +47,10 @@ def deletes(word):
 
 
 def build_delete_index(words):
-    delete_index = defaultdict(set)
-    for word in words:
-        for deleted in deletes(word):
-            delete_index[deleted].add(word)
+    delete_index = defaultdict(list)
+    for word in dict.fromkeys(words):
+        for deleted in set(deletes(word)):
+            delete_index[deleted].append(word)
     return dict(delete_index)
 
 
