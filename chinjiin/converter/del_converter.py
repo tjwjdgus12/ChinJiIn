@@ -1,7 +1,7 @@
-import os
 import pickle
+from pathlib import Path
 
-DICT_PATH = 'converter/dict/'
+DICT_PATH = Path(__file__).resolve().parent / 'dict'
 
 
 def deletes(word):
@@ -47,7 +47,7 @@ def deletes(word):
 
 def load_del_dict(dict_name):
     del_dict = dict()
-    cji_dict_file = 'converter/dict/%s_cji.txt' % dict_name
+    cji_dict_file = DICT_PATH / ('%s_cji.txt' % dict_name)
     with open(cji_dict_file, 'rt', encoding='utf-8') as rf:
         for word in rf:
             word = word.split(':')[0]
@@ -65,16 +65,15 @@ def load_del_dict(dict_name):
 
 
 def make_file(dict_name):
-    origin_dict_file = DICT_PATH + '%s.txt' % dict_name
-    del_dict_file = DICT_PATH + '%s_del.pickle' % dict_name
+    del_dict_file = DICT_PATH / ('%s_del.pickle' % dict_name)
     del_dict = load_del_dict(dict_name)
     with open(del_dict_file, 'wb') as f:
         pickle.dump(del_dict, f, pickle.HIGHEST_PROTOCOL)
 
 
 def load_del_dict_by_file(dict_name, reset=False):
-    del_dict_file = DICT_PATH + '%s_del.pickle' % dict_name
-    if not os.path.isfile(del_dict_file) or reset:
+    del_dict_file = DICT_PATH / ('%s_del.pickle' % dict_name)
+    if not del_dict_file.is_file() or reset:
         make_file(dict_name)
     with open(del_dict_file, 'rb') as f:
         data = pickle.load(f)
@@ -83,4 +82,4 @@ def load_del_dict_by_file(dict_name, reset=False):
 
 
 if __name__ == '__main__':
-    DICT_PATH = 'dict/'
+    pass

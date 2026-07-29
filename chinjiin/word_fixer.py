@@ -1,8 +1,9 @@
 import re
 from datetime import timedelta
-from converter import cji_converter, del_converter, han_converter
-from measurer import edit_distance_calculater
 from timeit import default_timer as timer
+
+from .converter import cji_converter, del_converter, han_converter
+from .measurer import edit_distance_calculater
 
 DICTIONARY = 'optimized_dict'
 MAX_FREQ = 54868

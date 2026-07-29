@@ -1,8 +1,9 @@
 import os
-import word_fixer
 
 
 def fix(sentence):
+    from . import word_fixer
+
     words = sentence.split()
     fixed = ''
     for word in words:
