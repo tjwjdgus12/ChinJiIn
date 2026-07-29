@@ -1,4 +1,5 @@
 import re
+import threading
 from datetime import timedelta
 from timeit import default_timer as timer
 
@@ -6,13 +7,36 @@ from .converter import cji_converter, del_converter, han_converter
 from .measurer import edit_distance_calculater
 
 DICTIONARY = 'optimized_dict'
-MAX_FREQ = 54868
+cji_dict = {}
+del_dict = {}
+max_freq = 1
+_loaded = False
+_dictionary_source = DICTIONARY
+_dictionary_lock = threading.RLock()
 
 
-def load_dict(filename=DICTIONARY):  # It must be called before fix
-    global cji_dict, del_dict
-    cji_dict = cji_converter.load_cji_dict(filename)
-    del_dict = del_converter.load_del_dict_by_file(filename)
+def _load_dict_unlocked(filename):
+    global cji_dict, del_dict, max_freq, _loaded, _dictionary_source
+    loaded_cji_dict = cji_converter.load_cji_dict(filename)
+    cji_dict = loaded_cji_dict
+    del_dict = del_converter.build_delete_index(loaded_cji_dict)
+    max_freq = max(loaded_cji_dict.values(), default=1)
+    _dictionary_source = filename
+    _loaded = True
+
+
+def load_dict(filename=DICTIONARY):
+    """Load a built-in dictionary name or a UTF-8 ``word: frequency`` file."""
+    with _dictionary_lock:
+        _load_dict_unlocked(filename)
+
+
+def _ensure_dict_loaded():
+    if _loaded:
+        return
+    with _dictionary_lock:
+        if not _loaded:
+            _load_dict_unlocked(_dictionary_source)
 
 
 def no_any_han(word):
@@ -102,6 +126,8 @@ def debug_fix(input_word):
 
 
 def get_candidates(input_word):
+    _ensure_dict_loaded()
+
     if no_any_han(input_word):
         return [(input_word, 0)]
     if not only_han(input_word):
@@ -109,31 +135,24 @@ def get_candidates(input_word):
 
     candidates = set()
 
-    if input_word in cji_dict.keys():
+    if input_word in cji_dict:
         candidates.add(input_word)
         # print('단어사전에 입력 키워드가 있는 예시', input_word)
 
-    if input_word in del_dict.keys():
-        for keyword in del_dict[input_word]:
-            candidates.add(keyword)
-            # print('단어사전 del에 입력 키워드가 있는 예시', keyword)
+    candidates.update(del_dict.get(input_word, ()))
 
     for input_word_del in del_converter.deletes(input_word):
-        if input_word_del in cji_dict.keys():
+        if input_word_del in cji_dict:
             candidates.add(input_word_del)
             # print('단어사전에 입력 키워드 del가 있는 예시', input_word_del)
 
-    for input_word_del in del_converter.deletes(input_word):
-        if input_word_del in del_dict.keys():
-            for keyword in del_dict[input_word_del]:
-                candidates.add(keyword)
-                # print('단어사전 del에 입력 키워드 del가 있는 예시', keyword)
+        candidates.update(del_dict.get(input_word_del, ()))
 
     return [(cand, sort_key(cand, input_word)) for cand in candidates]
 
 
 def sort_key(candidate, input_word):
-    normalized_freq = (1 - cji_dict[candidate] / MAX_FREQ) / 2
+    normalized_freq = (1 - cji_dict[candidate] / max_freq) / 2
     edit_dist = edit_distance_calculater.calc_edit_dist(candidate, input_word)
 
     return normalized_freq + edit_dist
@@ -148,6 +167,3 @@ if __name__ == '__main__':
 
     while True:
         debug_fix(input("Input: "))
-
-else:
-    load_dict()
