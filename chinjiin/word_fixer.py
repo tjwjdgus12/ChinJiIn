@@ -53,31 +53,10 @@ def direct_fix(input_word):
     if not only_han(input_word):
         return input_word
 
-    input_word_cji = cji_converter.convert(input_word)
-    candidates = get_candidates(input_word_cji)
-
-    for i in range(1, len(input_word)):
-        left = cji_converter.convert(input_word[:i])
-        left_candidates = get_candidates(left)
-        if not left_candidates:
-            continue
-        fixed_left = min(left_candidates, key=lambda k: k[1])
-
-        right = cji_converter.convert(input_word[i:])
-        right_candidates = get_candidates(right)
-        if not right_candidates:
-            continue
-        fixed_right = min(right_candidates, key=lambda k: k[1])
-
-        fixed_word = fixed_left[0] + '#' + fixed_right[0]
-        edit_dist = fixed_left[1] + fixed_right[1] + 1  # penalty
-        candidates.append((fixed_word, edit_dist))
-
+    candidates = more_fix(input_word, info=True)
     if candidates:
-        return han_converter.convert(
-            min(candidates, key=lambda k: k[1])[0])
-    else:
-        return input_word
+        return han_converter.convert(candidates[0][0])
+    return input_word
 
 
 def more_fix(input_word, info=False):
@@ -107,6 +86,8 @@ def more_fix(input_word, info=False):
             fixed_word = fixed_left[0] + fixed_right[0]
         edit_dist = fixed_left[1] + fixed_right[1] + 1  # penalty
 
+        if han_converter.convert(fixed_word) == input_word:
+            continue
         if fixed_word not in [cand[0] for cand in candidates]:
             candidates.append((fixed_word, edit_dist))
 

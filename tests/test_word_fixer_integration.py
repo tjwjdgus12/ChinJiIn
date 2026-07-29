@@ -17,6 +17,10 @@ class DefaultDictionaryIntegrationTests(unittest.TestCase):
     def test_known_keyboard_typo_prefers_physically_closer_candidate(self):
         self.assertEqual(word_fixer.direct_fix("낭아지"), "강아지")
 
+    def test_synthetic_split_candidate_does_not_mask_real_correction(self):
+        self.assertEqual(word_fixer.direct_fix("듣전"), "듣던")
+        self.assertEqual(word_fixer.more_fix("듣전")[0], "듣던")
+
     def test_valid_compound_final_words_are_not_corrupted(self):
         for word in ("젊은", "않습니다", "삶을", "없습니다"):
             with self.subTest(word=word):

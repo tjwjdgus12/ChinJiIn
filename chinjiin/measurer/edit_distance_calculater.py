@@ -40,7 +40,12 @@ def get_phys_dist(origin, typo):
 def calc_edit_dist(str_dict, str_input):
     # "Infinity" -- greater than maximum possible edit distance
     # Used to prevent transpositions for first characters
-    
+
+    # ``#`` is an internal separator for consecutive taps on the same
+    # Cheonjiin key, not a physical key press. It must not add edit cost.
+    str_dict = str_dict.replace('#', '')
+    str_input = str_input.replace('#', '')
+
     # table: (M + 2) x (N + 2) sized matrix
     table = [[INF for _ in range(len(str_input) + 2)] for __ in range(len(str_dict) + 2)]
     table[1][1] = 0
