@@ -47,49 +47,65 @@ Symspell의 오타 교정 알고리즘은 아래와 같습니다.
 
 **3.8 버전 이상의 파이썬 (Python 3.8+)** 이 필요합니다.  **utf-8 인코딩된 한글**만 지원합니다. 
 
-원하는 디렉터리에 clone하여 받아주세요.  
-```git clone https://github.com/tjwjdgus12/ChinJiIn.git```
+```bash
+git clone https://github.com/tjwjdgus12/ChinJiIn.git
+cd ChinJiIn
+python -m pip install .
+```
 
-파이썬 환경에서 다운 받은 친지인 모듈을 import 하여 사용하실 수 있습니다.  
-```import chinjiin```
+개발 중인 코드를 바로 사용하려면 저장소 루트에서도 import할 수 있습니다.
 
 ## 사용법 How to Use
 ### 단어 교정
 단순 단어 교정을 위해서는 word_fixer의 direct_fix 함수를 사용하시면 됩니다.
 word_fixer의 direct_fix함수는 사전 데이터에 기반하여 가장 추천 점수가 높은 단어 하나만 return 합니다.
-```
-import word_fixer
+```python
+from chinjiin import word_fixer
+
 print(word_fixer.direct_fix('교정할 단어'))
 ```
 
 보다 상세한 결과를 원하신다면, word_fixer의 more_fix함수를 사용하시면 됩니다.
 word_fixer의 more_fix 함수는 사전 데이터에 기반하여 추천할 단어 목록을 정렬하여 점수가 높은 순으로 출력해줍니다.
-```
-import word_fixer
+```python
+from chinjiin import word_fixer
+
 word_fixer.more_fix('교정할 단어')
 ```
 ### 문장 교정
 문장 교정을 위해서는 chinjiin의 fix함수를 사용하시면 됩니다.
-단어 단위로 direct_fix를 불러와 교정이 이루어집니다.
-```
+한국어 구간만 교정하며 문장부호, 줄바꿈, 연속 공백과 다른 언어는 그대로 보존합니다.
+```python
 import chinjiin
+
 print(chinjiin.fix('교정할 문장'))
 ```
-파일 안의 모든 한글을 교정하시려면 chinjiin의 fix_file, 폴더 안에 있는 모든 한글을 교정하시려면 chinjin의 fix_dir을 사용하시면 됩니다. 
-```
+파일 안의 모든 한글을 교정하시려면 chinjiin의 fix_file, 폴더 안에 있는 모든 한글을 교정하시려면 chinjiin의 fix_dir을 사용하시면 됩니다.
+```python
 import chinjiin
-chinjiin.fix_file('원본 파일 이름', '출력 파일 이름')
-chinjiin.fix_dir('원본 폴더 디렉터리')
+
+chinjiin.fix_file('input.txt', 'output.txt')
+chinjiin.fix_file('input.txt')  # input.fixed.txt 생성
+chinjiin.fix_dir('texts')       # texts/fixed/ 아래에 UTF-8 결과 생성
 ```
 ### 사전 로딩 
 다른 사전 데이터를 넣어 테스트 하시려면,  load_dict 함수로 사전을 로딩할 수 있습니다.
-```
-import word_fixer
-load_dict('파일 이름')
+```python
+from chinjiin import word_fixer
+
+word_fixer.load_dict('my_dictionary.txt')
 ```
 사전은 **반드시** utf-8로 인코딩되어 있어야 하고, **"단어: 빈도수"** 의 형태로 각각 한 줄을 이루고 있어야 합니다. 
-chinjiin/converter/dict 폴더의 여러 사전을 참고하시면 되겠습니다. 
-delete 사전 파일은 pickle 파일로 저장됩니다. 천지인 변환 사전 파일은 txt 파일로 저장됩니다. 
+중복 단어의 빈도는 합산되며 삭제 인덱스는 첫 교정 시 메모리에서 지연 생성됩니다.
+
+### 테스트
+
+```bash
+python -B -m unittest discover -s tests -v
+```
+
+전체 현대 한글 11,172자의 천지인 변환 왕복, 복합 받침, 사전 병합,
+문장 레이아웃과 파일 API를 회귀 테스트합니다.
 
 ## 기여 Contribution
 [CONTRIBUTING.md](https://github.com/tjwjdgus12/ChinJiIn/blob/main/CONTRIBUTING.md) 를 참고해주세요.  
