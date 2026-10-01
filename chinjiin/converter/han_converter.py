@@ -30,7 +30,7 @@ vowel_plus_basic = [[vowel_list.index('ㅑ'), -1, 1],  # ㅏ(0)
                     [9, -1, -1],  # ㅚ(11)
                     [-1, -1, -1],
                     [17, -1, 16],  # ㅜ(13)
-                    [-1, -1, -1],
+                    [-1, -1, vowel_list.index('ㅞ')],  # ㅝ(14)
                     [-1, -1, -1],
                     [-1, -1, -1],
                     [-1, -1, 14],  # ㅠ(17)
@@ -202,6 +202,9 @@ def convert_han(keyword):
             elif temp[i - 1][0] == temp[i][0]:
                 result += ' '
             else:
+                if level == 4:
+                    element[2] = consonant_plus_list[element[2] + element[3]]
+                    level = 3
                 result += get_char_unicode(element, level)
                 element = [0, 0, 0, 0]
                 level = 0

@@ -1,4 +1,5 @@
 import sys
+from pathlib import Path
 
 
 INF = float(sys.maxsize)
@@ -11,10 +12,8 @@ convert_dict = {
     'ㅇ': 9, '#': 10, 'ELSE': 11
 }
 distance_table = list()
-dist_table_path = 'cji_physical_distance_table.txt'
-if __name__ != '__main__':
-    dist_table_path = 'measurer/' + dist_table_path
-with open(dist_table_path, 'r') as f:
+dist_table_path = Path(__file__).with_name('cji_physical_distance_table.txt')
+with dist_table_path.open('r', encoding='ascii') as f:
     for cnt in range(len(convert_dict)):
         distance_table.append(list(map(float, f.readline().split())))
 
@@ -41,7 +40,12 @@ def get_phys_dist(origin, typo):
 def calc_edit_dist(str_dict, str_input):
     # "Infinity" -- greater than maximum possible edit distance
     # Used to prevent transpositions for first characters
-    
+
+    # ``#`` is an internal separator for consecutive taps on the same
+    # Cheonjiin key, not a physical key press. It must not add edit cost.
+    str_dict = str_dict.replace('#', '')
+    str_input = str_input.replace('#', '')
+
     # table: (M + 2) x (N + 2) sized matrix
     table = [[INF for _ in range(len(str_input) + 2)] for __ in range(len(str_dict) + 2)]
     table[1][1] = 0

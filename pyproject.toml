@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chinjiin"
+version = "0.2.0"
+description = "Cheonjiin keyboard-aware Korean typo correction"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "ChinJiIn contributors" },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Korean",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.setuptools.packages.find]
+include = ["chinjiin*"]
+
+[tool.setuptools.package-data]
+"chinjiin.converter" = ["dict/*.txt"]
+"chinjiin.measurer" = ["*.txt"]

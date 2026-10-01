@@ -1,5 +1,8 @@
-import os
 import re
+from pathlib import Path
+
+
+DICT_PATH = Path(__file__).resolve().parent / 'dict'
 
 # 한글 유니코드 매핑을 위함 베이스 정수 변수 정의.
 # 유니코드 한글 시작 : 44032, 끝 : 55199
@@ -112,8 +115,8 @@ def convert(test_keyword):
 # 사전 파일이 입력되었을 때, 천지인으로 변환한 사전 파일을 출력하는 함수
 
 def make_file(dict_name):
-    origin_dict_file = DICT_PATH + '%s.txt' % dict_name
-    cji_dict_file = DICT_PATH + '%s_cji.txt' % dict_name   
+    origin_dict_file = DICT_PATH / ('%s.txt' % dict_name)
+    cji_dict_file = DICT_PATH / ('%s_cji.txt' % dict_name)
     with open(cji_dict_file, 'wt', encoding='utf-8') as wf:
         with open(origin_dict_file, 'rt', encoding='utf-8') as rf:
             for line in rf:
@@ -124,23 +127,36 @@ def make_file(dict_name):
 
 # 사전 파일이 입력되었을 때, 천지인으로 변환한 사전 파일을 딕셔너리 형태로 리턴하는 함수
 
-def load_cji_dict(dict_name, reset=False):
-    cji_dict = dict()
-    cji_dict_file = DICT_PATH + '%s_cji.txt' % dict_name
-    if not os.path.isfile(cji_dict_file) or reset:
-        make_file(dict_name)
-    with open(cji_dict_file, 'rt', encoding='utf-8') as rf:
-        for line in rf:
-            word = line.split(': ')
-            cji_dict[word[0]] = int(word[1])
-    print('cji_converted dictionary loaded')
+def _load_frequency_file(path, convert_words):
+    cji_dict = {}
+    with path.open('rt', encoding='utf-8') as rf:
+        for line_number, line in enumerate(rf, start=1):
+            try:
+                word, frequency = line.rstrip('\n').rsplit(': ', 1)
+                key = convert(word) if convert_words else word
+                cji_dict[key] = cji_dict.get(key, 0) + int(frequency)
+            except ValueError as exc:
+                raise ValueError(
+                    'invalid dictionary entry at %s:%d' % (path, line_number)
+                ) from exc
     return cji_dict
 
 
+def load_cji_dict(dict_name, reset=False):
+    custom_path = Path(dict_name)
+    if custom_path.is_file():
+        return _load_frequency_file(custom_path, convert_words=True)
+
+    cji_dict_file = DICT_PATH / ('%s_cji.txt' % dict_name)
+    if not cji_dict_file.is_file() or reset:
+        origin_dict_file = DICT_PATH / ('%s.txt' % dict_name)
+        if not origin_dict_file.is_file():
+            raise FileNotFoundError('dictionary not found: %s' % dict_name)
+        return _load_frequency_file(origin_dict_file, convert_words=True)
+
+    return _load_frequency_file(cji_dict_file, convert_words=False)
+
+
 if __name__ == '__main__':
-    DICT_PATH = 'dict/'
     testStr = "깨우ㅁᆢㄴ"
     print(convert(testStr))
-
-else:
-    DICT_PATH = 'converter/dict/'

@@ -1,7 +1,7 @@
-import os
-import pickle
+from collections import defaultdict
+from pathlib import Path
 
-DICT_PATH = 'converter/dict/'
+DICT_PATH = Path(__file__).resolve().parent / 'dict'
 
 
 def deletes(word):
@@ -11,7 +11,8 @@ def deletes(word):
 
     for i in range(len(word)):
         flag = False
-        if word[i] == '#' and word[i - 1] == word[i + 1]:
+        if (word[i] == '#' and 0 < i < len(word) - 1
+                and word[i - 1] == word[i + 1]):
             for c in range(2):
                 cnt = 2
                 ll = i - 2
@@ -45,42 +46,36 @@ def deletes(word):
     return dels
 
 
-def load_del_dict(dict_name):
-    del_dict = dict()
-    cji_dict_file = 'converter/dict/%s_cji.txt' % dict_name
-    with open(cji_dict_file, 'rt', encoding='utf-8') as rf:
-        for word in rf:
-            word = word.split(':')[0]
-            for d in deletes(word):
-                if d in del_dict:
-                    if word in del_dict[d]:
-                        continue
-                    del_dict[d].append(word)
-                else:
-                    del_dict[d] = list()
-                    del_dict[d].append(word)
+def build_delete_index(words):
+    delete_index = defaultdict(list)
+    for word in dict.fromkeys(words):
+        for deleted in set(deletes(word)):
+            delete_index[deleted].append(word)
+    return dict(delete_index)
 
-    print("delete dictionary loaded")
-    return del_dict
+
+def load_del_dict(dict_name):
+    cji_dict_file = DICT_PATH / ('%s_cji.txt' % dict_name)
+    words = set()
+    with open(cji_dict_file, 'rt', encoding='utf-8') as rf:
+        for line in rf:
+            words.add(line.rsplit(': ', 1)[0])
+    return build_delete_index(words)
 
 
 def make_file(dict_name):
-    origin_dict_file = DICT_PATH + '%s.txt' % dict_name
-    del_dict_file = DICT_PATH + '%s_del.pickle' % dict_name
-    del_dict = load_del_dict(dict_name)
-    with open(del_dict_file, 'wb') as f:
-        pickle.dump(del_dict, f, pickle.HIGHEST_PROTOCOL)
+    """Build and return an in-memory delete index.
+
+    Kept for compatibility with the previous public helper. The project no
+    longer writes pickle files into the installed package directory.
+    """
+    return load_del_dict(dict_name)
 
 
 def load_del_dict_by_file(dict_name, reset=False):
-    del_dict_file = DICT_PATH + '%s_del.pickle' % dict_name
-    if not os.path.isfile(del_dict_file) or reset:
-        make_file(dict_name)
-    with open(del_dict_file, 'rb') as f:
-        data = pickle.load(f)
-    print("delete dictionary loaded")
-    return data
+    """Return a freshly built delete index without loading unsafe pickle data."""
+    return load_del_dict(dict_name)
 
 
 if __name__ == '__main__':
-    DICT_PATH = 'dict/'
+    pass
